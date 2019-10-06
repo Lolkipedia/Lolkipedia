@@ -1,0 +1,5 @@
+train (t-g9ezy492zh4jumqo3wlvixe9h) {
+  utterance ("[g:OutSkillTreeConcept] (하지수)[v:NameConcept] (스킬트리)[v:TargetSkillTreeConcept]")
+  plan (Y2BlUMtIzcnJL88vyknRK0ktLsnMS9fzLy0Jzs7MyQkpSk11zs9LTi0oYVAioC44tYRBBosauAIGOSyyfom5cBs0sciHJBalp2I6hoWBkYGJgRlIM4BZIMjIAAHMYAyUAQA=)
+  last-modified (1570401980866)
+}

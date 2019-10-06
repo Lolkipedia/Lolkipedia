@@ -1,0 +1,12 @@
+structure (OutSkillSet) {
+  description (__DESCRIPTION__)
+  property (outputname) {
+    type (OutNameConcept)
+    min (Optional) max (One)
+  }
+
+  property (outputskill) {
+    type (OutSkillConcept)
+    min (Optional) max (One)
+  }
+}

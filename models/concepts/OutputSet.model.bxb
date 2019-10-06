@@ -1,0 +1,13 @@
+structure (OutputSetConcept) {
+  description (__DESCRIPTION__)
+  property (outputname) {
+    type (OutputNameConcept)
+    min (Optional) max (Many)
+  }
+
+  property (outputnum) {
+    type (OutputNumConcept)
+    min (Optional) max (Many)
+  }
+
+}

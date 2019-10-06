@@ -1,0 +1,24 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Basket) {
+      accepted-inputs (name, target)
+      local-endpoint ("Basket.js")
+    }
+
+    action-endpoint (Basket) {
+      accepted-inputs ()
+      remote-endpoint ("{remote.url}/basket") {
+        method (GET)
+      }
+    }
+
+    action-endpoint (Basket) {
+      accepted-inputs ()
+      remote-endpoint ("{remote.url}/basket") {
+        method (POST)
+      }
+    }
+
+  }
+}
+

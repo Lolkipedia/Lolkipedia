@@ -1,0 +1,12 @@
+structure (OutSkillTreeSet) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (OutNameConcept)
+    min (Optional) max (One)
+  }
+
+  property (targetskilltree){
+    type (OutSkillTreeConcept)
+    min (Optional) max (Many)
+  }
+}

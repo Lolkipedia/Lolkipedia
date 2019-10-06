@@ -1,0 +1,41 @@
+var http = require('http');
+var console = require('console');
+var config = require('config');
+
+module.exports.function = function (item, number, action) {
+  var basket = {};
+
+  basket[item] = number
+
+  if(action == '추가'){
+  var options = {
+    passAsJson: true,
+    returnHeaders: true,
+    format: 'json',
+    cacheTime: 0
+  };
+
+  var response = http.postUrl(config.get('remote.url') + '/basket/', basket , options);
+  var output = response[0]
+
+} else if (action == '보여줘'){
+  var options = {
+    passAsJson: true,
+    returnHeaders: true,
+    format: 'json',
+    cacheTime: 0
+  };
+
+  var response = http.getUrl(config.get('remote.url') +'/basket', options);
+  var output = response
+
+} else {
+  var ouput = {'result': 'error'}
+}
+
+  console.debug(output)
+  console.debug(outputset)
+  var outputset = output
+
+  return outputset;
+}

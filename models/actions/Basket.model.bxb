@@ -1,0 +1,34 @@
+action (Basket) {
+  description (__DESCRIPTION__)
+  collect {
+    input (name) {
+      type (NameConcept)
+      min (Optional) max (Many)
+    }
+
+    input (target) {
+      type (TargetConcept)
+      min (Optional) max (One)
+    }
+
+    // input (action) {
+    //   type (ActionsConcept)
+    //   min (Optional) max (One)
+    // }
+
+    // input (outputnum) {
+    //   type (OutputNumConcept)
+    //   min (Optional) max (Many)
+    // }
+
+    // input (outputname) {
+    //   type (OutputNameConcept)
+    //   min (Optional) max (Many)
+    }
+    // input (output) {
+    //   type (OutputConcept)
+    //   min (Optional) max (One)
+    // }
+  // }
+  output (OutSkillSet)
+}
