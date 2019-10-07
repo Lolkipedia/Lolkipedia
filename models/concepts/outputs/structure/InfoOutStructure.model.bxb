@@ -1,0 +1,27 @@
+structure (InfoOutStructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+
+  property (items) {
+    type (ItemsOut)
+    min (Required) max (Many)
+  }
+
+  property (skills) {
+    type (SkillsOut)
+    min (Required) max (Many)
+  }
+
+  property (counters) {
+    type (CounterOut)
+    min (Required) max (Many)
+  }
+
+  property (lunes) {
+    type (LunesOut)
+    min (Required) max (Many)
+  }
+}

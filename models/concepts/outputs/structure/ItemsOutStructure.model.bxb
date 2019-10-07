@@ -1,0 +1,12 @@
+structure (ItemsOutStructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (items) {
+    type (ItemsOut)
+    min (Required) max (Many)
+  }
+}

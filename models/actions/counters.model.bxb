@@ -1,0 +1,15 @@
+action (counters) {
+  description (__DESCRIPTION__)
+  collect {
+    input (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+
+    input (counter) {
+      type (Counters)
+      min (Required) max (One)
+    }
+  }
+  output (CountersOutStructure)
+}

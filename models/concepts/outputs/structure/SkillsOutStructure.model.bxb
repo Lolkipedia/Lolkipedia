@@ -1,0 +1,12 @@
+structure (SkillsOutStructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (skills) {
+    type (SkillsOut)
+    min (Required) max (Many)
+  }
+}

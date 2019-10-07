@@ -1,0 +1,35 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (info) {
+      accepted-inputs (name)
+      local-endpoint (lol/Info.js)
+    }
+    
+    action-endpoint (counters) {
+      accepted-inputs (name, counter)
+      local-endpoint (lol/Counter.js)
+    }
+    
+    action-endpoint (items) {
+      accepted-inputs (name, item)
+      local-endpoint (lol/Item.js)
+    }
+    
+    action-endpoint (lunes) {
+      accepted-inputs (name, lune)
+      local-endpoint (lol/Lune.js)
+    }
+    
+    action-endpoint (skills) {
+      accepted-inputs (name, skill)
+      local-endpoint (lol/Skill.js)
+    }
+
+    // action-endpoint (__ACTION_NAME__) {
+    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+    //   remote-endpoint (__ENDPOINT_URL__) {
+    //     method (__HTTP_METHOD_USED__)
+    //   }
+    // }
+  }
+}

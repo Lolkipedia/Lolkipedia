@@ -1,7 +1,0 @@
-structure (ResultConcept) {
-  description (__DESCRIPTION__)
-  property (output) {
-    type (OutputConcept)
-    min (Optional) max (One)
-  }
-}

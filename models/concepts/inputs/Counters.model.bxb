@@ -1,0 +1,4 @@
+enum (Counters) {
+  description (__DESCRIPTION__)
+  symbol ("카운터")
+}

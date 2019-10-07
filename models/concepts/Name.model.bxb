@@ -1,6 +1,0 @@
-text (NameConcept) {
-  description (__DESCRIPTION__)
-  features{
-    transient
-  }
-}

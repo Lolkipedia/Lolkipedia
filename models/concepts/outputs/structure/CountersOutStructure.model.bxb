@@ -1,0 +1,12 @@
+structure (CountersOutStructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (counters) {
+    type (CounterOut)
+    min (Required) max (Many)
+  }
+}

@@ -1,0 +1,10 @@
+action (info) {
+  description (action for info)
+  collect {
+    input (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+  }
+  output (InfoOutStructure)
+}

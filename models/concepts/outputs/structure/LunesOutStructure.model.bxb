@@ -1,0 +1,12 @@
+structure (LunesOutStructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (lunes) {
+    type (LunesOut)
+    min (Required) max (Many)
+  }
+}
