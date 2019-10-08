@@ -1,7 +1,7 @@
 var http = require('http')
 
 module.exports.kor2eng = function (name) {
-  var url = "http://ddragon.leagueoflegends.com/cdn/9.19.1/data/ko_KR/champion.json"
+  const url = "http://ddragon.leagueoflegends.com/cdn/9.19.1/data/ko_KR/champion.json"
 
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
