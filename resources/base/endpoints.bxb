@@ -25,10 +25,14 @@ endpoints {
       local-endpoint (lol/Skill.js)
     }
 
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
+    // action-endpoint (namings) {
+    //   accepted-inputs (name)
+    //   local-endpoint (lib/tool.js)
+    // }
+    // // action-endpoint (Names) {
+    //   accepted-inputs (name)
+    //   remote-endpoint (http://ddragon.leagueoflegends.com/cdn/9.19.1/data/ko_KR/champion.json) {
+    //     method (GET)
     //   }
     // }
   }

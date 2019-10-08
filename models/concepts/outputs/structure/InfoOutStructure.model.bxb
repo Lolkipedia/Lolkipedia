@@ -24,4 +24,14 @@ structure (InfoOutStructure) {
     type (LunesOut)
     min (Required) max (Many)
   }
+
+  property (engname) {
+    type (EngName)
+    min (Required) max (One)
+  }
+
+  property (version) {
+    type (Version)
+    min (Required) max (One)
+  }
 }
