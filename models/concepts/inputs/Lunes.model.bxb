@@ -1,0 +1,4 @@
+enum (Lunes) {
+  description (__DESCRIPTION__)
+  symbol ("룬")
+}
