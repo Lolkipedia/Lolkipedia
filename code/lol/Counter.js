@@ -3,13 +3,13 @@ module.exports.function = function counter (name, counter) {
   
 
   let tools = require('lib/tools.js')
-  var engname = tools.kor2eng(name)
+  var engname = tools.naming(name, "eng")
   const engcounters = db.counters[engname]
 
   var counter = []
 
   for (i in engcounters) {
-    var temp_name = tools.eng2kor(engcounters[i])
+    var temp_name = tools.naming(engcounters[i], "kor")
     counter.push(temp_name)
   }
 
