@@ -1,4 +1,0 @@
-enum (Skills) {
-  description (__DESCRIPTION__)
-  symbol ("스킬")
-}
