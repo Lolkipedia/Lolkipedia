@@ -1,0 +1,5 @@
+train (t-h79ny97ajsi7g8bb5idb348f8) {
+  utterance ("[g:items] (가렌)[v:Name] (템)[v:Items:아이템] 뭐삼")
+  plan (Y2BhUCrISaxML8ovzUvRy8osTqrU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
+  last-modified (1570488659410)
+}

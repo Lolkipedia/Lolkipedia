@@ -1,0 +1,4 @@
+enum (Items) {
+  description (__DESCRIPTION__)
+  symbol ("아이템")
+}
