@@ -1,0 +1,12 @@
+structure (SubItemSet) {
+  description (__DESCRIPTION__)
+  property (subitems) {
+    type (SubItems)
+    min (Optional) max (One)
+  }
+
+  property (subitemnum) {
+    type (SubItemsNum)
+    min (Optional) max (One)
+  }
+}

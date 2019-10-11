@@ -5,13 +5,8 @@ structure (CountersOutStructure) {
     min (Optional) max (One)
   }
 
-  property (counters) {
-    type (CounterOut)
-    min (Required) max (Many)
-  }
-
-  property (engcounters) {
-    type (EngCounterOut)
+  property (counterset){
+    type (CounterSet)
     min (Required) max (Many)
   }
 

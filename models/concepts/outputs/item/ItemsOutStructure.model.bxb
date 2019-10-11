@@ -5,14 +5,19 @@ structure (ItemsOutStructure) {
     min (Optional) max (One)
   }
 
-  property (items) {
+  property (items){
     type (ItemsOut)
     min (Required) max (Many)
   }
 
-  property (subitems) {
-    type (SubItemsOutStructure)
-    min (Required) max (One)
+  property (itemnums){
+    type (ItemsNum)
+    min (Required) max (Many)
+  }
+
+  property (itemset){
+    type (ItemSet)
+    min (Required) max (Many)
   }
 
   property (engname) {

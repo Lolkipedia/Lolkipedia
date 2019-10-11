@@ -1,0 +1,12 @@
+structure (CounterSet) {
+  description (__DESCRIPTION__)
+  property (counter) {
+    type (CounterOut)
+    min (Optional) max (One)
+  }
+
+  property (engcounter){
+    type (EngCounterOut)
+    min (Optional) max (One)
+  }
+}

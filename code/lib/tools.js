@@ -1,5 +1,5 @@
 var http = require('http')
-const na =" https://ddragon.leagueoflegends.com/realms/na.json" 
+const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
 const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
 // const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
@@ -34,28 +34,69 @@ module.exports.version = function (name) {
   return ver
 }
 
-module.exports.subitem = function (item) {
-  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
+// module.exports.subitem = function (itemnum) {
+//   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+//   var response = http.getUrl(url, {format:"json", cacheTime: 0});
+//   const items = response["data"]
+
+//   var subitems = []
+
+//   for(idx in items) {
+//     if (items[idx]["name"] == item) {
+//       var temp = []
+
+//       for (n in items[idx]["from"]) {
+//         temp.push(items[idx]["from"][n])
+//       };
+
+//       for (sub in temp) {
+//         subitems.push(items[temp[sub]]["name"])
+//       };
+//     }
+//   };
+//   return subitems
+// }
+
+module.exports.subitemnum = function (itemnum) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
+  var subitems = items[itemnum]["from"]
+
+  var sub = []
+  for (i in subitems){
+    sub.push(subitems[i])
+  }
+  
+  return sub
+}
+
+module.exports.subitem = function (subitemnums) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
 
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   const items = response["data"]
 
   var subitems = []
+  for (i in subitemnums){
+    subitems.push(items[subitemnums[i]]["name"])
+  }
 
-  for(idx in items) {
-    if (items[idx]["name"] == item) {
-      var temp = []
-
-      for (n in items[idx]["from"]) {
-        temp.push(items[idx]["from"][n])
-      };
-
-      for (sub in temp) {
-        subitems.push(items[temp[sub]]["name"])
-      };
-    }
-  };
   return subitems
+}
+
+module.exports.itemname = function (itemnum) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
+  var itemname = items[itemnum]["name"]
+
+  return itemname
 }
 
 

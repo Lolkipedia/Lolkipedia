@@ -1,0 +1,17 @@
+structure (ItemSet) {
+  description (__DESCRIPTION__)
+  property (items) {
+    type (ItemsOut)
+    min (Required) max (One)
+  }
+
+  property (itemnums) {
+    type (ItemsNum)
+    min (Required) max (One)
+  }
+
+  property (subitemset){
+    type (SubItemSet)
+    min (Required) max (Many)
+  }
+}
