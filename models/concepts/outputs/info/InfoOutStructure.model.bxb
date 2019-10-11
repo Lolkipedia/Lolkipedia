@@ -35,6 +35,11 @@ structure (InfoOutStructure) {
     min (Optional) max (Many)
   }
 
+  property (title) {
+    type (TitleOut)
+    min (Optional) max (One)
+  }
+
   property (version) {
     type (Version)
     min (Required) max (One)

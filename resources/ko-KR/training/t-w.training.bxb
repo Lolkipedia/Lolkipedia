@@ -1,0 +1,10 @@
+train (t-wpsw37tn6v87t0pnd2cyzb6f4) {
+  utterance ("[g:InfoOutStructure] (소라카)[v:Name:소라카] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570766218731)
+}
+train (t-wtyxthn9v3dun3q88acokv13v) {
+  utterance ("[g:InfoOutStructure] (쉔)[v:Name:쉔] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570766219307)
+}

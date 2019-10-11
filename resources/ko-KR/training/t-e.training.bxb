@@ -1,0 +1,10 @@
+train (t-ef23kzy9kawli0g0aopi2xyqg) {
+  utterance ("[g:InfoOutStructure] (바드)[v:Name:바드] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760808789)
+}
+train (t-emdc5x2x7n5yxi3360zhaxgei) {
+  utterance ("[g:InfoOutStructure] (베이가)[v:Name:베이가] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570766361670)
+}

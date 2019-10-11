@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (info) {
-      accepted-inputs (name)
+      accepted-inputs (name, inform)
       local-endpoint (lol/Info.js)
     }
     

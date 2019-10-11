@@ -1,5 +1,15 @@
-train (t-x4nkpeuxsfuhjigemch5rfmbu) {
-  utterance ("[g:lunes] (가렌)[v:Name] (룬)[v:Lunes:룬] 뭐찍음")
-  plan (Y2BhUCrISaxML8ovzUvRy8osTqrU8ynNSy32Ly0JLikqTS4pLUplEMNQkwNSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1570521015977)
+train (t-x5yxp7jyd67evjrzldnhhxcbv) {
+  utterance ("[g:InfoOutStructure] (바루스)[v:Name:바루스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760830907)
+}
+train (t-xef0u9ftf9aim1lspqapujt2c) {
+  utterance ("[g:InfoOutStructure] (그레이브즈)[v:Name:그레이브즈] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760250680)
+}
+train (t-xrl672f50fdrilx0jfkgtdcxd) {
+  utterance ("[g:InfoOutStructure] (렝가)[v:Name:렝가] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760623615)
 }

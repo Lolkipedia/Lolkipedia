@@ -1,0 +1,10 @@
+train (t-63zmjk52qbuzmhr5oea6mxtpx) {
+  utterance ("[g:InfoOutStructure] (녹턴)[v:Name:녹턴] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761115357)
+}
+train (t-6ve9htb087ynhwp4mmmrj0ye8) {
+  utterance ("[g:InfoOutStructure] (렉사이)[v:Name:렉사이] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760605238)
+}

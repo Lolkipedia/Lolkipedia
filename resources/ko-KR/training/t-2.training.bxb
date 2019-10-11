@@ -1,0 +1,10 @@
+train (t-2alcuz7wi9gq0xrm8uu7okp7v) {
+  utterance ("[g:InfoOutStructure] (빅토르)[v:Name:빅토르] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761292907)
+}
+train (t-2oiodqddipy8rpxac1tc92xh9) {
+  utterance ("[g:InfoOutStructure] (럭스)[v:Name:럭스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760527615)
+}

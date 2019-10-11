@@ -1,0 +1,15 @@
+train (t-s9fnyt99kk9l82l2sj9cd0220) {
+  utterance ("[g:InfoOutStructure] (미스포츈)[v:Name:미스포츈] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760788409)
+}
+train (t-sik0fo53ntd9fswxje0k8x2si) {
+  utterance ("[g:InfoOutStructure] (사일러스)[v:Name:사일러스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761447620)
+}
+train (t-synlwxnbqyc7ro8bufpu8vn6r) {
+  utterance ("[g:InfoOutStructure] (모데카이저)[v:Name:모데카이저] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760705753)
+}

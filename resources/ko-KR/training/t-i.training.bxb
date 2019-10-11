@@ -1,0 +1,15 @@
+train (t-i18qtrypmdzczkta4tcqdp9wf) {
+  utterance ("[g:InfoOutStructure] (룰루)[v:Name:룰루] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760665488)
+}
+train (t-ij80oh3ja21it6oytc7ri3a7y) {
+  utterance ("[g:InfoOutStructure] (레넥톤)[v:Name:레넥톤] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760571481)
+}
+train (t-ixh8snm344afhyjczaihok5w8) {
+  utterance ("[g:InfoOutStructure] (다이애나)[v:Name:다이애나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760414291)
+}

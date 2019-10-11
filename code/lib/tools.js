@@ -31,7 +31,7 @@ module.exports.naming = function (name, target) {
 
 module.exports.version = function (name) {
 
-  return champ_ver
+  return ver
 }
 
 module.exports.subitem = function (item) {
@@ -60,7 +60,7 @@ module.exports.subitem = function (item) {
 
 
 module.exports.summary = function (engname) {
-  const url = "http://ddragon.leagueoflegends.com/cdn/9.19.1/data/ko_KR/champion.json"
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
 
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
@@ -68,4 +68,14 @@ module.exports.summary = function (engname) {
   var summary = search[engname]["blurb"]
 
   return summary
+}
+
+module.exports.title = function (name) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  var search = response["data"]
+
+  var title = search[name]["title"]
+
+  return title
 }

@@ -1,0 +1,10 @@
+train (t-0lknfmxegam739m2fiqv4y5yc) {
+  utterance ("[g:InfoOutStructure] (누누)[v:Name:'누누와 윌럼프'] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761127707)
+}
+train (t-0mw9c8vpucxg80ntu95tet5ck) {
+  utterance ("[g:InfoOutStructure] (니코)[v:Name:니코] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760366378)
+}

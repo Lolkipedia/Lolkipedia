@@ -1,0 +1,10 @@
+train (t-93lqp7aqqcxgfbrh7hvv3bu2m) {
+  utterance ("[g:InfoOutStructure] (다리우스)[v:Name:다리우스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760390907)
+}
+train (t-9x8ilbyjhy6uf286zbd4y2e19) {
+  utterance ("[g:InfoOutStructure] (레오나)[v:Name:레오나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760588722)
+}

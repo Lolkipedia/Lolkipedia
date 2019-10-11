@@ -1,0 +1,10 @@
+train (t-ykgj2qtzvqg97hhkmw1fmc2wt) {
+  utterance ("[g:InfoOutStructure] (베인)[v:Name:베인] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760897104)
+}
+train (t-ywzcginejybcswtcv0yormxfa) {
+  utterance ("[g:InfoOutStructure] (라칸)[v:Name:라칸] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760550983)
+}

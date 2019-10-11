@@ -5,6 +5,11 @@ action (info) {
       type (Name)
       min (Required) max (One)
     }
+
+    input (inform) {
+      type (Inform)
+      min (Optional) max (One)
+    }
   }
   output (InfoOutStructure)
 }

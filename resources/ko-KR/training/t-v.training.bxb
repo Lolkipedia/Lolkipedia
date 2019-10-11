@@ -1,0 +1,15 @@
+train (t-vgrm2jut43lma1mpejyhm9stw) {
+  utterance ("[g:InfoOutStructure] (뽀삐)[v:Name:뽀삐] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761316056)
+}
+train (t-voronwtn6e3lkmppgn36yr9st) {
+  utterance ("[g:InfoOutStructure] (벨코즈)[v:Name:벨코즈] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760914673)
+}
+train (t-vrmi98r3viej9vdh9f41f6s07) {
+  utterance ("[g:InfoOutStructure] (나서스)[v:Name:나서스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760272047)
+}

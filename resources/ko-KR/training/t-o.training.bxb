@@ -1,0 +1,20 @@
+train (t-o9rpclaw6yce7l5li6mbhfmv8) {
+  utterance ("[g:InfoOutStructure] (바이)[v:Name:바이] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760849080)
+}
+train (t-ob29hzmvyi6mn4rckwjmlwgts) {
+  utterance ("[g:InfoOutStructure] (모르가나)[v:Name:모르가나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760745864)
+}
+train (t-ommqhyhq1n9ko6ot5tl2j26ow) {
+  utterance ("[g:InfoOutStructure] (블리츠크랭크)[v:Name:블리츠크랭크] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761273781)
+}
+train (t-os3jtx9vlqb9wml9mzart7euy) {
+  utterance ("[g:InfoOutStructure] (볼리베어)[v:Name:볼리베어] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760936756)
+}

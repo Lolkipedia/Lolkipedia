@@ -1,5 +1,5 @@
-train (t-h79ny97ajsi7g8bb5idb348f8) {
-  utterance ("[g:items] (가렌)[v:Name] (템)[v:Items:아이템] 뭐삼")
-  plan (Y2BhUCrISaxML8ovzUvRy8osTqrU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAC4KAA=)
-  last-modified (1570488659410)
+train (t-hvz88ekt790jh6isjup4tzv3m) {
+  utterance ("[g:InfoOutStructure] (나미)[v:Name:나미] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760265532)
 }

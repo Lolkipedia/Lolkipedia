@@ -1,0 +1,16 @@
+capsule-info {
+  display-name (지스비만세)
+  developer-name (Jisby)
+  dispatch-name (롤만세)
+  dispatch-aliases {
+    alias (이것도)
+  }
+  icon-asset (icon.png)
+  search-keywords{
+    keyword (lol)
+    keyword (롤)
+  }
+  description ("Can search lol champs info using your voice while enjoying game with your hands")
+  website-url (https://github.com/young31/Bixby_jisby)
+  // terms-url (https://example.com/terms-of-use/)
+}

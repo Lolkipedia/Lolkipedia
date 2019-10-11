@@ -1,5 +1,10 @@
-train (t-87ti06o0cggzaxp8z4zg21m1i) {
-  utterance ("[g:counters] (가렌)[v:Name] (카운터픽)[v:Counters:카운터] 뭐야")
-  plan (Y2BhUC3ISaxML8ovzUvRy8osTqrUcwayS1KLiv1LS4JLikqTS0qLUhkkMZQlQ5VhkYKZwCCKIeWXmJvKwMzAyMAEJBmANAhCAFwUAA==)
-  last-modified (1570521211782)
+train (t-8grmedhovlul2uaiaqbltq8lu) {
+  utterance ("[g:InfoOutStructure] (람머스)[v:Name:람머스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760505744)
+}
+train (t-8neevrh2nu0hcrpx6raxqjt52) {
+  utterance ("[g:InfoOutStructure] (노틸러스)[v:Name:노틸러스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760279235)
 }

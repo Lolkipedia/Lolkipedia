@@ -1,0 +1,10 @@
+train (t-n4npncp2t5jpy5golebbv1x78) {
+  utterance ("[g:InfoOutStructure] (럼블)[v:Name:럼블] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760546549)
+}
+train (t-neaxogggkois00x80qr19zv5q) {
+  utterance ("[g:InfoOutStructure] (문도)[v:Name:문도] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760809568)
+}
