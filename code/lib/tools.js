@@ -28,6 +28,18 @@ module.exports.naming = function (name, target) {
   return outname
 }
 
+module.exports.skilldetail = function (engname) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion/", engname ,".json")  
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  var search = response["data"][engname]["spells"]
+
+  var result = []
+  for (i=0;i<4;i++) {
+    result.push([search[i]["id"] ,search[i]["description"]])
+  }
+
+  return result
+}
 
 module.exports.version = function (name) {
 

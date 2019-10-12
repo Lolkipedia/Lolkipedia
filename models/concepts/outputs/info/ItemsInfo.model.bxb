@@ -1,0 +1,12 @@
+structure (ItemsInfo) {
+  description (__DESCRIPTION__)
+  property (itemnum) {
+    type (ItemsNum)
+    min (Optional) max (One)
+  }
+
+  property (item) {
+    type (ItemsOut)
+    min (Optional) max (One)
+  }
+}

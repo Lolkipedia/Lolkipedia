@@ -1,7 +1,17 @@
+train (t-y7su2jgcin9a6ne4no643s1kk) {
+  utterance ("[g:InfoOutStructure] (알리스타)[v:Name:알리스타] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570840592045)
+}
 train (t-ykgj2qtzvqg97hhkmw1fmc2wt) {
   utterance ("[g:InfoOutStructure] (베인)[v:Name:베인] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760897104)
+}
+train (t-yvsnc9bx3c1m5lbf52uobcrz8) {
+  utterance ("[g:InfoOutStructure] (아우렐리온 솔)[v:Name:'아우렐리온 솔'] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785524172)
 }
 train (t-ywzcginejybcswtcv0yormxfa) {
   utterance ("[g:InfoOutStructure] (라칸)[v:Name:라칸] (정보)[v:Inform]")

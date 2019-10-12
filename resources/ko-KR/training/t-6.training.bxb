@@ -1,3 +1,8 @@
+train (t-61ls27t66hccocl07uu8q55ok) {
+  utterance ("[g:InfoOutStructure] (쓰레쉬)[v:Name:쓰레쉬] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785456342)
+}
 train (t-63zmjk52qbuzmhr5oea6mxtpx) {
   utterance ("[g:InfoOutStructure] (녹턴)[v:Name:녹턴] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

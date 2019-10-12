@@ -19,4 +19,9 @@ structure (SkillsOutStructure) {
     type (Version)
     min (Required) max (One)
   }
+
+  property (skillset) {
+    type (SkillSet)
+    min (Optional) max (Many)
+  }
 }

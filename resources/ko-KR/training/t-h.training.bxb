@@ -1,3 +1,8 @@
+train (t-h1kb6ikazhxsejtvq8fgcy6qz) {
+  utterance ("[g:InfoOutStructure] (스웨인)[v:Name:스웨인] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785338239)
+}
 train (t-hvz88ekt790jh6isjup4tzv3m) {
   utterance ("[g:InfoOutStructure] (나미)[v:Name:나미] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

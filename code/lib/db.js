@@ -295,1458 +295,9577 @@ module.exports.item = {
 	"Stat-Stick of Stoicism": "4403"
 }
 
-module.exports.counters = {
-		"Garen": [
+module.exports.infos = {
+	"Garen": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"SecondWind"
+			],
+			[
+				"Resolve",
+				"Unflinching"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Dead Man's Plate",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Mordekaiser",
 			"Kayle",
 			"Vayne"
 		],
-		"Galio": [
+		"easy": [
+			"Sylas",
+			"Irelia",
+			"Akali"
+		]
+	},
+	"Galio": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"MinionDematerializer"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Luden's Echo",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Nocturne",
 			"Pyke"
 		],
-		"Gangplank": [
+		"easy": [
+			"Sylas",
+			"Irelia",
+			"Camille"
+		]
+	},
+	"Gangplank": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Trinity Force",
+			"Essence Reaver",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Wukong",
 			"Quinn",
 			"Urgot"
 		],
-		"Gragas": [
+		"easy": [
+			"Sylas",
+			"Tryndamere",
+			"Poppy"
+		]
+	},
+	"Gragas": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Predator"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Dr. Mundo",
 			"Zac",
 			"Malphite"
 		],
-		"Graves": [
+		"easy": [
+			"Aatrox",
+			"Sylas",
+			"Fiddlesticks"
+		]
+	},
+	"Graves": {
+		"line": "Jungle",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Youmuu's Ghostblade",
+			"Duskblade of Draktharr"
+		],
+		"counters": [
 			"Ivern",
 			"Trundle",
 			"Dr. Mundo"
 		],
-		"Gnar": [
+		"easy": [
+			"Sylas",
+			"Aatrox",
+			"Malphite"
+		]
+	},
+	"Gnar": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Frozen Mallet",
+			"Randuin's Omen"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Sion",
 			"Wukong"
 		],
-		"Nami": [
+		"easy": [
+			"Olaf",
+			"Sylas",
+			"Neeko"
+		]
+	},
+	"Nami": {
+		"line": "Support",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"W",
+			"W",
+			"R",
+			"W",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"E",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Ardent Censer",
+			"Remnant of the Watchers",
+			"Redemption"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Bard",
 			"Fiddlesticks"
 		],
-		"Nasus": [
+		"easy": [
+			"Miss Fortune",
+			"Veigar",
+			"Tahm Kench"
+		]
+	},
+	"Nasus": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"SecondWind"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Trinity Force",
+			"Righteous Glory",
+			"Spirit Visage"
+		],
+		"counters": [
 			"Kled",
 			"Urgot",
 			"Mordekaiser"
 		],
-		"Nautilus": [
+		"easy": [
+			"Jayce",
+			"Irelia",
+			"Viktor"
+		]
+	},
+	"Nautilus": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Unflinching"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Zeke's Convergence",
+			"Locket of the Iron Solari"
+		],
+		"counters": [
 			"Leona",
 			"Blitzcrank",
 			"Swain"
 		],
-		"Nocturne": [
+		"easy": [
+			"Yuumi",
+			"Miss Fortune",
+			"Karma"
+		]
+	},
+	"Nocturne": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"PresenceOfMind"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"UltimateHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Duskblade of Draktharr",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Zac",
 			"Rammus",
 			"Xin Zhao"
 		],
-		"Nunu": [
+		"easy": [
+			"Sylas",
+			"Wukong",
+			"Aatrox"
+		]
+	},
+	"Nunu": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Hextech Protobelt-01",
+			"Dead Man's Plate"
+		],
+		"counters": [
 			"Udyr",
 			"Olaf",
 			"Zac"
 		],
-		"Nidalee": [
+		"easy": [
+			"Sylas",
+			"Rengar",
+			"Wukong"
+		]
+	},
+	"Nidalee": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Lich Bane",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Hecarim",
 			"Volibear",
 			"Skarner"
 		],
-		"Neeko": [
+		"easy": [
+			"Sylas",
+			"Aatrox",
+			"Sejuani"
+		]
+	},
+	"Neeko": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"GlacialAugment"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"IngeniousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech GLP-800",
+			"Twin Shadows",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Cassiopeia",
 			"Taliyah",
 			"Pyke"
 		],
-		"Darius": [
+		"easy": [
+			"Karma",
+			"Tristana",
+			"Sylas"
+		]
+	},
+	"Darius": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Trinity Force",
+			"Titanic Hydra",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Quinn",
 			"Yorick",
 			"Swain"
 		],
-		"Diana": [
+		"easy": [
+			"Sylas",
+			"Hecarim",
+			"Irelia"
+		]
+	},
+	"Diana": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Rabadon's Deathcap",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Quinn",
 			"Annie",
 			"Ziggs"
 		],
-		"Draven": [
+		"easy": [
+			"Azir",
+			"Riven",
+			"Syndra"
+		]
+	},
+	"Draven": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Bloodthirster",
+			"Infinity Edge",
+			"Rapid Firecannon"
+		],
+		"counters": [
 			"Swain",
 			"Ashe",
 			"Jinx"
 		],
-		"Ryze": [
+		"easy": [
+			"Kalista",
+			"Varus",
+			"Tristana"
+		]
+	},
+	"Ryze": {
+		"line": "Middle",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"PhaseRush"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Archangel's Staff",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Nocturne",
 			"Ornn",
 			"Pyke"
 		],
-		"Rakan": [
+		"easy": [
+			"Sylas",
+			"Lissandra",
+			"Karma"
+		]
+	},
+	"Rakan": {
+		"line": "Support",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Guardian"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Unflinching"
+			],
+			[
+				"Sorcery",
+				"NimbusCloak"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Remnant of the Ascended",
+			"Zeke's Convergence",
+			"Redemption"
+		],
+		"counters": [
 			"Brand",
 			"Bard",
 			"Zilean"
 		],
-		"Rammus": [
+		"easy": [
+			"Tahm Kench",
+			"Shen",
+			"Miss Fortune"
+		]
+	},
+	"Rammus": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Unflinching"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Thornmail",
+			"Righteous Glory"
+		],
+		"counters": [
 			"Dr. Mundo",
 			"Zac",
 			"Fiddlesticks"
 		],
-		"Lux": [
+		"easy": [
+			"Malphite",
+			"Sylas",
+			"Rengar"
+		]
+	},
+	"Lux": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Athene's Unholy Grail",
+			"Ardent Censer",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Taric",
 			"Pyke"
 		],
-		"Rumble": [
+		"easy": [
+			"Yuumi",
+			"Miss Fortune",
+			"Veigar"
+		]
+	},
+	"Rumble": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"NimbusCloak"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Liandry's Torment",
+			"Zhonya's Hourglass",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Hecarim",
 			"Karma",
 			"Jax"
 		],
-		"Renekton": [
+		"easy": [
+			"Akali",
+			"Maokai",
+			"Jayce"
+		]
+	},
+	"Renekton": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Spear of Shojin",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Teemo",
 			"Ornn",
 			"Kled"
 		],
-		"Leona": [
+		"easy": [
+			"Riven",
+			"Irelia",
+			"Sylas"
+		]
+	},
+	"Leona": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"E",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Zeke's Convergence",
+			"Locket of the Iron Solari"
+		],
+		"counters": [
 			"Zilean",
 			"Bard",
 			"Morgana"
 		],
-		"RekSai": [
+		"easy": [
+			"Yuumi",
+			"Miss Fortune",
+			"Braum"
+		]
+	},
+	"RekSai": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"HailOfBlades"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Black Cleaver",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Amumu",
 			"Taliyah",
 			"Warwick"
 		],
-		"Rengar": [
+		"easy": [
+			"Sylas",
+			"Camille",
+			"Sejuani"
+		]
+	},
+	"Rengar": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"SecondWind"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Spirit Visage",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Sion",
 			"Kled",
 			"Maokai"
 		],
-		"Lucian": [
+		"easy": [
+			"Sylas",
+			"Olaf",
+			"Karma"
+		]
+	},
+	"Lucian": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Essence Reaver",
+			"Rapid Firecannon"
+		],
+		"counters": [
 			"Swain",
 			"Ashe",
 			"Jinx"
 		],
-		"Lulu": [
+		"easy": [
+			"Kalista",
+			"Tristana",
+			"Varus"
+		]
+	},
+	"Lulu": {
+		"line": "Support",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Ardent Censer",
+			"Remnant of the Watchers",
+			"Redemption"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Nautilus",
 			"Leona"
 		],
-		"Leblanc": [
+		"easy": [
+			"Yuumi",
+			"Veigar",
+			"Tahm Kench"
+		]
+	},
+	"Leblanc": {
+		"line": "Middle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Inspiration",
+				"MinionDematerializer"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Malzahar",
 			"Cassiopeia",
 			"Rumble"
 		],
-		"LeeSin": [
+		"easy": [
+			"Azir",
+			"Sylas",
+			"Tristana"
+		]
+	},
+	"LeeSin": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Black Cleaver",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Zac",
 			"Poppy",
 			"Nunu & Willump"
 		],
-		"Riven": [
+		"easy": [
+			"Sylas",
+			"Sejuani",
+			"Rengar"
+		]
+	},
+	"Riven": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Death's Dance",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Renekton",
 			"Quinn",
 			"Garen"
 		],
-		"Lissandra": [
+		"easy": [
+			"Sylas",
+			"Rumble",
+			"Irelia"
+		]
+	},
+	"Lissandra": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Zhonya's Hourglass",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Kled",
 			"Swain",
 			"Rumble"
 		],
-		"MasterYi": [
+		"easy": [
+			"Riven",
+			"Jayce",
+			"Camille"
+		]
+	},
+	"MasterYi": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Bloodrazor",
+			"Guinsoo's Rageblade",
+			"Wit's End"
+		],
+		"counters": [
 			"Jax",
 			"Udyr",
 			"Elise"
 		],
-		"Maokai": [
+		"easy": [
+			"Aatrox",
+			"Sylas",
+			"Rengar"
+		]
+	},
+	"Maokai": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"SecondWind"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Sunfire Cape",
+			"Spirit Visage",
+			"Thornmail"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Singed",
 			"Mordekaiser"
 		],
-		"Malzahar": [
+		"easy": [
+			"Jayce",
+			"Rengar",
+			"Yorick"
+		]
+	},
+	"Malzahar": {
+		"line": "Middle",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Rylai's Crystal Scepter",
+			"Liandry's Torment"
+		],
+		"counters": [
 			"Kled",
 			"Nocturne",
 			"Rumble"
 		],
-		"Malphite": [
+		"easy": [
+			"Riven",
+			"Sylas",
+			"Lissandra"
+		]
+	},
+	"Malphite": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Sunfire Cape",
+			"Iceborn Gauntlet",
+			"Thornmail"
+		],
+		"counters": [
 			"Malzahar",
 			"Swain",
 			"Mordekaiser"
 		],
-		"Mordekaiser": [
+		"easy": [
+			"Vayne",
+			"Neeko",
+			"Aatrox"
+		]
+	},
+	"Mordekaiser": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Rylai's Crystal Scepter",
+			"Liandry's Torment"
+		],
+		"counters": [
 			"Vayne",
 			"Fiora",
 			"Kayle"
 		],
-		"Morgana": [
+		"easy": [
+			"Maokai",
+			"Sylas",
+			"Urgot"
+		]
+	},
+	"Morgana": {
+		"line": "Support",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Watchers",
+			"Zhonya's Hourglass",
+			"Redemption"
+		],
+		"counters": [
 			"Zyra",
 			"Xerath",
 			"Blitzcrank"
 		],
-		"DrMundo": [
+		"easy": [
+			"Tahm Kench",
+			"Volibear",
+			"Neeko"
+		]
+	},
+	"DrMundo": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"ApproachVelocity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Spirit Visage",
+			"Warmog's Armor"
+		],
+		"counters": [
 			"Zac",
 			"Rek'Sai",
 			"Nunu & Willump"
 		],
-		"MissFortune": [
+		"easy": [
+			"Sylas",
+			"Skarner",
+			"Wukong"
+		]
+	},
+	"MissFortune": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"Kleptomancy"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			],
+			[
+				"Precision",
+				"Overheal"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Essence Reaver",
+			"Infinity Edge",
+			"Rapid Firecannon"
+		],
+		"counters": [
 			"Twitch",
 			"Jhin",
 			"Ashe"
 		],
-		"Bard": [
+		"easy": [
+			"Varus",
+			"Tristana",
+			"Kai'Sa"
+		]
+	},
+	"Bard": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Watchers",
+			"Redemption",
+			"Locket of the Iron Solari"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Zyra",
 			"Nautilus"
 		],
-		"Varus": [
+		"easy": [
+			"Miss Fortune",
+			"Yuumi",
+			"Tahm Kench"
+		]
+	},
+	"Varus": {
+		"line": "Bottom",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Guinsoo's Rageblade",
+			"Runaan's Hurricane"
+		],
+		"counters": [
 			"Ashe",
 			"Miss Fortune",
 			"Swain"
 		],
-		"Vi": [
+		"easy": [
+			"Twitch",
+			"Ezreal",
+			"Xayah"
+		]
+	},
+	"Vi": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Trinity Force",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Ivern",
 			"Volibear",
 			"Warwick"
 		],
-		"Veigar": [
+		"easy": [
+			"Sylas",
+			"Skarner",
+			"Fiddlesticks"
+		]
+	},
+	"Veigar": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Luden's Echo",
+			"Zhonya's Hourglass",
+			"Rabadon's Deathcap"
+		],
+		"counters": [
 			"Pyke",
 			"Katarina",
 			"Fizz"
 		],
-		"Vayne": [
+		"easy": [
+			"Irelia",
+			"Riven",
+			"Sylas"
+		]
+	},
+	"Vayne": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Guinsoo's Rageblade",
+			"Phantom Dancer"
+		],
+		"counters": [
 			"Swain",
 			"Ashe",
 			"Jinx"
 		],
-		"Velkoz": [
+		"easy": [
+			"Kalista",
+			"Ezreal",
+			"Varus"
+		]
+	},
+	"Velkoz": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Luden's Echo",
+			"Zhonya's Hourglass",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Pyke",
 			"Soraka"
 		],
-		"Volibear": [
+		"easy": [
+			"Gragas",
+			"Tahm Kench",
+			"Veigar"
+		]
+	},
+	"Volibear": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"SecondWind"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"Armor"
+		],
+		"items": [
+			"Titanic Hydra",
+			"Dead Man's Plate",
+			"Wit's End"
+		],
+		"counters": [
 			"Wukong",
 			"Kennen",
 			"Swain"
 		],
-		"Braum": [
+		"easy": [
+			"Sylas",
+			"Ryze",
+			"Irelia"
+		]
+	},
+	"Braum": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Guardian"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Unflinching"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Zeke's Convergence",
+			"Locket of the Iron Solari"
+		],
+		"counters": [
 			"Taric",
 			"Bard",
 			"Zyra"
 		],
-		"Brand": [
+		"easy": [
+			"Yuumi",
+			"Shen",
+			"Miss Fortune"
+		]
+	},
+	"Brand": {
+		"line": "Support",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Watchers",
+			"Liandry's Torment",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Janna",
 			"Blitzcrank",
 			"Volibear"
 		],
-		"Vladimir": [
+		"easy": [
+			"Neeko",
+			"Tahm Kench",
+			"Rakan"
+		]
+	},
+	"Vladimir": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"PhaseRush"
+			],
+			[
+				"Sorcery",
+				"NimbusCloak"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Rabadon's Deathcap",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Malzahar",
 			"Pantheon",
 			"Yorick"
 		],
-		"Blitzcrank": [
+		"easy": [
+			"Sylas",
+			"Gnar",
+			"Poppy"
+		]
+	},
+	"Blitzcrank": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Zeke's Convergence",
+			"Redemption"
+		],
+		"counters": [
 			"Leona",
 			"Nautilus",
 			"Zilean"
 		],
-		"Viktor": [
+		"easy": [
+			"Yuumi",
+			"Tahm Kench",
+			"Miss Fortune"
+		]
+	},
+	"Viktor": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Perfect Hex Core",
+			"Luden's Echo",
+			"Lich Bane"
+		],
+		"counters": [
 			"Annie",
 			"Quinn",
 			"Pyke"
 		],
-		"Poppy": [
+		"easy": [
+			"Lissandra",
+			"Zilean",
+			"Akali"
+		]
+	},
+	"Poppy": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"Armor",
+			"Armor"
+		],
+		"items": [
+			"Sunfire Cape",
+			"Iceborn Gauntlet",
+			"Adaptive Helm"
+		],
+		"counters": [
 			"Cho'Gath",
 			"Sion",
 			"Dr. Mundo"
 		],
-		"Sion": [
+		"easy": [
+			"Malzahar",
+			"Sylas",
+			"Tryndamere"
+		]
+	},
+	"Sion": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"Armor",
+			"Armor"
+		],
+		"items": [
+			"Sunfire Cape",
+			"Adaptive Helm",
+			"Gargoyle Stoneplate"
+		],
+		"counters": [
 			"Illaoi",
 			"Karma",
 			"Yasuo"
 		],
-		"Sylas": [
+		"easy": [
+			"Rengar",
+			"Jayce",
+			"Olaf"
+		]
+	},
+	"Sylas": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Luden's Echo",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Kled",
 			"Heimerdinger",
 			"Garen"
 		],
-		"Shaco": [
+		"easy": [
+			"Malphite",
+			"Viktor",
+			"Irelia"
+		]
+	},
+	"Shaco": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"E",
+			"E",
+			"E",
+			"E",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Udyr",
 			"Volibear",
 			"Zac"
 		],
-		"Sejuani": [
+		"easy": [
+			"Sylas",
+			"Skarner",
+			"Sejuani"
+		]
+	},
+	"Sejuani": {
+		"line": "Jungle",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Warmog's Armor",
+			"Gargoyle Stoneplate"
+		],
+		"counters": [
 			"Camille",
 			"Zac",
 			"Udyr"
 		],
-		"Sona": [
+		"easy": [
+			"Ivern",
+			"Rengar",
+			"Fiddlesticks"
+		]
+	},
+	"Sona": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Athene's Unholy Grail",
+			"Ardent Censer",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Volibear",
 			"Blitzcrank",
 			"Bard"
 		],
-		"Soraka": [
+		"easy": [
+			"Tahm Kench",
+			"Miss Fortune",
+			"Galio"
+		]
+	},
+	"Soraka": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"E",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Ardent Censer",
+			"Remnant of the Watchers",
+			"Redemption"
+		],
+		"counters": [
 			"Bard",
 			"Blitzcrank",
 			"Nautilus"
 		],
-		"Shen": [
+		"easy": [
+			"Tahm Kench",
+			"Miss Fortune",
+			"Yuumi"
+		]
+	},
+	"Shen": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Titanic Hydra",
+			"Trinity Force",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Viktor",
 			"Illaoi",
 			"Heimerdinger"
 		],
-		"Shyvana": [
+		"easy": [
+			"Sylas",
+			"Urgot",
+			"Irelia"
+		]
+	},
+	"Shyvana": {
+		"line": "Jungle",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"DarkHarvest"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Nashor's Tooth",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Dr. Mundo",
 			"Kindred",
 			"Ivern"
 		],
-		"Swain": [
+		"easy": [
+			"Sylas",
+			"Aatrox",
+			"Gragas"
+		]
+	},
+	"Swain": {
+		"line": "Support",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Rod of Ages",
+			"Zhonya's Hourglass",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Zilean",
 			"Fiddlesticks"
 		],
-		"Skarner": [
+		"easy": [
+			"Malphite",
+			"Miss Fortune",
+			"Yuumi"
+		]
+	},
+	"Skarner": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Predator"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"ZombieWard"
+			],
+			[
+				"Domination",
+				"IngeniousHunter"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Trinity Force",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Dr. Mundo",
 			"Shaco",
 			"Vi"
 		],
-		"Sivir": [
+		"easy": [
+			"Karthus",
+			"Sejuani",
+			"Malphite"
+		]
+	},
+	"Sivir": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Essence Reaver",
+			"Infinity Edge",
+			"Rapid Firecannon"
+		],
+		"counters": [
 			"Swain",
 			"Kog'Maw",
 			"Jinx"
 		],
-		"XinZhao": [
+		"easy": [
+			"Ezreal",
+			"Xayah",
+			"Kai'Sa"
+		]
+	},
+	"XinZhao": {
+		"line": "Jungle",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"E",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"HailOfBlades"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Trinity Force",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Olaf",
 			"Volibear",
 			"Dr. Mundo"
 		],
-		"Syndra": [
+		"easy": [
+			"Sylas",
+			"Rengar",
+			"Aatrox"
+		]
+	},
+	"Syndra": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Kennen",
 			"Zilean",
 			"Malphite"
 		],
-		"Singed": [
+		"easy": [
+			"Aatrox",
+			"Heimerdinger",
+			"Tristana"
+		]
+	},
+	"Singed": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"NimbusCloak"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"Future'sMarket"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Liandry's Torment",
+			"Rylai's Crystal Scepter",
+			"Righteous Glory"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Yorick",
 			"Neeko"
 		],
-		"Thresh": [
+		"easy": [
+			"Sylas",
+			"Maokai",
+			"Aatrox"
+		]
+	},
+	"Thresh": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Ascended",
+			"Zeke's Convergence",
+			"Redemption"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Zilean",
 			"Bard"
 		],
-		"Ahri": [
+		"easy": [
+			"Yuumi",
+			"Miss Fortune",
+			"Tahm Kench"
+		]
+	},
+	"Ahri": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"GlacialAugment"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"MinionDematerializer"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"UltimateHunter"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech GLP-800",
+			"Twin Shadows",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Zilean",
 			"Taliyah",
 			"Pyke"
 		],
-		"Amumu": [
+		"easy": [
+			"Renekton",
+			"Akali",
+			"Sylas"
+		]
+	},
+	"Amumu": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"SecondWind"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Dr. Mundo",
 			"Nunu & Willump",
 			"Udyr"
 		],
-		"AurelionSol": [
+		"easy": [
+			"Sejuani",
+			"Rengar",
+			"Malphite"
+		]
+	},
+	"AurelionSol": {
+		"line": "Middle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Camille",
 			"Pyke",
 			"Rumble"
 		],
-		"Ivern": [
+		"easy": [
+			"Malphite",
+			"Kled",
+			"Sylas"
+		]
+	},
+	"Ivern": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"NullifyingOrb"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			],
+			[
+				"Inspiration",
+				"Future'sMarket"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Athene's Unholy Grail",
+			"Ardent Censer",
+			"Redemption"
+		],
+		"counters": [
 			"Sejuani",
 			"Dr. Mundo",
 			"Zac"
 		],
-		"Azir": [
+		"easy": [
+			"Sylas",
+			"Vi",
+			"Warwick"
+		]
+	},
+	"Azir": {
+		"line": "Middle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Nashor's Tooth",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Kled",
 			"Rumble"
 		],
-		"Akali": [
+		"easy": [
+			"Aatrox",
+			"Renekton",
+			"Quinn"
+		]
+	},
+	"Akali": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech Gunblade",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Annie",
 			"Taliyah",
 			"Swain"
 		],
-		"Aatrox": [
+		"easy": [
+			"Irelia",
+			"Sylas",
+			"Azir"
+		]
+	},
+	"Aatrox": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Death's Dance",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Malzahar",
 			"Singed"
 		],
-		"Alistar": [
+		"easy": [
+			"Sylas",
+			"Neeko",
+			"Olaf"
+		]
+	},
+	"Alistar": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Zeke's Convergence",
+			"Locket of the Iron Solari"
+		],
+		"counters": [
 			"Bard",
 			"Vel'Koz",
 			"Swain"
 		],
-		"Annie": [
+		"easy": [
+			"Tahm Kench",
+			"Miss Fortune",
+			"Yuumi"
+		]
+	},
+	"Annie": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Zhonya's Hourglass",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Jayce",
 			"Fizz",
 			"Aurelion Sol"
 		],
-		"Anivia": [
+		"easy": [
+			"Tristana",
+			"Azir",
+			"Viktor"
+		]
+	},
+	"Anivia": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"MinionDematerializer"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Rod of Ages",
+			"Archangel's Staff",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Cassiopeia",
 			"Aurelion Sol"
 		],
-		"Ashe": [
+		"easy": [
+			"Riven",
+			"Tristana",
+			"Cho'Gath"
+		]
+	},
+	"Ashe": {
+		"line": "Bottom",
+		"skill_tree": [
+			"W",
+			"Q",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Runaan's Hurricane",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Swain",
 			"Jinx",
 			"Miss Fortune"
 		],
-		"Yasuo": [
+		"easy": [
+			"Varus",
+			"Draven",
+			"Kalista"
+		]
+	},
+	"Yasuo": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Statikk Shiv",
+			"Infinity Edge",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Kennen",
 			"Camille",
 			"Malzahar"
 		],
-		"Ekko": [
+		"easy": [
+			"Sylas",
+			"Tristana",
+			"Viktor"
+		]
+	},
+	"Ekko": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Hextech Protobelt-01",
+			"Lich Bane"
+		],
+		"counters": [
 			"Karthus",
 			"Nunu & Willump",
 			"Shyvana"
 		],
-		"Elise": [
+		"easy": [
+			"Sylas",
+			"Trundle",
+			"Aatrox"
+		]
+	},
+	"Elise": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Ivern",
 			"Dr. Mundo",
 			"Zac"
 		],
-		"MonkeyKing": [
+		"easy": [
+			"Sylas",
+			"Skarner",
+			"Master Yi"
+		]
+	},
+	"MonkeyKing": {
+		"line": "Jungle",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade"
+		],
+		"counters": [
 			"Poppy",
 			"Udyr",
 			"Nocturne"
 		],
-		"Ornn": [
+		"easy": [
+			"Sylas",
+			"Rengar",
+			"Master Yi"
+		]
+	},
+	"Ornn": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Iceborn Gauntlet",
+			"Abyssal Mask",
+			"Warmog's Armor"
+		],
+		"counters": [
 			"Mordekaiser",
 			"Singed",
 			"Kayle"
 		],
-		"Orianna": [
+		"easy": [
+			"Jayce",
+			"Sylas",
+			"Akali"
+		]
+	},
+	"Orianna": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Pyke",
 			"Quinn",
 			"Annie"
 		],
-		"Olaf": [
+		"easy": [
+			"Sylas",
+			"Jayce",
+			"Mordekaiser"
+		]
+	},
+	"Olaf": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"ApproachVelocity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Black Cleaver",
+			"Righteous Glory"
+		],
+		"counters": [
 			"Ivern",
 			"Dr. Mundo",
 			"Udyr"
 		],
-		"Yorick": [
+		"easy": [
+			"Sylas",
+			"Fiddlesticks",
+			"Sejuani"
+		]
+	},
+	"Yorick": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Trinity Force",
+			"Sterak's Gage",
+			"Spirit Visage"
+		],
+		"counters": [
 			"Maokai",
 			"Wukong",
 			"Volibear"
 		],
-		"Udyr": [
+		"easy": [
+			"Sylas",
+			"Jayce",
+			"Illaoi"
+		]
+	},
+	"Udyr": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"E",
+			"W",
+			"W",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Trinity Force",
+			"Dead Man's Plate"
+		],
+		"counters": [
 			"Volibear",
 			"Zac",
 			"Dr. Mundo"
 		],
-		"Urgot": [
+		"easy": [
+			"Fiddlesticks",
+			"Wukong",
+			"Sylas"
+		]
+	},
+	"Urgot": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Righteous Glory",
+			"Adaptive Helm"
+		],
+		"counters": [
 			"Shen",
 			"Mordekaiser",
 			"Tryndamere"
 		],
-		"Warwick": [
+		"easy": [
+			"Sylas",
+			"Cho'Gath",
+			"Gangplank"
+		]
+	},
+	"Warwick": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"UltimateHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Titanic Hydra",
+			"Dead Man's Plate"
+		],
+		"counters": [
 			"Ivern",
 			"Volibear",
 			"Jax"
 		],
-		"Yuumi": [
+		"easy": [
+			"Rengar",
+			"Poppy",
+			"Sylas"
+		]
+	},
+	"Yuumi": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"Q",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Precision",
+				"PresenceOfMind"
+			],
+			[
+				"Precision",
+				"CutDown"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Athene's Unholy Grail",
+			"Ardent Censer",
+			"Mejai's Soulstealer"
+		],
+		"counters": [
 			"Leona",
 			"Nautilus",
 			"Blitzcrank"
 		],
-		"Irelia": [
+		"easy": [
+			"Miss Fortune",
+			"Neeko",
+			"Tahm Kench"
+		]
+	},
+	"Irelia": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Trinity Force",
+			"Titanic Hydra",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Nasus",
 			"Fiora",
 			"Jax"
 		],
-		"Evelynn": [
+		"easy": [
+			"Karma",
+			"Viktor",
+			"Sylas"
+		]
+	},
+	"Evelynn": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Lich Bane",
+			"Rabadon's Deathcap"
+		],
+		"counters": [
 			"Ivern",
 			"Dr. Mundo",
 			"Zac"
 		],
-		"Ezreal": [
+		"easy": [
+			"Sylas",
+			"Aatrox",
+			"Wukong"
+		]
+	},
+	"Ezreal": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"Kleptomancy"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Manamune",
+			"Iceborn Gauntlet",
+			"Blade of the Ruined King"
+		],
+		"counters": [
 			"Swain",
 			"Twitch",
 			"Jinx"
 		],
-		"Illaoi": [
+		"easy": [
+			"Kalista",
+			"Kog'Maw",
+			"Tristana"
+		]
+	},
+	"Illaoi": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"Kleptomancy"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Sterak's Gage",
+			"Death's Dance"
+		],
+		"counters": [
 			"Yorick",
 			"Heimerdinger",
 			"Mordekaiser"
 		],
-		"JarvanIV": [
+		"easy": [
+			"Sylas",
+			"Olaf",
+			"Sion"
+		]
+	},
+	"JarvanIV": {
+		"line": "Jungle",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Black Cleaver",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Jax",
 			"Dr. Mundo",
 			"Rek'Sai"
 		],
-		"Xayah": [
+		"easy": [
+			"Sylas",
+			"Rengar",
+			"Aatrox"
+		]
+	},
+	"Xayah": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Essence Reaver",
+			"Rapid Firecannon",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Swain",
 			"Ashe",
 			"Jinx"
 		],
-		"Zyra": [
+		"easy": [
+			"Kai'Sa",
+			"Tristana",
+			"Ezreal"
+		]
+	},
+	"Zyra": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Liandry's Torment",
+			"Zhonya's Hourglass",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Xerath",
 			"Taric"
 		],
-		"Zac": [
+		"easy": [
+			"Veigar",
+			"Tahm Kench",
+			"Shaco"
+		]
+	},
+	"Zac": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"E",
+			"E",
+			"R",
+			"E",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"Conditioning"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Warmog's Armor",
+			"Spirit Visage"
+		],
+		"counters": [
 			"Volibear",
 			"Kayn",
 			"Ekko"
 		],
-		"Janna": [
+		"easy": [
+			"Sylas",
+			"Sejuani",
+			"Pantheon"
+		]
+	},
+	"Janna": {
+		"line": "Support",
+		"skill_tree": [
+			"W",
+			"E",
+			"Q",
+			"W",
+			"W",
+			"R",
+			"W",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"E",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Ardent Censer",
+			"Remnant of the Watchers",
+			"Redemption"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Nautilus",
 			"Nami"
 		],
-		"Jax": [
+		"easy": [
+			"Yuumi",
+			"Galio",
+			"Malphite"
+		]
+	},
+	"Jax": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Trinity Force",
+			"Spear of Shojin",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Viktor",
 			"Malzahar",
 			"Malphite"
 		],
-		"Zed": [
+		"easy": [
+			"Sylas",
+			"Irelia",
+			"Olaf"
+		]
+	},
+	"Zed": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"UltimateHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Youmuu's Ghostblade",
+			"Duskblade of Draktharr",
+			"Black Cleaver"
+		],
+		"counters": [
 			"Zilean",
 			"Swain",
 			"Garen"
 		],
-		"Xerath": [
+		"easy": [
+			"Ziggs",
+			"Sylas",
+			"Veigar"
+		]
+	},
+	"Xerath": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Luden's Echo",
+			"Remnant of the Watchers",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Pyke",
 			"Nautilus"
 		],
-		"Jayce": [
+		"easy": [
+			"Neeko",
+			"Galio",
+			"Miss Fortune"
+		]
+	},
+	"Jayce": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Youmuu's Ghostblade",
+			"Duskblade of Draktharr",
+			"Black Cleaver"
+		],
+		"counters": [
 			"Wukong",
 			"Sion",
 			"Maokai"
 		],
-		"Zoe": [
+		"easy": [
+			"Sylas",
+			"Neeko",
+			"Vayne"
+		]
+	},
+	"Zoe": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Malzahar",
 			"Heimerdinger",
 			"Zilean"
 		],
-		"Ziggs": [
+		"easy": [
+			"Riven",
+			"Viktor",
+			"Sylas"
+		]
+	},
+	"Ziggs": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Luden's Echo",
+			"Morellonomicon",
+			"Rabadon's Deathcap"
+		],
+		"counters": [
 			"Zed",
 			"Malphite",
 			"Kassadin"
 		],
-		"Jhin": [
+		"easy": [
+			"Renekton",
+			"Swain",
+			"Azir"
+		]
+	},
+	"Jhin": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Infinity Edge",
+			"Essence Reaver",
+			"Rapid Firecannon"
+		],
+		"counters": [
 			"Twitch",
 			"Ashe",
 			"Swain"
 		],
-		"Zilean": [
+		"easy": [
+			"Ezreal",
+			"Xayah",
+			"Varus"
+		]
+	},
+	"Zilean": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Hextech GLP-800",
+			"Twin Shadows",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Janna",
 			"Lulu",
 			"Xerath"
 		],
-		"Jinx": [
+		"easy": [
+			"Tahm Kench",
+			"Galio",
+			"Yuumi"
+		]
+	},
+	"Jinx": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"GatheringStorm"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Infinity Edge",
+			"Rapid Firecannon",
+			"Runaan's Hurricane"
+		],
+		"counters": [
 			"Swain",
 			"Twitch",
 			"Ashe"
 		],
-		"Chogath": [
+		"easy": [
+			"Ezreal",
+			"Tristana",
+			"Kai'Sa"
+		]
+	},
+	"Chogath": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"GlacialAugment"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"ApproachVelocity"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"IngeniousHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Hextech GLP-800",
+			"Twin Shadows",
+			"Righteous Glory"
+		],
+		"counters": [
 			"Swain",
 			"Urgot",
 			"Garen"
 		],
-		"Karma": [
+		"easy": [
+			"Neeko",
+			"Hecarim",
+			"Olaf"
+		]
+	},
+	"Karma": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"SummonAery"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Athene's Unholy Grail",
+			"Ardent Censer",
+			"Remnant of the Watchers"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Bard",
 			"Nautilus"
 		],
-		"Camille": [
+		"easy": [
+			"Miss Fortune",
+			"Yuumi",
+			"Shen"
+		]
+	},
+	"Camille": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Trinity Force",
+			"Ravenous Hydra",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Vayne",
 			"Cho'Gath",
 			"Teemo"
 		],
-		"Kassadin": [
+		"easy": [
+			"Neeko",
+			"Karma",
+			"Sylas"
+		]
+	},
+	"Kassadin": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Rod of Ages",
+			"Archangel's Staff",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Kled",
 			"Pyke",
 			"Nocturne"
 		],
-		"Karthus": [
+		"easy": [
+			"Sylas",
+			"Ziggs",
+			"Corki"
+		]
+	},
+	"Karthus": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"DarkHarvest"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Precision",
+				"PresenceOfMind"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Skarner",
 			"Dr. Mundo",
 			"Vi"
 		],
-		"Cassiopeia": [
+		"easy": [
+			"Sylas",
+			"Fiddlesticks",
+			"Pantheon"
+		]
+	},
+	"Cassiopeia": {
+		"line": "Middle",
+		"skill_tree": [
+			"E",
+			"Q",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"PhaseRush"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Health Potion",
+			"Health Potion",
+			"Corrupting Potion"
+		],
+		"counters": [
 			"Zilean",
 			"Heimerdinger",
 			"Pyke"
 		],
-		"Kaisa": [
+		"easy": [
+			"Sylas",
+			"Neeko",
+			"Jayce"
+		]
+	},
+	"Kaisa": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Manamune",
+			"Guinsoo's Rageblade",
+			"Nashor's Tooth"
+		],
+		"counters": [
 			"Swain",
 			"Ashe",
 			"Twitch"
 		],
-		"Khazix": [
+		"easy": [
+			"Ezreal",
+			"Varus",
+			"Kalista"
+		]
+	},
+	"Khazix": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			],
+			[
+				"Sorcery",
+				"NimbusCloak"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade"
+		],
+		"counters": [
 			"Zac",
 			"Rammus",
 			"Dr. Mundo"
 		],
-		"Katarina": [
+		"easy": [
+			"Sylas",
+			"Aatrox",
+			"Kindred"
+		]
+	},
+	"Katarina": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech Gunblade",
+			"Death's Dance",
+			"Liandry's Torment"
+		],
+		"counters": [
 			"Kled",
 			"Cho'Gath",
 			"Zilean"
 		],
-		"Kalista": [
+		"easy": [
+			"Corki",
+			"Karma",
+			"Sylas"
+		]
+	},
+	"Kalista": {
+		"line": "Bottom",
+		"skill_tree": [
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"HailOfBlades"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Runaan's Hurricane",
+			"Bloodthirster"
+		],
+		"counters": [
 			"Twitch",
 			"Draven",
 			"Ashe"
 		],
-		"Kennen": [
+		"easy": [
+			"Varus",
+			"Caitlyn",
+			"Sivir"
+		]
+	},
+	"Kennen": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"Kleptomancy"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"MinionDematerializer"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Zhonya's Hourglass",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Sion",
 			"Dr. Mundo",
 			"Maokai"
 		],
-		"Caitlyn": [
+		"easy": [
+			"Volibear",
+			"Wukong",
+			"Malzahar"
+		]
+	},
+	"Caitlyn": {
+		"line": "Bottom",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Infinity Edge",
+			"Rapid Firecannon",
+			"Statikk Shiv"
+		],
+		"counters": [
 			"Swain",
 			"Ashe",
 			"Jinx"
 		],
-		"Kayn": [
+		"easy": [
+			"Ezreal",
+			"Xayah",
+			"Tristana"
+		]
+	},
+	"Kayn": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade"
+		],
+		"counters": [
 			"Ivern",
 			"Rek'Sai",
 			"Warwick"
 		],
-		"Kayle": [
+		"easy": [
+			"Sylas",
+			"Sejuani",
+			"Malphite"
+		]
+	},
+	"Kayle": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Inspiration",
+				"Kleptomancy"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"Armor"
+		],
+		"items": [
+			"Hextech Gunblade",
+			"Nashor's Tooth",
+			"Guinsoo's Rageblade"
+		],
+		"counters": [
 			"Malzahar",
 			"Rengar",
 			"Rumble"
 		],
-		"KogMaw": [
+		"easy": [
+			"Viktor",
+			"Sylas",
+			"Poppy"
+		]
+	},
+	"KogMaw": {
+		"line": "Bottom",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"W",
+			"W",
+			"R",
+			"W",
+			"Q",
+			"W",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Guinsoo's Rageblade",
+			"Runaan's Hurricane"
+		],
+		"counters": [
 			"Twitch",
 			"Ashe",
 			"Miss Fortune"
 		],
-		"Corki": [
+		"easy": [
+			"Kalista",
+			"Sivir",
+			"Draven"
+		]
+	},
+	"Corki": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"FleetFootwork"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Rapid Firecannon",
+			"Infinity Edge",
+			"Trinity Force"
+		],
+		"counters": [
 			"Rumble",
 			"Talon",
 			"Katarina"
 		],
-		"Quinn": [
+		"easy": [
+			"Ziggs",
+			"Jayce",
+			"Viktor"
+		]
+	},
+	"Quinn": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"W",
+			"W",
+			"R",
+			"W",
+			"E",
+			"W",
+			"E",
+			"R",
+			"E",
+			"E",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Phantom Dancer",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Ornn",
 			"Swain",
 			"Dr. Mundo"
 		],
-		"Kled": [
+		"easy": [
+			"Gangplank",
+			"Riven",
+			"Vayne"
+		]
+	},
+	"Kled": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Black Cleaver",
+			"Titanic Hydra",
+			"Sterak's Gage"
+		],
+		"counters": [
 			"Heimerdinger",
 			"Swain",
 			"Vayne"
 		],
-		"Qiyana": [
+		"easy": [
+			"Sylas",
+			"Olaf",
+			"Tryndamere"
+		]
+	},
+	"Qiyana": {
+		"line": "Middle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade",
+			"Guardian Angel"
+		],
+		"counters": [
 			"Garen",
 			"Pyke",
 			"Heimerdinger"
 		],
-		"Kindred": [
+		"easy": [
+			"Viktor",
+			"Sylas",
+			"Irelia"
+		]
+	},
+	"Kindred": {
+		"line": "Jungle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Warrior",
+			"Essence Reaver",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Camille",
 			"Dr. Mundo",
 			"Nunu & Willump"
 		],
-		"Taric": [
+		"easy": [
+			"Sylas",
+			"Trundle",
+			"Taliyah"
+		]
+	},
+	"Taric": {
+		"line": "Support",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Guardian"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"CDRScaling",
+			"Armor",
+			"Armor"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Zeke's Convergence",
+			"Locket of the Iron Solari"
+		],
+		"counters": [
 			"Volibear",
 			"Bard",
 			"Janna"
 		],
-		"Talon": [
+		"easy": [
+			"Braum",
+			"Neeko",
+			"Lux"
+		]
+	},
+	"Talon": {
+		"line": "Middle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"UltimateHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade",
+			"Black Cleaver"
+		],
+		"counters": [
 			"Pyke",
 			"Kled",
 			"Garen"
 		],
-		"Taliyah": [
+		"easy": [
+			"Corki",
+			"Sylas",
+			"Karma"
+		]
+	},
+	"Taliyah": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"DarkHarvest"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Runic Echoes",
+			"Morellonomicon",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Olaf",
 			"Kindred",
 			"Nunu & Willump"
 		],
-		"TahmKench": [
+		"easy": [
+			"Aatrox",
+			"Fiddlesticks",
+			"Sylas"
+		]
+	},
+	"TahmKench": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Guardian"
+			],
+			[
+				"Resolve",
+				"ShieldBash"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"ApproachVelocity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"Armor",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Locket of the Iron Solari",
+			"Redemption"
+		],
+		"counters": [
 			"Sona",
 			"Zilean",
 			"Zyra"
 		],
-		"Trundle": [
+		"easy": [
+			"Miss Fortune",
+			"Karma",
+			"Xerath"
+		]
+	},
+	"Trundle": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Titanic Hydra",
+			"Dead Man's Plate"
+		],
+		"counters": [
 			"Fiddlesticks",
 			"Kindred",
 			"Ekko"
 		],
-		"Tristana": [
+		"easy": [
+			"Rengar",
+			"Sylas",
+			"Graves"
+		]
+	},
+	"Tristana": {
+		"line": "Bottom",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendBloodline"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Infinity Edge",
+			"Rapid Firecannon",
+			"Statikk Shiv"
+		],
+		"counters": [
 			"Swain",
 			"Miss Fortune",
 			"Jinx"
 		],
-		"Tryndamere": [
+		"easy": [
+			"Kog'Maw",
+			"Twitch",
+			"Sivir"
+		]
+	},
+	"Tryndamere": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"LethalTempo"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"LastStand"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Blade of the Ruined King",
+			"Statikk Shiv",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Hecarim",
 			"Kled",
 			"Poppy"
 		],
-		"TwistedFate": [
+		"easy": [
+			"Sylas",
+			"Olaf",
+			"Urgot"
+		]
+	},
+	"TwistedFate": {
+		"line": "Middle",
+		"skill_tree": [
+			"W",
+			"Q",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"MinionDematerializer"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Rod of Ages",
+			"Lich Bane",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Pyke",
 			"Zilean",
 			"Rumble"
 		],
-		"Twitch": [
+		"easy": [
+			"Azir",
+			"Akali",
+			"Riven"
+		]
+	},
+	"Twitch": {
+		"line": "Bottom",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"PressTheAttack"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Inspiration",
+				"MagicalFootwear"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Runaan's Hurricane",
+			"Infinity Edge",
+			"Infinity Edge"
+		],
+		"counters": [
 			"Swain",
 			"Draven",
 			"Tristana"
 		],
-		"Teemo": [
+		"easy": [
+			"Kalista",
+			"Ezreal",
+			"Kai'Sa"
+		]
+	},
+	"Teemo": {
+		"line": "Top",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"GraspOfTheUndying"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Overgrowth"
+			],
+			[
+				"Domination",
+				"CheapShot"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Nashor's Tooth",
+			"Liandry's Torment",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Malzahar",
 			"Wukong",
 			"Swain"
 		],
-		"Pyke": [
+		"easy": [
+			"Vayne",
+			"Renekton",
+			"Singed"
+		]
+	},
+	"Pyke": {
+		"line": "Support",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"FontOfLife"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Revitalize"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"UltimateHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"HealthScaling"
+		],
+		"items": [
+			"Remnant of the Aspect",
+			"Duskblade of Draktharr",
+			"Youmuu's Ghostblade"
+		],
+		"counters": [
 			"Blitzcrank",
 			"Nautilus",
 			"Janna"
 		],
-		"Pantheon": [
+		"easy": [
+			"Miss Fortune",
+			"Tahm Kench",
+			"Galio"
+		]
+	},
+	"Pantheon": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"TasteOfBlood"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Youmuu's Ghostblade",
+			"Duskblade of Draktharr",
+			"Black Cleaver"
+		],
+		"counters": [
 			"Volibear",
 			"Wukong",
 			"Singed"
 		],
-		"Fiddlesticks": [
+		"easy": [
+			"Sylas",
+			"Jayce",
+			"Ryze"
+		]
+	},
+	"Fiddlesticks": {
+		"line": "Support",
+		"skill_tree": [
+			"E",
+			"Q",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Resolve",
+				"Aftershock"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
+			],
+			[
+				"Resolve",
+				"Unflinching"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Zhonya's Hourglass",
+			"Remnant of the Watchers",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Gragas",
 			"Zilean",
 			"Blitzcrank"
 		],
-		"Fiora": [
+		"easy": [
+			"Galio",
+			"Yuumi",
+			"Volibear"
+		]
+	},
+	"Fiora": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
+		],
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"NimbusCloak"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			]
+		],
+		"StatMods": [
+			"AttackSpeed",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Ravenous Hydra",
+			"Trinity Force",
+			"Death's Dance"
+		],
+		"counters": [
 			"Kayle",
 			"Heimerdinger",
 			"Quinn"
 		],
-		"Fizz": [
+		"easy": [
+			"Sylas",
+			"Irelia",
+			"Aatrox"
+		]
+	},
+	"Fizz": {
+		"line": "Middle",
+		"skill_tree": [
+			"E",
+			"W",
+			"Q",
+			"E",
+			"E",
+			"R",
+			"E",
+			"W",
+			"E",
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
+		],
+		"Runes": [
+			[
+				"Domination",
+				"Electrocute"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"EyeballCollection"
+			],
+			[
+				"Domination",
+				"RavenousHunter"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"MagicRes"
+		],
+		"items": [
+			"Hextech Protobelt-01",
+			"Lich Bane",
+			"Zhonya's Hourglass"
+		],
+		"counters": [
 			"Nocturne",
 			"Swain",
 			"Kled"
 		],
-		"Heimerdinger": [
+		"easy": [
+			"Irelia",
+			"Rumble",
+			"Corki"
+		]
+	},
+	"Heimerdinger": {
+		"line": "Top",
+		"skill_tree": [
+			"Q",
+			"E",
+			"W",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"W",
+			"Q",
+			"W",
+			"R",
+			"W",
+			"W",
+			"E",
+			"E"
+		],
+		"Runes": [
+			[
+				"Sorcery",
+				"ArcaneComet"
+			],
+			[
+				"Sorcery",
+				"ManaflowBand"
+			],
+			[
+				"Sorcery",
+				"Transcendence"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"PerfectTiming"
+			],
+			[
+				"Inspiration",
+				"CosmicInsight"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Luden's Echo",
+			"Zhonya's Hourglass",
+			"Morellonomicon"
+		],
+		"counters": [
 			"Wukong",
 			"Gangplank",
 			"Rumble"
 		],
-		"Hecarim": [
-			"Volibear",
-			"Dr. Mundo",
-			"Nunu & Willump"
-		]
-	}
-
-module.exports.easys ={
-		"Garen": [
-			"Sylas",
-			"Irelia",
-			"Akali"
-		],
-		"Galio": [
-			"Sylas",
-			"Irelia",
-			"Camille"
-		],
-		"Gangplank": [
-			"Sylas",
-			"Tryndamere",
-			"Poppy"
-		],
-		"Gragas": [
-			"Aatrox",
-			"Sylas",
-			"Fiddlesticks"
-		],
-		"Graves": [
-			"Sylas",
-			"Aatrox",
-			"Malphite"
-		],
-		"Gnar": [
-			"Olaf",
-			"Sylas",
-			"Neeko"
-		],
-		"Nami": [
-			"Miss Fortune",
-			"Veigar",
-			"Tahm Kench"
-		],
-		"Nasus": [
-			"Jayce",
-			"Irelia",
-			"Viktor"
-		],
-		"Nautilus": [
-			"Yuumi",
-			"Miss Fortune",
-			"Karma"
-		],
-		"Nocturne": [
-			"Sylas",
-			"Wukong",
-			"Aatrox"
-		],
-		"Nunu": [
-			"Sylas",
-			"Rengar",
-			"Wukong"
-		],
-		"Nidalee": [
-			"Sylas",
-			"Aatrox",
-			"Sejuani"
-		],
-		"Neeko": [
-			"Karma",
-			"Tristana",
-			"Sylas"
-		],
-		"Darius": [
-			"Sylas",
-			"Hecarim",
-			"Irelia"
-		],
-		"Diana": [
-			"Azir",
-			"Riven",
-			"Syndra"
-		],
-		"Draven": [
-			"Kalista",
-			"Varus",
-			"Tristana"
-		],
-		"Ryze": [
-			"Sylas",
-			"Lissandra",
-			"Karma"
-		],
-		"Rakan": [
-			"Tahm Kench",
-			"Shen",
-			"Miss Fortune"
-		],
-		"Rammus": [
-			"Malphite",
-			"Sylas",
-			"Rengar"
-		],
-		"Lux": [
-			"Yuumi",
-			"Miss Fortune",
-			"Veigar"
-		],
-		"Rumble": [
-			"Akali",
-			"Maokai",
-			"Jayce"
-		],
-		"Renekton": [
-			"Riven",
-			"Irelia",
-			"Sylas"
-		],
-		"Leona": [
-			"Yuumi",
-			"Miss Fortune",
-			"Braum"
-		],
-		"RekSai": [
-			"Sylas",
-			"Camille",
-			"Sejuani"
-		],
-		"Rengar": [
-			"Sylas",
-			"Olaf",
-			"Karma"
-		],
-		"Lucian": [
-			"Kalista",
-			"Tristana",
-			"Varus"
-		],
-		"Lulu": [
-			"Yuumi",
-			"Veigar",
-			"Tahm Kench"
-		],
-		"Leblanc": [
-			"Azir",
-			"Sylas",
-			"Tristana"
-		],
-		"LeeSin": [
-			"Sylas",
-			"Sejuani",
-			"Rengar"
-		],
-		"Riven": [
-			"Sylas",
-			"Rumble",
-			"Irelia"
-		],
-		"Lissandra": [
-			"Riven",
-			"Jayce",
-			"Camille"
-		],
-		"MasterYi": [
-			"Aatrox",
-			"Sylas",
-			"Rengar"
-		],
-		"Maokai": [
-			"Jayce",
-			"Rengar",
-			"Yorick"
-		],
-		"Malzahar": [
-			"Riven",
-			"Sylas",
-			"Lissandra"
-		],
-		"Malphite": [
-			"Vayne",
-			"Neeko",
-			"Aatrox"
-		],
-		"Mordekaiser": [
-			"Maokai",
-			"Sylas",
-			"Urgot"
-		],
-		"Morgana": [
-			"Tahm Kench",
-			"Volibear",
-			"Neeko"
-		],
-		"DrMundo": [
-			"Sylas",
-			"Skarner",
-			"Wukong"
-		],
-		"MissFortune": [
-			"Varus",
-			"Tristana",
-			"Kai'Sa"
-		],
-		"Bard": [
-			"Miss Fortune",
-			"Yuumi",
-			"Tahm Kench"
-		],
-		"Varus": [
-			"Twitch",
-			"Ezreal",
-			"Xayah"
-		],
-		"Vi": [
-			"Sylas",
-			"Skarner",
-			"Fiddlesticks"
-		],
-		"Veigar": [
-			"Irelia",
-			"Riven",
-			"Sylas"
-		],
-		"Vayne": [
-			"Kalista",
-			"Ezreal",
-			"Varus"
-		],
-		"Velkoz": [
-			"Gragas",
-			"Tahm Kench",
-			"Veigar"
-		],
-		"Volibear": [
-			"Sylas",
-			"Ryze",
-			"Irelia"
-		],
-		"Braum": [
-			"Yuumi",
-			"Shen",
-			"Miss Fortune"
-		],
-		"Brand": [
-			"Neeko",
-			"Tahm Kench",
-			"Rakan"
-		],
-		"Vladimir": [
-			"Sylas",
-			"Gnar",
-			"Poppy"
-		],
-		"Blitzcrank": [
-			"Yuumi",
-			"Tahm Kench",
-			"Miss Fortune"
-		],
-		"Viktor": [
-			"Lissandra",
-			"Zilean",
-			"Akali"
-		],
-		"Poppy": [
-			"Malzahar",
-			"Sylas",
-			"Tryndamere"
-		],
-		"Sion": [
-			"Rengar",
-			"Jayce",
-			"Olaf"
-		],
-		"Sylas": [
-			"Malphite",
-			"Viktor",
-			"Irelia"
-		],
-		"Shaco": [
-			"Sylas",
-			"Skarner",
-			"Sejuani"
-		],
-		"Sejuani": [
-			"Ivern",
-			"Rengar",
-			"Fiddlesticks"
-		],
-		"Sona": [
-			"Tahm Kench",
-			"Miss Fortune",
-			"Galio"
-		],
-		"Soraka": [
-			"Tahm Kench",
-			"Miss Fortune",
-			"Yuumi"
-		],
-		"Shen": [
-			"Sylas",
-			"Urgot",
-			"Irelia"
-		],
-		"Shyvana": [
-			"Sylas",
-			"Aatrox",
-			"Gragas"
-		],
-		"Swain": [
-			"Malphite",
-			"Miss Fortune",
-			"Yuumi"
-		],
-		"Skarner": [
-			"Karthus",
-			"Sejuani",
-			"Malphite"
-		],
-		"Sivir": [
-			"Ezreal",
-			"Xayah",
-			"Kai'Sa"
-		],
-		"XinZhao": [
-			"Sylas",
-			"Rengar",
-			"Aatrox"
-		],
-		"Syndra": [
-			"Aatrox",
-			"Heimerdinger",
-			"Tristana"
-		],
-		"Singed": [
-			"Sylas",
-			"Maokai",
-			"Aatrox"
-		],
-		"Thresh": [
-			"Yuumi",
-			"Miss Fortune",
-			"Tahm Kench"
-		],
-		"Ahri": [
-			"Renekton",
-			"Akali",
-			"Sylas"
-		],
-		"Amumu": [
-			"Sejuani",
-			"Rengar",
-			"Malphite"
-		],
-		"AurelionSol": [
-			"Malphite",
-			"Kled",
-			"Sylas"
-		],
-		"Ivern": [
-			"Sylas",
-			"Vi",
-			"Warwick"
-		],
-		"Azir": [
-			"Aatrox",
-			"Renekton",
-			"Quinn"
-		],
-		"Akali": [
-			"Irelia",
-			"Sylas",
-			"Azir"
-		],
-		"Aatrox": [
-			"Sylas",
-			"Neeko",
-			"Olaf"
-		],
-		"Alistar": [
-			"Tahm Kench",
-			"Miss Fortune",
-			"Yuumi"
-		],
-		"Annie": [
-			"Tristana",
-			"Azir",
-			"Viktor"
-		],
-		"Anivia": [
-			"Riven",
-			"Tristana",
-			"Cho'Gath"
-		],
-		"Ashe": [
-			"Varus",
-			"Draven",
-			"Kalista"
-		],
-		"Yasuo": [
-			"Sylas",
-			"Tristana",
-			"Viktor"
-		],
-		"Ekko": [
-			"Sylas",
-			"Trundle",
-			"Aatrox"
-		],
-		"Elise": [
-			"Sylas",
-			"Skarner",
-			"Master Yi"
-		],
-		"MonkeyKing": [
-			"Sylas",
-			"Rengar",
-			"Master Yi"
-		],
-		"Ornn": [
-			"Jayce",
-			"Sylas",
-			"Akali"
-		],
-		"Orianna": [
-			"Sylas",
-			"Jayce",
-			"Mordekaiser"
-		],
-		"Olaf": [
-			"Sylas",
-			"Fiddlesticks",
-			"Sejuani"
-		],
-		"Yorick": [
-			"Sylas",
-			"Jayce",
-			"Illaoi"
-		],
-		"Udyr": [
-			"Fiddlesticks",
-			"Wukong",
-			"Sylas"
-		],
-		"Urgot": [
-			"Sylas",
-			"Cho'Gath",
-			"Gangplank"
-		],
-		"Warwick": [
-			"Rengar",
-			"Poppy",
-			"Sylas"
-		],
-		"Yuumi": [
-			"Miss Fortune",
-			"Neeko",
-			"Tahm Kench"
-		],
-		"Irelia": [
-			"Karma",
-			"Viktor",
-			"Sylas"
-		],
-		"Evelynn": [
-			"Sylas",
-			"Aatrox",
-			"Wukong"
-		],
-		"Ezreal": [
-			"Kalista",
-			"Kog'Maw",
-			"Tristana"
-		],
-		"Illaoi": [
-			"Sylas",
-			"Olaf",
-			"Sion"
-		],
-		"JarvanIV": [
-			"Sylas",
-			"Rengar",
-			"Aatrox"
-		],
-		"Xayah": [
-			"Kai'Sa",
-			"Tristana",
-			"Ezreal"
-		],
-		"Zyra": [
-			"Veigar",
-			"Tahm Kench",
-			"Shaco"
-		],
-		"Zac": [
-			"Sylas",
-			"Sejuani",
-			"Pantheon"
-		],
-		"Janna": [
-			"Yuumi",
-			"Galio",
-			"Malphite"
-		],
-		"Jax": [
-			"Sylas",
-			"Irelia",
-			"Olaf"
-		],
-		"Zed": [
-			"Ziggs",
-			"Sylas",
-			"Veigar"
-		],
-		"Xerath": [
-			"Neeko",
-			"Galio",
-			"Miss Fortune"
-		],
-		"Jayce": [
-			"Sylas",
-			"Neeko",
-			"Vayne"
-		],
-		"Zoe": [
-			"Riven",
-			"Viktor",
-			"Sylas"
-		],
-		"Ziggs": [
-			"Renekton",
-			"Swain",
-			"Azir"
-		],
-		"Jhin": [
-			"Ezreal",
-			"Xayah",
-			"Varus"
-		],
-		"Zilean": [
-			"Tahm Kench",
-			"Galio",
-			"Yuumi"
-		],
-		"Jinx": [
-			"Ezreal",
-			"Tristana",
-			"Kai'Sa"
-		],
-		"Chogath": [
-			"Neeko",
-			"Hecarim",
-			"Olaf"
-		],
-		"Karma": [
-			"Miss Fortune",
-			"Yuumi",
-			"Shen"
-		],
-		"Camille": [
-			"Neeko",
-			"Karma",
-			"Sylas"
-		],
-		"Kassadin": [
-			"Sylas",
-			"Ziggs",
-			"Corki"
-		],
-		"Karthus": [
-			"Sylas",
-			"Fiddlesticks",
-			"Pantheon"
-		],
-		"Cassiopeia": [
-			"Sylas",
-			"Neeko",
-			"Jayce"
-		],
-		"Kaisa": [
-			"Ezreal",
-			"Varus",
-			"Kalista"
-		],
-		"Khazix": [
-			"Sylas",
-			"Aatrox",
-			"Kindred"
-		],
-		"Katarina": [
-			"Corki",
-			"Karma",
-			"Sylas"
-		],
-		"Kalista": [
-			"Varus",
-			"Caitlyn",
-			"Sivir"
-		],
-		"Kennen": [
-			"Volibear",
-			"Wukong",
-			"Malzahar"
-		],
-		"Caitlyn": [
-			"Ezreal",
-			"Xayah",
-			"Tristana"
-		],
-		"Kayn": [
-			"Sylas",
-			"Sejuani",
-			"Malphite"
-		],
-		"Kayle": [
-			"Viktor",
-			"Sylas",
-			"Poppy"
-		],
-		"KogMaw": [
-			"Kalista",
-			"Sivir",
-			"Draven"
-		],
-		"Corki": [
-			"Ziggs",
-			"Jayce",
-			"Viktor"
-		],
-		"Quinn": [
-			"Gangplank",
-			"Riven",
-			"Vayne"
-		],
-		"Kled": [
-			"Sylas",
-			"Olaf",
-			"Tryndamere"
-		],
-		"Qiyana": [
-			"Viktor",
-			"Sylas",
-			"Irelia"
-		],
-		"Kindred": [
-			"Sylas",
-			"Trundle",
-			"Taliyah"
-		],
-		"Taric": [
-			"Braum",
-			"Neeko",
-			"Lux"
-		],
-		"Talon": [
-			"Corki",
-			"Sylas",
-			"Karma"
-		],
-		"Taliyah": [
-			"Aatrox",
-			"Fiddlesticks",
-			"Sylas"
-		],
-		"TahmKench": [
-			"Miss Fortune",
-			"Karma",
-			"Xerath"
-		],
-		"Trundle": [
-			"Rengar",
-			"Sylas",
-			"Graves"
-		],
-		"Tristana": [
-			"Kog'Maw",
-			"Twitch",
-			"Sivir"
-		],
-		"Tryndamere": [
-			"Sylas",
-			"Olaf",
-			"Urgot"
-		],
-		"TwistedFate": [
-			"Azir",
-			"Akali",
-			"Riven"
-		],
-		"Twitch": [
-			"Kalista",
-			"Ezreal",
-			"Kai'Sa"
-		],
-		"Teemo": [
-			"Vayne",
-			"Renekton",
-			"Singed"
-		],
-		"Pyke": [
-			"Miss Fortune",
-			"Tahm Kench",
-			"Galio"
-		],
-		"Pantheon": [
-			"Sylas",
-			"Jayce",
-			"Ryze"
-		],
-		"Fiddlesticks": [
-			"Galio",
-			"Yuumi",
-			"Volibear"
-		],
-		"Fiora": [
-			"Sylas",
-			"Irelia",
-			"Aatrox"
-		],
-		"Fizz": [
-			"Irelia",
-			"Rumble",
-			"Corki"
-		],
-		"Heimerdinger": [
+		"easy": [
 			"Maokai",
 			"Singed",
 			"Gnar"
+		]
+	},
+	"Hecarim": {
+		"line": "Jungle",
+		"skill_tree": [
+			"Q",
+			"W",
+			"E",
+			"Q",
+			"Q",
+			"R",
+			"Q",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
+			"E",
+			"W",
+			"W"
 		],
-		"Hecarim": [
+		"Runes": [
+			[
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"Triumph"
+			],
+			[
+				"Precision",
+				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Sorcery",
+				"Celerity"
+			],
+			[
+				"Sorcery",
+				"Waterwalking"
+			]
+		],
+		"StatMods": [
+			"AdaptiveForce",
+			"AdaptiveForce",
+			"Armor"
+		],
+		"items": [
+			"Enchantment: Cinderhulk",
+			"Trinity Force",
+			"Sterak's Gage"
+		],
+		"counters": [
+			"Volibear",
+			"Dr. Mundo",
+			"Nunu & Willump"
+		],
+		"easy": [
 			"Camille",
 			"Sylas",
 			"Rengar"
 		]
 	}
+}

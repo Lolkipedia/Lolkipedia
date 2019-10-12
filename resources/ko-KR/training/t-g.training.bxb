@@ -1,7 +1,17 @@
+train (t-g15uxgzco0cmx7tt9uk4inxxa) {
+  utterance ("[g:InfoOutStructure] (애니)[v:Name:애니] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785729104)
+}
 train (t-g75m2wdd0o9lq10w9vqjip55n) {
   utterance ("[g:InfoOutStructure] (샤코)[v:Name:샤코] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761464108)
+}
+train (t-giudqiqq7d7y93svxx2al6yhq) {
+  utterance ("[g:InfoOutStructure] (아칼리)[v:Name:아칼리] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785654410)
 }
 train (t-gp8jc1a6axk952l0gauwhlclf) {
   utterance ("[g:InfoOutStructure] (갱플랭크)[v:Name:갱플랭크] (정보)[v:Inform]")

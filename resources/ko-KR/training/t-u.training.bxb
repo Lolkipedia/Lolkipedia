@@ -1,3 +1,8 @@
+train (t-ubiunwuy5js0kxakpzrs1v4fc) {
+  utterance ("[g:InfoOutStructure] (아지르)[v:Name:아지르] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785634063)
+}
 train (t-ufdk13nwfkz2alpphpyoetjxb) {
   utterance ("[g:InfoOutStructure] (가렌)[v:Name:가렌] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

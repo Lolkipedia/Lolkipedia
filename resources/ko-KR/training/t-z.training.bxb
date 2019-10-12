@@ -1,3 +1,8 @@
+train (t-z3dq26cymitbhjtfyfx9jc17l) {
+  utterance ("[g:InfoOutStructure] (신드라)[v:Name:신드라] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785433116)
+}
 train (t-zgm1zc3ctt9o7c7iqhf5tlyz0) {
   utterance ("[g:InfoOutStructure] (드레이븐)[v:Name:드레이븐] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

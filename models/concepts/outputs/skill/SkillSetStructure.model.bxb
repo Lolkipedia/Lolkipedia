@@ -1,0 +1,17 @@
+structure (SkillSetStructure) {
+  description (__DESCRIPTION__)
+  property (skills) {
+    type (SkillsOut)
+    min (Optional) max (Many)
+  }
+
+  property (skilldetail) {
+    type (SkillDetail)
+    min (Optional) max (Many)
+  }
+
+  property (skillid) {
+    type (SkillId)
+    min (Optional) max (Many)
+  }
+}

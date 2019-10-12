@@ -5,7 +5,7 @@ module.exports.function = function counter (name, counter) {
 
   let tools = require('lib/tools.js')
   var engname = tools.naming(name, "eng")
-  const engcounters = db.counters[engname]
+  const engcounters = db.infos[engname]["counters"]
 
   var counters = []
 

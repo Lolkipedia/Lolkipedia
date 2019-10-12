@@ -7,7 +7,7 @@ module.exports.function = function item (name, item) {
   var engname = tools.naming(name, "eng")
   console.log(engname)
 
-  var engitems = ['Force of Nature', "Zeke's Convergence", "Bilgewater Cutlass"]
+  var engitems = db.infos[engname]["items"]
   // db.~~
 
   var itemnums = []
