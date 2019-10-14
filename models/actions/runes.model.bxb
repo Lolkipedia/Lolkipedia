@@ -1,4 +1,4 @@
-action (lunes) {
+action (runes) {
   description (action for lune)
   collect {
     input (name) {
@@ -6,10 +6,10 @@ action (lunes) {
       min (Required) max (One)
     }
 
-    input (lune) {
-      type (Lunes)
+    input (rune) {
+      type (Runes)
       min (Required) max (One)
     }
   }
-  output (LunesOutStructure)
+  output (RunesOutStructure)
 }

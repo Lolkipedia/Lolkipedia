@@ -1,3 +1,8 @@
+train (t-ck3j09nyo0r48yyuxxdu6jf7v) {
+  utterance ("[g:RunesOutStructure] (쉬바나)[v:Name:쉬바나] (룬)[v:Runes:룬]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571045299738)
+}
 train (t-clm6x6lvdilq3gxbkdk975i0p) {
   utterance ("[g:InfoOutStructure] (나르)[v:Name:나르] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

@@ -1,4 +1,3 @@
-enum (Runes) {
+text (RunesName) {
   description (__DESCRIPTION__)
-  symbol ("룬")
 }

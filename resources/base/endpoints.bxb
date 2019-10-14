@@ -15,9 +15,9 @@ endpoints {
       local-endpoint (lol/Item.js)
     }
     
-    action-endpoint (lunes) {
-      accepted-inputs (name, lune)
-      local-endpoint (lol/Lune.js)
+    action-endpoint (runes) {
+      accepted-inputs (name, rune)
+      local-endpoint (lol/Rune.js)
     }
     
     action-endpoint (skills) {

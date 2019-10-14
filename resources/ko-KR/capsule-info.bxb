@@ -1,9 +1,9 @@
 capsule-info {
   display-name (지스비만세)
   developer-name (Jisby)
-  dispatch-name (롤만세)
+  dispatch-name (롤)
   dispatch-aliases {
-    alias (이것도)
+    alias (로올)
   }
   icon-asset (icon.png)
   search-keywords{

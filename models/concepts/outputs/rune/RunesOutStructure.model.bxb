@@ -1,22 +1,27 @@
-structure (LunesOutStructure) {
+structure (RunesOutStructure) {
   description (__DESCRIPTION__)
   property (name) {
     type (Name)
     min (Optional) max (One)
   }
 
-  property (lunes) {
-    type (LunesOut)
+  property (runeset) {
+    type (RuneSet)
     min (Required) max (Many)
+  }
+
+  property (statmods) {
+    type (Statmods)
+    min (Optional) max (Many)
   }
 
   property (engname) {
     type (EngName)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 
   property (version) {
     type (Version)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 }

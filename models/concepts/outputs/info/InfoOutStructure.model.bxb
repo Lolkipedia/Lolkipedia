@@ -10,6 +10,16 @@ structure (InfoOutStructure) {
     min (Required) max (Many)
   }
 
+  property (runeset) {
+    type (RuneSet)
+    min (Required) max (Many)
+  }
+
+  property (statmods) {
+    type (Statmods)
+    min (Required) max (Many)
+  }
+
   property (skills) {
     type (SkillSetStructure)
     min (Required) max (Many)
@@ -17,11 +27,6 @@ structure (InfoOutStructure) {
 
   property (counters) {
     type (CounterOut)
-    min (Required) max (Many)
-  }
-
-  property (lunes) {
-    type (LunesOut)
     min (Required) max (Many)
   }
 

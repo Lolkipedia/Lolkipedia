@@ -19,7 +19,7 @@ module.exports.function = function info (name, inform) {
   for (i in engitems){
     itemnums.push(db.item[engitems[i]])
   }
-  console.log(itemnums)
+  // console.log(itemnums)
 
   var items = []
   for (i in itemnums){
@@ -35,6 +35,19 @@ module.exports.function = function info (name, inform) {
     iteminfo.push(temp)
   }
 
+  var runesets = db.infos[engname]["Runes"]
+  var runeset = []
+  for (i in runesets) {
+    var temp = {
+      runecat: runesets[i][0],
+      runename: runesets[i][1]
+    }
+    runeset.push(temp)
+  }
+
+  var statmods = db.infos[engname]["StatMods"]
+
+
 
   var skills = db.infos[engname]["skill_tree"]
   var skill = []
@@ -49,11 +62,9 @@ module.exports.function = function info (name, inform) {
     "R":3
   }
   var detailset = tools.skilldetail(engname)
-  console.log(detailset)
 
   var skillset = []
   for (i=0;i<3;i++) {
-    console.log(i)
     var temp = {
       skills: skill[i],
       skilldetail: detailset[temp_dict[skill[i]]][1],
@@ -66,7 +77,6 @@ module.exports.function = function info (name, inform) {
   var summary = tools.summary(engname)
 
   var title = tools.title(engname)
-  console.log(title)
 
   var lane = db.infos[engname]["line"]
 
@@ -77,7 +87,8 @@ module.exports.function = function info (name, inform) {
     engname: engname,
     counters: counters,
     items: iteminfo,
-    lunes: 'c',
+    runeset: 'c',
+    statmods: statmods,
     skills: skillset,
     summary: summary,
     lane: lane,

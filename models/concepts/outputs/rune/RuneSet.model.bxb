@@ -1,0 +1,12 @@
+structure (RuneSet) {
+  description (__DESCRIPTION__)
+  property (runecat) {
+    type (RunesCat)
+    min (Optional) max (One)
+  }
+
+  property (runename) {
+    type (RunesName)
+    min (Optional) max (One)
+  }
+}
