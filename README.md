@@ -1,3 +1,1 @@
-# jisby.lolkipedia
-
-## editing
+# playground.jisby
