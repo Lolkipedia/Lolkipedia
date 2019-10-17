@@ -87,7 +87,7 @@ module.exports.function = function info (name, inform) {
     engname: engname,
     counters: counters,
     items: iteminfo,
-    runeset: 'c',
+    runeset: runeset,
     statmods: statmods,
     skills: skillset,
     summary: summary,

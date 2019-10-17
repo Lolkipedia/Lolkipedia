@@ -6,7 +6,7 @@ structure (SkillsOutStructure) {
   }
 
   property (skills) {
-    type (SkillsOut)
+    type (SkillsStructure)
     min (Required) max (Many)
   }
 
@@ -21,7 +21,7 @@ structure (SkillsOutStructure) {
   }
 
   property (skillset) {
-    type (SkillSet)
+    type (SkillSetStructure)
     min (Optional) max (Many)
   }
 }

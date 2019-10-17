@@ -1,0 +1,12 @@
+structure (SkillsStructure) {
+  description (skills)
+  property (skills) {
+    type (SkillsOut)
+    min (Optional) max (One)
+  }
+
+  property (skillsid) {
+    type (SkillId)
+    min (Optional) max (One)
+  }
+}

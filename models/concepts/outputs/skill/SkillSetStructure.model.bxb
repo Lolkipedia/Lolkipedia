@@ -10,7 +10,7 @@ structure (SkillSetStructure) {
     min (Optional) max (Many)
   }
 
-  property (skillid) {
+  property (skillsid) {
     type (SkillId)
     min (Optional) max (Many)
   }
