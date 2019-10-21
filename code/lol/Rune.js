@@ -10,24 +10,34 @@ module.exports.function = function rune (name, rune) {
 
   var runeset = []
   for (i in runesets) {
-    var temp = {
+    var temp1 = {
       runecat: runesets[i][0],
       runename: runesets[i][1],
       korrune: db.runedict[runesets[i][1]],
     }
-    runeset.push(temp)
+    runeset.push(temp1)
   }
   const console = require('console')
   console.log(runeset)
 
   var statmods = db.infos[engname]["StatMods"]
-
+  console.log(statmods)
+  var statmodset = []
+  for (i=0;i<3;i++) {
+    var temp2 = {
+      statmods:statmods[i],
+      korstatmods: db.runedict[statmods[i]]
+    }
+    console.log(statmods[i]),
+    statmodset.push(temp2)
+  }
+  console.log(statmodset)
 
   return {
     name: name,
     engname: engname,
     runeset: runeset,
-    statmods: statmods,
+    statmodset: statmodset,
     version: version,
   }
 }

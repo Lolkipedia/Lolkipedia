@@ -6,14 +6,19 @@ module.exports.function = function info (name, inform) {
   var engname = tools.naming(name, "eng")
   // console.debug(engname)
 
-  var counters = db.infos[engname]["counters"]
+  var counterset = db.infos[engname]["counters"]
   // var engcounters = db.info[engname]["counters"]
   // console.log(counters)
 
-  for (counter in counters) {
-    counters[counter] = tools.naming(counters[counter], "kor")
+  var counters = []
+  for (counter in counterset) {
+    temp = {
+      counter:tools.naming(counterset[counter], "kor"),
+      engcounter:counterset[counter]
+    }
+    counters.push(temp)
   }
- 
+  console.log(counters)
   var engitems = db.infos[engname]["items"]
 
   var itemnums = []
@@ -41,12 +46,24 @@ module.exports.function = function info (name, inform) {
   for (i in runesets) {
     var temp = {
       runecat: runesets[i][0],
-      runename: runesets[i][1]
+      runename: runesets[i][1],
+      korrune: db.runedict[runesets[i][1]],
     }
     runeset.push(temp)
   }
 
   var statmods = db.infos[engname]["StatMods"]
+  console.log(statmods)
+  var statmodset = []
+  for (i=0;i<3;i++) {
+    var temp = {
+      statmods:statmods[i],
+      korstatmods: db.runedict[statmods[i]]
+    }
+    console.log(statmods[i]),
+    statmodset.push(temp)
+  }
+  console.log(statmodset)
 
 
 
@@ -89,8 +106,8 @@ module.exports.function = function info (name, inform) {
     counters: counters,
     // engcounters: engcounters,
     items: iteminfo,
-    runeset: 'c',
-    statmods: statmods,
+    runeset: runeset,
+    statmodset:statmodset,
     skills: skillset,
     summary: summary,
     lane: lane,

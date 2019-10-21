@@ -10,8 +10,8 @@ structure (RunesOutStructure) {
     min (Required) max (Many)
   }
 
-  property (statmods) {
-    type (Statmods)
+  property (statmodset) {
+    type (StatmodSet)
     min (Optional) max (Many)
   }
 

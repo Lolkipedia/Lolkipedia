@@ -1,0 +1,12 @@
+structure (StatmodSet) {
+  description (__DESCRIPTION__)
+  property (korstatmods) {
+    type (KorStatmods)
+    min (Optional) max (One)
+  }
+
+  property (statmods) {
+    type (Statmods)
+    min (Optional) max (One)
+  }
+}
