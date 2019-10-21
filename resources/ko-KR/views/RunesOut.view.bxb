@@ -1,0 +1,46 @@
+result-view {
+  match: RunesOutStructure (RunesOutStructure) {
+  }
+
+  message {
+    template("#{value(RunesOutStructure.name)}의 추천 룬")
+  }
+
+  render {
+    list-of (RunesOutStructure.runeset) {
+      where-each (rune) {
+        cell-area {
+          slot1 {
+            image {
+              shape (Circle)
+              url("http://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
+            }
+          }
+          slot2 {
+            content {
+              primary ("#{value(rune.runename)}")
+            }
+          }
+        }
+      }
+    }
+
+    list-of (RunesOutStructure.statmods) {
+      where-each (stat) {
+        cell-area {
+          slot1 {
+            image {
+              shape (Square)
+              url("http://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/#{value(stat)}.png")
+            }
+          }
+          slot2 {
+            content {
+              primary ("#{value(stat)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

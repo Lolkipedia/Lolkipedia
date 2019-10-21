@@ -1,3 +1,8 @@
+train (t-bqj106bk66o4ubazfdcbfcckd) {
+  utterance ("[g:ItemsOutStructure] (가렌)[v:Name:가렌] (아이템)[v:Items:아이템] 정보")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571289573119)
+}
 train (t-btkl22xrossgeqj65c5agawjo) {
   utterance ("[g:InfoOutStructure] (브랜드)[v:Name:브랜드] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

@@ -9,4 +9,10 @@ structure (RuneSet) {
     type (RunesName)
     min (Optional) max (One)
   }
+
+  property (korrune) {
+  type (KorRune)
+  min (Optional) max (One)
+  }
+
 }

@@ -1,5 +1,5 @@
 structure (SkillsStructure) {
-  description (skills)
+  description (--)
   property (skills) {
     type (SkillsOut)
     min (Optional) max (One)

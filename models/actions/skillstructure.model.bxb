@@ -1,0 +1,12 @@
+structure (skillstructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (skill){
+    type (Skills)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,223 @@
+layout-macro-def (champ-Info) {
+  params{
+    param(name){
+      type (Name)
+      min (Required)
+      max (One)
+    }
+    param (engname){
+      type (EngName)
+      min (Required)
+      max (One)
+    }
+    param(version){
+      type (Version)
+      min (Required)
+      max (One)
+    }
+    param(title){
+      type (Title)
+      min (Required)
+      max (One)
+    }
+    param(lane){
+      type (LaneOut)
+      min (Optional)
+      max (One)
+    }
+    param(items){
+      type (LaneOut)
+      min (Optional)
+      max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        image {
+          // aspect-ratio (4:3)
+          url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/#{value(engname)}_0.jpg")
+        }
+        cell-area {
+          slot1 {
+            image {
+              url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(name)}")
+              secondary ("#{value(title)}")
+            }
+          }
+          slot3 {
+            image {
+              shape (Square)
+              url ("/icons/#{value(lane)}.png")
+            }
+          }
+        }
+        image-card{
+          aspect-ratio (3:4)
+          column-size (2)
+          image-url("/icons/#{value(lane)}.png")
+          on-click{
+						intent{
+							goal: counters
+							value: counterstructure{
+                name: $expr(name)
+                counter: Counters("카운터")
+              }
+						}
+					}
+          title-area{
+            halign (Start)
+            slot1{
+              text{
+                value("CounterPick")
+                style(Title_XS)
+              }
+            }
+            slot2{
+              single-line{
+                text{
+                  value ("line:")
+                  style (Detail_M)
+                }
+                spacer
+              }
+            }
+            slot3{
+              single-line{
+                text{
+                  value ("카운터 히히힛")
+                  style (Detail_M_Soft)
+                }
+              }
+            }
+          }
+        }
+        image-card{
+          aspect-ratio (3:4)
+          column-size (2)
+          image-url("/icons/#{value(lane)}.png")
+          on-click{
+						intent{
+							goal: runes
+							value: runestructure{
+                name: $expr(name)
+                rune: Runes("룬")
+              }
+						}
+					}
+          title-area{
+            halign (Start)
+            slot1{
+              text{
+                value("룬 정보")
+                style(Title_XS)
+              }
+            }
+            slot2{
+              single-line{
+                text{
+                  value ("line:")
+                  style (Detail_M)
+                }
+              }
+            }
+            slot3{
+              single-line{
+                text{
+                  value ("룬 먹어")
+                  style (Detail_M_Soft)
+                }
+              }
+            }
+          }
+        }
+        image-card{
+          aspect-ratio (3:4)
+          column-size (2)
+          image-url("/icons/#{value(lane)}.png")
+          on-click{
+						intent{
+							goal: items
+							value: itemstructure{
+                name: $expr(name)
+                item: Items("아이템")
+              }
+						}
+					}
+          title-area{
+            halign (Start)
+            slot1{
+              text{
+                value("아이템 정보")
+                style(Title_XS)
+              }
+            }
+            slot2{
+              single-line{
+                text{
+                  value ("line:")
+                  style (Detail_M)
+                }
+                spacer
+              }
+            }
+            slot3{
+              single-line{
+                text{
+                  value ("아이템 여깄당")
+                  style (Detail_M_Soft)
+                }
+              }
+            }
+          }
+        }
+        image-card{
+          aspect-ratio (3:4)
+          column-size (2)
+          image-url("/icons/#{value(lane)}.png")
+          on-click{
+						intent{
+							goal: skills
+							value: skillstructure{
+                name: $expr(name)
+                skill: Skills("스킬")
+              }
+						}
+					}
+          title-area{
+            halign (Start)
+            slot1{
+              text{
+                value("스킬트리")
+                style(Title_XS)
+              }
+            }
+            slot2{
+              single-line{
+                text{
+                  value ("line:")
+                  style (Detail_M)
+                }
+              }
+            }
+            slot3{
+              single-line{
+                text{
+                  value ("점멸은 F")
+                  style (Detail_M_Soft)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

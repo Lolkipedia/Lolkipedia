@@ -51,7 +51,7 @@ module.exports.function = function info (name, inform) {
 
   var skills = db.infos[engname]["skill_tree"]
   var skill = []
-  for (i=0;i < 7;i++) {
+  for (i=0;i < 3;i++) {
     skill.push(skills[i])
   }
 
@@ -64,11 +64,11 @@ module.exports.function = function info (name, inform) {
   var detailset = tools.skilldetail(engname)
 
   var skillset = []
-  for (i=0;i<7;i++) {
+  for (i=0;i<3;i++) {
     var temp = {
       skills: skill[i],
       skilldetail: detailset[temp_dict[skill[i]]][1],
-      skillsid: detailset[temp_dict[skill[i]]][0]
+      skillid: detailset[temp_dict[skill[i]]][0]
     }
     skillset.push(temp)
   }
@@ -87,7 +87,7 @@ module.exports.function = function info (name, inform) {
     engname: engname,
     counters: counters,
     items: iteminfo,
-    runeset: runeset,
+    runeset: 'c',
     statmods: statmods,
     skills: skillset,
     summary: summary,

@@ -1,0 +1,30 @@
+result-view {
+  match: ItemsOutStructure (ItemsOutStructure) {
+  }
+
+  message {
+    template("#{value(ItemsOutStructure.name)}의 추천 아이템")
+  }
+
+  render {
+    list-of (ItemsOutStructure.itemset) {
+      where-each (item) {
+        cell-area {
+          slot1 {
+            image {
+              shape (Square)
+              url("http://ddragon.leagueoflegends.com/cdn/#{value(ItemsOutStructure.version)}/img/item/#{value(item.itemnums)}.png")
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(item.items)}")
+              secondary ("#{value(item.subitemset)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

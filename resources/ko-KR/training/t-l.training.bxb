@@ -3,3 +3,8 @@ train (t-l92poiw7h90n4gz9v8vlstqeg) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785544474)
 }
+train (t-llvujib21kzg9tehe0371os0i) {
+  utterance ("[g:SkillsOutStructure] (가렌)[v:Name:가렌] (스킬트리)[v:Skills:스킬] 알려줘")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571294127100)
+}

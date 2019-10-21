@@ -7,14 +7,18 @@ module.exports.function = function rune (name, rune) {
   var version = tools.version(name)
 
   var runesets = db.infos[engname]["Runes"]
+
   var runeset = []
   for (i in runesets) {
     var temp = {
       runecat: runesets[i][0],
-      runename: runesets[i][1]
+      runename: runesets[i][1],
+      korrune: db.runedict[runesets[i][1]],
     }
     runeset.push(temp)
   }
+  const console = require('console')
+  console.log(runeset)
 
   var statmods = db.infos[engname]["StatMods"]
 

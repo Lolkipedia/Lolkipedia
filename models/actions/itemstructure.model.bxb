@@ -1,0 +1,12 @@
+structure (itemstructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (item){
+    type (Items)
+    min (Optional) max (One)
+  }
+}

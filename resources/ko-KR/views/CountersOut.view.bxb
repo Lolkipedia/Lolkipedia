@@ -1,0 +1,32 @@
+result-view {
+  match: CountersOutStructure (CountersOutStructure) {
+  }
+
+  message {
+    template("#{value(CountersOutStructure.name)}의 카운터")
+  }
+
+  render {
+    list-of (CountersOutStructure.counterset) {
+      where-each (counter) {
+        image-card {
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("#{value(counter.counter)}")
+              }
+            }
+          }
+          column-size (1)
+          image-url {
+            // template ("http://ddragon.leagueoflegends.com/cdn/#{value(CountersOutStructure.version)}/img/champion/#{value(counter)}.png")
+            template ("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/#{value(counter.engcounter)}_0.jpg")
+          }
+          image-object-fit (Cover)
+        }
+      }
+    }
+    // layout-macro ()
+  }
+}

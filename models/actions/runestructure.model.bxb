@@ -1,0 +1,12 @@
+structure (runestructure) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+
+  property (rune){
+    type (Runes)
+    min (Optional) max (One)
+  }
+}
