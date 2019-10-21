@@ -7,12 +7,13 @@ module.exports.function = function info (name, inform) {
   // console.debug(engname)
 
   var counters = db.infos[engname]["counters"]
+  // var engcounters = db.info[engname]["counters"]
   // console.log(counters)
 
   for (counter in counters) {
     counters[counter] = tools.naming(counters[counter], "kor")
   }
-
+ 
   var engitems = db.infos[engname]["items"]
 
   var itemnums = []
@@ -86,6 +87,7 @@ module.exports.function = function info (name, inform) {
     name: name,
     engname: engname,
     counters: counters,
+    // engcounters: engcounters,
     items: iteminfo,
     runeset: 'c',
     statmods: statmods,

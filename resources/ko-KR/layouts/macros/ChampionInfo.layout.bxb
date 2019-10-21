@@ -25,11 +25,25 @@ layout-macro-def (champ-Info) {
       min (Optional)
       max (One)
     }
-    param(items){
-      type (LaneOut)
-      min (Optional)
-      max (One)
+    param(counters){
+      type(CounterOut)
+      min (Required)
+      max (Many)
     }
+    param (runeset){
+      type(RuneSet)
+      min (Required)
+      max (Many)
+    }
+    param(items){
+      type (ItemsInfo)
+      min (Required)
+      max (Many)
+    }
+    param (skills) {
+    type (SkillSetStructure)
+    min (Required) max (Many)
+  }
   }
   content {
     section {
@@ -62,7 +76,8 @@ layout-macro-def (champ-Info) {
         image-card{
           aspect-ratio (3:4)
           column-size (2)
-          image-url("/icons/#{value(lane)}.png")
+          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
+          // 카운터 픽 영어 이름 정보 받아와야 함!
           on-click{
 						intent{
 							goal: counters
@@ -83,7 +98,7 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("line:")
+                  value ("#{value(counters)}")
                   style (Detail_M)
                 }
                 spacer
@@ -123,7 +138,7 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("line:")
+                  value ("#{value(runeset.runename)}")
                   style (Detail_M)
                 }
               }
@@ -139,9 +154,10 @@ layout-macro-def (champ-Info) {
           }
         }
         image-card{
-          aspect-ratio (3:4)
+          aspect-ratio (1:1)
+          image-object-fit (Contain)
           column-size (2)
-          image-url("/icons/#{value(lane)}.png")
+          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/item/#{value(items.itemnum[0])}.png")
           on-click{
 						intent{
 							goal: items
@@ -162,7 +178,7 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("line:")
+                  value ("#{value(items.item)}")
                   style (Detail_M)
                 }
                 spacer
@@ -179,9 +195,11 @@ layout-macro-def (champ-Info) {
           }
         }
         image-card{
-          aspect-ratio (3:4)
+          aspect-ratio (1:1)
+          image-object-fit (Contain)
           column-size (2)
-          image-url("/icons/#{value(lane)}.png")
+          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.skillid[1])}.png")
+          // 궁 사진 넣고싶은데 없넹..
           on-click{
 						intent{
 							goal: skills
@@ -202,7 +220,7 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("line:")
+                  value ("#{value(skills.skills[0])} → #{value(skills.skills[1])} → #{value(skills.skills[2])}")
                   style (Detail_M)
                 }
               }
@@ -210,7 +228,7 @@ layout-macro-def (champ-Info) {
             slot3{
               single-line{
                 text{
-                  value ("점멸은 F")
+                  value ("추천 스펠 넣으면 좋겠다")
                   style (Detail_M_Soft)
                 }
               }

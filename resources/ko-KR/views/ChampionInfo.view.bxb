@@ -18,6 +18,18 @@ result-view{
       param (title) {
         expression (title)
       }
+      param (counters) {
+        expression (counters)
+      }
+      param (runeset) {
+        expression (runeset)
+      }
+      param (items) {
+        expression (items)
+      }
+      param (skills) {
+        expression (skills)
+      }
     }
   }
 }
