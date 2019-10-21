@@ -1,6 +1,7 @@
 var http = require('http')
 const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
-const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
+// const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
+const ver = '9.19.1'
 // const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
 module.exports.naming = function (name, target) {

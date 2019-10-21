@@ -16,7 +16,7 @@ layout-macro-def (champ-Info) {
       max (One)
     }
     param(title){
-      type (Title)
+      type (TitleOut)
       min (Required)
       max (One)
     }
