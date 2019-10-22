@@ -375,6 +375,10 @@ module.exports.item = {
 module.exports.infos = {
 	"Garen": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -394,20 +398,8 @@ module.exports.infos = {
 		],
 		"Runes": [
 			[
-				"Resolve",
-				"GraspOfTheUndying"
-			],
-			[
-				"Resolve",
-				"Demolish"
-			],
-			[
-				"Resolve",
-				"SecondWind"
-			],
-			[
-				"Resolve",
-				"Unflinching"
+				"Precision",
+				"Conqueror"
 			],
 			[
 				"Precision",
@@ -416,6 +408,18 @@ module.exports.infos = {
 			[
 				"Precision",
 				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Resolve",
+				"Demolish"
+			],
+			[
+				"Resolve",
+				"BonePlating"
 			]
 		],
 		"StatMods": [
@@ -423,24 +427,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
-			"Black Cleaver",
-			"Dead Man's Plate",
-			"Sterak's Gage"
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
+			"Trinity Force",
+			"Phantom Dancer",
+			"Dead Man's Plate"
 		],
 		"counters": [
-			"Mordekaiser",
 			"Kayle",
+			"Quinn",
 			"Vayne"
 		],
 		"easy": [
 			"Sylas",
-			"Irelia",
-			"Akali"
+			"Kassadin",
+			"Irelia"
 		]
 	},
 	"Galio": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -489,24 +501,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Luden's Echo",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Heimerdinger",
-			"Nocturne",
-			"Pyke"
+			"Kled",
+			"Mordekaiser",
+			"Garen"
 		],
 		"easy": [
 			"Sylas",
-			"Irelia",
-			"Camille"
+			"Akali",
+			"Azir"
 		]
 	},
 	"Gangplank": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -555,24 +576,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Essence Reaver",
 			"Infinity Edge"
 		],
 		"counters": [
-			"Wukong",
-			"Quinn",
-			"Urgot"
+			"Yorick",
+			"Kayle",
+			"Garen"
 		],
 		"easy": [
-			"Sylas",
-			"Tryndamere",
-			"Poppy"
+			"Poppy",
+			"Neeko",
+			"Akali"
 		]
 	},
 	"Gragas": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -621,24 +649,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"DrMundo",
-			"Zac",
-			"Malphite"
+			"Dr. Mundo",
+			"Karthus",
+			"Zac"
 		],
 		"easy": [
-			"Aatrox",
+			"Qiyana",
 			"Sylas",
-			"Fiddlesticks"
+			"Skarner"
 		]
 	},
 	"Graves": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -687,24 +723,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Youmuu's Ghostblade",
 			"Duskblade of Draktharr"
 		],
 		"counters": [
-			"Ivern",
-			"Trundle",
-			"DrMundo"
+			"Dr. Mundo",
+			"Jax",
+			"Poppy"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Aatrox",
-			"Malphite"
+			"Skarner"
 		]
 	},
 	"Gnar": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -753,24 +797,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Frozen Mallet",
-			"Randuin's Omen"
+			"Dead Man's Plate"
 		],
 		"counters": [
-			"Heimerdinger",
-			"Sion",
-			"Wukong"
+			"Singed",
+			"Urgot",
+			"Maokai"
 		],
 		"easy": [
-			"Olaf",
 			"Sylas",
-			"Neeko"
+			"Karma",
+			"Kassadin"
 		]
 	},
 	"Nami": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -819,24 +871,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Ardent Censer",
 			"Remnant of the Watchers",
 			"Redemption"
 		],
 		"counters": [
 			"Blitzcrank",
-			"Bard",
-			"Fiddlesticks"
+			"Leona",
+			"Nautilus"
 		],
 		"easy": [
-			"Miss Fortune",
-			"Veigar",
-			"Tahm Kench"
+			"Poppy",
+			"Yuumi",
+			"Veigar"
 		]
 	},
 	"Nasus": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -885,24 +946,32 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Righteous Glory",
 			"Spirit Visage"
 		],
 		"counters": [
-			"Kled",
-			"Urgot",
-			"Mordekaiser"
+			"Garen",
+			"Malzahar",
+			"Kled"
 		],
 		"easy": [
 			"Jayce",
-			"Irelia",
-			"Viktor"
+			"Poppy",
+			"Irelia"
 		]
 	},
 	"Nautilus": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -951,24 +1020,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Zeke's Convergence",
 			"Locket of the Iron Solari"
 		],
 		"counters": [
+			"Shaco",
 			"Leona",
-			"Blitzcrank",
 			"Swain"
 		],
 		"easy": [
 			"Yuumi",
 			"Miss Fortune",
-			"Karma"
+			"Tahm Kench"
 		]
 	},
 	"Nocturne": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -1017,24 +1095,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Duskblade of Draktharr",
 			"Guardian Angel"
 		],
 		"counters": [
-			"Zac",
+			"Dr. Mundo",
 			"Rammus",
-			"Xin Zhao"
+			"Ivern"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Wukong",
-			"Aatrox"
+			"Pantheon"
 		]
 	},
 	"Nunu": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -1083,24 +1169,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Hextech Protobelt-01",
 			"Dead Man's Plate"
 		],
 		"counters": [
-			"Udyr",
-			"Olaf",
+			"Rek'Sai",
+			"Vi",
 			"Zac"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Rengar",
-			"Wukong"
+			"Sejuani"
 		]
 	},
 	"Nidalee": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -1136,12 +1230,12 @@ module.exports.infos = {
 				"RelentlessHunter"
 			],
 			[
-				"Sorcery",
-				"AbsoluteFocus"
+				"Inspiration",
+				"MagicalFootwear"
 			],
 			[
-				"Sorcery",
-				"Waterwalking"
+				"Inspiration",
+				"CosmicInsight"
 			]
 		],
 		"StatMods": [
@@ -1149,24 +1243,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Lich Bane",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Hecarim",
-			"Volibear",
-			"Skarner"
+			"Vi",
+			"Zac",
+			"Xin Zhao"
 		],
 		"easy": [
-			"Sylas",
+			"Qiyana",
 			"Aatrox",
-			"Sejuani"
+			"Sylas"
 		]
 	},
 	"Neeko": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -1215,24 +1317,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech GLP-800",
 			"Twin Shadows",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Cassiopeia",
-			"Taliyah",
-			"Pyke"
+			"Anivia",
+			"Zilean",
+			"Quinn"
 		],
 		"easy": [
-			"Karma",
-			"Tristana",
-			"Sylas"
+			"Sylas",
+			"Irelia",
+			"Aatrox"
 		]
 	},
 	"Darius": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerGhost"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -1281,24 +1392,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Titanic Hydra",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Quinn",
-			"Yorick",
-			"Swain"
+			"Malzahar",
+			"Neeko",
+			"Vayne"
 		],
 		"easy": [
 			"Sylas",
-			"Hecarim",
-			"Irelia"
+			"Rengar",
+			"Nasus"
 		]
 	},
 	"Diana": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -1347,24 +1466,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Rabadon's Deathcap",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
 			"Quinn",
-			"Annie",
-			"Ziggs"
+			"Kennen",
+			"Garen"
 		],
 		"easy": [
+			"Sylas",
 			"Azir",
-			"Riven",
-			"Syndra"
+			"Tristana"
 		]
 	},
 	"Draven": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -1413,24 +1541,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Bloodthirster",
 			"Infinity Edge",
 			"Rapid Firecannon"
 		],
 		"counters": [
-			"Swain",
-			"Ashe",
-			"Jinx"
+			"Yasuo",
+			"Heimerdinger",
+			"Miss Fortune"
 		],
 		"easy": [
 			"Kalista",
-			"Varus",
-			"Tristana"
+			"Ezreal",
+			"Kai'Sa"
 		]
 	},
 	"Ryze": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -1479,24 +1615,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Sapphire Crystal",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Archangel's Staff",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Nocturne",
-			"Ornn",
-			"Pyke"
+			"Pyke",
+			"Malzahar",
+			"Nocturne"
 		],
 		"easy": [
 			"Sylas",
-			"Lissandra",
-			"Karma"
+			"Akali",
+			"Azir"
 		]
 	},
 	"Rakan": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -1545,24 +1689,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Ancient Coin",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Ascended",
 			"Zeke's Convergence",
 			"Redemption"
 		],
 		"counters": [
-			"Brand",
-			"Bard",
-			"Zilean"
+			"Shaco",
+			"Janna",
+			"Bard"
 		],
 		"easy": [
-			"Tahm Kench",
-			"Shen",
-			"Miss Fortune"
+			"Yuumi",
+			"Malphite",
+			"Braum"
 		]
 	},
 	"Rammus": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -1587,7 +1740,7 @@ module.exports.infos = {
 			],
 			[
 				"Resolve",
-				"Demolish"
+				"FontOfLife"
 			],
 			[
 				"Resolve",
@@ -1611,27 +1764,35 @@ module.exports.infos = {
 			"Armor",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Thornmail",
 			"Righteous Glory"
 		],
 		"counters": [
-			"DrMundo",
-			"Zac",
-			"Fiddlesticks"
+			"Ivern",
+			"Dr. Mundo",
+			"Zac"
 		],
 		"easy": [
-			"Malphite",
-			"Sylas",
-			"Rengar"
+			"Qiyana",
+			"Rengar",
+			"Sylas"
 		]
 	},
 	"Lux": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
-			"Q",
 			"E",
+			"Q",
 			"W",
 			"E",
 			"E",
@@ -1677,24 +1838,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Athene's Unholy Grail",
 			"Ardent Censer",
 			"Remnant of the Watchers"
 		],
 		"counters": [
 			"Blitzcrank",
-			"Taric",
-			"Pyke"
+			"Shaco",
+			"Zilean"
 		],
 		"easy": [
 			"Yuumi",
-			"Miss Fortune",
+			"Neeko",
 			"Veigar"
 		]
 	},
 	"Rumble": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -1743,24 +1913,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Liandry's Torment",
 			"Zhonya's Hourglass",
 			"Morellonomicon"
 		],
 		"counters": [
-			"Hecarim",
-			"Karma",
-			"Jax"
+			"Singed",
+			"Kled",
+			"Garen"
 		],
 		"easy": [
-			"Akali",
-			"Maokai",
-			"Jayce"
+			"Viktor",
+			"Karma",
+			"Cho'Gath"
 		]
 	},
 	"Renekton": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -1809,24 +1987,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Spear of Shojin",
 			"Guardian Angel"
 		],
 		"counters": [
-			"Teemo",
-			"Ornn",
-			"Kled"
+			"Garen",
+			"Illaoi",
+			"Quinn"
 		],
 		"easy": [
-			"Riven",
 			"Irelia",
-			"Sylas"
+			"Sylas",
+			"Yasuo"
 		]
 	},
 	"Leona": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -1875,24 +2061,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Zeke's Convergence",
 			"Locket of the Iron Solari"
 		],
 		"counters": [
-			"Zilean",
-			"Bard",
-			"Morgana"
+			"Shaco",
+			"Morgana",
+			"Zilean"
 		],
 		"easy": [
 			"Yuumi",
-			"Miss Fortune",
-			"Braum"
+			"Poppy",
+			"Miss Fortune"
 		]
 	},
 	"RekSai": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -1941,24 +2136,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Black Cleaver",
 			"Guardian Angel"
 		],
 		"counters": [
 			"Amumu",
-			"Taliyah",
-			"Warwick"
+			"Karthus",
+			"Ivern"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Camille",
-			"Sejuani"
+			"Camille"
 		]
 	},
 	"Rengar": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -2007,24 +2210,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Spirit Visage",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Sion",
 			"Kled",
+			"Garen",
 			"Maokai"
 		],
 		"easy": [
 			"Sylas",
-			"Olaf",
-			"Karma"
+			"Viktor",
+			"Jayce"
 		]
 	},
 	"Lucian": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -2073,24 +2284,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Essence Reaver",
 			"Rapid Firecannon"
 		],
 		"counters": [
-			"Swain",
 			"Ashe",
-			"Jinx"
+			"Heimerdinger",
+			"Miss Fortune"
 		],
 		"easy": [
 			"Kalista",
-			"Tristana",
-			"Varus"
+			"Kai'Sa",
+			"Ezreal"
 		]
 	},
 	"Lulu": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -2139,7 +2358,12 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Ardent Censer",
 			"Remnant of the Watchers",
 			"Redemption"
@@ -2147,16 +2371,20 @@ module.exports.infos = {
 		"counters": [
 			"Blitzcrank",
 			"Nautilus",
-			"Leona"
+			"Zyra"
 		],
 		"easy": [
+			"Poppy",
 			"Yuumi",
-			"Veigar",
-			"Tahm Kench"
+			"Veigar"
 		]
 	},
 	"Leblanc": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -2205,24 +2433,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
 			"Malzahar",
-			"Cassiopeia",
+			"Kennen",
 			"Rumble"
 		],
 		"easy": [
-			"Azir",
-			"Sylas",
-			"Tristana"
+			"Aatrox",
+			"Riven",
+			"Akali"
 		]
 	},
 	"LeeSin": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -2242,20 +2477,8 @@ module.exports.infos = {
 		],
 		"Runes": [
 			[
-				"Domination",
-				"Electrocute"
-			],
-			[
-				"Domination",
-				"SuddenImpact"
-			],
-			[
-				"Domination",
-				"EyeballCollection"
-			],
-			[
-				"Domination",
-				"RelentlessHunter"
+				"Precision",
+				"Conqueror"
 			],
 			[
 				"Precision",
@@ -2264,6 +2487,18 @@ module.exports.infos = {
 			[
 				"Precision",
 				"LegendAlacrity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
+			],
+			[
+				"Domination",
+				"SuddenImpact"
+			],
+			[
+				"Domination",
+				"RelentlessHunter"
 			]
 		],
 		"StatMods": [
@@ -2271,24 +2506,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Black Cleaver",
 			"Guardian Angel"
 		],
 		"counters": [
 			"Zac",
-			"Poppy",
-			"Nunu & Willump"
+			"Rek'Sai",
+			"Poppy"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Sejuani",
-			"Rengar"
+			"Aatrox"
 		]
 	},
 	"Riven": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -2337,24 +2580,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Death's Dance",
 			"Guardian Angel"
 		],
 		"counters": [
-			"Renekton",
-			"Quinn",
-			"Garen"
+			"Garen",
+			"Volibear",
+			"Quinn"
 		],
 		"easy": [
 			"Sylas",
-			"Rumble",
+			"Karma",
 			"Irelia"
 		]
 	},
 	"Lissandra": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -2403,24 +2654,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
+			"Hextech Protobelt-01",
 			"Luden's Echo",
-			"Zhonya's Hourglass",
-			"Morellonomicon"
+			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Kled",
-			"Swain",
-			"Rumble"
+			"Taliyah",
+			"Ornn",
+			"Zilean"
 		],
 		"easy": [
-			"Riven",
+			"Camille",
 			"Jayce",
-			"Camille"
+			"Azir"
 		]
 	},
 	"MasterYi": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -2469,24 +2729,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Bloodrazor",
 			"Guinsoo's Rageblade",
 			"Wit's End"
 		],
 		"counters": [
-			"Jax",
-			"Udyr",
-			"Elise"
+			"Rammus",
+			"Elise",
+			"Shaco"
 		],
 		"easy": [
-			"Aatrox",
 			"Sylas",
-			"Rengar"
+			"Qiyana",
+			"Taliyah"
 		]
 	},
 	"Maokai": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -2535,24 +2803,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Sunfire Cape",
 			"Spirit Visage",
-			"Thornmail"
+			"Righteous Glory"
 		],
 		"counters": [
-			"Heimerdinger",
+			"Hecarim",
 			"Singed",
-			"Mordekaiser"
+			"Sion"
 		],
 		"easy": [
-			"Jayce",
-			"Rengar",
-			"Yorick"
+			"Malzahar",
+			"Gnar",
+			"Karma"
 		]
 	},
 	"Malzahar": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -2601,24 +2876,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Rylai's Crystal Scepter",
 			"Liandry's Torment"
 		],
 		"counters": [
-			"Kled",
 			"Nocturne",
-			"Rumble"
+			"Rumble",
+			"Garen"
 		],
 		"easy": [
 			"Riven",
-			"Sylas",
-			"Lissandra"
+			"Jayce",
+			"Irelia"
 		]
 	},
 	"Malphite": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -2667,24 +2951,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Sunfire Cape",
 			"Iceborn Gauntlet",
 			"Thornmail"
 		],
 		"counters": [
-			"Malzahar",
-			"Swain",
-			"Mordekaiser"
+			"Garen",
+			"Mordekaiser",
+			"Nasus"
 		],
 		"easy": [
 			"Vayne",
-			"Neeko",
-			"Aatrox"
+			"Tryndamere",
+			"Jayce"
 		]
 	},
 	"Mordekaiser": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -2733,7 +3024,11 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Rylai's Crystal Scepter",
 			"Liandry's Torment"
@@ -2744,13 +3039,17 @@ module.exports.infos = {
 			"Kayle"
 		],
 		"easy": [
-			"Maokai",
 			"Sylas",
-			"Urgot"
+			"Cho'Gath",
+			"Malphite"
 		]
 	},
 	"Morgana": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -2799,24 +3098,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Watchers",
 			"Zhonya's Hourglass",
 			"Redemption"
 		],
 		"counters": [
-			"Zyra",
-			"Xerath",
-			"Blitzcrank"
+			"Shaco",
+			"Janna",
+			"Xerath"
 		],
 		"easy": [
-			"Tahm Kench",
 			"Volibear",
-			"Neeko"
+			"Shen",
+			"Galio"
 		]
 	},
 	"DrMundo": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -2865,24 +3173,32 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Spirit Visage",
 			"Warmog's Armor"
 		],
 		"counters": [
-			"Zac",
-			"Rek'Sai",
-			"Nunu & Willump"
+			"Ivern",
+			"Nunu & Willump",
+			"Ekko"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Skarner",
-			"Wukong"
+			"Gragas"
 		]
 	},
 	"MissFortune": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -2931,24 +3247,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Essence Reaver",
 			"Infinity Edge",
 			"Rapid Firecannon"
 		],
 		"counters": [
-			"Twitch",
+			"Ashe",
 			"Jhin",
-			"Ashe"
+			"Twitch"
 		],
 		"easy": [
-			"Varus",
-			"Tristana",
-			"Kai'Sa"
+			"Kalista",
+			"Kog'Maw",
+			"Draven"
 		]
 	},
 	"Bard": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -2997,24 +3321,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Watchers",
 			"Redemption",
 			"Locket of the Iron Solari"
 		],
 		"counters": [
-			"Blitzcrank",
-			"Zyra",
-			"Nautilus"
+			"Shaco",
+			"Nautilus",
+			"Blitzcrank"
 		],
 		"easy": [
-			"Miss Fortune",
+			"Tahm Kench",
 			"Yuumi",
-			"Tahm Kench"
+			"Taric"
 		]
 	},
 	"Varus": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -3063,24 +3396,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Guinsoo's Rageblade",
 			"Runaan's Hurricane"
 		],
 		"counters": [
+			"Yasuo",
 			"Ashe",
-			"Miss Fortune",
-			"Swain"
+			"Heimerdinger"
 		],
 		"easy": [
-			"Twitch",
-			"Ezreal",
-			"Xayah"
+			"Kai'Sa",
+			"Kalista",
+			"Tristana"
 		]
 	},
 	"Vi": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -3129,24 +3470,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Trinity Force",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Ivern",
-			"Volibear",
-			"Warwick"
+			"Dr. Mundo",
+			"Xin Zhao",
+			"Fiddlesticks"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Skarner",
-			"Fiddlesticks"
+			"Malphite"
 		]
 	},
 	"Veigar": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -3193,26 +3542,35 @@ module.exports.infos = {
 		"StatMods": [
 			"AdaptiveForce",
 			"AdaptiveForce",
-			"HealthScaling"
+			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Zhonya's Hourglass",
 			"Rabadon's Deathcap"
 		],
 		"counters": [
-			"Pyke",
-			"Katarina",
-			"Fizz"
+			"Nocturne",
+			"Mordekaiser",
+			"Ziggs"
 		],
 		"easy": [
-			"Irelia",
-			"Riven",
-			"Sylas"
+			"Sylas",
+			"Akali",
+			"Aatrox"
 		]
 	},
 	"Vayne": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -3261,24 +3619,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Guinsoo's Rageblade",
 			"Phantom Dancer"
 		],
 		"counters": [
-			"Swain",
 			"Ashe",
+			"Heimerdinger",
 			"Jinx"
 		],
 		"easy": [
 			"Kalista",
 			"Ezreal",
-			"Varus"
+			"Sivir"
 		]
 	},
 	"Velkoz": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -3327,24 +3693,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
-			"Zhonya's Hourglass",
-			"Remnant of the Watchers"
+			"Remnant of the Watchers",
+			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Blitzcrank",
+			"Shaco",
 			"Pyke",
-			"Soraka"
+			"Blitzcrank"
 		],
 		"easy": [
-			"Gragas",
-			"Tahm Kench",
-			"Veigar"
+			"Shen",
+			"Veigar",
+			"Neeko"
 		]
 	},
 	"Volibear": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -3393,24 +3768,32 @@ module.exports.infos = {
 			"Armor",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Titanic Hydra",
 			"Dead Man's Plate",
 			"Wit's End"
 		],
 		"counters": [
-			"Wukong",
-			"Kennen",
-			"Swain"
+			"Neeko",
+			"Garen",
+			"Cho'Gath"
 		],
 		"easy": [
 			"Sylas",
-			"Ryze",
-			"Irelia"
+			"Irelia",
+			"Tryndamere"
 		]
 	},
 	"Braum": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -3459,24 +3842,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Zeke's Convergence",
 			"Locket of the Iron Solari"
 		],
 		"counters": [
-			"Taric",
-			"Bard",
+			"Shaco",
+			"Zilean",
 			"Zyra"
 		],
 		"easy": [
 			"Yuumi",
-			"Shen",
-			"Miss Fortune"
+			"Poppy",
+			"Taric"
 		]
 	},
 	"Brand": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -3525,24 +3917,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Watchers",
 			"Liandry's Torment",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Janna",
-			"Blitzcrank",
-			"Volibear"
+			"Shaco",
+			"Vel'Koz",
+			"Xerath"
 		],
 		"easy": [
-			"Neeko",
+			"Galio",
 			"Tahm Kench",
-			"Rakan"
+			"Alistar"
 		]
 	},
 	"Vladimir": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -3591,24 +3992,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Rabadon's Deathcap",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Malzahar",
-			"Pantheon",
-			"Yorick"
+			"Yorick",
+			"Garen",
+			"Kayle"
 		],
 		"easy": [
-			"Sylas",
-			"Gnar",
-			"Poppy"
+			"Poppy",
+			"Heimerdinger",
+			"Olaf"
 		]
 	},
 	"Blitzcrank": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -3657,24 +4066,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Zeke's Convergence",
-			"Redemption"
+			"Locket of the Iron Solari"
 		],
 		"counters": [
+			"Shaco",
 			"Leona",
-			"Nautilus",
-			"Zilean"
+			"Nautilus"
 		],
 		"easy": [
+			"Miss Fortune",
 			"Yuumi",
-			"Tahm Kench",
-			"Miss Fortune"
+			"Tahm Kench"
 		]
 	},
 	"Viktor": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -3723,24 +4141,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Perfect Hex Core",
 			"Luden's Echo",
 			"Lich Bane"
 		],
 		"counters": [
-			"Annie",
-			"Quinn",
-			"Pyke"
+			"Pyke",
+			"Garen",
+			"Kassadin"
 		],
 		"easy": [
-			"Lissandra",
-			"Zilean",
-			"Akali"
+			"Azir",
+			"Riven",
+			"Ziggs"
 		]
 	},
 	"Poppy": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -3789,24 +4216,31 @@ module.exports.infos = {
 			"Armor",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Sunfire Cape",
 			"Iceborn Gauntlet",
 			"Adaptive Helm"
 		],
 		"counters": [
-			"Cho'Gath",
-			"Sion",
-			"DrMundo"
+			"Yorick",
+			"Malzahar",
+			"Garen"
 		],
 		"easy": [
-			"Malzahar",
-			"Sylas",
+			"Jayce",
+			"Akali",
 			"Tryndamere"
 		]
 	},
 	"Sion": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -3855,24 +4289,31 @@ module.exports.infos = {
 			"Armor",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Sunfire Cape",
 			"Adaptive Helm",
 			"Gargoyle Stoneplate"
 		],
 		"counters": [
-			"Illaoi",
-			"Karma",
-			"Yasuo"
+			"Garen",
+			"Riven",
+			"Kled"
 		],
 		"easy": [
-			"Rengar",
+			"Sylas",
 			"Jayce",
-			"Olaf"
+			"Tryndamere"
 		]
 	},
 	"Sylas": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -3921,35 +4362,42 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Luden's Echo",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Kled",
-			"Heimerdinger",
-			"Garen"
+			"Nocturne",
+			"Garen",
+			"Quinn"
 		],
 		"easy": [
 			"Malphite",
-			"Viktor",
-			"Irelia"
+			"Lissandra",
+			"Ezreal"
 		]
 	},
 	"Shaco": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerSmite",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
 			"E",
-			"Q",
-			"Q",
+			"E",
+			"E",
 			"R",
 			"E",
+			"Q",
 			"E",
-			"E",
-			"E",
+			"Q",
 			"R",
 			"Q",
 			"Q",
@@ -3959,11 +4407,11 @@ module.exports.infos = {
 		"Runes": [
 			[
 				"Domination",
-				"Electrocute"
+				"DarkHarvest"
 			],
 			[
 				"Domination",
-				"CheapShot"
+				"SuddenImpact"
 			],
 			[
 				"Domination",
@@ -3987,24 +4435,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
+			"Enchantment: Warrior",
 			"Duskblade of Draktharr",
-			"Youmuu's Ghostblade",
-			"Guardian Angel"
+			"Youmuu's Ghostblade"
 		],
 		"counters": [
-			"Udyr",
-			"Volibear",
-			"Zac"
+			"Karthus",
+			"Zac",
+			"Dr. Mundo"
 		],
 		"easy": [
 			"Sylas",
-			"Skarner",
-			"Sejuani"
+			"Qiyana",
+			"Camille"
 		]
 	},
 	"Sejuani": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -4053,24 +4509,32 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Warmog's Armor",
 			"Gargoyle Stoneplate"
 		],
 		"counters": [
-			"Camille",
 			"Zac",
-			"Udyr"
+			"Skarner",
+			"Kindred"
 		],
 		"easy": [
-			"Ivern",
-			"Rengar",
-			"Fiddlesticks"
+			"Qiyana",
+			"Wukong",
+			"Malphite"
 		]
 	},
 	"Sona": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -4099,7 +4563,7 @@ module.exports.infos = {
 			],
 			[
 				"Sorcery",
-				"AbsoluteFocus"
+				"Transcendence"
 			],
 			[
 				"Sorcery",
@@ -4107,11 +4571,11 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"MagicalFootwear"
+				"BiscuitDelivery"
 			],
 			[
 				"Inspiration",
-				"BiscuitDelivery"
+				"CosmicInsight"
 			]
 		],
 		"StatMods": [
@@ -4119,24 +4583,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
-			"Athene's Unholy Grail",
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Ardent Censer",
+			"Athene's Unholy Grail",
 			"Remnant of the Watchers"
 		],
 		"counters": [
 			"Volibear",
 			"Blitzcrank",
-			"Bard"
+			"Leona"
 		],
 		"easy": [
-			"Tahm Kench",
-			"Miss Fortune",
-			"Galio"
+			"Taric",
+			"Yuumi",
+			"Poppy"
 		]
 	},
 	"Soraka": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerBarrier"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4185,24 +4658,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Ardent Censer",
 			"Remnant of the Watchers",
 			"Redemption"
 		],
 		"counters": [
-			"Bard",
 			"Blitzcrank",
-			"Nautilus"
+			"Bard",
+			"Volibear"
 		],
 		"easy": [
-			"Tahm Kench",
 			"Miss Fortune",
-			"Yuumi"
+			"Yuumi",
+			"Poppy"
 		]
 	},
 	"Shen": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4251,24 +4733,32 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Titanic Hydra",
 			"Trinity Force",
 			"Guardian Angel"
 		],
 		"counters": [
-			"Viktor",
-			"Illaoi",
-			"Heimerdinger"
+			"Garen",
+			"Malzahar",
+			"Mordekaiser"
 		],
 		"easy": [
-			"Sylas",
-			"Urgot",
-			"Irelia"
+			"Irelia",
+			"Jayce",
+			"Sylas"
 		]
 	},
 	"Shyvana": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -4317,24 +4807,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Nashor's Tooth",
 			"Morellonomicon"
 		],
 		"counters": [
-			"DrMundo",
-			"Kindred",
-			"Ivern"
+			"Dr. Mundo",
+			"Warwick",
+			"Xin Zhao"
 		],
 		"easy": [
 			"Sylas",
-			"Aatrox",
-			"Gragas"
+			"Qiyana",
+			"Malphite"
 		]
 	},
 	"Swain": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -4367,15 +4865,15 @@ module.exports.infos = {
 			],
 			[
 				"Domination",
-				"RavenousHunter"
+				"UltimateHunter"
 			],
 			[
-				"Sorcery",
-				"ManaflowBand"
+				"Inspiration",
+				"PerfectTiming"
 			],
 			[
-				"Sorcery",
-				"Scorch"
+				"Inspiration",
+				"CosmicInsight"
 			]
 		],
 		"StatMods": [
@@ -4383,24 +4881,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
-			"Rod of Ages",
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
+			"Liandry's Torment",
 			"Zhonya's Hourglass",
 			"Remnant of the Watchers"
 		],
 		"counters": [
-			"Blitzcrank",
-			"Zilean",
-			"Fiddlesticks"
+			"Shaco",
+			"Nami",
+			"Volibear"
 		],
 		"easy": [
 			"Malphite",
-			"Miss Fortune",
-			"Yuumi"
+			"Yuumi",
+			"Shen"
 		]
 	},
 	"Skarner": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4449,24 +4956,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Trinity Force",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"DrMundo",
-			"Shaco",
-			"Vi"
+			"Olaf",
+			"Graves",
+			"Jarvan IV"
 		],
 		"easy": [
-			"Karthus",
 			"Sejuani",
-			"Malphite"
+			"Camille",
+			"Sylas"
 		]
 	},
 	"Sivir": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4515,24 +5030,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Essence Reaver",
 			"Infinity Edge",
 			"Rapid Firecannon"
 		],
 		"counters": [
-			"Swain",
-			"Kog'Maw",
+			"Twitch",
+			"Ashe",
 			"Jinx"
 		],
 		"easy": [
+			"Tristana",
 			"Ezreal",
-			"Xayah",
-			"Kai'Sa"
+			"Kog'Maw"
 		]
 	},
 	"XinZhao": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -4581,24 +5104,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Trinity Force",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Olaf",
+			"Zac",
 			"Volibear",
-			"DrMundo"
+			"Dr. Mundo"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Rengar",
-			"Aatrox"
+			"Wukong"
 		]
 	},
 	"Syndra": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4647,24 +5178,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Kennen",
-			"Zilean",
-			"Malphite"
+			"Pyke",
+			"Swain",
+			"Ziggs"
 		],
 		"easy": [
-			"Aatrox",
-			"Heimerdinger",
+			"Kennen",
+			"Ezreal",
 			"Tristana"
 		]
 	},
 	"Singed": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4713,24 +5253,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Dark Seal",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Liandry's Torment",
 			"Rylai's Crystal Scepter",
 			"Righteous Glory"
 		],
 		"counters": [
-			"Heimerdinger",
-			"Yorick",
-			"Neeko"
+			"Garen",
+			"Kassadin",
+			"Kayle"
 		],
 		"easy": [
+			"Gnar",
 			"Sylas",
-			"Maokai",
-			"Aatrox"
+			"Rumble"
 		]
 	},
 	"Thresh": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4779,24 +5327,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Ancient Coin",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Ascended",
 			"Zeke's Convergence",
 			"Redemption"
 		],
 		"counters": [
+			"Shaco",
 			"Blitzcrank",
-			"Zilean",
-			"Bard"
+			"Zyra"
 		],
 		"easy": [
 			"Yuumi",
-			"Miss Fortune",
-			"Tahm Kench"
+			"Tahm Kench",
+			"Miss Fortune"
 		]
 	},
 	"Ahri": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -4845,24 +5402,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech GLP-800",
 			"Twin Shadows",
 			"Morellonomicon"
 		],
 		"counters": [
-			"Zilean",
-			"Taliyah",
-			"Pyke"
+			"Pyke",
+			"Heimerdinger",
+			"Zilean"
 		],
 		"easy": [
-			"Renekton",
-			"Akali",
-			"Sylas"
+			"Riven",
+			"Azir",
+			"Cho'Gath"
 		]
 	},
 	"Amumu": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -4911,24 +5477,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"DrMundo",
-			"Nunu & Willump",
-			"Udyr"
+			"Dr. Mundo",
+			"Zac",
+			"Karthus"
 		],
 		"easy": [
-			"Sejuani",
-			"Rengar",
-			"Malphite"
+			"Qiyana",
+			"Sylas",
+			"Rek'Sai"
 		]
 	},
 	"AurelionSol": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -4965,7 +5539,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"BiscuitDelivery"
+				"MinionDematerializer"
 			],
 			[
 				"Inspiration",
@@ -4977,24 +5551,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
-			"Luden's Echo",
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
+			"Rod of Ages",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Camille",
-			"Pyke",
-			"Rumble"
+			"Rumble",
+			"Fizz",
+			"Mordekaiser"
 		],
 		"easy": [
-			"Malphite",
-			"Kled",
-			"Sylas"
+			"Corki",
+			"Riven",
+			"Cho'Gath"
 		]
 	},
 	"Ivern": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -5043,24 +5624,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Athene's Unholy Grail",
 			"Ardent Censer",
 			"Redemption"
 		],
 		"counters": [
-			"Sejuani",
-			"DrMundo",
-			"Zac"
+			"Zac",
+			"Warwick",
+			"Poppy"
 		],
 		"easy": [
-			"Sylas",
-			"Vi",
-			"Warwick"
+			"Aatrox",
+			"Qiyana",
+			"Sylas"
 		]
 	},
 	"Azir": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -5109,24 +5698,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Nashor's Tooth",
-			"Zhonya's Hourglass"
+			"Morellonomicon"
 		],
 		"counters": [
-			"Heimerdinger",
-			"Kled",
+			"Taliyah",
+			"Kennen",
 			"Rumble"
 		],
 		"easy": [
-			"Aatrox",
-			"Renekton",
-			"Quinn"
+			"Riven",
+			"Sylas",
+			"Ezreal"
 		]
 	},
 	"Akali": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -5175,14 +5773,18 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Gunblade",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Annie",
-			"Taliyah",
+			"Kled",
+			"Kayle",
 			"Swain"
 		],
 		"easy": [
@@ -5193,6 +5795,10 @@ module.exports.infos = {
 	},
 	"Aatrox": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -5241,24 +5847,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Death's Dance",
 			"Sterak's Gage"
 		],
 		"counters": [
 			"Heimerdinger",
-			"Malzahar",
-			"Singed"
+			"Garen",
+			"Hecarim"
 		],
 		"easy": [
 			"Sylas",
-			"Neeko",
-			"Olaf"
+			"Vladimir",
+			"Gnar"
 		]
 	},
 	"Alistar": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -5307,24 +5921,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Zeke's Convergence",
 			"Locket of the Iron Solari"
 		],
 		"counters": [
-			"Bard",
-			"Vel'Koz",
-			"Swain"
+			"Shaco",
+			"Janna",
+			"Neeko"
 		],
 		"easy": [
 			"Tahm Kench",
 			"Miss Fortune",
-			"Yuumi"
+			"Poppy"
 		]
 	},
 	"Annie": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -5373,24 +5996,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Zhonya's Hourglass",
-			"Morellonomicon"
+			"Rabadon's Deathcap"
 		],
 		"counters": [
-			"Jayce",
-			"Fizz",
-			"Aurelion Sol"
+			"Nocturne",
+			"Vel'Koz",
+			"Fizz"
 		],
 		"easy": [
-			"Tristana",
-			"Azir",
-			"Viktor"
+			"Corki",
+			"Sylas",
+			"Akali"
 		]
 	},
 	"Anivia": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -5439,24 +6071,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Rod of Ages",
 			"Archangel's Staff",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Heimerdinger",
-			"Cassiopeia",
-			"Aurelion Sol"
+			"Pyke",
+			"Annie",
+			"Kled"
 		],
 		"easy": [
 			"Riven",
-			"Tristana",
-			"Cho'Gath"
+			"Mordekaiser",
+			"Tristana"
 		]
 	},
 	"Ashe": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -5497,7 +6138,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"BiscuitDelivery"
+				"ApproachVelocity"
 			]
 		],
 		"StatMods": [
@@ -5505,24 +6146,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Runaan's Hurricane",
 			"Infinity Edge"
 		],
 		"counters": [
-			"Swain",
-			"Jinx",
-			"Miss Fortune"
+			"Heimerdinger",
+			"Yasuo",
+			"Jinx"
 		],
 		"easy": [
-			"Varus",
-			"Draven",
-			"Kalista"
+			"Kalista",
+			"Kai'Sa",
+			"Ezreal"
 		]
 	},
 	"Yasuo": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -5571,24 +6220,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Statikk Shiv",
 			"Infinity Edge",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Kennen",
-			"Camille",
-			"Malzahar"
+			"Kled",
+			"Nocturne",
+			"Garen"
 		],
 		"easy": [
+			"Ezreal",
 			"Sylas",
-			"Tristana",
-			"Viktor"
+			"Tristana"
 		]
 	},
 	"Ekko": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -5609,7 +6266,7 @@ module.exports.infos = {
 		"Runes": [
 			[
 				"Domination",
-				"Electrocute"
+				"DarkHarvest"
 			],
 			[
 				"Domination",
@@ -5621,7 +6278,7 @@ module.exports.infos = {
 			],
 			[
 				"Domination",
-				"RelentlessHunter"
+				"RavenousHunter"
 			],
 			[
 				"Sorcery",
@@ -5629,7 +6286,7 @@ module.exports.infos = {
 			],
 			[
 				"Sorcery",
-				"GatheringStorm"
+				"Waterwalking"
 			]
 		],
 		"StatMods": [
@@ -5637,24 +6294,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Hextech Protobelt-01",
 			"Lich Bane"
 		],
 		"counters": [
-			"Karthus",
-			"Nunu & Willump",
-			"Shyvana"
+			"Zac",
+			"Dr. Mundo",
+			"Xin Zhao"
 		],
 		"easy": [
-			"Sylas",
-			"Trundle",
-			"Aatrox"
+			"Qiyana",
+			"Sejuani",
+			"Sylas"
 		]
 	},
 	"Elise": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -5703,24 +6368,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Ivern",
-			"DrMundo",
-			"Zac"
+			"Dr. Mundo",
+			"Zac",
+			"Shaco"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Skarner",
-			"Master Yi"
+			"Aatrox"
 		]
 	},
 	"MonkeyKing": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -5769,24 +6442,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Duskblade of Draktharr",
 			"Youmuu's Ghostblade"
 		],
 		"counters": [
 			"Poppy",
-			"Udyr",
-			"Nocturne"
+			"Xin Zhao",
+			"Rammus"
 		],
 		"easy": [
 			"Sylas",
-			"Rengar",
-			"Master Yi"
+			"Camille",
+			"Qiyana"
 		]
 	},
 	"Ornn": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -5835,24 +6516,32 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
+		"Item": [
 			"Iceborn Gauntlet",
 			"Abyssal Mask",
 			"Warmog's Armor"
 		],
 		"counters": [
-			"Mordekaiser",
-			"Singed",
+			"Garen",
+			"Illaoi",
 			"Kayle"
 		],
 		"easy": [
 			"Jayce",
-			"Sylas",
-			"Akali"
+			"Malzahar",
+			"Karma"
 		]
 	},
 	"Orianna": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -5901,24 +6590,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
 			"Pyke",
-			"Quinn",
-			"Annie"
+			"Ornn",
+			"Zilean"
 		],
 		"easy": [
 			"Sylas",
-			"Jayce",
-			"Mordekaiser"
+			"Akali",
+			"Ezreal"
 		]
 	},
 	"Olaf": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -5967,24 +6665,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Black Cleaver",
 			"Righteous Glory"
 		],
 		"counters": [
-			"Ivern",
-			"DrMundo",
-			"Udyr"
+			"Ekko",
+			"Graves",
+			"Shyvana"
 		],
 		"easy": [
-			"Sylas",
-			"Fiddlesticks",
-			"Sejuani"
+			"Qiyana",
+			"Skarner",
+			"Sylas"
 		]
 	},
 	"Yorick": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -6033,24 +6739,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Sterak's Gage",
 			"Spirit Visage"
 		],
 		"counters": [
-			"Maokai",
-			"Wukong",
-			"Volibear"
+			"Volibear",
+			"Quinn",
+			"Malzahar"
 		],
 		"easy": [
 			"Sylas",
-			"Jayce",
-			"Illaoi"
+			"Poppy",
+			"Neeko"
 		]
 	},
 	"Udyr": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -6099,28 +6812,36 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
-			"Enchantment: Warrior",
-			"Trinity Force",
-			"Dead Man's Plate"
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
+			"Enchantment: Bloodrazor",
+			"Wit's End",
+			"Sterak's Gage"
 		],
 		"counters": [
-			"Volibear",
-			"Zac",
-			"DrMundo"
+			"Olaf",
+			"Nocturne",
+			"Vi"
 		],
 		"easy": [
-			"Fiddlesticks",
-			"Wukong",
-			"Sylas"
+			"Aatrox",
+			"Qiyana",
+			"Rengar"
 		]
 	},
 	"Urgot": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
-			"Q",
 			"E",
 			"W",
+			"Q",
 			"W",
 			"W",
 			"R",
@@ -6165,24 +6886,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Righteous Glory",
 			"Adaptive Helm"
 		],
 		"counters": [
-			"Shen",
-			"Mordekaiser",
-			"Tryndamere"
+			"Illaoi",
+			"Tryndamere",
+			"Yasuo"
 		],
 		"easy": [
+			"Kassadin",
 			"Sylas",
-			"Cho'Gath",
-			"Gangplank"
+			"Gnar"
 		]
 	},
 	"Warwick": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -6231,24 +6959,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Rejuvenation Bead"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Titanic Hydra",
 			"Dead Man's Plate"
 		],
 		"counters": [
-			"Ivern",
-			"Volibear",
-			"Jax"
+			"Dr. Mundo",
+			"Zac",
+			"Udyr"
 		],
 		"easy": [
-			"Rengar",
-			"Poppy",
-			"Sylas"
+			"Sylas",
+			"Qiyana",
+			"Camille"
 		]
 	},
 	"Yuumi": {
 		"line": "Support",
+		"Spell": [
+			"SummonerHeal",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -6297,24 +7033,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Athene's Unholy Grail",
 			"Ardent Censer",
 			"Mejai's Soulstealer"
 		],
 		"counters": [
-			"Leona",
 			"Nautilus",
-			"Blitzcrank"
+			"Leona",
+			"Volibear"
 		],
 		"easy": [
+			"Tahm Kench",
 			"Miss Fortune",
-			"Neeko",
-			"Tahm Kench"
+			"Taric"
 		]
 	},
 	"Irelia": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -6363,24 +7108,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Titanic Hydra",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Nasus",
-			"Fiora",
+			"Garen",
+			"Hecarim",
 			"Jax"
 		],
 		"easy": [
-			"Karma",
-			"Viktor",
+			"Malzahar",
+			"Ryze",
 			"Sylas"
 		]
 	},
 	"Evelynn": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -6429,24 +7181,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Lich Bane",
 			"Rabadon's Deathcap"
 		],
 		"counters": [
-			"Ivern",
-			"DrMundo",
-			"Zac"
+			"Skarner",
+			"Udyr",
+			"Rek'Sai"
 		],
 		"easy": [
 			"Sylas",
-			"Aatrox",
-			"Wukong"
+			"Qiyana",
+			"Malphite"
 		]
 	},
 	"Ezreal": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -6495,24 +7255,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Manamune",
 			"Iceborn Gauntlet",
 			"Blade of the Ruined King"
 		],
 		"counters": [
-			"Swain",
-			"Twitch",
-			"Jinx"
+			"Heimerdinger",
+			"Ashe",
+			"Twitch"
 		],
 		"easy": [
 			"Kalista",
-			"Kog'Maw",
-			"Tristana"
+			"Xayah",
+			"Varus"
 		]
 	},
 	"Illaoi": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -6561,24 +7329,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Sterak's Gage",
 			"Death's Dance"
 		],
 		"counters": [
 			"Yorick",
-			"Heimerdinger",
-			"Mordekaiser"
+			"Kayle",
+			"Garen"
 		],
 		"easy": [
 			"Sylas",
-			"Olaf",
-			"Sion"
+			"Urgot",
+			"Gnar"
 		]
 	},
 	"JarvanIV": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -6627,24 +7402,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Black Cleaver",
 			"Guardian Angel"
 		],
 		"counters": [
-			"Jax",
-			"DrMundo",
-			"Rek'Sai"
+			"Dr. Mundo",
+			"Ekko",
+			"Karthus"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Rengar",
-			"Aatrox"
+			"Skarner"
 		]
 	},
 	"Xayah": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -6693,24 +7476,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Essence Reaver",
 			"Rapid Firecannon",
 			"Infinity Edge"
 		],
 		"counters": [
-			"Swain",
 			"Ashe",
+			"Heimerdinger",
 			"Jinx"
 		],
 		"easy": [
-			"Kai'Sa",
+			"Kalista",
 			"Tristana",
-			"Ezreal"
+			"Yasuo"
 		]
 	},
 	"Zyra": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -6759,24 +7550,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
+			"Remnant of the Watchers",
 			"Liandry's Torment",
-			"Zhonya's Hourglass",
-			"Remnant of the Watchers"
+			"Zhonya's Hourglass"
 		],
 		"counters": [
+			"Shaco",
 			"Blitzcrank",
-			"Xerath",
-			"Taric"
+			"Leona"
 		],
 		"easy": [
 			"Veigar",
 			"Tahm Kench",
-			"Shaco"
+			"Braum"
 		]
 	},
 	"Zac": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -6825,24 +7625,32 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Warmog's Armor",
 			"Spirit Visage"
 		],
 		"counters": [
-			"Volibear",
-			"Kayn",
+			"Dr. Mundo",
+			"Jarvan IV",
 			"Ekko"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Sejuani",
-			"Pantheon"
+			"Sejuani"
 		]
 	},
 	"Janna": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"E",
@@ -6889,26 +7697,35 @@ module.exports.infos = {
 		"StatMods": [
 			"AdaptiveForce",
 			"AdaptiveForce",
-			"HealthScaling"
+			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Ardent Censer",
 			"Remnant of the Watchers",
 			"Redemption"
 		],
 		"counters": [
-			"Blitzcrank",
-			"Nautilus",
-			"Nami"
+			"Shaco",
+			"Bard",
+			"Blitzcrank"
 		],
 		"easy": [
 			"Yuumi",
-			"Galio",
-			"Malphite"
+			"Shen",
+			"Veigar"
 		]
 	},
 	"Jax": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -6957,24 +7774,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Spear of Shojin",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Viktor",
-			"Malzahar",
+			"Garen",
+			"Quinn",
 			"Malphite"
 		],
 		"easy": [
-			"Sylas",
 			"Irelia",
-			"Olaf"
+			"Sylas",
+			"Jayce"
 		]
 	},
 	"Zed": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7023,24 +7847,34 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Long Sword",
+			"Health Potion",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Youmuu's Ghostblade",
 			"Duskblade of Draktharr",
 			"Black Cleaver"
 		],
 		"counters": [
-			"Zilean",
-			"Swain",
-			"Garen"
+			"Garen",
+			"Pyke",
+			"Zilean"
 		],
 		"easy": [
-			"Ziggs",
+			"Ezreal",
 			"Sylas",
-			"Veigar"
+			"Tristana"
 		]
 	},
 	"Xerath": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerBarrier"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7089,24 +7923,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
-			"Luden's Echo",
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Watchers",
+			"Luden's Echo",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Blitzcrank",
-			"Pyke",
-			"Nautilus"
+			"Shaco",
+			"Volibear",
+			"Poppy"
 		],
 		"easy": [
-			"Neeko",
-			"Galio",
+			"Tahm Kench",
+			"Veigar",
 			"Miss Fortune"
 		]
 	},
 	"Jayce": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7155,24 +7998,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Youmuu's Ghostblade",
 			"Duskblade of Draktharr",
 			"Black Cleaver"
 		],
 		"counters": [
-			"Wukong",
 			"Sion",
-			"Maokai"
+			"Garen",
+			"Quinn"
 		],
 		"easy": [
-			"Sylas",
 			"Neeko",
-			"Vayne"
+			"Akali",
+			"Karma"
 		]
 	},
 	"Zoe": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7221,24 +8071,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Malzahar",
 			"Heimerdinger",
-			"Zilean"
+			"Nocturne",
+			"Kled"
 		],
 		"easy": [
 			"Riven",
-			"Viktor",
+			"Corki",
 			"Sylas"
 		]
 	},
 	"Ziggs": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7287,24 +8144,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Morellonomicon",
 			"Rabadon's Deathcap"
 		],
 		"counters": [
-			"Zed",
-			"Malphite",
-			"Kassadin"
+			"Pyke",
+			"Aatrox",
+			"Ekko"
 		],
 		"easy": [
-			"Renekton",
-			"Swain",
-			"Azir"
+			"Corki",
+			"Cho'Gath",
+			"Taliyah"
 		]
 	},
 	"Jhin": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7353,24 +8219,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Infinity Edge",
-			"Essence Reaver",
-			"Rapid Firecannon"
+			"Rapid Firecannon",
+			"Essence Reaver"
 		],
 		"counters": [
-			"Twitch",
 			"Ashe",
-			"Swain"
+			"Yasuo",
+			"Twitch"
 		],
 		"easy": [
+			"Kalista",
 			"Ezreal",
-			"Xayah",
 			"Varus"
 		]
 	},
 	"Zilean": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7419,24 +8293,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech GLP-800",
 			"Twin Shadows",
 			"Remnant of the Watchers"
 		],
 		"counters": [
-			"Janna",
-			"Lulu",
-			"Xerath"
+			"Shaco",
+			"Bard",
+			"Fiddlesticks"
 		],
 		"easy": [
+			"Poppy",
 			"Tahm Kench",
-			"Galio",
-			"Yuumi"
+			"Braum"
 		]
 	},
 	"Jinx": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7485,24 +8368,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Infinity Edge",
 			"Rapid Firecannon",
 			"Runaan's Hurricane"
 		],
 		"counters": [
-			"Swain",
+			"Ashe",
 			"Twitch",
-			"Ashe"
+			"Heimerdinger"
 		],
 		"easy": [
-			"Ezreal",
-			"Tristana",
-			"Kai'Sa"
+			"Kalista",
+			"Kai'Sa",
+			"Ezreal"
 		]
 	},
 	"Chogath": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7547,28 +8438,37 @@ module.exports.infos = {
 			]
 		],
 		"StatMods": [
-			"AttackSpeed",
+			"AdaptiveForce",
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech GLP-800",
 			"Twin Shadows",
 			"Righteous Glory"
 		],
 		"counters": [
-			"Swain",
-			"Urgot",
-			"Garen"
+			"Yorick",
+			"Garen",
+			"Kassadin"
 		],
 		"easy": [
-			"Neeko",
-			"Hecarim",
-			"Olaf"
+			"Malzahar",
+			"Volibear",
+			"Malphite"
 		]
 	},
 	"Karma": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7617,24 +8517,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Athene's Unholy Grail",
 			"Ardent Censer",
 			"Remnant of the Watchers"
 		],
 		"counters": [
-			"Blitzcrank",
-			"Bard",
-			"Nautilus"
+			"Nautilus",
+			"Shaco",
+			"Blitzcrank"
 		],
 		"easy": [
+			"Taric",
 			"Miss Fortune",
-			"Yuumi",
-			"Shen"
+			"Yuumi"
 		]
 	},
 	"Camille": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7683,24 +8592,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Trinity Force",
 			"Ravenous Hydra",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Vayne",
-			"Cho'Gath",
-			"Teemo"
+			"Jax",
+			"Mordekaiser",
+			"Neeko"
 		],
 		"easy": [
-			"Neeko",
-			"Karma",
-			"Sylas"
+			"Ryze",
+			"Sylas",
+			"Irelia"
 		]
 	},
 	"Kassadin": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7749,24 +8666,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Rod of Ages",
 			"Archangel's Staff",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Kled",
-			"Pyke",
-			"Nocturne"
+			"Garen",
+			"Talon",
+			"Camille"
 		],
 		"easy": [
 			"Sylas",
-			"Ziggs",
-			"Corki"
+			"Corki",
+			"Akali"
 		]
 	},
 	"Karthus": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -7815,29 +8739,37 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Skarner",
-			"DrMundo",
-			"Vi"
+			"Dr. Mundo",
+			"Xin Zhao",
+			"Evelynn"
 		],
 		"easy": [
+			"Qiyana",
 			"Sylas",
-			"Fiddlesticks",
-			"Pantheon"
+			"Gragas"
 		]
 	},
 	"Cassiopeia": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerCleanse"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
-			"E",
 			"W",
+			"E",
 			"E",
 			"R",
 			"E",
@@ -7881,24 +8813,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Health Potion",
 			"Health Potion",
 			"Corrupting Potion"
 		],
 		"counters": [
-			"Zilean",
-			"Heimerdinger",
-			"Pyke"
+			"Kled",
+			"Aurelion Sol",
+			"Rumble"
 		],
 		"easy": [
-			"Sylas",
-			"Neeko",
-			"Jayce"
+			"Riven",
+			"Irelia",
+			"Ezreal"
 		]
 	},
 	"Kaisa": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -7947,24 +8888,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Manamune",
 			"Guinsoo's Rageblade",
 			"Nashor's Tooth"
 		],
 		"counters": [
-			"Swain",
+			"Heimerdinger",
 			"Ashe",
-			"Twitch"
+			"Kog'Maw"
 		],
 		"easy": [
+			"Kalista",
 			"Ezreal",
-			"Varus",
-			"Kalista"
+			"Tristana"
 		]
 	},
 	"Khazix": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -8015,24 +8964,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Duskblade of Draktharr",
 			"Youmuu's Ghostblade"
 		],
 		"counters": [
-			"Zac",
+			"Poppy",
 			"Rammus",
-			"DrMundo"
+			"Warwick"
 		],
 		"easy": [
 			"Sylas",
-			"Aatrox",
-			"Kindred"
+			"Qiyana",
+			"Aatrox"
 		]
 	},
 	"Katarina": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -8081,38 +9038,48 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Long Sword",
+			"Health Potion",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Gunblade",
 			"Death's Dance",
 			"Liandry's Torment"
 		],
 		"counters": [
-			"Kled",
-			"Cho'Gath",
-			"Zilean"
+			"Garen",
+			"Kayle",
+			"Mordekaiser"
 		],
 		"easy": [
-			"Corki",
-			"Karma",
-			"Sylas"
+			"Ezreal",
+			"Taliyah",
+			"Corki"
 		]
 	},
 	"Kalista": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
-			"E",
-			"Q",
-			"E",
-			"R",
-			"E",
-			"Q",
-			"E",
-			"Q",
-			"R",
-			"Q",
 			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
 			"W",
 			"W"
 		],
@@ -8147,24 +9114,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Runaan's Hurricane",
 			"Bloodthirster"
 		],
 		"counters": [
 			"Twitch",
-			"Draven",
-			"Ashe"
+			"Ashe",
+			"Miss Fortune"
 		],
 		"easy": [
-			"Varus",
-			"Caitlyn",
+			"Kog'Maw",
+			"Ezreal",
 			"Sivir"
 		]
 	},
 	"Kennen": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -8213,24 +9188,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Zhonya's Hourglass",
 			"Morellonomicon"
 		],
 		"counters": [
-			"Sion",
-			"DrMundo",
-			"Maokai"
+			"Kassadin",
+			"Dr. Mundo",
+			"Neeko"
 		],
 		"easy": [
-			"Volibear",
-			"Wukong",
-			"Malzahar"
+			"Hecarim",
+			"Poppy",
+			"Vayne"
 		]
 	},
 	"Caitlyn": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -8279,24 +9262,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Infinity Edge",
 			"Rapid Firecannon",
 			"Statikk Shiv"
 		],
 		"counters": [
-			"Swain",
 			"Ashe",
+			"Heimerdinger",
 			"Jinx"
 		],
 		"easy": [
-			"Ezreal",
-			"Xayah",
-			"Tristana"
+			"Tristana",
+			"Kog'Maw",
+			"Kalista"
 		]
 	},
 	"Kayn": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -8345,24 +9336,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Duskblade of Draktharr",
 			"Youmuu's Ghostblade"
 		],
 		"counters": [
-			"Ivern",
 			"Rek'Sai",
+			"Udyr",
 			"Warwick"
 		],
 		"easy": [
 			"Sylas",
-			"Sejuani",
-			"Malphite"
+			"Qiyana",
+			"Sejuani"
 		]
 	},
 	"Kayle": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -8411,24 +9410,31 @@ module.exports.infos = {
 			"Armor",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Hextech Gunblade",
 			"Nashor's Tooth",
 			"Guinsoo's Rageblade"
 		],
 		"counters": [
-			"Malzahar",
+			"Jax",
 			"Rengar",
-			"Rumble"
+			"Yasuo"
 		],
 		"easy": [
-			"Viktor",
 			"Sylas",
-			"Poppy"
+			"Poppy",
+			"Kassadin"
 		]
 	},
 	"KogMaw": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -8477,24 +9483,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Guinsoo's Rageblade",
 			"Runaan's Hurricane"
 		],
 		"counters": [
-			"Twitch",
-			"Ashe",
-			"Miss Fortune"
+			"Heimerdinger",
+			"Miss Fortune",
+			"Ashe"
 		],
 		"easy": [
-			"Kalista",
-			"Sivir",
-			"Draven"
+			"Kai'Sa",
+			"Tristana",
+			"Ezreal"
 		]
 	},
 	"Corki": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -8543,24 +9557,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
+			"Trinity Force",
 			"Rapid Firecannon",
-			"Infinity Edge",
-			"Trinity Force"
+			"Infinity Edge"
 		],
 		"counters": [
-			"Rumble",
-			"Talon",
-			"Katarina"
+			"Aurelion Sol",
+			"Annie",
+			"Quinn"
 		],
 		"easy": [
-			"Ziggs",
-			"Jayce",
-			"Viktor"
+			"Ornn",
+			"Tristana",
+			"Cho'Gath"
 		]
 	},
 	"Quinn": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -8609,24 +9630,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Phantom Dancer",
 			"Infinity Edge"
 		],
 		"counters": [
-			"Ornn",
-			"Swain",
-			"DrMundo"
+			"Maokai",
+			"Malphite",
+			"Ornn"
 		],
 		"easy": [
-			"Gangplank",
-			"Riven",
-			"Vayne"
+			"Sylas",
+			"Jayce",
+			"Kassadin"
 		]
 	},
 	"Kled": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -8675,24 +9704,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Black Cleaver",
 			"Titanic Hydra",
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Heimerdinger",
-			"Swain",
-			"Vayne"
+			"Garen",
+			"Fiora",
+			"Kennen"
 		],
 		"easy": [
 			"Sylas",
-			"Olaf",
-			"Tryndamere"
+			"Kassadin",
+			"Olaf"
 		]
 	},
 	"Qiyana": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -8741,24 +9778,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Duskblade of Draktharr",
 			"Youmuu's Ghostblade",
 			"Guardian Angel"
 		],
 		"counters": [
 			"Garen",
-			"Pyke",
-			"Heimerdinger"
+			"Heimerdinger",
+			"Pyke"
 		],
 		"easy": [
-			"Viktor",
 			"Sylas",
-			"Irelia"
+			"Azir",
+			"Corki"
 		]
 	},
 	"Kindred": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -8807,24 +9851,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Machete",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Warrior",
 			"Essence Reaver",
 			"Infinity Edge"
 		],
 		"counters": [
-			"Camille",
-			"DrMundo",
-			"Nunu & Willump"
+			"Ivern",
+			"Xin Zhao",
+			"Shaco"
 		],
 		"easy": [
-			"Sylas",
-			"Trundle",
-			"Taliyah"
+			"Qiyana",
+			"Sejuani",
+			"Sylas"
 		]
 	},
 	"Taric": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -8873,24 +9925,33 @@ module.exports.infos = {
 			"Armor",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Zeke's Convergence",
 			"Locket of the Iron Solari"
 		],
 		"counters": [
-			"Volibear",
 			"Bard",
-			"Janna"
+			"Sona",
+			"Vel'Koz"
 		],
 		"easy": [
-			"Braum",
-			"Neeko",
-			"Lux"
+			"Volibear",
+			"Alistar",
+			"Galio"
 		]
 	},
 	"Talon": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -8939,24 +10000,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Long Sword",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Duskblade of Draktharr",
 			"Youmuu's Ghostblade",
 			"Black Cleaver"
 		],
 		"counters": [
+			"Garen",
 			"Pyke",
-			"Kled",
-			"Garen"
+			"Rumble"
 		],
 		"easy": [
-			"Corki",
+			"Kassadin",
 			"Sylas",
-			"Karma"
+			"Tristana"
 		]
 	},
 	"Taliyah": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -9005,24 +10074,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Runic Echoes",
 			"Morellonomicon",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Olaf",
-			"Kindred",
-			"Nunu & Willump"
+			"Dr. Mundo",
+			"Shyvana",
+			"Zac"
 		],
 		"easy": [
-			"Aatrox",
-			"Fiddlesticks",
-			"Sylas"
+			"Qiyana",
+			"Sylas",
+			"Skarner"
 		]
 	},
 	"TahmKench": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -9071,24 +10148,33 @@ module.exports.infos = {
 			"Armor",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Locket of the Iron Solari",
 			"Redemption"
 		],
 		"counters": [
-			"Sona",
-			"Zilean",
-			"Zyra"
+			"Bard",
+			"Xerath",
+			"Zilean"
 		],
 		"easy": [
-			"Miss Fortune",
+			"Veigar",
 			"Karma",
-			"Xerath"
+			"Braum"
 		]
 	},
 	"Trundle": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -9137,6 +10223,10 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
+		"StartItem": [
+			"Doran's Shield",
+			"Health Potion"
+		],
 		"items": [
 			"Enchantment: Cinderhulk",
 			"Titanic Hydra",
@@ -9155,6 +10245,10 @@ module.exports.infos = {
 	},
 	"Tristana": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -9203,24 +10297,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Infinity Edge",
 			"Rapid Firecannon",
 			"Statikk Shiv"
 		],
 		"counters": [
-			"Swain",
-			"Miss Fortune",
+			"Heimerdinger",
+			"Ashe",
 			"Jinx"
 		],
 		"easy": [
-			"Kog'Maw",
-			"Twitch",
-			"Sivir"
+			"Kalista",
+			"Ezreal",
+			"Draven"
 		]
 	},
 	"Tryndamere": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -9269,24 +10371,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Blade of the Ruined King",
 			"Statikk Shiv",
 			"Infinity Edge"
 		],
 		"counters": [
+			"Sion",
 			"Hecarim",
-			"Kled",
-			"Poppy"
+			"Volibear"
 		],
 		"easy": [
 			"Sylas",
-			"Olaf",
-			"Urgot"
+			"Irelia",
+			"Malzahar"
 		]
 	},
 	"TwistedFate": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"W",
 			"Q",
@@ -9335,24 +10445,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Rod of Ages",
 			"Lich Bane",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
 			"Pyke",
-			"Zilean",
-			"Rumble"
+			"Nocturne",
+			"Aurelion Sol"
 		],
 		"easy": [
-			"Azir",
 			"Akali",
-			"Riven"
+			"Azir",
+			"Ezreal"
 		]
 	},
 	"Twitch": {
 		"line": "Bottom",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerHeal"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -9401,24 +10518,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
+			"Blade of the Ruined King",
 			"Runaan's Hurricane",
-			"Infinity Edge",
 			"Infinity Edge"
 		],
 		"counters": [
-			"Swain",
-			"Draven",
-			"Tristana"
+			"Ashe",
+			"Yasuo",
+			"Caitlyn"
 		],
 		"easy": [
 			"Kalista",
 			"Ezreal",
-			"Kai'Sa"
+			"Sivir"
 		]
 	},
 	"Teemo": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -9467,24 +10592,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Nashor's Tooth",
 			"Liandry's Torment",
-			"Morellonomicon"
+			"Luden's Echo"
 		],
 		"counters": [
 			"Malzahar",
-			"Wukong",
-			"Swain"
+			"Hecarim",
+			"Yasuo"
 		],
 		"easy": [
 			"Vayne",
-			"Renekton",
-			"Singed"
+			"Tryndamere",
+			"Illaoi"
 		]
 	},
 	"Pyke": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -9533,24 +10667,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"HealthScaling"
 		],
-		"items": [
+		"StartItem": [
+			"Relic Shield",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Remnant of the Aspect",
 			"Duskblade of Draktharr",
 			"Youmuu's Ghostblade"
 		],
 		"counters": [
-			"Blitzcrank",
+			"Shaco",
 			"Nautilus",
 			"Janna"
 		],
 		"easy": [
 			"Miss Fortune",
-			"Tahm Kench",
-			"Galio"
+			"Yuumi",
+			"Karma"
 		]
 	},
 	"Pantheon": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -9599,24 +10742,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Youmuu's Ghostblade",
 			"Duskblade of Draktharr",
 			"Black Cleaver"
 		],
 		"counters": [
-			"Volibear",
-			"Wukong",
-			"Singed"
+			"Garen",
+			"Maokai",
+			"Kled"
 		],
 		"easy": [
 			"Sylas",
-			"Jayce",
+			"Akali",
 			"Ryze"
 		]
 	},
 	"Fiddlesticks": {
 		"line": "Support",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"Q",
@@ -9665,24 +10815,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Spellthief's Edge",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Zhonya's Hourglass",
 			"Remnant of the Watchers",
 			"Morellonomicon"
 		],
 		"counters": [
-			"Gragas",
-			"Zilean",
-			"Blitzcrank"
+			"Shaco",
+			"Bard",
+			"Xerath"
 		],
 		"easy": [
+			"Miss Fortune",
 			"Galio",
-			"Yuumi",
-			"Volibear"
+			"Lulu"
 		]
 	},
 	"Fiora": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -9731,24 +10890,32 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Blade",
+			"Health Potion"
+		],
+		"Item": [
 			"Ravenous Hydra",
 			"Trinity Force",
 			"Death's Dance"
 		],
 		"counters": [
 			"Kayle",
-			"Heimerdinger",
+			"Garen",
 			"Quinn"
 		],
 		"easy": [
 			"Sylas",
 			"Irelia",
-			"Aatrox"
+			"Olaf"
 		]
 	},
 	"Fizz": {
 		"line": "Middle",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerIgnite"
+		],
 		"skill_tree": [
 			"E",
 			"W",
@@ -9797,24 +10964,31 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"MagicRes"
 		],
-		"items": [
+		"StartItem": [
+			"Corrupting Potion"
+		],
+		"Item": [
 			"Hextech Protobelt-01",
 			"Lich Bane",
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Nocturne",
-			"Swain",
-			"Kled"
+			"Garen",
+			"Kled",
+			"Kayle"
 		],
 		"easy": [
 			"Irelia",
-			"Rumble",
-			"Corki"
+			"Ezreal",
+			"Qiyana"
 		]
 	},
 	"Heimerdinger": {
 		"line": "Top",
+		"Spell": [
+			"SummonerFlash",
+			"SummonerTeleport"
+		],
 		"skill_tree": [
 			"Q",
 			"E",
@@ -9863,24 +11037,33 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Doran's Ring",
+			"Health Potion",
+			"Health Potion"
+		],
+		"Item": [
 			"Luden's Echo",
 			"Zhonya's Hourglass",
 			"Morellonomicon"
 		],
 		"counters": [
-			"Wukong",
-			"Gangplank",
-			"Rumble"
+			"Yasuo",
+			"Garen",
+			"Sion"
 		],
 		"easy": [
-			"Maokai",
-			"Singed",
-			"Gnar"
+			"Sylas",
+			"Aatrox",
+			"Poppy"
 		]
 	},
 	"Hecarim": {
 		"line": "Jungle",
+		"Spell": [
+			"SummonerGhost",
+			"SummonerSmite"
+		],
 		"skill_tree": [
 			"Q",
 			"W",
@@ -9929,20 +11112,24 @@ module.exports.infos = {
 			"AdaptiveForce",
 			"Armor"
 		],
-		"items": [
+		"StartItem": [
+			"Hunter's Talisman",
+			"Refillable Potion"
+		],
+		"Item": [
 			"Enchantment: Cinderhulk",
 			"Trinity Force",
 			"Sterak's Gage"
 		],
 		"counters": [
 			"Volibear",
-			"DrMundo",
-			"Nunu & Willump"
+			"Dr. Mundo",
+			"Rek'Sai"
 		],
 		"easy": [
-			"Camille",
+			"Qiyana",
 			"Sylas",
-			"Rengar"
+			"Skarner"
 		]
 	}
 }

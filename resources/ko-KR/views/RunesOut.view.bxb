@@ -13,12 +13,20 @@ result-view {
           slot1 {
             image {
               shape (Circle)
-              url("http://ddragon.leagueoflegends.com/cdn/img/perk-images/Styles/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
+              url("images/runes/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
             }
           }
           slot2 {
             content {
-              primary ("#{value(rune.runename)}")
+              primary ("#{value(rune.korrune)}")
+              secondary("#{value(rune.korrunecat)}")
+            }
+          }
+          
+          slot3{
+            image {
+              shape (Circle)
+              url("icons/#{value(rune.runecat)}.png")
             }
           }
         }
