@@ -1,19 +1,17 @@
-console = require('console')
-
 module.exports.function = function skill (name, skill) {
   var db = require('../lib/db.js')
-​
   let tools = require('lib/tools.js')
+  var console = require('console')
+  // ENGNAME
   var engname = tools.naming(name, "eng")
-  console.log(engname)
-​
+
+  // SKILL
   var skills = db.infos[engname]["SkillTree"]
   var skill = []
   for (i in skills) {
     skill.push(skills[i])
   }
   skill.push('R')
-  console.log(skill)
 ​
   const skillmap = {
     'Q':"0",
@@ -25,7 +23,6 @@ module.exports.function = function skill (name, skill) {
 ​
   var skillbase = ["Q", "W", "E", "R"]
   var detailset = tools.skilldetail(engname)
-  console.log(detailset)
 ​
   var cases = []
   for (i in skill){
@@ -47,7 +44,6 @@ module.exports.function = function skill (name, skill) {
     skillset.push(temp)
   }
 
-
   var spelldict = tools.spell()
   spell = db.infos[engname]["Spell"]
   spells = []
@@ -60,8 +56,7 @@ module.exports.function = function skill (name, skill) {
     spells.push(temp)
   }
 
-  console.log(spells)
-
+  // VERSION
   var version = tools.version(name)
 ​
   return {

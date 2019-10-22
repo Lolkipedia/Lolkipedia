@@ -1,39 +1,33 @@
 module.exports.function = function item (name, item) {
   var db = require('../lib/db.js')
   let tools = require('lib/tools.js')
-
   var console = require('console')
-
+  // ENGNAME
   var engname = tools.naming(name, "eng")
   console.log(engname)
 
+  // ITEM
   var engitems = db.infos[engname]["Items"]
-  // db.~~
-
 
   var itemnums = []
   for (i in engitems){
     itemnums.push(db.items[engitems[i]])
   }
 
-
   var items = []
   for (i in itemnums){
     items.push(tools.itemname(itemnums[i]))
   }
-
 
   var subitemnums = []
   for (i in items){
     subitemnums.push(tools.subitemnum(itemnums[i]))
   }
 
-
   var subitems = []
   for (i in items){
     subitems.push(tools.subitem(subitemnums[i]))
   }
-
 
   var subitemset = []
   for (i in items){
@@ -49,16 +43,6 @@ module.exports.function = function item (name, item) {
     subitemset.push(temp_list)
   }
 
-  console.log(subitemset)
-  // var subitemset = subitemstructure
-  // for (i in items){
-  //   var temp = {
-  //     subitems: subitems[i],
-  //     subitemnum: subitemnums[i]
-  //   }
-  //   subitemset.push(temp)
-  // }
-
   var itemset = []
   for (i in items){
     var temp = {
@@ -69,8 +53,6 @@ module.exports.function = function item (name, item) {
     }
     itemset.push(temp)
   }
-
-  console.log(itemset)
 
   var startitemset = db.infos[engname]["StartItems"]
   console.log(startitemset)
@@ -85,9 +67,7 @@ module.exports.function = function item (name, item) {
     startitems.push(temp)
   }
 
-  console.log(startitems)
-
-
+  // VERSION
   var version = tools.version(name)
 
   return {
