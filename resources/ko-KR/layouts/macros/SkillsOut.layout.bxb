@@ -1,0 +1,323 @@
+layout-macro-def (skill-Tree) {
+  params {
+    param(name) {
+      type (Name)
+      min (Optional)
+      max (One)
+    }
+    param (skills) {
+      type (SkillsStructure)
+      min (Required) max (Many)
+    }
+
+    param (engname) {
+      type (EngName)
+      min (Required) max (One)
+    }
+
+    param (version) {
+      type (Version)
+      min (Required) max (One)
+    }
+
+    param (skillset) {
+      type (SkillSetStructure)
+      min (Optional) max (Many)
+    }
+  }
+  content{
+    section{
+      content{
+        single-line{
+          text{
+            value("#{value(skillset.skilldetail[0])}")
+          }
+        }
+        hbox{
+          content{
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_M)
+                  value("Lv")
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(1)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(2)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(3)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(4)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(5)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(6)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(7)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(8)
+                }
+              }
+            }
+            divider
+          }
+        }
+        
+
+        hbox{
+          content{
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                single-line {
+                  text{
+                    style (Detail_M)
+                    value ("스")
+                  }
+                }
+                single-line {
+                  text{
+                    style(Detail_M)
+                    value("킬")
+                  }
+                }
+              }
+            }
+            divider
+            for-each (skills){
+              as(skill){
+                index-var (i)
+                if (i < 8){
+                  vbox{
+                    grow(1)
+                    valign (Middle)
+                    content{
+                      single-line{
+                        image{
+                          shape (Square)
+                          url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skill.skillsid)}.png")
+                        }
+                      }
+                      single-line{
+                        text{
+                          style (Detail_M)
+                          value ("#{value(skill.skills)}")
+                        }
+                      }
+                    }
+                  }
+                    divider
+                }
+              }
+            }
+          }
+        }
+
+
+        hbox{
+          content{
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(9)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(10)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(11)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(12)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(13)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(14)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(15)
+                }
+              }
+            }
+            divider
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                text{
+                  style(Detail_L)
+                  value(16)
+                }
+              }
+            }
+            divider
+          }
+        }
+
+        hbox{
+          content{
+            divider
+            for-each (skills){
+              as(skill){
+                index-var (i)
+                if (i > 7){
+                  vbox{
+                    grow(1)
+                    valign (Middle)
+                    content{
+                      single-line{
+                        image{
+                          shape (Square)
+                          url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skill.skillsid)}.png")
+                        }
+                      }
+                      single-line{
+                        text{
+                          style (Detail_M)
+                          value ("#{value(skill.skills)}")
+                        }
+                      }
+                    }
+                  }
+                    divider
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

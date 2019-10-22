@@ -1,29 +1,48 @@
 result-view {
-  match: SkillsOutStructure (SkillsOutStructure) {
-  }
-
-  message {
-    template("#{value(SkillsOutStructure.name)}의 스킬트리")
+  match: SkillsOutStructure (this) {
   }
 
   render {
-    list-of (SkillsOutStructure.skills) {
-      where-each (skill) {
-        cell-area {
-          slot1 {
-            image {
-              shape (Square)
-              url("http://ddragon.leagueoflegends.com/cdn/#{value(SkillsOutStructure.version)}/img/spell/#{value(skill.skillsid)}.png")
-            }
-          }
-          slot2 {
-            content {
-              order (PrimarySecondary)
-              primary ("#{value(skill.skills)}")
-            }
-          }
-        }
+    layout-macro (skill-Tree) {
+      param(name) {
+        expression (name)
+      }
+      param(skills) {
+        expression (skills)
+      }
+      param(engname) {
+        expression (engname)
+      }
+      param(version) {
+        expression (version)
+      }
+      param(skillset) {
+        expression (skillset)
       }
     }
   }
+  // message {
+  //   template("#{value(SkillsOutStructure.name)}의 스킬트리")
+  // }
+
+  // render {
+  //   list-of (SkillsOutStructure.skills) {
+  //     where-each (skill) {
+  //       cell-area {
+  //         slot1 {
+  //           image {
+  //             shape (Square)
+  //             url("http://ddragon.leagueoflegends.com/cdn/#{value(SkillsOutStructure.version)}/img/spell/#{value(skill.skillsid)}.png")
+  //           }
+  //         }
+  //         slot2 {
+  //           content {
+  //             order (PrimarySecondary)
+  //             primary ("#{value(skill.skills)}")
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
