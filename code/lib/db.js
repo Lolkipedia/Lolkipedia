@@ -627,7 +627,7 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Dr. Mundo",
+			"DrMundo",
 			"Zac",
 			"Malphite"
 		],
@@ -695,7 +695,7 @@ module.exports.infos = {
 		"counters": [
 			"Ivern",
 			"Trundle",
-			"Dr. Mundo"
+			"DrMundo"
 		],
 		"easy": [
 			"Sylas",
@@ -1617,7 +1617,7 @@ module.exports.infos = {
 			"Righteous Glory"
 		],
 		"counters": [
-			"Dr. Mundo",
+			"DrMundo",
 			"Zac",
 			"Fiddlesticks"
 		],
@@ -3797,7 +3797,7 @@ module.exports.infos = {
 		"counters": [
 			"Cho'Gath",
 			"Sion",
-			"Dr. Mundo"
+			"DrMundo"
 		],
 		"easy": [
 			"Malzahar",
@@ -4323,7 +4323,7 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"counters": [
-			"Dr. Mundo",
+			"DrMundo",
 			"Kindred",
 			"Ivern"
 		],
@@ -4455,7 +4455,7 @@ module.exports.infos = {
 			"Sterak's Gage"
 		],
 		"counters": [
-			"Dr. Mundo",
+			"DrMundo",
 			"Shaco",
 			"Vi"
 		],
@@ -4589,7 +4589,7 @@ module.exports.infos = {
 		"counters": [
 			"Olaf",
 			"Volibear",
-			"Dr. Mundo"
+			"DrMundo"
 		],
 		"easy": [
 			"Sylas",
@@ -4917,7 +4917,7 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"counters": [
-			"Dr. Mundo",
+			"DrMundo",
 			"Nunu & Willump",
 			"Udyr"
 		],
@@ -5050,7 +5050,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Sejuani",
-			"Dr. Mundo",
+			"DrMundo",
 			"Zac"
 		],
 		"easy": [
@@ -5710,7 +5710,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Ivern",
-			"Dr. Mundo",
+			"DrMundo",
 			"Zac"
 		],
 		"easy": [
@@ -5974,7 +5974,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Ivern",
-			"Dr. Mundo",
+			"DrMundo",
 			"Udyr"
 		],
 		"easy": [
@@ -6107,7 +6107,7 @@ module.exports.infos = {
 		"counters": [
 			"Volibear",
 			"Zac",
-			"Dr. Mundo"
+			"DrMundo"
 		],
 		"easy": [
 			"Fiddlesticks",
@@ -6436,7 +6436,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Ivern",
-			"Dr. Mundo",
+			"DrMundo",
 			"Zac"
 		],
 		"easy": [
@@ -6634,7 +6634,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Jax",
-			"Dr. Mundo",
+			"DrMundo",
 			"Rek'Sai"
 		],
 		"easy": [
@@ -7822,7 +7822,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Skarner",
-			"Dr. Mundo",
+			"DrMundo",
 			"Vi"
 		],
 		"easy": [
@@ -8023,7 +8023,7 @@ module.exports.infos = {
 		"counters": [
 			"Zac",
 			"Rammus",
-			"Dr. Mundo"
+			"DrMundo"
 		],
 		"easy": [
 			"Sylas",
@@ -8220,7 +8220,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Sion",
-			"Dr. Mundo",
+			"DrMundo",
 			"Maokai"
 		],
 		"easy": [
@@ -8617,7 +8617,7 @@ module.exports.infos = {
 		"counters": [
 			"Ornn",
 			"Swain",
-			"Dr. Mundo"
+			"DrMundo"
 		],
 		"easy": [
 			"Gangplank",
@@ -8814,7 +8814,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Camille",
-			"Dr. Mundo",
+			"DrMundo",
 			"Nunu & Willump"
 		],
 		"easy": [
@@ -9936,7 +9936,7 @@ module.exports.infos = {
 		],
 		"counters": [
 			"Volibear",
-			"Dr. Mundo",
+			"DrMundo",
 			"Nunu & Willump"
 		],
 		"easy": [

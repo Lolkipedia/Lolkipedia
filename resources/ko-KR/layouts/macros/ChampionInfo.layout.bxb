@@ -76,8 +76,7 @@ layout-macro-def (champ-Info) {
         image-card{
           aspect-ratio (3:4)
           column-size (2)
-          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
-          // 카운터 픽 영어 이름 정보 받아와야 함!
+          image-url("http://ddragon.leagueoflegends.com/cdn/img/champion/tiles/#{value(counters.engcounter[0])}_0.jpg")
           on-click{
 						intent{
 							goal: counters
@@ -98,7 +97,7 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("#{value(counters)}")
+                  value ("#{value(counters.counter)}")
                   style (Detail_M)
                 }
                 spacer
@@ -107,7 +106,7 @@ layout-macro-def (champ-Info) {
             slot3{
               single-line{
                 text{
-                  value ("카운터 히히힛")
+                  value ("눌러서 자세히 보기")
                   style (Detail_M_Soft)
                 }
               }
@@ -117,7 +116,7 @@ layout-macro-def (champ-Info) {
         image-card{
           aspect-ratio (3:4)
           column-size (2)
-          image-url("/icons/#{value(lane)}.png")
+          image-url("/images/runes/#{value(runeset.runecat[0])}/#{value(runeset.runename[0])}/#{value(runeset.runename[0])}.png")
           on-click{
 						intent{
 							goal: runes
@@ -138,15 +137,18 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("#{value(runeset.runename)}")
+                  value ("#{value(runeset.korrune[0])}")
                   style (Detail_M)
+                }
+                image{
+                  url ()
                 }
               }
             }
             slot3{
               single-line{
                 text{
-                  value ("룬 먹어")
+                  value ("눌러서 자세히 보기")
                   style (Detail_M_Soft)
                 }
               }
@@ -187,7 +189,7 @@ layout-macro-def (champ-Info) {
             slot3{
               single-line{
                 text{
-                  value ("아이템 여깄당")
+                  value ("눌러서 자세히 보기")
                   style (Detail_M_Soft)
                 }
               }
@@ -228,7 +230,7 @@ layout-macro-def (champ-Info) {
             slot3{
               single-line{
                 text{
-                  value ("추천 스펠 넣으면 좋겠다")
+                  value ("눌러서 자세히 보기")
                   style (Detail_M_Soft)
                 }
               }

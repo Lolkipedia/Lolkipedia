@@ -96,7 +96,7 @@ module.exports.function = function info (name, inform) {
 
   var title = tools.title(engname)
 
-  var lane = db.infos[engname]["line"]
+  var lane = db.infos[engname]["line"].toLowerCase()
 
   var version = tools.version(name)
 
