@@ -41,13 +41,15 @@ module.exports.function = function item (name, item) {
     for (j in subitems[i]){
       var temp = {
         subitems: subitems[i][j],
-        subitemnum: subitemnums[i][j]
+        subitemnum: subitemnums[i][j],
+        itemprice: tools.itemprice(subitemnums[i][j]),
       }
       temp_list.push(temp)
       }
     subitemset.push(temp_list)
   }
 
+  console.log(subitemset)
   // var subitemset = subitemstructure
   // for (i in items){
   //   var temp = {
@@ -62,10 +64,13 @@ module.exports.function = function item (name, item) {
     var temp = {
       items: items[i],
       itemnums: itemnums[i],
-      subitemset: subitemset[i]
+      itemprice: tools.itemprice(itemnums[i]),
+      subitemset: subitemset[i],
     }
     itemset.push(temp)
   }
+
+  console.log(itemset)
 
   var startitemset = db.infos[engname]["StartItems"]
   console.log(startitemset)

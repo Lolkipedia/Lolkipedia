@@ -61,30 +61,6 @@ module.exports.version = function (name) {
   return ver
 }
 
-// module.exports.subitem = function (itemnum) {
-//   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
-
-//   var response = http.getUrl(url, {format:"json", cacheTime: 0});
-//   const items = response["data"]
-
-//   var subitems = []
-
-//   for(idx in items) {
-//     if (items[idx]["name"] == item) {
-//       var temp = []
-
-//       for (n in items[idx]["from"]) {
-//         temp.push(items[idx]["from"][n])
-//       };
-
-//       for (sub in temp) {
-//         subitems.push(items[temp[sub]]["name"])
-//       };
-//     }
-//   };
-//   return subitems
-// }
-
 module.exports.subitemnum = function (itemnum) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
 
@@ -126,6 +102,16 @@ module.exports.itemname = function (itemnum) {
   return itemname
 }
 
+module.exports.itemprice = function (itemnum) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
+  var price = items[itemnum]["gold"]["total"]
+
+  return price
+}
 
 
 module.exports.summary = function (engname) {
@@ -150,7 +136,7 @@ module.exports.title = function (name) {
 }
 
 
-module.exports.rune = function () {
+module.exports.spell = function () {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/summoner.json")
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
