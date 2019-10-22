@@ -28,11 +28,11 @@ layout-macro-def (skill-Tree) {
   content{
     section{
       content{
-        single-line{
-          text{
-            value("#{value(skillset.skilldetail[0])}")
-          }
-        }
+        // single-line{
+        //   text{
+        //     value("#{value(skillset.skilldetail[0])}")
+        //   }
+        // }
         hbox{
           content{
             divider
