@@ -1,0 +1,12 @@
+structure (SpellStructure) {
+  description (__DESCRIPTION__)
+  property (spells) {
+    type (Spells)
+    min (Optional) max (Many)
+  }
+
+  property (korspells) {
+    type (KorSpells)
+    min (Optional) max (Many)
+  }
+}

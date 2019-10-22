@@ -28,6 +28,20 @@ module.exports.naming = function (name, target) {
   
   return outname
 }
+module.exports.counterrename = function (name) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  var search = response["data"]
+
+  for (idx in search){
+    if (search[idx]["name"] == name){
+      var outname = search[idx]["id"]
+    }
+    }
+  
+  return outname
+}
 
 module.exports.skilldetail = function (engname) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion/", engname ,".json")  
@@ -113,6 +127,7 @@ module.exports.itemname = function (itemnum) {
 }
 
 
+
 module.exports.summary = function (engname) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
 
@@ -133,3 +148,14 @@ module.exports.title = function (name) {
 
   return title
 }
+
+
+module.exports.rune = function () {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/summoner.json")
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  var search = response["data"]
+
+  return search
+}
+
+

@@ -6,26 +6,26 @@ module.exports.function = function info (name, inform) {
   var engname = tools.naming(name, "eng")
   // console.debug(engname)
 
-  var counterset = db.infos[engname]["counters"]
-  // var engcounters = db.info[engname]["counters"]
-  // console.log(counters)
-
+  var counterset = db.infos[engname]["Counters"]
+  console.log(counterset)
   var counters = []
   for (counter in counterset) {
     temp = {
-      counter:tools.naming(counterset[counter], "kor"),
-      engcounter:counterset[counter]
+      counter:tools.naming(tools.counterrename(counterset[counter]), "kor"),
+      engcounter:tools.counterrename(counterset[counter])
     }
+    console.log(temp)
     counters.push(temp)
   }
   console.log(counters)
-  var engitems = db.infos[engname]["items"]
+
+  var engitems = db.infos[engname]["Items"]
 
   var itemnums = []
   for (i in engitems){
-    itemnums.push(db.item[engitems[i]])
+    itemnums.push(db.items[engitems[i]])
   }
-  // console.log(itemnums)
+  console.log(itemnums)
 
   var items = []
   for (i in itemnums){
@@ -67,7 +67,7 @@ module.exports.function = function info (name, inform) {
 
 
 
-  var skills = db.infos[engname]["skill_tree"]
+  var skills = db.infos[engname]["SkillTree"]
   var skill = []
   for (i=0;i < 3;i++) {
     skill.push(skills[i])
@@ -96,7 +96,7 @@ module.exports.function = function info (name, inform) {
 
   var title = tools.title(engname)
 
-  var lane = db.infos[engname]["line"].toLowerCase()
+  var lane = db.infos[engname]["Lane"].toLowerCase()
 
   var version = tools.version(name)
 

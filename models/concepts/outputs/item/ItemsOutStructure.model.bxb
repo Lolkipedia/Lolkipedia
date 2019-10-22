@@ -29,4 +29,9 @@ structure (ItemsOutStructure) {
     type (Version)
     min (Required) max (One)
   }
+
+  property (startitems) {
+    type (StartItemStructure)
+    min (Optional) max (One)
+  }
 }

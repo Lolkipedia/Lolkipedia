@@ -1,3 +1,8 @@
+train (t-93801a1p9icix7bm9qs3dtawe) {
+  utterance ("[g:CountersOutStructure] (쉬바나)[v:Name:쉬바나] (카운터)[v:Counters:카운터]")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571740908773)
+}
 train (t-93lqp7aqqcxgfbrh7hvv3bu2m) {
   utterance ("[g:InfoOutStructure] (다리우스)[v:Name:다리우스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

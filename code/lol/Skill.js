@@ -1,13 +1,13 @@
-  console = require('console')
-​
-  module.exports.function = function skill (name, skill) {
+console = require('console')
+
+module.exports.function = function skill (name, skill) {
   var db = require('../lib/db.js')
 ​
   let tools = require('lib/tools.js')
   var engname = tools.naming(name, "eng")
   console.log(engname)
 ​
-  var skills = db.infos[engname]["skill_tree"]
+  var skills = db.infos[engname]["SkillTree"]
   var skill = []
   for (i in skills) {
     skill.push(skills[i])
@@ -23,7 +23,6 @@
   }
 ​
 ​
-​
   var skillbase = ["Q", "W", "E", "R"]
   var detailset = tools.skilldetail(engname)
   console.log(detailset)
@@ -37,7 +36,6 @@
 ​
     cases.push(temp)
   }
-  console.log(cases)
 ​
   var skillset = []
   for (i in skillbase) {
@@ -48,9 +46,20 @@
     }
     skillset.push(temp)
   }
-  console.log(skillset)
-​
-​
+
+
+  var runedict = tools.rune()
+  spell = db.infos[engname]["Spell"]
+  spells = []
+  for (f in spell){
+    var temp = {
+      spells: spell[f],
+      korspells: runedict[spell[f]]["name"]
+    }
+
+    spells.push(temp)
+  }
+
   var version = tools.version(name)
 ​
   return {
@@ -58,6 +67,7 @@
     engname: engname,
     skills: cases,
     skillset: skillset,
-    version: version
+    spells: spells,
+    version: version,
   }
 }

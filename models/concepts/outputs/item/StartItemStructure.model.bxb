@@ -1,0 +1,18 @@
+structure (StartItemStructure) {
+  description (__DESCRIPTION__)
+  property (startitems) {
+    type (StartItems)
+    min (Optional) max (Many)
+  }
+
+  property (korstartitems) {
+    type (KorStartItems)
+    min (Optional) max (Many)
+  }
+
+  property (startitemnum) {
+    type (StartItemNum)
+    min (Optional) max (Many)
+  }
+
+}

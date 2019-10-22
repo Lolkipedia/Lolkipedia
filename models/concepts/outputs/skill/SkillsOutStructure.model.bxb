@@ -24,4 +24,9 @@ structure (SkillsOutStructure) {
     type (SkillSetStructure)
     min (Optional) max (Many)
   }
+
+  property (spells) {
+    type (SpellStructure)
+    min (Optional) max (Many)
+  }
 }

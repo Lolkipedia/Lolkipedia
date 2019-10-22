@@ -7,32 +7,33 @@ module.exports.function = function item (name, item) {
   var engname = tools.naming(name, "eng")
   console.log(engname)
 
-  var engitems = db.infos[engname]["items"]
+  var engitems = db.infos[engname]["Items"]
   // db.~~
+
 
   var itemnums = []
   for (i in engitems){
-    itemnums.push(db.item[engitems[i]])
+    itemnums.push(db.items[engitems[i]])
   }
-  console.log(itemnums)
+
 
   var items = []
   for (i in itemnums){
     items.push(tools.itemname(itemnums[i]))
   }
-  console.log(items)
+
 
   var subitemnums = []
   for (i in items){
     subitemnums.push(tools.subitemnum(itemnums[i]))
   }
-  console.log(subitemnums)
+
 
   var subitems = []
   for (i in items){
     subitems.push(tools.subitem(subitemnums[i]))
   }
-  console.log(subitems)
+
 
   var subitemset = []
   for (i in items){
@@ -43,7 +44,6 @@ module.exports.function = function item (name, item) {
         subitemnum: subitemnums[i][j]
       }
       temp_list.push(temp)
-      console.log(temp_list)
       }
     subitemset.push(temp_list)
   }
@@ -56,7 +56,6 @@ module.exports.function = function item (name, item) {
   //   }
   //   subitemset.push(temp)
   // }
-  console.log(subitemset)
 
   var itemset = []
   for (i in items){
@@ -67,7 +66,23 @@ module.exports.function = function item (name, item) {
     }
     itemset.push(temp)
   }
-  console.log(itemset)
+
+  var startitemset = db.infos[engname]["StartItems"]
+  console.log(startitemset)
+  var startitems = []
+  for (i in startitemset) {
+    var temp = {
+      korstartitems: tools.itemname(db.items[startitemset[i]]),
+      startitems: startitemset[i],
+      startitemnum: db.items[startitemset[i]]
+    }
+    console.log(temp)
+    startitems.push(temp)
+  }
+
+  console.log(startitems)
+
+
   var version = tools.version(name)
 
   return {
@@ -76,6 +91,7 @@ module.exports.function = function item (name, item) {
     items: items,
     itemnums: itemnums,
     itemset: itemset,
+    startitems: '',
     version: version,
     }
 }

@@ -8,6 +8,11 @@ train (t-2alcuz7wi9gq0xrm8uu7okp7v) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761292907)
 }
+train (t-2nclolzas2eb35z0wamo0nlo5) {
+  utterance ("[g:SkillsOutStructure] (쉬바나)[v:Name:쉬바나] (스킬)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571737066893)
+}
 train (t-2oiodqddipy8rpxac1tc92xh9) {
   utterance ("[g:InfoOutStructure] (럭스)[v:Name:럭스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
