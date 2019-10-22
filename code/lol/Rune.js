@@ -12,6 +12,7 @@ module.exports.function = function rune (name, rune) {
   for (i in runesets) {
     var temp1 = {
       runecat: runesets[i][0],
+      korrunecat: db.runedict[runesets[i][0]],
       runename: runesets[i][1],
       korrune: db.runedict[runesets[i][1]],
     }

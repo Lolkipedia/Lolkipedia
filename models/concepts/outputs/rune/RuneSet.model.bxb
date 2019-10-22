@@ -15,4 +15,9 @@ structure (RuneSet) {
   min (Optional) max (One)
   }
 
+  property (korrunecat) {
+  type (KorRuneCat)
+  min (Optional) max (One)
+  }
+
 }
