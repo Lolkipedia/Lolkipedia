@@ -1,9 +1,12 @@
 capsule-info {
   display-name (롤키피디아)
   developer-name (Jisby)
-  dispatch-name (롤)
+  dispatch-name (롤위키)
   dispatch-aliases {
-    alias (로올)
+    alias (롤 위키)
+    alias (롤위 키)
+    alias (로올위키)
+    alias (로올 위키)
   }
   icon-asset ("icons/icon.png")
   search-keywords{
