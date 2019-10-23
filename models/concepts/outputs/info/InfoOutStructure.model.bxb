@@ -21,7 +21,7 @@ structure (InfoOutStructure) {
   }
 
   property (skills) {
-    type (SkillSetStructure)
+    type (InfoSkillSet)
     min (Required) max (Many)
   }
 

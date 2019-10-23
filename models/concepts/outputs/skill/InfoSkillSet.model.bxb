@@ -1,0 +1,18 @@
+structure (InfoSkillSet) {
+  description (__DESCRIPTION__)
+
+  property (skills) {
+    type (SkillsStructure)
+    min (Required) max (Many)
+  }
+
+  property (skillset) {
+    type (SkillSetStructure)
+    min (Optional) max (Many)
+  }
+
+  property (spells) {
+    type (SpellStructure)
+    min (Optional) max (Many)
+  }
+}

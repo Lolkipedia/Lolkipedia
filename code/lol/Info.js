@@ -60,38 +60,69 @@ module.exports.function = function info (name, inform) {
       statmods:statmods[i],
       korstatmods: db.runedict[statmods[i]]
     }
-    console.log(statmods[i]),
     statmodset.push(temp)
   }
   console.log(statmodset)
 
-
-
-  var skills = db.infos[engname]["SkillTree"]
-  var skill = []
-  for (i=0;i < 3;i++) {
-    skill.push(skills[i])
-  }
-
-  var temp_dict = {
-    "Q":0,
-    "W":1,
-    "E":2,
-    "R":3
-  }
   var detailset = tools.skilldetail(engname)
 
-  var skillset = []
-  for (i=0;i<3;i++) {
+  var skills = db.infos[engname]["SkillTree"]
+  skills.push("R")
+  console.log(skills)
+​
+  const skillmap = {
+    'Q':"0",
+    'W':"1",
+    'E':"2",
+    'R':"3",
+  }
+​
+  var skillbase = ["Q", "W", "E", "R"]
+  var detailset = tools.skilldetail(engname)
+  console.log(detailset)
+​
+  var cases = []
+  for (i in skills){
     var temp = {
-      skills: skill[i],
-      skilldetail: detailset[temp_dict[skill[i]]][1],
-      skillid: detailset[temp_dict[skill[i]]][0]
+      skills: skills[i],
+      skillsid: detailset[skillmap[skills[i]]][0]
+    }
+​   
+    cases.push(temp)
+  }
+​
+  var skillset = []
+  for (i in skillbase) {
+    var temp = {
+      skills: skillbase[i],
+      skilldetail: detailset[i][1],
+      skillid: detailset[i][0]
     }
     skillset.push(temp)
   }
-  console.log(skillset)
 
+
+  var runedict = tools.rune()
+  console.log(runedict)
+  spell = db.infos[engname]["Spell"]
+  console.log(spell)
+  spells = []
+  for (f in spell){
+    var temp = {
+      spells: spell[f],
+      korspells: runedict[spell[f]]["name"],
+    }
+    console.log(temp)
+    spells.push(temp)
+  }
+
+  var skillset = {
+    skills: skills,
+    skillset: skillset,
+    spells: spells,
+  }
+
+  console.log(skillset)
   var summary = tools.summary(engname)
 
   var title = tools.title(engname)
@@ -104,7 +135,6 @@ module.exports.function = function info (name, inform) {
     name: name,
     engname: engname,
     counters: counters,
-    // engcounters: engcounters,
     items: iteminfo,
     runeset: runeset,
     statmodset:statmodset,
