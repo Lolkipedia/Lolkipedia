@@ -1,3 +1,13 @@
+train (t-r8zo8ugyu476s3vyax162b2bs) {
+  utterance ("[g:RunesOutStructure] (그라가스)[v:Name:그라가스] (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824374808)
+}
+train (t-rmj9czh3pxsn1e81o2q9h2yv7) {
+  utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] {[g:Inform] (정보)[v:Inform]} 보여줘 ")
+  plan (Y2BlUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EubglMg/wSc1MZWBgYGZgYmIE0A5jFCIQMDDwMIMACxiBZoAwA)
+  last-modified (1571822106344)
+}
 train (t-rzjnbpoa1c8b8ebfqvid9hml0) {
   utterance ("[g:InfoOutStructure] (소나)[v:Name:소나] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

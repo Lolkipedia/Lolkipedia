@@ -1,7 +1,7 @@
 train (t-21z2tnu0zs31h9uc8o28es090) {
   utterance ("[g:SkillsOutStructure] (쉬바나)[v:Name:쉬바나] (스킬)[v:Skills:스킬]")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1570840589215)
+  last-modified (1571822722149)
 }
 train (t-2alcuz7wi9gq0xrm8uu7okp7v) {
   utterance ("[g:InfoOutStructure] (빅토르)[v:Name:빅토르] (정보)[v:Inform]")

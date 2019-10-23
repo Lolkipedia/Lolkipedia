@@ -6,5 +6,15 @@ train (t-jb98mji8w9v3dggpieqhdm4qk) {
 train (t-jg7f1smjke5sq84qowqusovf5) {
   utterance ("[g:RunesOutStructure] (가렌)[v:Name:가렌] (룬)[v:Runes:룬]")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
-  last-modified (1571700750758)
+  last-modified (1571824641205)
+}
+train (t-jk8zuzobxurvlx4so4ub860ml) {
+  utterance ("[g:RunesOutStructure] (니달리)[v:Name:니달리] (룬)[v:Runes:룬] 뭐야")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826265538)
+}
+train (t-jv66x6h0caldy0s84rrpqurkf) {
+  utterance ("[g:RunesOutStructure] (갈리오)[v:Name:갈리오] (룬)[v:Runes:룬] 뭐갈까")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824638846)
 }

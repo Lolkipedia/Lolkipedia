@@ -3,8 +3,23 @@ train (t-z3dq26cymitbhjtfyfx9jc17l) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785433116)
 }
+train (t-z821yetftu8h0y5dssrwpz08k) {
+  utterance ("[g:ItemsOutStructure] 롤 에서 (가렌)[v:Name:가렌] (템)[v:Items:아이템] 뭐감 ")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571822401821)
+}
+train (t-zauq2injsj0a02jqyiws185t8) {
+  utterance ("[g:RunesOutStructure] 롤 에서 (가렌)[v:Name:가렌] (룬)[v:Runes:룬] 뭐듬")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571823770696)
+}
 train (t-zgm1zc3ctt9o7c7iqhf5tlyz0) {
   utterance ("[g:InfoOutStructure] (드레이븐)[v:Name:드레이븐] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760439077)
+}
+train (t-zmjzgtco0fwqscee7sqwphirs) {
+  utterance ("[g:RunesOutStructure] (갱플랭크)[v:Name:갱플랭크] (룬)[v:Runes:룬] ")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824285943)
 }

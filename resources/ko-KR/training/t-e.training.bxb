@@ -8,3 +8,13 @@ train (t-emdc5x2x7n5yxi3360zhaxgei) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570766361670)
 }
+train (t-eqv0xc810xeza77xeshuijp80) {
+  utterance ("[g:RunesOutStructure] (녹턴)[v:Name:녹턴] (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826209586)
+}
+train (t-euxkw3b67xup2yw73dt0ks2iv) {
+  utterance ("[g:RunesOutStructure] (나르)[v:Name:나르] (룬)[v:Runes:룬] 뭐가")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824728013)
+}

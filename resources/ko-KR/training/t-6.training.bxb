@@ -8,6 +8,11 @@ train (t-63zmjk52qbuzmhr5oea6mxtpx) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761115357)
 }
+train (t-68krld50ds1t9ijpilqa23p7k) {
+  utterance ("[g:RunesOutStructure] (그레이브즈)[v:Name:그레이브즈] (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824544374)
+}
 train (t-6ve9htb087ynhwp4mmmrj0ye8) {
   utterance ("[g:InfoOutStructure] (렉사이)[v:Name:렉사이] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

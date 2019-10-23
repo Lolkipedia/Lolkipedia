@@ -8,6 +8,11 @@ train (t-ufdk13nwfkz2alpphpyoetjxb) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760212176)
 }
+train (t-ur4xkxx2dko52dd6cfkujvtlo) {
+  utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] (정보)[v:Inform] 찾아줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571823355337)
+}
 train (t-uv3jn48vflnnaz7gs624lqnua) {
   utterance ("[g:InfoOutStructure] (그라가스)[v:Name:그라가스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

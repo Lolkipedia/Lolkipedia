@@ -8,3 +8,8 @@ train (t-7enzdgmx9da0ii7j3o71c6nke) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760643357)
 }
+train (t-7vzxiffcortopdufimqdap3za) {
+  utterance ("[g:RunesOutStructure] (나서스)[v:Name:나서스] (룬)[v:Runes:룬] 어떤게 좋아")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824824269)
+}

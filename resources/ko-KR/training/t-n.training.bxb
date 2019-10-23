@@ -3,3 +3,8 @@ train (t-n4npncp2t5jpy5golebbv1x78) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760546549)
 }
+train (t-n73vt3uxqejjco1mpxg97x6fc) {
+  utterance ("[g:ItemsOutStructure] (케이틀린)[v:Name:케이틀린] (템)[v:Items:아이템] 뭐갈까")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571823762552)
+}

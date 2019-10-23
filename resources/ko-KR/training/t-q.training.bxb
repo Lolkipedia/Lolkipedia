@@ -1,3 +1,13 @@
+train (t-q7717ok7sadk7ei9ud9ua6dns) {
+  utterance ("[g:RunesOutStructure] (럭스)[v:Name:럭스]  (룬)[v:Runes:룬] 추천좀")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571827135760)
+}
+train (t-qaodbgo5rct8w34ojg78hwgyn) {
+  utterance ("[g:RunesOutStructure] (람머스)[v:Name:람머스] (룬특)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571827043616)
+}
 train (t-qr776xvflgmfywtdfr1yywj61) {
   utterance ("[g:InfoOutStructure] (스카너)[v:Name:스카너] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

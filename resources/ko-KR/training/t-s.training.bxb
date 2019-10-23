@@ -13,6 +13,11 @@ train (t-sik0fo53ntd9fswxje0k8x2si) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761447620)
 }
+train (t-sy64bvijln9svx2b8fx04j5le) {
+  utterance ("[g:RunesOutStructure] (노틸러스)[v:Name:노틸러스] (룬)[v:Runes:룬] 뭐갈까")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824880157)
+}
 train (t-synlwxnbqyc7ro8bufpu8vn6r) {
   utterance ("[g:InfoOutStructure] (모데카이저)[v:Name:모데카이저] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

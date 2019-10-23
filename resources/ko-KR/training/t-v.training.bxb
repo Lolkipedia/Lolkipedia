@@ -13,6 +13,11 @@ train (t-vk26zn2zkmye44h62cktnuqf9) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571739549866)
 }
+train (t-vmykl6091bzd73a1hgq2kg5dh) {
+  utterance ("[g:RunesOutStructure] (라이즈)[v:Name:라이즈]한테 좋은 (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826895097)
+}
 train (t-voronwtn6e3lkmppgn36yr9st) {
   utterance ("[g:InfoOutStructure] (벨코즈)[v:Name:벨코즈] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

@@ -1,3 +1,8 @@
+train (t-8g9vo26ni29e8yfculthkv5pv) {
+  utterance ("[g:RunesOutStructure] (나미)[v:Name:나미] (룬)[v:Runes:룬] 뭐가")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824758734)
+}
 train (t-8grmedhovlul2uaiaqbltq8lu) {
   utterance ("[g:InfoOutStructure] (람머스)[v:Name:람머스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

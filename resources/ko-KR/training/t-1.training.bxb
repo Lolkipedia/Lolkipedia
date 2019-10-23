@@ -1,10 +1,15 @@
 train (t-1clkef7bbrg55x9cdbmvasmwd) {
   utterance ("[g:RunesOutStructure] (가렌)[v:Name:가렌] (룬)[v:Runes:룬] 알려줘")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
-  last-modified (1571290718127)
+  last-modified (1571822947717)
 }
 train (t-1mwold96idbnptfnkkypvlq09) {
   utterance ("[g:InfoOutStructure] (갈리오)[v:Name:갈리오] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760219819)
+}
+train (t-1vpk6whl3feaek5vzrpsoik85) {
+  utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] (정보)[v:Inform] 알려줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571823309545)
 }
