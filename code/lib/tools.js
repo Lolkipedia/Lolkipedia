@@ -1,12 +1,11 @@
 var http = require('http')
 const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
 // const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
-const ver = '9.19.1'
+const ver = '9.20.1'
 // const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
 module.exports.naming = function (name, target) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
-
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
 
@@ -30,7 +29,6 @@ module.exports.naming = function (name, target) {
 }
 module.exports.counterrename = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
-
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
 
@@ -87,7 +85,6 @@ module.exports.version = function (name) {
 
 module.exports.subitemnum = function (itemnum) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
-
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   const items = response["data"]
 
@@ -103,7 +100,6 @@ module.exports.subitemnum = function (itemnum) {
 
 module.exports.subitem = function (subitemnums) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
-
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   const items = response["data"]
 
@@ -117,7 +113,6 @@ module.exports.subitem = function (subitemnums) {
 
 module.exports.itemname = function (itemnum) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
-
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   const items = response["data"]
 
@@ -130,7 +125,6 @@ module.exports.itemname = function (itemnum) {
 
 module.exports.summary = function (engname) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
-
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
 

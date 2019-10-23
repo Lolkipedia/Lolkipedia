@@ -42,21 +42,23 @@ module.exports.function = function skill (name, skill) {
     var temp = {
       skills: skillbase[i],
       skilldetail: detailset[i][1],
-      skillsid: detailset[i][0]
+      skillid: detailset[i][0]
     }
     skillset.push(temp)
   }
 
 
   var runedict = tools.rune()
+  console.log(runedict)
   spell = db.infos[engname]["Spell"]
+  console.log(spell)
   spells = []
   for (f in spell){
     var temp = {
       spells: spell[f],
-      korspells: runedict[spell[f]]["name"]
+      korspells: runedict[spell[f]]["name"],
     }
-
+    console.log(temp)
     spells.push(temp)
   }
 

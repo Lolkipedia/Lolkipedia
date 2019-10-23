@@ -377,7 +377,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -821,7 +821,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -970,7 +970,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -1267,7 +1267,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -1416,7 +1416,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -1639,7 +1639,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -1788,7 +1788,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -2011,7 +2011,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -2308,7 +2308,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -2383,7 +2383,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -3048,7 +3048,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -3271,7 +3271,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -3643,7 +3643,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -3718,7 +3718,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -3792,7 +3792,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -3867,7 +3867,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -4016,7 +4016,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -4312,7 +4312,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -4385,7 +4385,7 @@ module.exports.infos = {
 		"Lane": "Jungle",
 		"Spell": [
 			"SummonerSmite",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -4533,7 +4533,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -4831,7 +4831,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -5128,7 +5128,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -5277,7 +5277,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -5352,7 +5352,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -5501,7 +5501,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -5648,7 +5648,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -5723,7 +5723,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -5871,7 +5871,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -5946,7 +5946,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -6021,7 +6021,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -6170,7 +6170,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -6983,7 +6983,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerHeal",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -7500,7 +7500,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -7649,7 +7649,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -7797,7 +7797,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -8021,7 +8021,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -8243,7 +8243,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -8467,7 +8467,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -8988,7 +8988,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -9580,7 +9580,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -9728,7 +9728,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -9875,7 +9875,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -9950,7 +9950,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"W",
@@ -10098,7 +10098,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -10321,7 +10321,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -10542,7 +10542,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -10617,7 +10617,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -10692,7 +10692,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"Q",
@@ -10765,7 +10765,7 @@ module.exports.infos = {
 		"Lane": "Support",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",
@@ -10914,7 +10914,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerIgnite"
+			"SummonerDot"
 		],
 		"SkillTree": [
 			"E",

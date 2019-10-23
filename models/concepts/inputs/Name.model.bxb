@@ -58,7 +58,7 @@ enum (Name) {
   symbol ("스웨인")
   symbol ("스카너")
   symbol ("시비르")
-  symbol ("신짜오")
+  symbol ("신 짜오")
   symbol ("신드라")
   symbol ("신지드")
   symbol ("쓰레쉬")
