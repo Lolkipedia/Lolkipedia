@@ -4,9 +4,9 @@ train (t-s2vdpmzmho6t0gvvns2cawh79) {
   last-modified (1571803260211)
 }
 train (t-s9fnyt99kk9l82l2sj9cd0220) {
-  utterance ("[g:InfoOutStructure] (미스포츈)[v:Name:미스포츈] (정보)[v:Inform]")
+  utterance ("[g:InfoOutStructure] (미스포츈)[v:Name:'미스 포츈'] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1570760788409)
+  last-modified (1571836919873)
 }
 train (t-sik0fo53ntd9fswxje0k8x2si) {
   utterance ("[g:InfoOutStructure] (사일러스)[v:Name:사일러스] (정보)[v:Inform]")
