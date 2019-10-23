@@ -28,11 +28,11 @@ layout-macro-def (skill-Tree) {
   content{
     section{
       content{
-        // single-line{
-        //   text{
-        //     value("#{value(skillset.skilldetail[0])}")
-        //   }
-        // }
+        single-line{
+          text{
+            value("#{value(skillset.skilldetail[0])}")
+          }
+        }
         hbox{
           content{
             divider
@@ -316,7 +316,33 @@ layout-macro-def (skill-Tree) {
             }
           }
         }
-
+        
+        cell-card{
+          on-click{
+						intent{
+							goal: info
+							value: $expr(name)
+						}
+					}
+          slot1{
+            image{
+              url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
+              shape (Circle)
+              background-color (Transparent)
+              }
+          }
+          slot2{
+            content{
+              order (SecondaryPrimary)
+              primary{
+                template ("챔피언 정보로 돌아가기")
+              }
+              secondary{
+                template (다른 정보를 찾고 싶습니다)
+              }
+            }
+          }
+				}
       }
     }
   }

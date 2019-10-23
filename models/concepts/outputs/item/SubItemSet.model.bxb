@@ -9,10 +9,4 @@ structure (SubItemSet) {
     type (SubItemsNum)
     min (Optional) max (One)
   }
-
-  property (itemprice) {
-    type (ItemPrice)
-    min (Optional) max (One)
-  }
-   
 }

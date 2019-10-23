@@ -1,13 +1,11 @@
-
-
 module.exports.function = function info (name, inform) {
   var console = require('console')
   var db = require('../lib/db.js')
-  let tools = require('lib/tools.js')
-  // ENGNAME
-  var engname = tools.naming(name, "eng")
 
-  // COUNTER
+  let tools = require('lib/tools.js')
+  var engname = tools.naming(name, "eng")
+  // console.debug(engname)
+
   var counterset = db.infos[engname]["Counters"]
   console.log(counterset)
   var counters = []
@@ -16,10 +14,11 @@ module.exports.function = function info (name, inform) {
       counter:tools.naming(tools.counterrename(counterset[counter]), "kor"),
       engcounter:tools.counterrename(counterset[counter])
     }
+    console.log(temp)
     counters.push(temp)
   }
+  console.log(counters)
 
-  // ITEM
   var engitems = db.infos[engname]["Items"]
 
   var itemnums = []
@@ -42,7 +41,6 @@ module.exports.function = function info (name, inform) {
     iteminfo.push(temp)
   }
 
-  // RUNE
   var runesets = db.infos[engname]["Runes"]
   var runeset = []
   for (i in runesets) {
@@ -55,16 +53,20 @@ module.exports.function = function info (name, inform) {
   }
 
   var statmods = db.infos[engname]["StatMods"]
+  console.log(statmods)
   var statmodset = []
   for (i=0;i<3;i++) {
     var temp = {
       statmods:statmods[i],
       korstatmods: db.runedict[statmods[i]]
     }
+    console.log(statmods[i]),
     statmodset.push(temp)
   }
+  console.log(statmodset)
 
-  // SKILL
+
+
   var skills = db.infos[engname]["SkillTree"]
   var skill = []
   for (i=0;i < 3;i++) {
@@ -88,8 +90,8 @@ module.exports.function = function info (name, inform) {
     }
     skillset.push(temp)
   }
+  console.log(skillset)
 
-  // ETC
   var summary = tools.summary(engname)
 
   var title = tools.title(engname)
@@ -102,6 +104,7 @@ module.exports.function = function info (name, inform) {
     name: name,
     engname: engname,
     counters: counters,
+    // engcounters: engcounters,
     items: iteminfo,
     runeset: runeset,
     statmodset:statmodset,

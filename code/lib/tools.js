@@ -1,19 +1,15 @@
 var http = require('http')
-// const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
+const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
 // const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
-// const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 const ver = '9.19.1'
-
-// item API set
-const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
-var response = http.getUrl(url, {format:"json", cacheTime: 0});
-const items = response["data"]
+// const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
 module.exports.naming = function (name, target) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
+
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
-  
+
   if (target == "eng") {
     for (idx in search){
     if (search[idx]["name"] == name){
@@ -34,8 +30,9 @@ module.exports.naming = function (name, target) {
 }
 module.exports.counterrename = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
-var response = http.getUrl(url, {format:"json", cacheTime: 0});
-var search = response["data"]
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  var search = response["data"]
 
   for (idx in search){
     if (search[idx]["name"] == name){
@@ -64,7 +61,36 @@ module.exports.version = function (name) {
   return ver
 }
 
+// module.exports.subitem = function (itemnum) {
+//   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+//   var response = http.getUrl(url, {format:"json", cacheTime: 0});
+//   const items = response["data"]
+
+//   var subitems = []
+
+//   for(idx in items) {
+//     if (items[idx]["name"] == item) {
+//       var temp = []
+
+//       for (n in items[idx]["from"]) {
+//         temp.push(items[idx]["from"][n])
+//       };
+
+//       for (sub in temp) {
+//         subitems.push(items[temp[sub]]["name"])
+//       };
+//     }
+//   };
+//   return subitems
+// }
+
 module.exports.subitemnum = function (itemnum) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
   var subitems = items[itemnum]["from"]
 
   var sub = []
@@ -76,6 +102,11 @@ module.exports.subitemnum = function (itemnum) {
 }
 
 module.exports.subitem = function (subitemnums) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
   var subitems = []
   for (i in subitemnums){
     subitems.push(items[subitemnums[i]]["name"])
@@ -85,20 +116,21 @@ module.exports.subitem = function (subitemnums) {
 }
 
 module.exports.itemname = function (itemnum) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
   var itemname = items[itemnum]["name"]
 
   return itemname
 }
 
-module.exports.itemprice = function (itemnum) {
-  var price = items[itemnum]["gold"]["total"]
-
-  return price
-}
 
 
 module.exports.summary = function (engname) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
+
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]
 
@@ -118,7 +150,7 @@ module.exports.title = function (name) {
 }
 
 
-module.exports.spell = function () {
+module.exports.rune = function () {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/summoner.json")
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
   var search = response["data"]

@@ -1,15 +1,81 @@
-// layout {
-//   match: __CONCEPT__ (this)
-//   mode (Summary)
-
-//   content {
-//     section {
-//       content {
-//         paragraph {
-//           value ("#{value(this)}")
-//           style (Title_L)
-//         }
-//       }
-//     }
-//   }
-// }
+layout-macro-def(counter-Info){
+  params {
+    param (name) {
+      type (Name)
+      min (Optional) max (One)
+    }
+    param (counterset){
+      type (CounterSet)
+      min (Required) max (Many)
+    }
+    param (engname) {
+      type (EngName)
+      min (Required) max (One)
+    }
+    param (version) {
+      type (Version)
+      min (Required) max (One)
+    }
+  }
+  content{
+    section{
+      content{
+        for-each (counterset) {
+          as (champ) {
+            image-card {
+              title-area {
+                halign (Start)
+                slot1 {
+                  text {
+                    value ("#{value(champ.counter)}")
+                  }
+                }
+              }
+              column-size (1)
+              image-url {
+                // template ("http://ddragon.leagueoflegends.com/cdn/#{value(CountersOutStructure.version)}/img/champion/#{value(counter)}.png")
+                template ("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/#{value(champ.engcounter)}_0.jpg")
+              }
+              image-object-fit (Cover)
+              on-click{
+                intent{
+                  goal: info
+                  value: $expr(champ.counter)
+                    // infostructure{
+                    // name = $expr(champ.counter)
+                    // inform = Inform("정보")
+                }
+              }
+            }
+          }
+        }
+        cell-card{
+          on-click{
+						intent{
+							goal: info
+							value: $expr(name)
+						}
+					}
+          slot1{
+            image{
+              url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
+              shape (Circle)
+              background-color (Transparent)
+              }
+          }
+          slot2{
+            content{
+              order (SecondaryPrimary)
+              primary{
+                template ("챔피언 정보로 돌아가기")
+              }
+              secondary{
+                template (다른 정보를 찾고 싶습니다)
+              }
+            }
+          }
+				}
+      }
+    }
+  }
+}

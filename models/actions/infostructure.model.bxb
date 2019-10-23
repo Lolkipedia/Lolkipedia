@@ -1,12 +1,12 @@
-structure (CounterSet) {
+structure (infostructure) {
   description (__DESCRIPTION__)
-  property (counter) {
+  property (name) {
     type (Name)
     min (Optional) max (One)
   }
 
-  property (engcounter){
-    type (EngCounterOut)
+  property (inform){
+    type (Inform)
     min (Optional) max (One)
   }
 }

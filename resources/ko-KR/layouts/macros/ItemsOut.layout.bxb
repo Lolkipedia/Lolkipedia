@@ -1,0 +1,177 @@
+layout-macro-def(item-Info){
+  params {
+    param (name) {
+      type (Name)
+      min (Optional) max (One)
+    }
+
+    param (items){
+      type (ItemsOut)
+      min (Required) max (Many)
+    }
+
+    param (startitems){
+      type (StartItemStructure)
+      min (Optional) max (Many)
+    }
+
+    param (itemnums){
+      type (ItemsNum)
+      min (Required) max (Many)
+    }
+
+    param (itemset){
+      type (ItemSet)
+      min (Required) max (Many)
+    }
+
+    param (engname) {
+      type (EngName)
+      min (Required) max (One)
+    }
+
+    param (version) {
+      type (Version)
+      min (Required) max (One)
+    }
+  }
+  content{
+    section{
+      content{
+        hbox{
+          
+          content{  
+            vbox{
+              halign (Center)
+              valign (Middle)
+              content{
+                text{
+                  value("#{value(name)}의 시작 아이템")
+                  style(Title_M)
+                }
+              }
+            }
+          }
+        }
+        
+        for-each (startitems) {
+          as (startitem) {
+            cell-area {
+              slot1 {
+                image {
+                  shape (Square)
+                  url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/item/#{value(startitem.startitemnum)}.png")
+                }
+              }
+              slot2 {
+                content {
+                  order (PrimarySecondary)
+                  primary ("#{value(startitem.korstartitems)}")
+                  // secondary ("#{value(subitemset)}")
+                }
+              }
+            }
+          }
+        }
+        // for-each (startitems) {
+        //   as (startitem) {
+        //     image-card{
+        //       aspect-ratio (3:4)
+        //       title-area{
+        //         slot1 {
+        //           text {
+        //             value ("#{value(startitem.korstartitems)}")
+        //             style(Detail_M_Soft)
+        //           }
+        //         }
+        //       }
+        //       column-size (Three)
+        //       image-url{
+        //         template ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/item/#{value(startitem.startitemnum)}.png")
+
+        //       }
+        //       image-object-fit (Cover)
+        //     }
+        //   }
+        // }
+
+
+        hbox{
+          content{
+            vbox{
+              halign (Center)
+              valign (Middle)
+              content{
+                text{
+                  value("#{value(name)}의 최종 아이템")
+                  style(Title_M)
+                }
+              }
+            }
+          }
+        }
+
+        for-each (itemset) {
+          as (item) {
+            cell-area {
+              slot1 {
+                image {
+                  shape (Square)
+                  url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/item/#{value(item.itemnums)}.png")
+                }
+              }
+              slot2 {
+                content {
+                  order (PrimarySecondary)
+                  primary ("#{value(item.items)}")
+                  // secondary ("#{value(subitemset)}")
+                }
+              }
+            }
+          }
+        }
+        cell-card{
+          on-click{
+						intent{
+							goal: info
+							value: $expr(name)
+              // value: name: $expr(name)
+						}
+					}
+          slot1{
+            image{
+              url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
+              shape (Circle)
+              background-color (Transparent)
+              }
+          }
+          slot2{
+            content{
+              order (SecondaryPrimary)
+              primary{
+                template ("챔피언 정보로 돌아가기")
+              }
+              secondary{
+                template (다른 정보를 찾고 싶습니다)
+              }
+            }
+          }
+				}
+      }
+    }
+  }
+}
+
+
+        // paragraph {
+        //   value ("나와주세요 제발")
+        //   style (Detail_M)
+        // }
+        // hbox{
+        //   content{
+        //     text{
+        //       style(Detail_M)
+        //       value("Lvasfsafsafsafsafsafsf")
+        //     }
+        //   }
+        // }

@@ -1,11 +1,10 @@
 module.exports.function = function counter (name, counter) {
   var db = require('../lib/db.js')
   var console = require('console')
-  let tools = require('lib/tools.js')
-  // ENGNAME
-  var engname = tools.naming(name, "eng")
+  
 
-  // COUNTER
+  let tools = require('lib/tools.js')
+  var engname = tools.naming(name, "eng")
   var counterset = db.infos[engname]["Counters"]
   console.log(counterset)
   var counters = []
@@ -14,10 +13,12 @@ module.exports.function = function counter (name, counter) {
       counter:tools.naming(tools.counterrename(counterset[counter]), "kor"),
       engcounter:tools.counterrename(counterset[counter])
     }
+    console.log(temp)
     counters.push(temp)
   }
+  console.log(counters)
 
-  // VERSION
+
   var version = tools.version(name)
 
   return {

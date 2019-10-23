@@ -200,7 +200,8 @@ layout-macro-def (champ-Info) {
           aspect-ratio (1:1)
           image-object-fit (Contain)
           column-size (2)
-          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.skillid[0])}.png")
+          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.skillid[1])}.png")
+          // 궁 사진 넣고싶은데 없넹..
           on-click{
 						intent{
 							goal: skills

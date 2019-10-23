@@ -32,6 +32,6 @@ structure (ItemsOutStructure) {
 
   property (startitems) {
     type (StartItemStructure)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
 }

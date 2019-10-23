@@ -14,9 +14,4 @@ structure (ItemSet) {
     type (SubItemSet)
     min (Required) max (Many)
   }
-
-  property (itemprice){
-    type (ItemPrice)
-    min (Required) max (Many)
-  }
 }
