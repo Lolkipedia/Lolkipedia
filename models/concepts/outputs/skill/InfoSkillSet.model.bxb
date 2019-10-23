@@ -2,7 +2,7 @@ structure (InfoSkillSet) {
   description (__DESCRIPTION__)
 
   property (skills) {
-    type (SkillsStructure)
+    type (SkillsOut)
     min (Required) max (Many)
   }
 

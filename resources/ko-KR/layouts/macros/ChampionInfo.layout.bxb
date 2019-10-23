@@ -41,7 +41,7 @@ layout-macro-def (champ-Info) {
       max (Many)
     }
     param (skills) {
-    type (SkillSetStructure)
+    type (InfoSkillSet)
     min (Required) max (Many)
   }
   }
@@ -90,7 +90,7 @@ layout-macro-def (champ-Info) {
             halign (Start)
             slot1{
               text{
-                value("CounterPick")
+                value("카운터 픽")
                 style(Title_XS)
               }
             }
@@ -200,7 +200,7 @@ layout-macro-def (champ-Info) {
           aspect-ratio (1:1)
           image-object-fit (Contain)
           column-size (2)
-          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.skillid[0])}.png")
+          image-url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.skillset.skillid[3])}.png")
           on-click{
 						intent{
 							goal: skills
@@ -221,20 +221,30 @@ layout-macro-def (champ-Info) {
             slot2{
               single-line{
                 text{
-                  value ("#{value(skills.skills[0])} ")
+                  value ("#{value(skills.skills[0])}")
                   style (Detail_M)
                 }
                 text{
-                  value ("→ #{value(skills.skills[1])} ")
+                  value ("→ #{value(skills.skills[1])}")
                   style (Detail_M)
                 }
                 text{
                   value ("→ #{value(skills.skills[2])}")
                   style (Detail_M)
                 }
-                // image{
-                //   url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.spells[1])}.png")
-                // }
+                spacer
+                text{
+                  value ("spell:")
+                  style (Detail_M_Soft)
+                }
+                image{
+                  shape (Circle)
+                  url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.spells[1].spells)}.png")
+                }
+                image{
+                  shape (Circle)
+                  url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.spells[0].spells)}.png")
+                }
               }
             }
             slot3{
