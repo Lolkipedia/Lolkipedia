@@ -19,30 +19,9 @@ result-view {
       param(skillset) {
         expression (skillset)
       }
+      param (spells) {
+        expression (spells)
+      }
     }
   }
-  // message {
-  //   template("#{value(SkillsOutStructure.name)}의 스킬트리")
-  // }
-
-  // render {
-  //   list-of (SkillsOutStructure.skills) {
-  //     where-each (skill) {
-  //       cell-area {
-  //         slot1 {
-  //           image {
-  //             shape (Square)
-  //             url("http://ddragon.leagueoflegends.com/cdn/#{value(SkillsOutStructure.version)}/img/spell/#{value(skill.skillsid)}.png")
-  //           }
-  //         }
-  //         slot2 {
-  //           content {
-  //             order (PrimarySecondary)
-  //             primary ("#{value(skill.skills)}")
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 }

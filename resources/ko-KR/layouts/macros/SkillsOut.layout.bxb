@@ -24,13 +24,60 @@ layout-macro-def (skill-Tree) {
       type (SkillSetStructure)
       min (Optional) max (Many)
     }
+    
+    param (spells) {
+    type (SpellStructure)
+    min (Optional) max (Many)
+    }
   }
   content{
     section{
       content{
-        single-line{
-          text{
-            value("#{value(skillset.skilldetail[0])}")
+        title-area{
+          slot2{
+            paragraph{
+              style(Detail_L)
+              value("#{value(name)}의 추천 소환사 주문")
+            }
+          }
+        }
+        hbox{
+          content{
+            vbox{
+              grow(1)
+              valign (Middle)
+              content{
+                single-line{
+                  image{
+                    url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(spells.spells[1])}.png")
+                  }
+                }
+                single-line{
+                  text{
+                    style(Detail_M)
+                    value("#{value(spells.korspells[1])}")
+                  }
+                }
+              }
+            }
+            vbox{
+              grow(5)
+              valign (Middle)
+              halign (Start)
+              content{
+                single-line{
+                  image{
+                    url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(spells.spells[0])}.png")
+                  }
+                }
+                single-line{
+                  text{
+                    style(Detail_M)
+                    value("#{value(spells.korspells[0])}")
+                  }
+                }
+              }
+            }
           }
         }
         hbox{
