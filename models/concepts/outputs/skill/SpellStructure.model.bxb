@@ -1,5 +1,5 @@
 structure (SpellStructure) {
-  description (__DESCRIPTION__)
+  description (스펠과 디스플레이를 위한 한국어 스펠)
   property (spells) {
     type (Spells)
     min (Optional) max (Many)

@@ -1,3 +1,3 @@
 text (SubItems) {
-  description (__DESCRIPTION__)
+  description (하위아이템이름)
 }

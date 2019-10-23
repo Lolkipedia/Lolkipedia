@@ -1,4 +1,4 @@
 enum (Skills) {
-  description (__DESCRIPTION__)
+  description (해당 챔피언에 필요한 정보를 스킬트리로 정의한다.)
   symbol ("스킬")
 }

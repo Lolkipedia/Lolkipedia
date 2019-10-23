@@ -1,4 +1,4 @@
 enum (Items) {
-  description (__DESCRIPTION__)
+  description (해당 챔피언에 필요한 정보를 아이템으로 정의한다.)
   symbol ("아이템")
 }

@@ -1,4 +1,4 @@
 text (Inform) {
-  description (__DESCRIPTION__)
+  description (해당 챔피언에 필요한 전반적인 정보를 찾는다.)
   // symbol ("정보")
 }

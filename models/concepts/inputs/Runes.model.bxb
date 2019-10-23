@@ -1,4 +1,4 @@
 enum (Runes) {
-  description (__DESCRIPTION__)
+  description (해당 챔피언에 필요한 정보를 룬정보로 정의한다.)
   symbol ("룬")
 }

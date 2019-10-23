@@ -1,3 +1,3 @@
 text (CounterOut) {
-  description (__DESCRIPTION__)
+  description (카운터 챔피언을 할당한다.)
 }

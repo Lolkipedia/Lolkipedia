@@ -1,5 +1,5 @@
 structure (StartItemStructure) {
-  description (__DESCRIPTION__)
+  description (시작아이템 정보를 담을 구조체)
   property (startitems) {
     type (StartItems)
     min (Optional) max (Many)
@@ -11,7 +11,7 @@ structure (StartItemStructure) {
   }
 
   property (startitemnum) {
-    type (StartItemNum)
+    type (ItemsNum)
     min (Optional) max (Many)
   }
 

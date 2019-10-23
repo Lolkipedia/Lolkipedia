@@ -1,5 +1,5 @@
 action (items) {
-  description (action for items)
+  description (챔피언에게 추천할 만한 아이템을 찾는다.)
   collect {
     input (name) {
       type (Name)
@@ -12,4 +12,6 @@ action (items) {
     }
   }
   output (ItemsOutStructure)
+
+  type(Search)
 }

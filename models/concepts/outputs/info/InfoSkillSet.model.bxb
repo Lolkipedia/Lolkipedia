@@ -1,5 +1,5 @@
 structure (InfoSkillSet) {
-  description (__DESCRIPTION__)
+  description (인포창을 위한 스킬요약창)
 
   property (skills) {
     type (SkillsStructure)

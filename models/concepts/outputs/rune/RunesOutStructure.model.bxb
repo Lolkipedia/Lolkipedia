@@ -1,5 +1,5 @@
 structure (RunesOutStructure) {
-  description (__DESCRIPTION__)
+  description (룬과 특성에 대한 전체적인 정보를 담아낼 구조체)
   property (name) {
     type (Name)
     min (Optional) max (One)

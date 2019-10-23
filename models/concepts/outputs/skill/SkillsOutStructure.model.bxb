@@ -1,5 +1,5 @@
 structure (SkillsOutStructure) {
-  description (__DESCRIPTION__)
+  description (챔피언을 위한 전반적인 추천 스킬트리 정보 구조체)
   property (name) {
     type (Name)
     min (Optional) max (One)

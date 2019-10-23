@@ -1,3 +1,3 @@
 text (LaneOut) {
-  description (__DESCRIPTION__)
+  description (캐릭터가 가장 많이 가는 라인을 알려준다.)
 }

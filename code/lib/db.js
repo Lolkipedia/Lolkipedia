@@ -3239,7 +3239,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			]
 		],
 		"StatMods": [
@@ -5010,7 +5010,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -7456,7 +7456,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -8348,7 +8348,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -8868,7 +8868,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -9242,7 +9242,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -9537,7 +9537,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -10277,7 +10277,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLane"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",

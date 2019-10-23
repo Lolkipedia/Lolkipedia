@@ -1,5 +1,5 @@
 structure (ItemSet) {
-  description (__DESCRIPTION__)
+  description (아이템이름과 API활용을 위한 아이템의 고유값과 하위 아이템 목록을 전달한다.)
   property (items) {
     type (ItemsOut)
     min (Required) max (One)

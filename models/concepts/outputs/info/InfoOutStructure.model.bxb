@@ -1,5 +1,5 @@
 structure (InfoOutStructure) {
-  description (__DESCRIPTION__)
+  description (캐릭터의 전반적인 정보를 보여주기 위한 구조체)
   property (name) {
     type (Name)
     min (Required) max (One)

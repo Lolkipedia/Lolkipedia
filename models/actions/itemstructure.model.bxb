@@ -1,5 +1,5 @@
 structure (itemstructure) {
-  description (__DESCRIPTION__)
+  description (챔피언에 해당하는 아이템을 찾기 위한 구조체)
   property (name) {
     type (Name)
     min (Optional) max (One)

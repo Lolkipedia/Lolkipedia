@@ -1,3 +1,3 @@
 text (SubItemsNum) {
-  description (__DESCRIPTION__)
+  description (하위아이템 식별을 위한 고유값)
 }

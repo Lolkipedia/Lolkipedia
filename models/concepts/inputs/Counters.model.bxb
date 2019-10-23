@@ -1,4 +1,4 @@
 enum (Counters) {
-  description (__DESCRIPTION__)
+  description (해당 챔피언에 필요한 정보를 카운터픽으로 정의한다.)
   symbol ("카운터")
 }

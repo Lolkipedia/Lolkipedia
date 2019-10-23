@@ -1,5 +1,5 @@
 action (runes) {
-  description (action for lune)
+  description (챔피언에게 가장 추천할 수 있는 룬정보를 찾는다.)
   collect {
     input (name) {
       type (Name)
@@ -12,4 +12,6 @@ action (runes) {
     }
   }
   output (RunesOutStructure)
+
+  type(Search)
 }

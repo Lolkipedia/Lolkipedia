@@ -7,9 +7,9 @@ module.exports.function = function skill (name, skill) {
   var engname = tools.naming(name, "eng")
   console.log(engname)
 ​
-  var skills = db.infos[engname]["SkillTree"]
+  var skill = db.infos[engname]["SkillTree"]
   skill.push("R")
-  console.log(skills)
+  console.log(skill)
 ​
   const skillmap = {
     'Q':"0",
@@ -24,10 +24,10 @@ module.exports.function = function skill (name, skill) {
   console.log(detailset)
 ​
   var cases = []
-  for (i in skills){
+  for (i in skill){
     var temp = {
-      skills: skills[i],
-      skillsid: detailset[skillmap[skills[i]]][0]
+      skills: skill[i],
+      skillsid: detailset[skillmap[skill[i]]][0]
     }
 ​   
     cases.push(temp)

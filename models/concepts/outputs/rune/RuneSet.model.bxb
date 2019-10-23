@@ -1,5 +1,5 @@
 structure (RuneSet) {
-  description (__DESCRIPTION__)
+  description (룬과 특성의 정보를 담아낼 구조체)
   property (runecat) {
     type (RunesCat)
     min (Optional) max (One)

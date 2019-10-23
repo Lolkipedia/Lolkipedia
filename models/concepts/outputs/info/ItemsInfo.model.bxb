@@ -1,5 +1,5 @@
 structure (ItemsInfo) {
-  description (__DESCRIPTION__)
+  description (대략적인 정보를 위한 아이템 정보 구조체)
   property (itemnum) {
     type (ItemsNum)
     min (Optional) max (One)

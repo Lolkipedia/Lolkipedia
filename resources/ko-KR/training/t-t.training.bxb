@@ -3,3 +3,8 @@ train (t-tnep9ncl8xpiwx3dfibw6kgyh) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785386024)
 }
+train (t-tumpo10hbedtd04nvb3wchrfs) {
+  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] (스킬)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571822658575)
+}

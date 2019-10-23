@@ -1,5 +1,5 @@
 structure (CountersOutStructure) {
-  description (__DESCRIPTION__)
+  description (최종 카운터픽에 대한 결과를 제공하기 위한 구조체)
   property (name) {
     type (Name)
     min (Optional) max (One)

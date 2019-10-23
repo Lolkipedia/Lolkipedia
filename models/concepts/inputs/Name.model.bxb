@@ -1,5 +1,5 @@
 enum (Name) {
-  description (__DESCRIPTION__)
+  description (발화 트레이닝을 위한 챔피언 목록)
   symbol ("가렌")
   symbol ("갈리오")
   symbol ("갱플랭크")

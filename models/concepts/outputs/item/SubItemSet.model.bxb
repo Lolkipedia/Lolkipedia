@@ -1,5 +1,5 @@
 structure (SubItemSet) {
-  description (__DESCRIPTION__)
+  description (하위 아이템의 정보를 위한 구조체)
   property (subitems) {
     type (SubItems)
     min (Optional) max (One)

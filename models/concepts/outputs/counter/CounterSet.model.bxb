@@ -1,5 +1,5 @@
 structure (CounterSet) {
-  description (__DESCRIPTION__)
+  description (카운터 챔피언과 API에서 활용하기 위한 영어이름을 묶어서 제공한다.)
   property (counter) {
     type (Name)
     min (Optional) max (One)

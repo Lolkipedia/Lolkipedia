@@ -1,5 +1,5 @@
 structure (StatmodSet) {
-  description (__DESCRIPTION__)
+  description (스탯모드에 대한 한국어와 영어 구조체)
   property (korstatmods) {
     type (KorStatmods)
     min (Optional) max (One)

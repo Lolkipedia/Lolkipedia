@@ -1,5 +1,5 @@
 structure (SkillsStructure) {
-  description (--)
+  description (스킬과 스킬식별을 위한 고유값 구조체)
   property (skills) {
     type (SkillsOut)
     min (Optional) max (One)

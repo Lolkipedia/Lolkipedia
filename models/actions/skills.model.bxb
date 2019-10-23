@@ -1,5 +1,5 @@
 action (skills) {
-  description (action for skills)
+  description (챔피언이 활용하기 좋은 스킬을 찾는다.)
   collect {
     input (name) {
       type (Name)
@@ -12,4 +12,6 @@ action (skills) {
     }
   }
   output (SkillsOutStructure)
+
+  type(Search)
 }
