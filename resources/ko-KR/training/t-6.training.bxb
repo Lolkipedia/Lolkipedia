@@ -13,6 +13,11 @@ train (t-68krld50ds1t9ijpilqa23p7k) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571824544374)
 }
+train (t-6qybvmimuxsccufs326wmmdhr) {
+  utterance ("[g:CountersOutStructure] (케일상대)[v:Name:케일]로 (좋은 픽)[v:Counters:카운터]")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571869220097)
+}
 train (t-6ve9htb087ynhwp4mmmrj0ye8) {
   utterance ("[g:InfoOutStructure] (렉사이)[v:Name:렉사이] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

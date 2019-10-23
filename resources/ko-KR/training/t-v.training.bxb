@@ -23,6 +23,11 @@ train (t-voronwtn6e3lkmppgn36yr9st) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760914673)
 }
+train (t-vqprkj67w9b45uugbwkk7qxlz) {
+  utterance ("[g:InfoOutStructure] (헤카림)[v:Name:헤카림] (정보)[v:Inform] 알려줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571869252012)
+}
 train (t-vrmi98r3viej9vdh9f41f6s07) {
   utterance ("[g:InfoOutStructure] (나서스)[v:Name:나서스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

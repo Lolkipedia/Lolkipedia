@@ -13,6 +13,16 @@ train (t-jk8zuzobxurvlx4so4ub860ml) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571826265538)
 }
+train (t-jrh4gloz2of55bj7h501urki3) {
+  utterance ("[g:InfoOutStructure] (사이온)[v:Name:사이온] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571870957556)
+}
+train (t-jumig636meg968xo6jgm4gvg4) {
+  utterance ("[g:InfoOutStructure] (피들스틱)[v:Name:피들스틱]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571871056384)
+}
 train (t-jv66x6h0caldy0s84rrpqurkf) {
   utterance ("[g:RunesOutStructure] (갈리오)[v:Name:갈리오] (룬)[v:Runes:룬] 뭐갈까")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

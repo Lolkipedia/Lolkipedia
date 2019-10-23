@@ -3,6 +3,11 @@ train (t-ef23kzy9kawli0g0aopi2xyqg) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760808789)
 }
+train (t-elt1aik4lbf42eff2nws32mj3) {
+  utterance ("[g:InfoOutStructure] (모르가나)[v:Name:모르가나]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870668978)
+}
 train (t-emdc5x2x7n5yxi3360zhaxgei) {
   utterance ("[g:InfoOutStructure] (베이가)[v:Name:베이가] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
@@ -17,4 +22,9 @@ train (t-euxkw3b67xup2yw73dt0ks2iv) {
   utterance ("[g:RunesOutStructure] (나르)[v:Name:나르] (룬)[v:Runes:룬] 뭐가")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571824728013)
+}
+train (t-ew2dpje2v0ptxoy1v83sc8owe) {
+  utterance ("[g:CountersOutStructure] (아이번)[v:Name:아이번] (카운터)[v:Counters:카운터] 칠 거")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571871383009)
 }

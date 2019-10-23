@@ -8,3 +8,8 @@ train (t-5kmnq2q8qgu6pxx43vhzfm7go) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761484064)
 }
+train (t-5s84ifom6z5wlyckzrzrysjfl) {
+  utterance ("[g:InfoOutStructure] (코르키)[v:Name:코르키]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870813418)
+}

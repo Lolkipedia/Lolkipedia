@@ -3,6 +3,11 @@ train (t-x5yxp7jyd67evjrzldnhhxcbv) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760830907)
 }
+train (t-xdn7gfucjjzrcmzu2b18a3fh3) {
+  utterance ("[g:SkillsOutStructure] (애니비아)[v:Name:애니비아] (스킬순서)[v:Skills:스킬] 좀")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571870350231)
+}
 train (t-xef0u9ftf9aim1lspqapujt2c) {
   utterance ("[g:InfoOutStructure] (그레이브즈)[v:Name:그레이브즈] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

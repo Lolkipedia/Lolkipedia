@@ -8,3 +8,8 @@ train (t-n73vt3uxqejjco1mpxg97x6fc) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571823762552)
 }
+train (t-nozsfzof61fu76whlqtkqawvo) {
+  utterance ("[g:RunesOutStructure] (피들스틱)[v:Name:피들스틱] (룬정보)[v:Runes:룬]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571871039601)
+}

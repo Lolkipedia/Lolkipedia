@@ -8,6 +8,11 @@ train (t-ij80oh3ja21it6oytc7ri3a7y) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760571481)
 }
+train (t-ilpvlcvj3jll19o8pezt8zwlu) {
+  utterance ("[g:ItemsOutStructure] (트리스타나)[v:Name:트리스타나] (아이템)[v:Items:아이템] 추천")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571869844326)
+}
 train (t-ixh8snm344afhyjczaihok5w8) {
   utterance ("[g:InfoOutStructure] (다이애나)[v:Name:다이애나] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

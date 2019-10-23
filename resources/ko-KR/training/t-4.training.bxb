@@ -1,5 +1,15 @@
+train (t-4a4aywynfabxfx85albaf46au) {
+  utterance ("[g:SkillsOutStructure] (카직스)[v:Name:카직스] (선마)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571871276451)
+}
 train (t-4dhz51xp9ylupl6o5caz1k87p) {
   utterance ("[g:InfoOutStructure] (블라디미르)[v:Name:블라디미르] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761256351)
+}
+train (t-4yxmli2toh35cupzid5qrytr4) {
+  utterance ("[g:SkillsOutStructure] (애니)[v:Name:애니] (스킬트리)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571870153989)
 }

@@ -1,3 +1,8 @@
+train (t-b0kvwfftrkn8smhr7enw6z2gp) {
+  utterance ("[g:ItemsOutStructure] (케인)[v:Name:케인]은 (아이템)[v:Items:아이템] 뭐감")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571868996445)
+}
 train (t-bqj106bk66o4ubazfdcbfcckd) {
   utterance ("[g:ItemsOutStructure] (가렌)[v:Name:가렌] (아이템)[v:Items:아이템] 정보")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

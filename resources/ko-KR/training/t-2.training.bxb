@@ -3,10 +3,25 @@ train (t-21z2tnu0zs31h9uc8o28es090) {
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
   last-modified (1571822722149)
 }
+train (t-22vk9acwa5u21mfxl1lim5gw6) {
+  utterance ("[g:ItemsOutStructure] (요릭)[v:Name:요릭] 추천 (템트리)[v:Items:아이템]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571871248086)
+}
+train (t-26219002735ww82eczr64yudt) {
+  utterance ("[g:ItemsOutStructure] (오리아나)[v:Name:오리아나] 추천 (아이템)[v:Items:아이템]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571869710395)
+}
 train (t-2alcuz7wi9gq0xrm8uu7okp7v) {
   utterance ("[g:InfoOutStructure] (빅토르)[v:Name:빅토르] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570761292907)
+}
+train (t-2f28zgqtgsg5sbiolx8sq9iuy) {
+  utterance ("[g:CountersOutStructure] (애니비아)[v:Name:애니비아]는 (카운터)[v:Counters:카운터]가 뭐임")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571869965743)
 }
 train (t-2nclolzas2eb35z0wamo0nlo5) {
   utterance ("[g:SkillsOutStructure] (쉬바나)[v:Name:쉬바나] (스킬)[v:Skills:스킬]")

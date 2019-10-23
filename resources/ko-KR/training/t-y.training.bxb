@@ -3,6 +3,16 @@ train (t-y7su2jgcin9a6ne4no643s1kk) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570840592045)
 }
+train (t-y9sg1emm2mwtk0lx9b5d69nxh) {
+  utterance ("[g:CountersOutStructure] (모르가나)[v:Name:모르가나] 상대로 (좋은픽)[v:Counters:카운터]")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571869746784)
+}
+train (t-yk0unjz30h8lop229qljhza12) {
+  utterance ("[g:InfoOutStructure] (애니비아)[v:Name:애니비아] 전체적은 (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571869993717)
+}
 train (t-ykgj2qtzvqg97hhkmw1fmc2wt) {
   utterance ("[g:InfoOutStructure] (베인)[v:Name:베인] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

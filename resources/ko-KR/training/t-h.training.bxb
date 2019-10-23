@@ -3,6 +3,11 @@ train (t-h1kb6ikazhxsejtvq8fgcy6qz) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785338239)
 }
+train (t-h8frp7bn58nvpp1cgcgna2qbv) {
+  utterance ("[g:InfoOutStructure] (쉬바나)[v:Name:쉬바나]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870928276)
+}
 train (t-hbnbylq4b7du1omyxd62znb5c) {
   utterance ("[g:RunesOutStructure] (녹턴)[v:Name:녹턴] (룬)[v:Runes:룬] 어떻게 할까")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

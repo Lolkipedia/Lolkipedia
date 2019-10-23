@@ -23,3 +23,8 @@ train (t-zmjzgtco0fwqscee7sqwphirs) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571824285943)
 }
+train (t-zp49i2l33j87jchti4q6zlqvx) {
+  utterance ("[g:ItemsOutStructure] (카밀)[v:Name:카밀] (아이템)[v:Items:아이템] 추천")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571870695787)
+}

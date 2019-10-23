@@ -125,11 +125,12 @@ module.exports.function = function info (name, inform) {
   console.log(skillsset)
   var summary = tools.summary(engname)
 
-  var title = tools.title(engname)
-
+  
   var lane = db.infos[engname]["Lane"].toLowerCase()
 
   var version = tools.version(name)
+
+  var title = tools.title(engname)
 
   return {
     name: name,

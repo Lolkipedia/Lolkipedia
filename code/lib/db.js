@@ -8763,7 +8763,7 @@ module.exports.infos = {
 		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerCleanse"
+			"SummonerBoost"
 		],
 		"SkillTree": [
 			"E",

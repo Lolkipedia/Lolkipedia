@@ -1,3 +1,8 @@
+train (t-khi723uaxrg03mhwxrddlm1oj) {
+  utterance ("[g:CountersOutStructure] (카이사)[v:Name:카이사] 상대로 (좋은픽)[v:Counters:카운터] 뭐")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571869473272)
+}
 train (t-kmhrrtzta6b1j6qlpczyr7v5v) {
   utterance ("[g:RunesOutStructure] (다이애나)[v:Name:다이애나] 최고의 (룬세팅)[v:Runes:룬] 알려줘")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

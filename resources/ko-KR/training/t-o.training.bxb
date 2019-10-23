@@ -1,3 +1,8 @@
+train (t-o8hhrj62hda1yl3xlw7t9ntha) {
+  utterance ("[g:ItemsOutStructure] (제드)[v:Name:제드]는 (선템)[v:Items:아이템] 뭐가지")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571870737213)
+}
 train (t-o9rpclaw6yce7l5li6mbhfmv8) {
   utterance ("[g:InfoOutStructure] (바이)[v:Name:바이] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
@@ -7,6 +12,11 @@ train (t-ob29hzmvyi6mn4rckwjmlwgts) {
   utterance ("[g:InfoOutStructure] (모르가나)[v:Name:모르가나] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760745864)
+}
+train (t-ok3iqh2uj096a6b1u44g2focp) {
+  utterance ("[g:RunesOutStructure] (소나)[v:Name:소나] (룬특)[v:Runes:룬] 뭐듬")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571870861915)
 }
 train (t-ommqhyhq1n9ko6ot5tl2j26ow) {
   utterance ("[g:InfoOutStructure] (블리츠크랭크)[v:Name:블리츠크랭크] (정보)[v:Inform]")
@@ -22,4 +32,9 @@ train (t-osszv66ytvz6e78wo3ywyza0o) {
   utterance ("[g:RunesOutStructure] (쉬바나)[v:Name:쉬바나] (룬)[v:Runes:룬]")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571632308166)
+}
+train (t-owf5jbo8y9h147yxya9bkzmrx) {
+  utterance ("[g:ItemsOutStructure] (아무무)[v:Name:아무무]는 (선템)[v:Items:아이템] 뭐감")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571871352943)
 }
