@@ -1,0 +1,120 @@
+layout-macro-def (runes-Info){
+  params {
+    param(name) {
+      type (Name)
+      min (Optional)
+      max (One)
+    }
+    param (runeset) {
+      type (RuneSet)
+      min (Required)
+      max (Many)
+    }
+    param (statmodset) {
+      type (StatmodSet)
+      min (Optional) max (Many)
+    }
+    param (engname) {
+      type (EngName)
+      min (Required) max (One)
+    }
+    param (version) {
+      type (Version)
+      min (Required) max (One)
+    }
+  }
+  content{
+    section{
+      content{
+        for-each (runeset) {
+          as (rune) {
+            index-var (i)
+            if(i == 0 or i == 4 ){
+            cell-area {
+              slot1 {
+                image {
+                  shape (Circle)
+                  url("images/runes/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
+                }
+              }
+              slot2 {
+                content {
+                  primary ("#{value(rune.korrune)}")
+                  secondary("#{value(rune.korrunecat)}")
+                }
+              }
+              
+                slot3{ 
+                  image {
+                    shape (Circle)
+                    url("icons/#{value(rune.runecat)}.png")
+                  }
+                }
+              }
+            }
+            else{
+              cell-area {
+                slot1 {
+                  image {
+                    shape (Circle)
+                    url("images/runes/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
+                  }
+                }
+                slot2 {
+                  content {
+                    primary ("#{value(rune.korrune)}")
+                    secondary("#{value(rune.korrunecat)}")
+                  }
+                }
+              } 
+            }
+          }
+        }
+      spacer
+      for-each (statmodset) {
+          as (statmod) {
+            cell-area {
+              slot1 {
+                image {
+                  shape (Circle)
+                  url("http://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/StatMods#{value(statmod.statmods)}Icon.png")
+                }
+              }
+              slot2 {
+                content {
+                  primary ("#{value(statmod.korstatmods)}")
+                }
+              }
+            }
+          }
+        }
+      cell-card{
+          on-click{
+                        intent{
+                            goal: info
+                            value: $expr(name)
+                        }
+                    }
+          slot1{
+            image{
+              url("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/champion/#{value(engname)}.png")
+              shape (Circle)
+              background-color (Transparent)
+              }
+          }
+          slot2{
+            content{
+              order (SecondaryPrimary)
+              primary{
+                template ("챔피언 정보로 돌아가기")
+              }
+              secondary{
+                template (다른 정보를 찾고 싶습니다)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

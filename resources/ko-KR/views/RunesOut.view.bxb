@@ -1,54 +1,25 @@
 result-view {
-  match: RunesOutStructure (RunesOutStructure) {
-  }
-
+  match: RunesOutStructure (this)
   message {
-    template("#{value(RunesOutStructure.name)}의 추천 룬")
+    template("#{value(this.name)}의 추천 룬")
   }
-
   render {
-    list-of (RunesOutStructure.runeset) {
-      where-each (rune) {
-        cell-area {
-          slot1 {
-            image {
-              shape (Circle)
-              url("images/runes/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
-            }
-          }
-          slot2 {
-            content {
-              primary ("#{value(rune.korrune)}")
-              secondary("#{value(rune.korrunecat)}")
-            }
-          }
-          
-          slot3{
-            image {
-              shape (Circle)
-              url("icons/#{value(rune.runecat)}.png")
-            }
-          }
-        }
+    layout-macro (runes-Info){
+      param(name) {
+        expression (name)
+      }
+      param(runeset) {
+        expression (runeset)
+      }
+      param(statmodset) {
+        expression (statmodset)
+      }
+      param(engname) {
+        expression (engname)
+      }
+      param(version) {
+        expression (version)
       }
     }
-
-    // list-of (RunesOutStructure.statmodset) {
-    //   where-each (stat) {
-    //     cell-area {
-    //       slot1 {
-    //         image {
-    //           shape (Square)
-    //           url("http://ddragon.leagueoflegends.com/cdn/img/perk-images/StatMods/#{value(stat)}.png")
-    //         }
-    //       }
-    //       slot2 {
-    //         content {
-    //           primary ("#{value(stat)}")
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
   }
 }
