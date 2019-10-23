@@ -233,10 +233,6 @@ layout-macro-def (champ-Info) {
                   style (Detail_M)
                 }
                 spacer
-                text{
-                  value ("spell:")
-                  style (Detail_M_Soft)
-                }
                 image{
                   shape (Circle)
                   url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skills.spells[1].spells)}.png")
