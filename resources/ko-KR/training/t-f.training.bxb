@@ -1,3 +1,8 @@
+train (t-f4tn1d7b9h017e4nc2arx0tsi) {
+  utterance ("[g:ItemsOutStructure] (아이템)[v:Items:아이템] 뭐가야 하는지 추천좀 해줘 (마오카이)[v:Name:마오카이] 일때")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571892489521)
+}
 train (t-fjqapvmkl38kec0ydja2vxco6) {
   utterance ("[g:CountersOutStructure] (트린다미어)[v:Name:트린다미어] (카운터)[v:Counters:카운터] 보여줘")
   plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)

@@ -8,3 +8,8 @@ train (t-kmhrrtzta6b1j6qlpczyr7v5v) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571826774865)
 }
+train (t-kv0bjcxdz60u29iogfduj8sls) {
+  utterance ("[g:RunesOutStructure] (룬)[v:Runes:룬] (피오라)[v:Name:피오라] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571891899514)
+}
