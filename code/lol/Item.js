@@ -48,15 +48,7 @@ module.exports.function = function item (name, item) {
       }
     subitemset.push(temp_list)
   }
-
-  // var subitemset = subitemstructure
-  // for (i in items){
-  //   var temp = {
-  //     subitems: subitems[i],
-  //     subitemnum: subitemnums[i]
-  //   }
-  //   subitemset.push(temp)
-  // }
+  console.log(subitemset)
 
   var itemset = []
   for (i in items){

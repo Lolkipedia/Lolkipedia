@@ -8819,9 +8819,9 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Health Potion",
-			"Health Potion",
-			"Corrupting Potion"
+			"Archangel's Staff",
+			"Rylai's Crystal Scepter",
+			"Liandry's Torment"
 		],
 		"Counters": [
 			"Kled",
