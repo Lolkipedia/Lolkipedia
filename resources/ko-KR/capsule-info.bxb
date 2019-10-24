@@ -14,7 +14,7 @@ capsule-info {
     keyword (롤)
     keyword (롤정보)
   }
-  description ("Can search lol champs info using your voice while enjoying game with your hands")
+  description ("게임을 하면서 빅스비를 통해서 게임에 필요한 여러 정보를 받을 수 있습니다.")
   website-url (https://github.com/young31/Bixby_jisby)
   // terms-url (https://example.com/terms-of-use/)
 }
