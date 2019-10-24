@@ -61,7 +61,7 @@ module.exports.runedict = {
     "HextechFlashtraption" : "마법공학 점멸기",
     "MagicalFootwear" : "마법의 신발",
     "PerfectTiming" : "완벽한 타이밍",
-    "FuturesMarket" : "외상",
+    "Future'sMarket" : "외상",
     "MinionDematerializer" : "미니언 해체분석기",
     "BiscuitDelivery" : "비스킷 배달",
     "CosmicInsight" : "우주적 통찰력",
@@ -1342,7 +1342,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerGhost"
+			"SummonerHaste"
 		],
 		"SkillTree": [
 			"Q",
@@ -3239,7 +3239,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			]
 		],
 		"StatMods": [
@@ -5010,7 +5010,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -5241,7 +5241,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"FuturesMarket"
+				"Future'sMarket"
 			],
 			[
 				"Inspiration",
@@ -5612,7 +5612,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"FuturesMarket"
+				"Future'sMarket"
 			],
 			[
 				"Inspiration",
@@ -7456,7 +7456,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -8348,7 +8348,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -8868,7 +8868,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -9242,7 +9242,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -9537,7 +9537,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -10233,8 +10233,8 @@ module.exports.infos = {
 			"Dead Man's Plate"
 		],
 		"Counters": [
-			"Fiddlesticks",
 			"Kindred",
+			"Fiddlesticks",
 			"Ekko"
 		],
 		"Easy": [
@@ -10277,7 +10277,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodline"
+				"LegendBloodLine"
 			],
 			[
 				"Precision",
@@ -11061,7 +11061,7 @@ module.exports.infos = {
 	"Hecarim": {
 		"Lane": "Jungle",
 		"Spell": [
-			"SummonerGhost",
+			"SummonerHaste",
 			"SummonerSmite"
 		],
 		"SkillTree": [
