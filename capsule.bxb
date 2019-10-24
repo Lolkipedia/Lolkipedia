@@ -6,6 +6,12 @@ capsule {
     target (bixby-mobile-en-US){enabled (false)}
     target (bixby-mobile-ko-KR)
   }
+
+  capsule-imports {
+		import (viv.time) {
+			as (time) version (2.92.45)
+		}
+  }
   store-sections{
     section (GamesAndFun)
   }
@@ -18,3 +24,4 @@ capsule {
     support-halt-effect-in-computed-inputs
   }
 }
+
