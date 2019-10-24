@@ -22,4 +22,18 @@ result-view {
       }
     }
   }
+  conversation-drivers {
+    conversation-driver {
+      template ("#{value(CountersOutStructure.name)} 정보")
+    }
+    conversation-driver {
+      template ("#{value(CountersOutStructure.name)} 아이템")
+    }
+    conversation-driver {
+      template ("#{value(CountersOutStructure.name)} 룬")
+    }
+    conversation-driver {
+      template ("#{value(CountersOutStructure.name)} 스킬트리")
+    }
+  }
 }

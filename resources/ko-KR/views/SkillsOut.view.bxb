@@ -24,4 +24,18 @@ result-view {
       }
     }
   }
+  conversation-drivers {
+    conversation-driver {
+      template ("#{value(this.name)} 정보")
+    }
+    conversation-driver {
+      template ("#{value(this.name)} 아이템")
+    }
+    conversation-driver {
+      template ("#{value(this.name)} 룬")
+    }
+    conversation-driver {
+      template ("#{value(this.name)} 카운터픽")
+    }
+  }
 }
