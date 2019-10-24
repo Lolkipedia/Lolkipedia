@@ -19,7 +19,7 @@ module.exports.runedict = {
     "DarkHarvest" : "어둠의 수확",
     "HailOfBlades" : "칼날비",
     "CheapShot" : "비열한 한 방",
-    "TasteofBlood" : "피의 맛",
+    "TasteOfBlood" : "피의 맛",
     "SuddenImpact" : "돌발 일격",
     "ZombieWard" : "좀비 와드",
     "GhostPoro" : "유령 포로",
@@ -61,7 +61,7 @@ module.exports.runedict = {
     "HextechFlashtraption" : "마법공학 점멸기",
     "MagicalFootwear" : "마법의 신발",
     "PerfectTiming" : "완벽한 타이밍",
-    "Future'sMarket" : "외상",
+    "FuturesMarket" : "외상",
     "MinionDematerializer" : "미니언 해체분석기",
     "BiscuitDelivery" : "비스킷 배달",
     "CosmicInsight" : "우주적 통찰력",
@@ -3239,7 +3239,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			]
 		],
 		"StatMods": [
@@ -5010,7 +5010,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
@@ -5241,7 +5241,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"Future'sMarket"
+				"FuturesMarket"
 			],
 			[
 				"Inspiration",
@@ -5612,7 +5612,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"Future'sMarket"
+				"FuturesMarket"
 			],
 			[
 				"Inspiration",
@@ -7456,7 +7456,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
@@ -8348,7 +8348,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
@@ -8868,7 +8868,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
@@ -9242,7 +9242,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
@@ -9537,7 +9537,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
@@ -10227,7 +10227,7 @@ module.exports.infos = {
 			"Doran's Shield",
 			"Health Potion"
 		],
-		"itemss": [
+		"Items": [
 			"Enchantment: Cinderhulk",
 			"Titanic Hydra",
 			"Dead Man's Plate"
@@ -10277,7 +10277,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"LegendBloodLine"
+				"LegendBloodline"
 			],
 			[
 				"Precision",
