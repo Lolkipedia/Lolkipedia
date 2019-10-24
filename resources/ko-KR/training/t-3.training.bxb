@@ -13,6 +13,11 @@ train (t-3gkdjyfkz952rehz6yy66rgy5) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760340024)
 }
+train (t-3iu1kaxbovx0rtkc0vuohh8lz) {
+  utterance ("[g:InfoOutStructure] (소나)[v:Name:소나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571888236017)
+}
 train (t-3oq5ndyp4ibkq8skbu58bl30z) {
   utterance ("[g:InfoOutStructure] (니코니코니)[v:Name:니코]")
   plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)

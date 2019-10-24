@@ -13,6 +13,11 @@ train (t-rmj9czh3pxsn1e81o2q9h2yv7) {
   plan (Y2BlUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EubglMg/wSc1MZWBgYGZgYmIE0A5jFCIQMDDwMIMACxiBZoAwA)
   last-modified (1571822106344)
 }
+train (t-rxx32wo0n5gcbe8v084far3lb) {
+  utterance ("[g:SkillsOutStructure] (스킬)[v:Skills:스킬] (다리우스)[v:Name:다리우스]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571888602586)
+}
 train (t-rzjnbpoa1c8b8ebfqvid9hml0) {
   utterance ("[g:InfoOutStructure] (소나)[v:Name:소나] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

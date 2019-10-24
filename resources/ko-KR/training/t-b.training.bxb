@@ -8,6 +8,11 @@ train (t-b7cgudwc8hrzv6e8mbhn4k9xj) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571878789985)
 }
+train (t-bh8k3umlqj8gpe1m7km89micz) {
+  utterance ("[g:CountersOutStructure] (솔)[v:Name:'아우렐리온 솔'] (카운터)[v:Counters:카운터] 알려줘")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571887617969)
+}
 train (t-bi3qg4cwemqphnkbrwbw4reso) {
   utterance ("[g:ItemsOutStructure] (갱플)[v:Name:갱플랭크] (템)[v:Items:아이템] 추천좀")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
