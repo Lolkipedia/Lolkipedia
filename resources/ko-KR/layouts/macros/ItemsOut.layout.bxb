@@ -67,7 +67,7 @@ layout-macro-def(item-Info){
                 content {
                   order (PrimarySecondary)
                   primary ("#{value(startitem.korstartitems)}")
-                  // secondary ("#{value(subitemset)}")
+                  secondary ("#{value(startitem.itemprice)}골드")
                 }
               }
             }
@@ -124,7 +124,7 @@ layout-macro-def(item-Info){
                 content {
                   order (PrimarySecondary)
                   primary ("#{value(item.items)}")
-                  // secondary ("#{value(subitemset)}")
+                  secondary ("#{value(item.itemprice)}골드")
                 }
               }
             }
