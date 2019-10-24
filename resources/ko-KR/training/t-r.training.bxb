@@ -3,6 +3,11 @@ train (t-r8zo8ugyu476s3vyax162b2bs) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571824374808)
 }
+train (t-renh4owlofmyy65sjehfj78u0) {
+  utterance ("[g:ItemsOutStructure] (다리)[v:Name:다리우스] (템)[v:Items:아이템] 보여줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881905155)
+}
 train (t-rmj9czh3pxsn1e81o2q9h2yv7) {
   utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] {[g:Inform] (정보)[v:Inform]} 보여줘 ")
   plan (Y2BlUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EubglMg/wSc1MZWBgYGZgYmIE0A5jFCIQMDDwMIMACxiBZoAwA)

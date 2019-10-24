@@ -1,3 +1,8 @@
+train (t-m4wemqhjnsz323ytey6834muw) {
+  utterance ("[g:SkillsOutStructure] (에니비아)[v:Name:애니비아] 추천 (스킬)[v:Skills:스킬] 보여줘")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571881881162)
+}
 train (t-mctx0vi5a6trjjsozsy5ux76c) {
   utterance ("[g:RunesOutStructure] (케이틀린)[v:Name:케이틀린] (룬)[v:Runes:룬] 뭐갈까")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

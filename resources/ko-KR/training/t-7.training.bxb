@@ -8,6 +8,11 @@ train (t-7enzdgmx9da0ii7j3o71c6nke) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760643357)
 }
+train (t-7f5ha04t0feopuvranvyzvet5) {
+  utterance ("[g:ItemsOutStructure] (블크)[v:Name:블리츠크랭크] (아이템)[v:Items:아이템] 추천좀")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571882005084)
+}
 train (t-7vzxiffcortopdufimqdap3za) {
   utterance ("[g:RunesOutStructure] (나서스)[v:Name:나서스] (룬)[v:Runes:룬] 어떤게 좋아")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

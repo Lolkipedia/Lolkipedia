@@ -3,6 +3,16 @@ train (t-b0kvwfftrkn8smhr7enw6z2gp) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571868996445)
 }
+train (t-b7cgudwc8hrzv6e8mbhn4k9xj) {
+  utterance ("[g:ItemsOutStructure] 야야 (아템)[v:Items:아이템] 뭐하지? (소나)[v:Name:소나]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571878789985)
+}
+train (t-bi3qg4cwemqphnkbrwbw4reso) {
+  utterance ("[g:ItemsOutStructure] (갱플)[v:Name:갱플랭크] (템)[v:Items:아이템] 추천좀")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571876145623)
+}
 train (t-bqj106bk66o4ubazfdcbfcckd) {
   utterance ("[g:ItemsOutStructure] (가렌)[v:Name:가렌] (아이템)[v:Items:아이템] 정보")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

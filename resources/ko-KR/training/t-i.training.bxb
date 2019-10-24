@@ -18,3 +18,8 @@ train (t-ixh8snm344afhyjczaihok5w8) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760414291)
 }
+train (t-iy5orzlbzc4ohquzgbe4idx9x) {
+  utterance ("[g:SkillsOutStructure] 아니 (세주)[v:Name:세주아니] 무슨 (스킬)[v:Skills:스킬]을 찍어야 하는거야")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571882439154)
+}

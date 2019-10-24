@@ -1,3 +1,8 @@
+train (t-pc6pt6wct9x3q9rgmfvsvaxp4) {
+  utterance ("[g:SkillsOutStructure] (세주)[v:Name:세주아니] (스킬)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571882515570)
+}
 train (t-pep2y7ohi8awdzguaily83adn) {
   utterance ("[g:InfoOutStructure] (르블랑)[v:Name:르블랑] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
@@ -7,6 +12,11 @@ train (t-plxk2rufmpo0xipkrttcyn69j) {
   utterance ("[g:CountersOutStructure] (카사딘)[v:Name:카사딘] 상대로 (좋은픽)[v:Counters:카운터]")
   plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
   last-modified (1571871319916)
+}
+train (t-ppospji5msdrs059th7p6bwfo) {
+  utterance ("[g:CountersOutStructure] (칼리)[v:Name:칼리스타] (카운터좀)[v:Counters:카운터] 알려줘")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571884506271)
 }
 train (t-pq60dvm790p0c6f3psaxhn6sq) {
   utterance ("[g:SkillsOutStructure] (딩거)[v:Name:하이머딩거] (스킬트리)[v:Skills:스킬] 뭐임")

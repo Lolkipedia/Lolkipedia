@@ -8,6 +8,11 @@ train (t-n73vt3uxqejjco1mpxg97x6fc) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571823762552)
 }
+train (t-new21v4dmjefckg138ss5egob) {
+  utterance ("[g:CountersOutStructure] (샌)[v:Name:쉔] (카운터픽)[v:Counters:카운터] 알려줘")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571882847266)
+}
 train (t-nozsfzof61fu76whlqtkqawvo) {
   utterance ("[g:RunesOutStructure] (피들스틱)[v:Name:피들스틱] (룬정보)[v:Runes:룬]")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

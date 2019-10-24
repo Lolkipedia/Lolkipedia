@@ -3,6 +3,16 @@ train (t-jb98mji8w9v3dggpieqhdm4qk) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760956161)
 }
+train (t-jc21y94ugroyevu748bcmq0ch) {
+  utterance ("[g:CountersOutStructure] (트타)[v:Name:트리스타나] (카운터)[v:Counters:카운터] 뭐야?")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571882792579)
+}
+train (t-jc410ma6pqqkb1a235i7t0z8g) {
+  utterance ("[g:InfoOutStructure] (트런들)[v:Name:트런들]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571878889520)
+}
 train (t-jg7f1smjke5sq84qowqusovf5) {
   utterance ("[g:RunesOutStructure] (가렌)[v:Name:가렌] (룬)[v:Runes:룬]")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

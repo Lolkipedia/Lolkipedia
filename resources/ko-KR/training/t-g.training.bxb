@@ -13,6 +13,11 @@ train (t-giudqiqq7d7y93svxx2al6yhq) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785654410)
 }
+train (t-gl9porlfatrl4awwqio75a727) {
+  utterance ("[g:ItemsOutStructure] 아니 (알리스타)[v:Name:알리스타] (아템)[v:Items:아이템] 뭐가냐고")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881644493)
+}
 train (t-gnvp5oi49skcfanfinchc6e42) {
   utterance ("[g:RunesOutStructure] (트리스타나)[v:Name:트리스타나]는 (룬)[v:Runes:룬] 뭐들지")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

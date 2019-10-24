@@ -1,3 +1,8 @@
+train (t-e205qy4tnop8ov22wkk0d29u5) {
+  utterance ("[g:ItemsOutStructure] 야 무슨 (탬)[v:Items:아이템] 갈지 알려줘 (나르)[v:Name:나르]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881706884)
+}
 train (t-ef23kzy9kawli0g0aopi2xyqg) {
   utterance ("[g:InfoOutStructure] (바드)[v:Name:바드] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
@@ -12,6 +17,11 @@ train (t-emdc5x2x7n5yxi3360zhaxgei) {
   utterance ("[g:InfoOutStructure] (베이가)[v:Name:베이가] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570766361670)
+}
+train (t-epi4f6cy3c51higb79rg367iz) {
+  utterance ("[g:RunesOutStructure] 아니 (소나)[v:Name:소나] (룬)[v:Runes:룬] 어떻게 가냐고")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571876502701)
 }
 train (t-eqv0xc810xeza77xeshuijp80) {
   utterance ("[g:RunesOutStructure] (녹턴)[v:Name:녹턴] (룬)[v:Runes:룬] 알려줘")

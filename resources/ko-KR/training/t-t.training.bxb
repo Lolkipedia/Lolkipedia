@@ -3,3 +3,8 @@ train (t-twm81myldppbxhtcnwy2wupju) {
   plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
   last-modified (1571870977318)
 }
+train (t-tzdkk3fuof0q7tlx1ptlh0m1p) {
+  utterance ("[g:RunesOutStructure] (갱플랭크)[v:Name:갱플랭크]가 가기 좋은 (룬)[v:Runes:룬] 추천좀 해주셈")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571876112176)
+}

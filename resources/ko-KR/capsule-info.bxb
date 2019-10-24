@@ -4,9 +4,9 @@ capsule-info {
   dispatch-name (롤위키)
   dispatch-aliases {
     alias (롤 위키)
-    alias (롤위 키)
-    alias (로올위키)
-    alias (로올 위키)
+    alias (롤백과)
+    alias (리그백과)
+    alias (롤 백과)
   }
   icon-asset ("icons/icon.png")
   search-keywords{
