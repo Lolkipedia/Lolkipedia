@@ -123,6 +123,17 @@ module.exports.itemname = function (itemnum) {
 
 
 
+module.exports.itemprice = function (itemnum) {
+  const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
+  var response = http.getUrl(url, {format:"json", cacheTime: 0});
+  const items = response["data"]
+
+  var itemprice = items[itemnum]["gold"]["total"]
+
+  return itemprice
+}
+
+
 module.exports.summary = function (engname) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
@@ -132,6 +143,7 @@ module.exports.summary = function (engname) {
 
   return summary
 }
+
 
 module.exports.title = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")

@@ -1,0 +1,3 @@
+text (ItemPrice) {
+  description (아이템 가격정보입니다.)
+}

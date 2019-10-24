@@ -9,4 +9,10 @@ structure (ItemsInfo) {
     type (ItemsOut)
     min (Optional) max (One)
   }
+
+  property (itemprice) {
+  type (ItemPrice)
+  min (Optional) max (One)
+  }
+
 }

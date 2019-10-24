@@ -41,7 +41,8 @@ module.exports.function = function item (name, item) {
     for (j in subitems[i]){
       var temp = {
         subitems: subitems[i][j],
-        subitemnum: subitemnums[i][j]
+        subitemnum: subitemnums[i][j],
+        itemprice: tools.itemprice(subitemnums[i][j])
       }
       temp_list.push(temp)
       }
@@ -62,7 +63,8 @@ module.exports.function = function item (name, item) {
     var temp = {
       items: items[i],
       itemnums: itemnums[i],
-      subitemset: subitemset[i]
+      subitemset: subitemset[i],
+      itemprice: tools.itemprice(itemnums[i])
     }
     itemset.push(temp)
   }
@@ -74,7 +76,8 @@ module.exports.function = function item (name, item) {
     var temp = {
       korstartitems: tools.itemname(db.items[startitemset[i]]),
       startitems: startitemset[i],
-      startitemnum: db.items[startitemset[i]]
+      startitemnum: db.items[startitemset[i]],
+      itemprice: tools.itemprice(db.items[startitemset[i]]),
     }
     console.log(temp)
     startitems.push(temp)

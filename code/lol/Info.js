@@ -32,15 +32,18 @@ module.exports.function = function info (name, inform) {
     items.push(tools.itemname(itemnums[i]))
   }
 
+
   var iteminfo = []
   for (i in items) {
     var temp = {
       item: items[i],
-      itemnum: itemnums[i] 
+      itemnum: itemnums[i],
+      itemprice: tools.itemprice(itemnums[i]),
     }
+
     iteminfo.push(temp)
   }
-
+  console.log(iteminfo)
   var runesets = db.infos[engname]["Runes"]
   var runeset = []
   for (i in runesets) {
@@ -80,16 +83,6 @@ module.exports.function = function info (name, inform) {
   var skillbase = ["Q", "W", "E", "R"]
   var detailset = tools.skilldetail(engname)
   console.log(detailset)
-​
-//   var cases = []
-//   for (i in skill){
-//     var temp = {
-//       skills: skill[i],
-//       skillsid: detailset[skillmap[skill[i]]][0]
-//     }
-// ​   
-//     cases.push(temp)
-//   }
 ​
   var skillset = []
   for (i in skillbase) {

@@ -15,4 +15,9 @@ structure (StartItemStructure) {
     min (Optional) max (Many)
   }
 
+  property (itemprice) {
+    type (ItemPrice)
+    min (Optional) max (One)
+  }
+
 }

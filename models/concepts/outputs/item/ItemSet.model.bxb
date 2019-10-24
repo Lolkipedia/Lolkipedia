@@ -10,6 +10,11 @@ structure (ItemSet) {
     min (Required) max (One)
   }
 
+  property (itemprice) {
+    type (ItemPrice)
+    min (Optional) max (One)
+  }
+
   property (subitemset){
     type (SubItemSet)
     min (Required) max (Many)
