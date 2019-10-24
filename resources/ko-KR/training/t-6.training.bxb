@@ -13,6 +13,11 @@ train (t-68krld50ds1t9ijpilqa23p7k) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571824544374)
 }
+train (t-6jwx50itm19wb7fn07ea66ld8) {
+  utterance ("[g:SkillsOutStructure] (탈론)[v:Name:탈론]은 (스킬)[v:Skills:스킬] 뭐 찍음")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571903070633)
+}
 train (t-6ve9htb087ynhwp4mmmrj0ye8) {
   utterance ("[g:InfoOutStructure] (렉사이)[v:Name:렉사이] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
