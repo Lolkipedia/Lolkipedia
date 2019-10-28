@@ -1,9 +1,8 @@
 module.exports.function = function counter (name, counter) {
   var db = require('../lib/db.js')
   var console = require('console')
-  
-
   let tools = require('lib/tools.js')
+  
   var engname = tools.naming(name, "eng")
   var counterset = db.infos[engname]["Counters"]
   console.log(counterset)

@@ -1,8 +1,6 @@
-console = require('console')
-
 module.exports.function = function skill (name, skill) {
   var db = require('../lib/db.js')
-​
+​  var console = require('console')
   let tools = require('lib/tools.js')
   var engname = tools.naming(name, "eng")
   console.log(engname)

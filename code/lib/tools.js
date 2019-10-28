@@ -59,29 +59,6 @@ module.exports.version = function (name) {
   return ver
 }
 
-// module.exports.subitem = function (itemnum) {
-//   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
-
-//   var response = http.getUrl(url, {format:"json", cacheTime: 0});
-//   const items = response["data"]
-
-//   var subitems = []
-
-//   for(idx in items) {
-//     if (items[idx]["name"] == item) {
-//       var temp = []
-
-//       for (n in items[idx]["from"]) {
-//         temp.push(items[idx]["from"][n])
-//       };
-
-//       for (sub in temp) {
-//         subitems.push(items[temp[sub]]["name"])
-//       };
-//     }
-//   };
-//   return subitems
-// }
 
 module.exports.subitemnum = function (itemnum) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
@@ -98,6 +75,7 @@ module.exports.subitemnum = function (itemnum) {
   return sub
 }
 
+
 module.exports.subitem = function (subitemnums) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
@@ -111,6 +89,7 @@ module.exports.subitem = function (subitemnums) {
   return subitems
 }
 
+
 module.exports.itemname = function (itemnum) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
   var response = http.getUrl(url, {format:"json", cacheTime: 0});
@@ -120,7 +99,6 @@ module.exports.itemname = function (itemnum) {
 
   return itemname
 }
-
 
 
 module.exports.itemprice = function (itemnum) {
@@ -165,3 +143,36 @@ module.exports.rune = function () {
 }
 
 
+
+module.exports.summonerkey = function(summonername) {
+  var config = require('config')
+  var url = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + summonername + '?api_key=' + config.get('APIKEY')
+  var response = http.getUrl(url, {format:"json", cacheTime: 0})
+
+  return response
+}
+
+
+module.exports.findtier = function(summnoerid) {
+  var config = require('config')
+  var url = 'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/' + summnoerid + '?api_key=' + config.get('APIKEY')
+  var response = http.getUrl(url, {format:"json"})
+
+
+  var result = []
+  for(i in response) {
+    var queuetype = response[0]["queueType"]
+    var tier = response[0]['tier']
+    var rank = response[0]['rank']
+
+    var temp = {
+      queuetype: queuetype,
+      tier: tier,
+      rank: rank
+    }
+
+    result.push(temp)
+  }
+
+  return response
+}

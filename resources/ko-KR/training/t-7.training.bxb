@@ -13,6 +13,11 @@ train (t-7f5ha04t0feopuvranvyzvet5) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571882005084)
 }
+train (t-7lo94pveypee8ia9t6iyg1kh0) {
+  utterance ("[g:TierOutStructure] (faker)[v:SummonerName] (티어)[v:TierInput]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzUC8lMLfIvLQkuKSpNLiktSmUQxVBSAlTCIIshHFyam5ufl1rkl5ibyiCF1WDPvILSEgZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1572088079679)
+}
 train (t-7qdo1zsvvxlcg2egh5we0q200) {
   utterance ("[g:InfoOutStructure] (누누)[v:Name:'누누와 윌럼프'] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

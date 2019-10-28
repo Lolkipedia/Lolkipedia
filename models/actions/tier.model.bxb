@@ -1,0 +1,17 @@
+action (tier) {
+  description (__DESCRIPTION__)
+  collect {
+    input (summonername) {
+      type (SummonerName)
+      min (Required) max (One)
+    }
+
+    input (tierinput) {
+      type (TierInput)
+      min (Required) max (One)
+    }
+  }
+  output (TierOutStructure)
+
+  type (Search)
+}

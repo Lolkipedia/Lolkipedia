@@ -1,17 +1,12 @@
 capsule {
   id (jisby.lolkipedia)
-  version (0.1.5)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-en-US){enabled (false)}
     target (bixby-mobile-ko-KR)
   }
 
-  capsule-imports {
-		import (viv.time) {
-			as (time) version (2.92.45)
-		}
-  }
   store-sections{
     section (GamesAndFun)
   }
