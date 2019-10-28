@@ -11,7 +11,7 @@ action (tier) {
       min (Required) max (One)
     }
   }
-  output (TierOutStructure)
+  output (TierOutStructure) 
 
   type (Search)
 }

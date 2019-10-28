@@ -1,31 +1,54 @@
-module.exports.function = function tier (summonername, tierinput) {
-  var db = require('../lib/db.js')
-  var console = require('console')
-  let tools = require('lib/tools.js')
-  var summonerkey = tools.summonerkey(summonername)
+// module.exports.function = function tier (summonername, tierinput) {
+//   var db = require('../lib/db.js')
+//   var console = require('console')
+//   let tools = require('lib/tools.js')
+//   var http = require('http')
+//   var summonerkey = tools.summonerkey(summonername)
 
-  var summonerid = summonerkey['id']
-  // var accountid = summonerkey['accountId']
-  console.log(summonerid)
+//   try {
+//     console.log('pp')
+//     var summonerid = summonerkey['id']
+//     console.log('pp')
+//   } catch (e) {
+//     console.log(e)
+//   }
+  
+//   // var accountid = summonerkey['accountId']
+//   console.log(summonerid)
 
-  var tierset = tools.findtier(summonerid)
-  console.log(tierset)
+//   var fail = require('fail')
+//   var config = require('config')
+//   var console = require('console')
+//   var url = 'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/' + summnoerid + '?api_key=' + config.get('APIKEY')
 
-  // var result = []
-  // for(i in response) {
-  //   var queuetype = response[0]["queueType"]
-  //   var tier = response[0]['tier']
-  //   var rank = response[0]['rank']
+//   try {
+//     console.log('pp')
+//     var response = http.getUrl(url, {format:"json"})
+//     console.log('pp')
+//   } catch (e) {
+//     console.log(e)
+//     console.log('pp')
+//   }
 
-  //   var temp = {
-  //     queuetype: queuetype,
-  //     tier: tier,
-  //     rank: rank
-  //   }
 
-  //   result.push(temp)
-  // }
-  tierset['summonername'] = summonername
+//   var tierset = []
+//   for(i in response) {
+//     var queuetype = response[i]["queueType"]
+//     var tier = response[i]['tier']
+//     var rank = response[i]['rank']
 
-  return tierset
-}
+//     var temp = {
+//       queuetype: queuetype,
+//       tier: tier,
+//       rank: rank
+//     }
+
+//     tierset.push(temp)
+//   }
+//   console.log(tierset)
+//   tierset['summonername'] = summonername
+
+//   console.log(tierset)
+
+//   return tierset
+// }

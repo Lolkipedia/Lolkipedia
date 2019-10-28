@@ -25,10 +25,10 @@ endpoints {
       local-endpoint (lol/Skill.js)
     }
 
-    action-endpoint (tier) {
-      accepted-inputs (summonername, tierinput)
-      local-endpoint (lol/Tier.js)
-    }
+    // action-endpoint (tier) {
+    //   accepted-inputs (summonername, tierinput)
+    //   local-endpoint (lol/Tier.js)
+    // }
 
     // // action-endpoint (Names) {
     //   accepted-inputs (name)

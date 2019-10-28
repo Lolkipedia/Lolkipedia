@@ -1,12 +1,10 @@
 capsule-info {
   display-name (롤키피디아)
   developer-name (Jisby)
-  dispatch-name (롤위키)
+  dispatch-name (롤 위키)
   dispatch-aliases {
-    alias (롤 위키)
-    alias (롤백과)
-    alias (리그백과)
     alias (롤 백과)
+    alias (리그 백과)
   }
   icon-asset ("icons/icon.png")
   search-keywords{
@@ -16,6 +14,6 @@ capsule-info {
   }
   description ("게임을 하면서 빅스비를 통해서 게임에 필요한 여러 정보를 받을 수 있습니다.")
   website-url (https://github.com/young31/Bixby_jisby)
-  privacy-policy-url(http://my-capsule.com/privacy-policy)
+  privacy-policy-url(https://github.com/young31/Bixby_jisby/privacy-policy.html)
   // terms-url (https://example.com/terms-of-use/)
 }
