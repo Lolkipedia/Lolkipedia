@@ -144,49 +144,49 @@ module.exports.rune = function () {
 
 
 
-// module.exports.summonerkey = function(summonername) {
-//   var console = require('console')
-//   var config = require('config')
-//   var url = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + summonername + '?api_key=' + config.get('APIKEY')
-//   try {
-//     var response = http.getUrl(url, {format:"json", cacheTime: 0})
-//   } catch(e) {
-//     console.log(e)
-//     console.error('fail')
-//   }
+module.exports.summonerkey = function(summonername) {
+  var console = require('console')
+  var config = require('config')
+  var url = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + summonername + '?api_key=' + config.get('APIKEY')
+  try {
+    var response = http.getUrl(url, {format:"json", cacheTime: 0})
+  } catch(e) {
+    console.log(e)
+    console.error('fail')
+  }
   
-//   return response
-// }
+  return response
+}
 
 
-// module.exports.findtier = function(summnoerid) {
-//   var fail = require('fail')
-//   var config = require('config')
-//   var console = require('console')
-//   var url = 'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/' + summnoerid + '?api_key=' + config.get('APIKEY')
-//   try {
-//     var response = http.getUrl(url, {format:"json"})
-//   } catch (e) {
-//     console.log(e)
-//     console.error('response')
-//   }
-//   // var response = http.getUrl(url, {format:"json"})
+module.exports.findtier = function(summnoerid) {
+  var fail = require('fail')
+  var config = require('config')
+  var console = require('console')
+  var url = 'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/' + summnoerid + '?api_key=' + config.get('APIKEY')
+  try {
+    var response = http.getUrl(url, {format:"json"})
+  } catch (e) {
+    console.log(e)
+    console.error('response')
+  }
+  // var response = http.getUrl(url, {format:"json"})
 
 
-//   // var result = []
-//   // for(i in response) {
-//   //   var queuetype = response[0]["queueType"]
-//   //   var tier = response[0]['tier']
-//   //   var rank = response[0]['rank']
+  // var result = []
+  // for(i in response) {
+  //   var queuetype = response[0]["queueType"]
+  //   var tier = response[0]['tier']
+  //   var rank = response[0]['rank']
 
-//   //   var temp = {
-//   //     queuetype: queuetype,
-//   //     tier: tier,
-//   //     rank: rank
-//   //   }
+  //   var temp = {
+  //     queuetype: queuetype,
+  //     tier: tier,
+  //     rank: rank
+  //   }
 
-//   //   result.push(temp)
-//   // }
+  //   result.push(temp)
+  // }
 
-//   return response
-// }
+  return response
+}
