@@ -1,10 +1,8 @@
 module.exports.function = function rune (name, rune) {
-  var db = require('../lib/db.js')
-
-  let tools = require('lib/tools.js')
-  var engname = tools.naming(name, "eng")
-
-  var version = tools.version(name)
+  const db = require('../lib/db.js')
+  const tools = require('lib/tools.js')
+  const engname = tools.naming(name, "eng")
+  const version = tools.version(name)
 
   var runesets = db.infos[engname]["Runes"]
 

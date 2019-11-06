@@ -1,18 +1,13 @@
 structure (TierOutStructure) {
   description (티어를 찾기 위한 구조체)
-  property (queuetype) {
-    type (QueueType)
-    min (Optional) max (One)
+  property (status) {
+    type (TierStatus)
+    min (Required) max (One)
   }
 
-  property (rank) {
-    type (Rank)
-    min (Optional) max (One)
-  }
-
-  property (tier) {
-    type (Tier)
-    min (Optional) max (One)
+  property (tierset) {
+    type (TierSet)
+    min (Optional) max (Many)
   }
 
   property (summonername) {

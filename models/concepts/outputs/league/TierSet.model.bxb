@@ -1,0 +1,17 @@
+structure (TierSet) {
+  description (__DESCRIPTION__)
+  property (rank) {
+    type (Rank)
+    min (Optional) max (One)
+  }
+
+  property (tier) {
+  type (Tier)
+  min (Optional) max (One)
+  } 
+
+  property (queuetype) {
+    type (QueueType)
+    min (Optional) max (One)
+  }
+}

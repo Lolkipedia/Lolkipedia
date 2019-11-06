@@ -1,0 +1,3 @@
+text (TierStatus) {
+  description (__DESCRIPTION__)
+}

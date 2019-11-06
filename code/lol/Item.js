@@ -1,10 +1,9 @@
 module.exports.function = function item (name, item) {
-  var db = require('../lib/db.js')
-  let tools = require('lib/tools.js')
+  const db = require('../lib/db.js')
+  const tools = require('lib/tools.js')
+  const console = require('console')
 
-  var console = require('console')
-
-  var engname = tools.naming(name, "eng")
+  const engname = tools.naming(name, "eng")
   console.log(engname)
 
   var engitems = db.infos[engname]["Items"]

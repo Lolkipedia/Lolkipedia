@@ -1,33 +1,31 @@
 module.exports.function = function tier (summonername, tierinput) {
-  var db = require('../lib/db.js')
-  var console = require('console')
-  let tools = require('lib/tools.js')
-  var http = require('http')
-  var summonerkey = tools.summonerkey(summonername)
+  const db = require('../lib/db.js')
+  const console = require('console')
+  const tools = require('lib/tools.js')
+  const http = require('http')
+  const config = require('config')
 
+
+  let result = {}
+
+  const summoner_url = "https://kr.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + summonername + '?api_key=' + config.get('APIKEY')  
   try {
-    console.log('pp')
-    var summonerid = summonerkey['id']
-    console.log('pp')
-  } catch (e) {
-    console.log(e)
+    var summonerid = http.getUrl(summoner_url, {format:"json", cacheTime: 0}).id
+  } catch(e) {
+    var status = '아이디 잘못 입력'
+    console.log(status)
+    result['status'] = status
+    return result
   }
   
-  // var accountid = summonerkey['accountId']
-  console.log(summonerid)
 
-  var fail = require('fail')
-  var config = require('config')
-  var console = require('console')
-  var url = 'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/' + summnoerid + '?api_key=' + config.get('APIKEY')
-
+  const league_url = 'https://kr.api.riotgames.com/lol/league/v4/entries/by-summoner/' + summonerid + '?api_key=' + config.get('APIKEY')
   try {
-    console.log('pp')
-    var response = http.getUrl(url, {format:"json"})
-    console.log('pp')
+    var response = http.getUrl(league_url, {format:"json"})
   } catch (e) {
-    console.log(e)
-    console.log('pp')
+    var status = '티어존재x'
+    result.status = status
+    return result
   }
 
 
@@ -45,10 +43,14 @@ module.exports.function = function tier (summonername, tierinput) {
 
     tierset.push(temp)
   }
-  console.log(tierset)
-  tierset['summonername'] = summonername
+  // console.log(tierset)
 
-  console.log(tierset)
 
-  return tierset
+  result['summonername'] = summonername
+  result['tierset'] = tierset
+  result['status'] = '200'
+
+  // console.log(result)
+
+  return result
 }

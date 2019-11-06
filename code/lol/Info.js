@@ -1,9 +1,9 @@
 module.exports.function = function info (name, inform) {
-  var console = require('console')
-  var db = require('../lib/db.js')
+  const console = require('console')
+  const db = require('../lib/db.js')
+  const tools = require('lib/tools.js')
 
-  let tools = require('lib/tools.js')
-  var engname = tools.naming(name, "eng")
+  const engname = tools.naming(name, "eng")
   // console.debug(engname)
 
   var counterset = db.infos[engname]["Counters"]
