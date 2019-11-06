@@ -4,17 +4,15 @@ module.exports.function = function info (name, inform) {
   const tools = require('lib/tools.js')
 
   const engname = tools.naming(name, "eng")
-  // console.debug(engname)
 
   var counterset = db.infos[engname]["Counters"]
-  console.log(counterset)
+
   var counters = []
   for (counter in counterset) {
     temp = {
       counter:tools.naming(tools.counterrename(counterset[counter]), "kor"),
       engcounter:tools.counterrename(counterset[counter])
     }
-    console.log(temp)
     counters.push(temp)
   }
   console.log(counters)
@@ -25,7 +23,6 @@ module.exports.function = function info (name, inform) {
   for (i in engitems){
     itemnums.push(db.items[engitems[i]])
   }
-  console.log(itemnums)
 
   var items = []
   for (i in itemnums){
@@ -43,7 +40,7 @@ module.exports.function = function info (name, inform) {
 
     iteminfo.push(temp)
   }
-  console.log(iteminfo)
+
   var runesets = db.infos[engname]["Runes"]
   var runeset = []
   for (i in runesets) {
@@ -56,7 +53,7 @@ module.exports.function = function info (name, inform) {
   }
 
   var statmods = db.infos[engname]["StatMods"]
-  console.log(statmods)
+
   var statmodset = []
   for (i=0;i<3;i++) {
     var temp = {
@@ -65,14 +62,12 @@ module.exports.function = function info (name, inform) {
     }
     statmodset.push(temp)
   }
-  console.log(statmodset)
 
   var detailset = tools.skilldetail(engname)
 
   var skill = db.infos[engname]["SkillTree"]
   skill.push("R")
-  console.log(skill)
-​
+
   const skillmap = {
     'Q':"0",
     'W':"1",
@@ -82,7 +77,6 @@ module.exports.function = function info (name, inform) {
 ​
   var skillbase = ["Q", "W", "E", "R"]
   var detailset = tools.skilldetail(engname)
-  console.log(detailset)
 ​
   var skillset = []
   for (i in skillbase) {
@@ -98,14 +92,12 @@ module.exports.function = function info (name, inform) {
   var runedict = tools.rune()
   console.log(runedict)
   spell = db.infos[engname]["Spell"]
-  console.log(spell)
   spells = []
   for (f in spell){
     var temp = {
       spells: spell[f],
       korspells: runedict[spell[f]]["name"],
     }
-    console.log(temp)
     spells.push(temp)
   }
 
@@ -115,13 +107,11 @@ module.exports.function = function info (name, inform) {
     spells: spells,
   }
 
-  console.log(skillsset)
   var summary = tools.summary(engname)
 
-  
   var lane = db.infos[engname]["Lane"].toLowerCase()
 
-  var version = tools.version(name)
+  var version = tools.version()
 
   var title = tools.title(engname)
 

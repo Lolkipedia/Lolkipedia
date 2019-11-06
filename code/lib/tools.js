@@ -1,7 +1,7 @@
 var http = require('http')
 const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
-const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
-// const ver = '9.20.1'
+// const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
+const ver = '9.21.1'
 // const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
 let url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
@@ -35,7 +35,6 @@ module.exports.naming = function (name, target) {
 module.exports.counterrename = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
   var search = http.getUrl(url, {format:"json", cacheTime: 0}).data
-  // var search = response["data"]
 
   for (idx in search){
     if (search[idx]["name"] == name){
@@ -49,8 +48,8 @@ module.exports.counterrename = function (name) {
 
 module.exports.skilldetail = function (engname) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion/", engname ,".json")  
-  var response = http.getUrl(url, {format:"json", cacheTime: 0})
-  var search = response["data"][engname]["spells"]
+  const response = http.getUrl(url, {format:"json", cacheTime: 0})
+  const search = response["data"][engname]["spells"]
 
   var result = []
   for (i=0;i<4;i++) {
@@ -61,7 +60,7 @@ module.exports.skilldetail = function (engname) {
 }
 
 
-module.exports.version = function (name) {
+module.exports.version = function () {
 
   return ver
 }
@@ -120,7 +119,6 @@ module.exports.title = function (name) {
 module.exports.rune = function () {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/summoner.json")
   var rune = http.getUrl(url, {format:"json", cacheTime: 0}).data
-  // var search = response["data"]
 
   return rune
 }

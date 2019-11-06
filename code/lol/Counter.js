@@ -18,7 +18,7 @@ module.exports.function = function counter (name, counter) {
   console.log(counters)
 
 
-  var version = tools.version(name)
+  var version = tools.version()
 
   return {
     name: name,

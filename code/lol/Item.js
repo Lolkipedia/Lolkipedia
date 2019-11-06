@@ -76,8 +76,7 @@ module.exports.function = function item (name, item) {
 
   console.log(startitems)
 
-
-  var version = tools.version(name)
+  var version = tools.version()
 
   return {
     name: name,

@@ -1,8 +1,9 @@
 module.exports.function = function rune (name, rune) {
   const db = require('../lib/db.js')
   const tools = require('lib/tools.js')
+  const console = require('console')
   const engname = tools.naming(name, "eng")
-  const version = tools.version(name)
+  const version = tools.version()
 
   var runesets = db.infos[engname]["Runes"]
 
@@ -16,18 +17,14 @@ module.exports.function = function rune (name, rune) {
     }
     runeset.push(temp1)
   }
-  const console = require('console')
-  console.log(runeset)
-
+  
   var statmods = db.infos[engname]["StatMods"]
-  console.log(statmods)
   var statmodset = []
   for (i=0;i<3;i++) {
     var temp2 = {
       statmods:statmods[i],
       korstatmods: db.runedict[statmods[i]]
     }
-    console.log(statmods[i]),
     statmodset.push(temp2)
   }
   console.log(statmodset)

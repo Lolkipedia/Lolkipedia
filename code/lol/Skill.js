@@ -4,11 +4,9 @@ module.exports.function = function skill (name, skill) {
   const tools = require('lib/tools.js')
 
   const engname = tools.naming(name, "eng")
-  console.log(engname)
 ​
   var skill = db.infos[engname]["SkillTree"]
   skill.push("R")
-  console.log(skill)
 ​
   const skillmap = {
     'Q':"0",
@@ -16,7 +14,6 @@ module.exports.function = function skill (name, skill) {
     'E':"2",
     'R':"3",
   }
-​
 ​
   var skillbase = ["Q", "W", "E", "R"]
   var detailset = tools.skilldetail(engname)
@@ -42,22 +39,19 @@ module.exports.function = function skill (name, skill) {
     skillset.push(temp)
   }
 
-
   var runedict = tools.rune()
-  console.log(runedict)
   spell = db.infos[engname]["Spell"]
-  console.log(spell)
+
   spells = []
   for (f in spell){
     var temp = {
       spells: spell[f],
       korspells: runedict[spell[f]]["name"],
     }
-    console.log(temp)
     spells.push(temp)
   }
 
-  var version = tools.version(name)
+  var version = tools.version()
 ​
   return {
     name: name,
