@@ -1,3 +1,3 @@
 text (TierStatus) {
-  description (__DESCRIPTION__)
+  description (Riot API 요청에 대한 응답 상태)
 }

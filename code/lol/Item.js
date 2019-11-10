@@ -4,41 +4,38 @@ module.exports.function = function item (name, item) {
   const console = require('console')
 
   const engname = tools.naming(name, "eng")
-  console.log(engname)
 
-  var engitems = db.infos[engname]["Items"]
-  // db.~~
+  const engitems = db.infos[engname]["Items"]
 
-
-  var itemnums = []
+  let itemnums = []
   for (i in engitems){
     itemnums.push(db.items[engitems[i]])
   }
 
 
-  var items = []
+  let items = []
   for (i in itemnums){
     items.push(tools.itemname(itemnums[i]))
   }
 
 
-  var subitemnums = []
+  let subitemnums = []
   for (i in items){
     subitemnums.push(tools.subitemnum(itemnums[i]))
   }
 
 
-  var subitems = []
+  let subitems = []
   for (i in items){
     subitems.push(tools.subitem(subitemnums[i]))
   }
 
 
-  var subitemset = []
+  let subitemset = []
   for (i in items){
-    var temp_list = []
+    let temp_list = []
     for (j in subitems[i]){
-      var temp = {
+      let temp = {
         subitems: subitems[i][j],
         subitemnum: subitemnums[i][j],
         itemprice: tools.itemprice(subitemnums[i][j])
@@ -47,11 +44,11 @@ module.exports.function = function item (name, item) {
       }
     subitemset.push(temp_list)
   }
-  console.log(subitemset)
 
-  var itemset = []
+
+  let itemset = []
   for (i in items){
-    var temp = {
+    let temp = {
       items: items[i],
       itemnums: itemnums[i],
       subitemset: subitemset[i],
@@ -60,23 +57,20 @@ module.exports.function = function item (name, item) {
     itemset.push(temp)
   }
 
-  var startitemset = db.infos[engname]["StartItems"]
-  console.log(startitemset)
-  var startitems = []
+
+  const startitemset = db.infos[engname]["StartItems"]
+  let startitems = []
   for (i in startitemset) {
-    var temp = {
+    let temp = {
       korstartitems: tools.itemname(db.items[startitemset[i]]),
       startitems: startitemset[i],
       startitemnum: db.items[startitemset[i]],
       itemprice: tools.itemprice(db.items[startitemset[i]]),
     }
-    console.log(temp)
     startitems.push(temp)
   }
 
-  console.log(startitems)
-
-  var version = tools.version()
+  const version = tools.version()
 
   return {
     name: name,
@@ -85,7 +79,6 @@ module.exports.function = function item (name, item) {
     itemnums: itemnums,
     itemset: itemset,
     startitems: startitems,
-    // startitems: '',
     version: version,
     }
 }

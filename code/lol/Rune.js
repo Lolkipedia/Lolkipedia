@@ -5,11 +5,11 @@ module.exports.function = function rune (name, rune) {
   const engname = tools.naming(name, "eng")
   const version = tools.version()
 
-  var runesets = db.infos[engname]["Runes"]
+  const runesets = db.infos[engname]["Runes"]
 
-  var runeset = []
+  let runeset = []
   for (i in runesets) {
-    var temp1 = {
+    let temp1 = {
       runecat: runesets[i][0],
       korrunecat: db.runedict[runesets[i][0]],
       runename: runesets[i][1],
@@ -18,16 +18,15 @@ module.exports.function = function rune (name, rune) {
     runeset.push(temp1)
   }
   
-  var statmods = db.infos[engname]["StatMods"]
-  var statmodset = []
+  const statmods = db.infos[engname]["StatMods"]
+  let statmodset = []
   for (i=0;i<3;i++) {
-    var temp2 = {
+    let temp2 = {
       statmods:statmods[i],
       korstatmods: db.runedict[statmods[i]]
     }
     statmodset.push(temp2)
   }
-  console.log(statmodset)
 
   return {
     name: name,

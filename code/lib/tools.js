@@ -12,7 +12,7 @@ const champ = http.getUrl(url, {format:"json", cacheTime: 0}).data
 
 
 module.exports.naming = function (name, target) {
-  if (target == "eng") {
+  if (target === "eng") {
     for (idx in champ){
       if (champ[idx]["name"] == name){
         var outname = champ[idx]["id"]

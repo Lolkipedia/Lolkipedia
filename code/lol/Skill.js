@@ -5,7 +5,7 @@ module.exports.function = function skill (name, skill) {
 
   const engname = tools.naming(name, "eng")
 ​
-  var skill = db.infos[engname]["SkillTree"]
+  let skill = db.infos[engname]["SkillTree"]
   skill.push("R")
 ​
   const skillmap = {
@@ -15,13 +15,12 @@ module.exports.function = function skill (name, skill) {
     'R':"3",
   }
 ​
-  var skillbase = ["Q", "W", "E", "R"]
-  var detailset = tools.skilldetail(engname)
-  console.log(detailset)
+  const skillbase = ["Q", "W", "E", "R"]
+  const detailset = tools.skilldetail(engname)
 ​
-  var cases = []
+  let cases = []
   for (i in skill){
-    var temp = {
+    let temp = {
       skills: skill[i],
       skillsid: detailset[skillmap[skill[i]]][0]
     }
@@ -29,9 +28,9 @@ module.exports.function = function skill (name, skill) {
     cases.push(temp)
   }
 ​
-  var skillset = []
+  let skillset = []
   for (i in skillbase) {
-    var temp = {
+    let temp = {
       skills: skillbase[i],
       skilldetail: detailset[i][1],
       skillid: detailset[i][0]
@@ -39,19 +38,19 @@ module.exports.function = function skill (name, skill) {
     skillset.push(temp)
   }
 
-  var runedict = tools.rune()
+  let runedict = tools.rune()
   spell = db.infos[engname]["Spell"]
 
-  spells = []
+  let spells = []
   for (f in spell){
-    var temp = {
+    let temp = {
       spells: spell[f],
       korspells: runedict[spell[f]]["name"],
     }
     spells.push(temp)
   }
 
-  var version = tools.version()
+  const version = tools.version()
 ​
   return {
     name: name,

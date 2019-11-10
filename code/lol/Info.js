@@ -5,9 +5,9 @@ module.exports.function = function info (name, inform) {
 
   const engname = tools.naming(name, "eng")
 
-  var counterset = db.infos[engname]["Counters"]
+  let counterset = db.infos[engname]["Counters"]
 
-  var counters = []
+  let counters = []
   for (counter in counterset) {
     temp = {
       counter:tools.naming(tools.counterrename(counterset[counter]), "kor"),
@@ -17,22 +17,22 @@ module.exports.function = function info (name, inform) {
   }
   console.log(counters)
 
-  var engitems = db.infos[engname]["Items"]
+  let engitems = db.infos[engname]["Items"]
 
-  var itemnums = []
+  let itemnums = []
   for (i in engitems){
     itemnums.push(db.items[engitems[i]])
   }
 
-  var items = []
+  let items = []
   for (i in itemnums){
     items.push(tools.itemname(itemnums[i]))
   }
 
 
-  var iteminfo = []
+  let iteminfo = []
   for (i in items) {
-    var temp = {
+    let temp = {
       item: items[i],
       itemnum: itemnums[i],
       itemprice: tools.itemprice(itemnums[i]),
@@ -41,10 +41,10 @@ module.exports.function = function info (name, inform) {
     iteminfo.push(temp)
   }
 
-  var runesets = db.infos[engname]["Runes"]
-  var runeset = []
+  let runesets = db.infos[engname]["Runes"]
+  let runeset = []
   for (i in runesets) {
-    var temp = {
+    let temp = {
       runecat: runesets[i][0],
       runename: runesets[i][1],
       korrune: db.runedict[runesets[i][1]],
@@ -52,20 +52,18 @@ module.exports.function = function info (name, inform) {
     runeset.push(temp)
   }
 
-  var statmods = db.infos[engname]["StatMods"]
+  let statmods = db.infos[engname]["StatMods"]
 
-  var statmodset = []
+  let statmodset = []
   for (i=0;i<3;i++) {
-    var temp = {
+    let temp = {
       statmods:statmods[i],
       korstatmods: db.runedict[statmods[i]]
     }
     statmodset.push(temp)
   }
 
-  var detailset = tools.skilldetail(engname)
-
-  var skill = db.infos[engname]["SkillTree"]
+  let skill = db.infos[engname]["SkillTree"]
   skill.push("R")
 
   const skillmap = {
@@ -75,12 +73,12 @@ module.exports.function = function info (name, inform) {
     'R':"3",
   }
 ​
-  var skillbase = ["Q", "W", "E", "R"]
-  var detailset = tools.skilldetail(engname)
+  let skillbase = ["Q", "W", "E", "R"]
+  let detailset = tools.skilldetail(engname)
 ​
-  var skillset = []
+  let skillset = []
   for (i in skillbase) {
-    var temp = {
+    let temp = {
       skills: skillbase[i],
       skilldetail: detailset[i][1],
       skillid: detailset[i][0]
@@ -89,31 +87,31 @@ module.exports.function = function info (name, inform) {
   }
 
 
-  var runedict = tools.rune()
+  let runedict = tools.rune()
   console.log(runedict)
   spell = db.infos[engname]["Spell"]
   spells = []
   for (f in spell){
-    var temp = {
+    let temp = {
       spells: spell[f],
       korspells: runedict[spell[f]]["name"],
     }
     spells.push(temp)
   }
 
-  var skillsset = {
+  let skillsset = {
     skills: skill,
     skillset: skillset,
     spells: spells,
   }
 
-  var summary = tools.summary(engname)
+  const summary = tools.summary(engname)
 
-  var lane = db.infos[engname]["Lane"].toLowerCase()
+  const lane = db.infos[engname]["Lane"].toLowerCase()
 
-  var version = tools.version()
+  const version = tools.version()
 
-  var title = tools.title(engname)
+  const title = tools.title(engname)
 
   return {
     name: name,

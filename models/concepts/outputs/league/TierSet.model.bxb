@@ -1,5 +1,5 @@
 structure (TierSet) {
-  description (__DESCRIPTION__)
+  description (티어에 대한 정보 집합)
   property (rank) {
     type (Rank)
     min (Optional) max (One)
