@@ -40,7 +40,7 @@ module.exports.counterrename = function (name) {
     if (search[idx]["name"] == name){
       var outname = search[idx]["id"]
     }
-    }
+  }
   
   return outname
 }
