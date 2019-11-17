@@ -42,7 +42,7 @@ module.exports.function = function tier (summonername, tierinput) {
 
   result['summonername'] = summonername
   result['tierset'] = tierset
-  result['status'] = '200'
+  result['status'] = '전적 검색 결과입니다.'
 
   return result
 }
