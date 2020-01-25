@@ -1,7 +1,7 @@
 train (t-1clkef7bbrg55x9cdbmvasmwd) {
   utterance ("[g:RunesOutStructure] (가렌)[v:Name:가렌] (룬)[v:Runes:룬] 알려줘")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
-  last-modified (1571892368026)
+  last-modified (1574204824666)
 }
 train (t-1kgzw3f1842ck27e7awufvxc4) {
   utterance ("[g:CountersOutStructure] (자르반)[v:Name:'자르반 4세'] (카운터)[v:Counters:카운터] 뭐야?")
