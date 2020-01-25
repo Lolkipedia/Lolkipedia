@@ -93,91 +93,20 @@ layout-macro-def (skill-Tree) {
                 }
               }
             }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(1)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(2)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(3)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(4)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(5)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(6)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(7)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(8)
+            for-each (skills){
+              as(skill){
+                if (i < 5){
+                  divider
+                  vbox{
+                    grow(1)
+                    valign (Middle)
+                    content{
+                      text{
+                        style(Detail_L)
+                        value("#{i + 1}")
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -211,7 +140,7 @@ layout-macro-def (skill-Tree) {
             for-each (skills){
               as(skill){
                 index-var (i)
-                if (i < 8){
+                if (i < 5){
                   vbox{
                     grow(1)
                     valign (Middle)
@@ -236,95 +165,22 @@ layout-macro-def (skill-Tree) {
             }
           }
         }
-
-
         hbox{
           content{
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(9)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(10)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(11)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(12)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(13)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(14)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(15)
-                }
-              }
-            }
-            divider
-            vbox{
-              grow(1)
-              valign (Middle)
-              content{
-                text{
-                  style(Detail_L)
-                  value(16)
+            for-each (skills){
+              as(skill){
+                if (i > 4 && i <= 10){
+                  divider
+                  vbox{
+                    grow(1)
+                    valign (Middle)
+                    content{
+                      text{
+                        style(Detail_L)
+                        value("#{i + 1}")
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -337,8 +193,60 @@ layout-macro-def (skill-Tree) {
             divider
             for-each (skills){
               as(skill){
-                index-var (i)
-                if (i > 7){
+                if (i > 4 && i <= 10){
+                  vbox{
+                    grow(1)
+                    valign (Middle)
+                    content{
+                      single-line{
+                        image{
+                          shape (Square)
+                          url ("http://ddragon.leagueoflegends.com/cdn/#{value(version)}/img/spell/#{value(skill.skillsid)}.png")
+                        }
+                      }
+                      single-line{
+                        text{
+                          style (Detail_M)
+                          value ("#{value(skill.skills)}")
+                        }
+                      }
+                    }
+                  }
+                    divider
+                }
+              }
+            }
+          }
+        }
+        hbox{
+          content{
+            for-each (skills){
+              as(skill){
+                if (i > 10){
+                  divider
+                  vbox{
+                    grow(1)
+                    valign (Middle)
+                    content{
+                      text{
+                        style(Detail_L)
+                        value("#{i + 1}")
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            divider
+          }
+        }
+
+        hbox{
+          content{
+            divider
+            for-each (skills){
+              as(skill){
+                if (i > 10){
                   vbox{
                     grow(1)
                     valign (Middle)
