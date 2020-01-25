@@ -6,17 +6,13 @@ capsule {
     target (bixby-mobile-en-US){enabled (false)}
     target (bixby-mobile-ko-KR)
   }
-
+  store-countries{
+    all
+  }
   store-sections{
     section (GamesAndFun)
   }
-  runtime-flags {
-    use-input-views-for-selection-list-detail
-    modern-default-view-behavior
-    no-filtering-with-validation
-    concepts-inherit-super-type-features
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
+  runtime-version (2) {
   }
 }
 

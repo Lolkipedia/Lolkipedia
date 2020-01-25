@@ -17,7 +17,7 @@ layout-macro-def (champ-Info) {
     }
     param(title){
       type (TitleOut)
-      min (Required)
+      min (Optional)
       max (One)
     }
     param(lane){
