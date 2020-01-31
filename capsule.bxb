@@ -1,6 +1,6 @@
 capsule {
   id (jisby.lolkipedia)
-  version (1.0.3)
+  version (1.0.5)
   format (3)
   targets {
     target (bixby-mobile-en-US){enabled (false)}

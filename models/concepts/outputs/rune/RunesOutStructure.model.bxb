@@ -17,11 +17,11 @@ structure (RunesOutStructure) {
 
   property (engname) {
     type (EngName)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
 
   property (version) {
     type (Version)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
 }
