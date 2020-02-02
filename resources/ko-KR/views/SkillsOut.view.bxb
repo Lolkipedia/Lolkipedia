@@ -2,6 +2,10 @@ result-view {
   match: SkillsOutStructure (this) {
   }
 
+  message {
+    template("#{value(this.name)}의 추천 스킬트리 입니다.")
+  }
+
   render {
     layout-macro (skill-Tree) {
       param(name) {

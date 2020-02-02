@@ -33,6 +33,11 @@ train (t-osszv66ytvz6e78wo3ywyza0o) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571632308166)
 }
+train (t-oukroyud40sbgi49q75ffjwa9) {
+  utterance ("[g:SkillsOutStructure] (세나)[v:Name:세나] (스킬)[v:Skills:스킬] 찍는 순서 뭐야")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1580624442936)
+}
 train (t-owf5jbo8y9h147yxya9bkzmrx) {
   utterance ("[g:ItemsOutStructure] (아무무)[v:Name:아무무]는 (선템)[v:Items:아이템] 뭐감")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

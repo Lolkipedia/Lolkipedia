@@ -3,7 +3,7 @@ result-view {
   }
 
   message {
-    template("#{value(CountersOutStructure.name)}의 카운터")
+    template("#{value(CountersOutStructure.name)}의 카운터 입니다.")
   }
 
   render {

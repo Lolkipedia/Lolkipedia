@@ -2,7 +2,7 @@ result-view {
   match: ItemsOutStructure (this) {
   }
   message {
-    template("#{value(this.name)}의 아이템 트리")
+    template("#{value(this.name)}의 아이템 트리 입니다.")
   }
   render {
     layout-macro (item-Info){

@@ -1,6 +1,10 @@
 result-view{
   match: InfoOutStructure (this)
 
+  message {
+    template("#{value(this.name)}에 대해서 알 수 있는 정보 입니다.")
+  }
+
   render{
     layout-macro (champ-Info) {
       param (name) {

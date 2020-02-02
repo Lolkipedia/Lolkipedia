@@ -1,7 +1,7 @@
 result-view {
   match: RunesOutStructure (this)
   message {
-    template("#{value(this.name)}의 추천 룬")
+    template("#{value(this.name)}의 추천 룬 입니다.")
   }
   render {
     layout-macro (runes-Info){

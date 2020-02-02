@@ -18,6 +18,11 @@ train (t-bi3qg4cwemqphnkbrwbw4reso) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571876145623)
 }
+train (t-bpi0jzy286h0yul651kygi1wr) {
+  utterance ("[g:SkillsOutStructure] (세트)[v:Name:세트] (스킬)[v:Skills:스킬] 찍는 순서 뭐지")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1580624306952)
+}
 train (t-bqj106bk66o4ubazfdcbfcckd) {
   utterance ("[g:ItemsOutStructure] (가렌)[v:Name:가렌] (아이템)[v:Items:아이템] 정보")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)

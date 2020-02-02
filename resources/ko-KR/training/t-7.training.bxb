@@ -1,3 +1,8 @@
+train (t-719wfqzy25yykvye0iwhfc0mf) {
+  utterance ("[g:ItemsOutStructure] (세트)[v:Name:세트]가 가야할 (아이템)[v:Items:아이템] 보여줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1580624198748)
+}
 train (t-72abgzvwcw317f2tlzyzprm8q) {
   utterance ("[g:InfoOutStructure] (사이온)[v:Name:사이온] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
