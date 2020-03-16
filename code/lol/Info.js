@@ -94,7 +94,6 @@ module.exports.function = function info (name, inform) {
 
 
   let runedict = tools.rune()
-  console.log(runedict)
   spell = db.infos[engname]["Spell"]
   spells = []
   for (f in spell){
@@ -104,6 +103,7 @@ module.exports.function = function info (name, inform) {
     }
     spells.push(temp)
   }
+  console.log(spells)
 
   let skillsset = {
     skills: skill,
