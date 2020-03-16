@@ -18,6 +18,11 @@ train (t-sfye5bejqbrn7vjwcg3dnusd9) {
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
   last-modified (1580623612450)
 }
+train (t-sfzp3fm49pa72fwfiyokuo01c) {
+  utterance ("[g:RunesOutStructure] (키아나)[v:Name:키아나] (룬)[v:Runes:룬] 정보 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1584317463452)
+}
 train (t-sik0fo53ntd9fswxje0k8x2si) {
   utterance ("[g:InfoOutStructure] (사일러스)[v:Name:사일러스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

@@ -6,7 +6,7 @@ train (t-4a4aywynfabxfx85albaf46au) {
 train (t-4dhz51xp9ylupl6o5caz1k87p) {
   utterance ("[g:InfoOutStructure] (블라디미르)[v:Name:블라디미르] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1570761256351)
+  last-modified (1584317655838)
 }
 train (t-4ensmoeurooell57s7v1htp7d) {
   utterance ("[g:InfoOutStructure] 나 (소나)[v:Name:소나] 할껀데 어떻게 할까")

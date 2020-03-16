@@ -2,8 +2,10 @@ module.exports.function = function info (name, inform) {
   const console = require('console')
   const db = require('../lib/db.js')
   const tools = require('lib/tools.js')
-
+  
   const engname = tools.naming(name, "eng")
+  console.log(name)
+  console.log(engname)
 
   let counterset = db.infos[engname]["Counters"]
 
@@ -18,16 +20,18 @@ module.exports.function = function info (name, inform) {
   console.log(counters)
 
   let engitems = db.infos[engname]["Items"]
+  console.log(engitems)
 
   let itemnums = []
   for (i in engitems){
     itemnums.push(db.items[engitems[i]])
   }
-
+  console.log(itemnums)
   let items = []
   for (i in itemnums){
     items.push(tools.itemname(itemnums[i]))
   }
+  console.log(items)
 
 
   let iteminfo = []
@@ -51,6 +55,7 @@ module.exports.function = function info (name, inform) {
     }
     runeset.push(temp)
   }
+  console.log(runeset)
 
   let statmods = db.infos[engname]["StatMods"]
 
@@ -62,6 +67,7 @@ module.exports.function = function info (name, inform) {
     }
     statmodset.push(temp)
   }
+  console.log(statmodset)
 
   let skill = db.infos[engname]["SkillTree"]
   skill.push("R")

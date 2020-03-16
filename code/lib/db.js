@@ -77,7 +77,6 @@ module.exports.runedict = {
 }
 
 module.exports.items = {
-	
 	"Boots of Speed": "1001",
 	"Faerie Charm": "1004",
 	"Rejuvenation Bead": "1006",
@@ -107,10 +106,10 @@ module.exports.items = {
 	"Space Vampiric Scepter": "1059",
 	"Dark Seal": "1082",
 	"Cull": "1083",
-	"Enchantment: Warrior": "1400",
-	"Enchantment: Cinderhulk": "1401",
-	"Enchantment: Runic Echoes": "1402",
-	"Enchantment: Bloodrazor": "1416",
+	"Enchantment: Warrior": "4102",
+	"Enchantment: Cinderhulk": "4103",
+	"Enchantment: Runic Echoes": "4104",
+	"Enchantment: Bloodrazor": "4105",
 	"Health Potion": "2003",
 	"Mana Potion": "2004",
 	"Total Biscuit of Rejuvenation": "2009",
@@ -154,7 +153,6 @@ module.exports.items = {
 	"Manamune (Quick Charge)": "3008",
 	"Boots of Swiftness": "3009",
 	"Catalyst of Aeons": "3010",
-	"Umbral Glaive": "3179",
 	"Sorcerer's Shoes": "3020",
 	"Frozen Mallet": "3022",
 	"Glacial Shroud": "3024",

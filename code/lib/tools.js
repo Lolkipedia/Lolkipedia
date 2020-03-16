@@ -10,6 +10,7 @@ const items = http.getUrl(url, {format:"json", cacheTime: 0}).data
 url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/champion.json")
 const champ = http.getUrl(url, {format:"json", cacheTime: 0}).data
 
+var console = require('console')
 
 module.exports.naming = function (name, target) {
   if (target === "eng") {

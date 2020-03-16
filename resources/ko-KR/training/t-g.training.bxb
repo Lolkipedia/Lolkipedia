@@ -28,3 +28,8 @@ train (t-gp8jc1a6axk952l0gauwhlclf) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760234684)
 }
+train (t-gvsnfs9ltz1l2n7k4ptx60x2t) {
+  utterance ("[g:InfoOutStructure] (키아나)[v:Name:키아나] (정보)[v:Inform] 보여줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1584317689787)
+}
