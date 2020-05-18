@@ -1,0 +1,30 @@
+train (t-rhw2329pjdx553ojcwsdkq4sy) {
+  utterance ("[g:RunesOutStructure] (그라가스)[v:Name:그라가스] (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824374808)
+}
+train (t-rnsdla1cpk981pp7lembtynxd) {
+  utterance ("[g:ItemsOutStructure] (다리)[v:Name:다리우스] (템)[v:Items:아이템] 보여줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881905155)
+}
+train (t-rfu18oifcifubalb13ttqww46) {
+  utterance ("[g:InfoOutStructure] (세트)[v:Name:세트] 기본 (정보)[v:Inform] 알려줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1580623914886)
+}
+train (t-r9ka3y382gnraa6fufgqo0y73) {
+  utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] {[g:Inform] (정보)[v:Inform]} 보여줘 ")
+  plan (Y2BlUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EubglMg/wSc1MZWBgYGZgYmIE0A5jFCIQMDDwMIMACxiBZoAwA)
+  last-modified (1571822106344)
+}
+train (t-rds8fymr4uq5rtd303hvd4ywj) {
+  utterance ("[g:SkillsOutStructure] (스킬)[v:Skills:스킬] (다리우스)[v:Name:다리우스]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571888602586)
+}
+train (t-r9yujj8dqj5sdftcqethm66lp) {
+  utterance ("[g:InfoOutStructure] (소나)[v:Name:소나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761508963)
+}

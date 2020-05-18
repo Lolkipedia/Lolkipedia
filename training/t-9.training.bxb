@@ -1,0 +1,20 @@
+train (t-9s4z0ew3aza7jpa95snenoxox) {
+  utterance ("[g:CountersOutStructure] (쉬바나)[v:Name:쉬바나] (카운터)[v:Counters:카운터]")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571740908773)
+}
+train (t-9wtvwkkgqk8x3irrxbuzwo6gl) {
+  utterance ("[g:InfoOutStructure] (다리우스)[v:Name:다리우스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760390907)
+}
+train (t-9era6vsv1fgppdjebs7jbxr8r) {
+  utterance ("[g:CountersOutStructure] (카운터)[v:Counters:카운터] (질리언)[v:Name:질리언] 알려줘")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571887716369)
+}
+train (t-90lwpu5cyz2mwld2sd206ty21) {
+  utterance ("[g:InfoOutStructure] (레오나)[v:Name:레오나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760588722)
+}

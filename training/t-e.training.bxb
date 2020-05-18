@@ -1,0 +1,40 @@
+train (t-ewthduudt11yz1do89erun6g9) {
+  utterance ("[g:ItemsOutStructure] 야 무슨 (탬)[v:Items:아이템] 갈지 알려줘 (나르)[v:Name:나르]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881706884)
+}
+train (t-eo5yjtnxh3vcruivmac1eibxb) {
+  utterance ("[g:InfoOutStructure] (바드)[v:Name:바드] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760808789)
+}
+train (t-ek7qq2p6x3qeo8obcdnxc2bf4) {
+  utterance ("[g:InfoOutStructure] (모르가나)[v:Name:모르가나]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870668978)
+}
+train (t-e827rpbmdin0mp0njcooylepj) {
+  utterance ("[g:InfoOutStructure] (베이가)[v:Name:베이가] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570766361670)
+}
+train (t-ejlioxzu09dsroh1wzeyq8n2j) {
+  utterance ("[g:RunesOutStructure] 아니 (소나)[v:Name:소나] (룬)[v:Runes:룬] 어떻게 가냐고")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571876502701)
+}
+train (t-esjzlervb8abxo3v73yyr0yfk) {
+  utterance ("[g:RunesOutStructure] (녹턴)[v:Name:녹턴] (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826209586)
+}
+train (t-edh41uvae6p2idkoxfsvbnxop) {
+  utterance ("[g:RunesOutStructure] (나르)[v:Name:나르] (룬)[v:Runes:룬] 뭐가")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824728013)
+}
+train (t-e1i8w9jyi69upx0pmo1gpbtpm) {
+  utterance ("[g:CountersOutStructure] (아이번)[v:Name:아이번] (카운터)[v:Counters:카운터] 칠 거")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571871383009)
+}

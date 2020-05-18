@@ -1,0 +1,30 @@
+train (t-ymq7vr9wk965kd3owzcfzckui) {
+  utterance ("[g:InfoOutStructure] (알리스타)[v:Name:알리스타] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570840592045)
+}
+train (t-y0sordl8q3k3ct2psr6am2bh2) {
+  utterance ("[g:CountersOutStructure] (모르가나)[v:Name:모르가나] 상대로 (좋은픽)[v:Counters:카운터]")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571869746784)
+}
+train (t-ym2luipyufn0joqj9m3e4zxdw) {
+  utterance ("[g:InfoOutStructure] (애니비아)[v:Name:애니비아] 전체적은 (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571869993717)
+}
+train (t-yeh1nq05remgolyx89yjxrecd) {
+  utterance ("[g:InfoOutStructure] (베인)[v:Name:베인] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760897104)
+}
+train (t-yzcoi9d259ds9ra10glvt7j31) {
+  utterance ("[g:InfoOutStructure] (아우렐리온 솔)[v:Name:'아우렐리온 솔'] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785524172)
+}
+train (t-yc1oqd8jtvoe1jh002u77yce1) {
+  utterance ("[g:InfoOutStructure] (라칸)[v:Name:라칸] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760550983)
+}

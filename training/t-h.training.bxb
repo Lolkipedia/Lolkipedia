@@ -1,0 +1,40 @@
+train (t-h6fdinxhmbdoyif4oz6pp1vj1) {
+  utterance ("[g:InfoOutStructure] (스웨인)[v:Name:스웨인] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785338239)
+}
+train (t-h5jm6sux8hbmeqpblpur4suhc) {
+  utterance ("[g:CountersOutStructure] (카르마)[v:Name:카르마] 할때 (상대하기 편한)[v:Counters:카운터] 상대 뭐야?")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571884060737)
+}
+train (t-h99yasg4q8luh6y4i5uibcism) {
+  utterance ("[g:InfoOutStructure] (쉬바나)[v:Name:쉬바나]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870928276)
+}
+train (t-hohtdmj57ppqgahu9z6ksyqid) {
+  utterance ("[g:RunesOutStructure] (녹턴)[v:Name:녹턴] (룬)[v:Runes:룬] 어떻게 할까")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824954109)
+}
+train (t-h1ukfznyncmnfetlh4ph9dtwk) {
+  utterance ("[g:CountersOutStructure] (가렌)[v:Name:가렌] (카운터)[v:Counters:카운터] 알려줘")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571822881093)
+}
+train (t-h8l0itzf8w5um2irx844yci16) {
+  utterance ("[g:ItemsOutStructure] (케이틀린)[v:Name:케이틀린] (템)[v:Items:아이템] 뭐감")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571823661760)
+}
+train (t-hxzfzv0q2oktq3t6gp2rsm8dd) {
+  utterance ("[g:RunesOutStructure] (갈리오)[v:Name:갈리오] (룬)[v:Runes:룬] 어떤게 좋아")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824628983)
+}
+train (t-hl1inzkkw17sd91uw3e61ui9g) {
+  utterance ("[g:InfoOutStructure] (나미)[v:Name:나미] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760265532)
+}

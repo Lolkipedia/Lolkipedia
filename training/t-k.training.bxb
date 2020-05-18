@@ -1,0 +1,15 @@
+train (t-kwpkrcul3qawmrfiv2w53msvs) {
+  utterance ("[g:CountersOutStructure] (카이사)[v:Name:카이사] 상대로 (좋은픽)[v:Counters:카운터] 뭐")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571869473272)
+}
+train (t-k5lhs1lb3gm8a6yzq2d1eujb6) {
+  utterance ("[g:RunesOutStructure] (다이애나)[v:Name:다이애나] 최고의 (룬세팅)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826774865)
+}
+train (t-kpqgn9qu2lrha5scu4f553wii) {
+  utterance ("[g:RunesOutStructure] (룬)[v:Runes:룬] (피오라)[v:Name:피오라] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571891899514)
+}
