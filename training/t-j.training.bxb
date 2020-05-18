@@ -1,0 +1,40 @@
+train (t-jembam65v42e1nxdluomfwyjw) {
+  utterance ("[g:InfoOutStructure] (브라움)[v:Name:브라움] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760956161)
+}
+train (t-jx3aloz7eq772hmgdpzrn4q1v) {
+  utterance ("[g:CountersOutStructure] (트타)[v:Name:트리스타나] (카운터)[v:Counters:카운터] 뭐야?")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1571882792579)
+}
+train (t-jjc2jprr6iuaa6ryvbg23bxh9) {
+  utterance ("[g:InfoOutStructure] (트런들)[v:Name:트런들]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571878889520)
+}
+train (t-jq97d1izk3xu9yv3fk287igvt) {
+  utterance ("[g:RunesOutStructure] (가렌)[v:Name:가렌] (룬)[v:Runes:룬]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824641205)
+}
+train (t-j5zoe29aeze6cpoiepo12moth) {
+  utterance ("[g:RunesOutStructure] (니달리)[v:Name:니달리] (룬)[v:Runes:룬] 뭐야")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826265538)
+}
+train (t-jer4v7uebx55fezx4okaeshnv) {
+  utterance ("[g:InfoOutStructure] (사이온)[v:Name:사이온] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571870957556)
+}
+train (t-jcqo8avaq8lhngtiyn051dptq) {
+  utterance ("[g:InfoOutStructure] (피들스틱)[v:Name:피들스틱]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571871056384)
+}
+train (t-jmrfbkx6zf2iyr5uqhovus0rp) {
+  utterance ("[g:RunesOutStructure] (갈리오)[v:Name:갈리오] (룬)[v:Runes:룬] 뭐갈까")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824638846)
+}

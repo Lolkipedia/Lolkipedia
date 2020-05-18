@@ -1,0 +1,45 @@
+train (t-o6l0vdextkj8bptybk44gbpdx) {
+  utterance ("[g:ItemsOutStructure] (제드)[v:Name:제드]는 (선템)[v:Items:아이템] 뭐가지")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571870737213)
+}
+train (t-oj0zxdrcc1ub68djs6dxt9cfc) {
+  utterance ("[g:InfoOutStructure] (바이)[v:Name:바이] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760849080)
+}
+train (t-okf49umkn8xrd7jgqz016rxk6) {
+  utterance ("[g:InfoOutStructure] (모르가나)[v:Name:모르가나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760745864)
+}
+train (t-oltw2vzg0uw5m7z9o699le1ud) {
+  utterance ("[g:RunesOutStructure] (소나)[v:Name:소나] (룬특)[v:Runes:룬] 뭐듬")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571870861915)
+}
+train (t-o6egn0dndeou38uiaa3ui49j6) {
+  utterance ("[g:InfoOutStructure] (블리츠크랭크)[v:Name:블리츠크랭크] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761273781)
+}
+train (t-o1q3vlb6sg46lay8zoccnm0ic) {
+  utterance ("[g:InfoOutStructure] (볼리베어)[v:Name:볼리베어] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760936756)
+}
+train (t-oed535kl4dkp2aw9sg45899kz) {
+  utterance ("[g:RunesOutStructure] (쉬바나)[v:Name:쉬바나] (룬)[v:Runes:룬]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571632308166)
+}
+train (t-ov0r2a9aovlj59bosj6izcyen) {
+  utterance ("[g:SkillsOutStructure] (세나)[v:Name:세나] (스킬)[v:Skills:스킬] 찍는 순서 뭐야")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1580624442936)
+}
+train (t-opukyawru1vkpgcrsnroj89m5) {
+  utterance ("[g:ItemsOutStructure] (아무무)[v:Name:아무무]는 (선템)[v:Items:아이템] 뭐감")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571871352943)
+}

@@ -1,0 +1,20 @@
+train (t-w65kswz2ipeim9psxwne0cj8n) {
+  utterance ("[g:InfoOutStructure] (아리)[v:Name:아리] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785476717)
+}
+train (t-whrr31brnsyzm9lz89a6x3ksw) {
+  utterance ("[g:InfoOutStructure] (소라카)[v:Name:소라카] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570766218731)
+}
+train (t-wg7m0tw61ric1p1dax7ehhg1v) {
+  utterance ("[g:InfoOutStructure] (아트룩스)[v:Name:아트록스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571836945784)
+}
+train (t-wghh7zrpxwg3ad2d4so8zbt00) {
+  utterance ("[g:InfoOutStructure] (쉔)[v:Name:쉔] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570766219307)
+}

@@ -1,0 +1,15 @@
+train (t-cur82tajytx5rz6jf04ddg25u) {
+  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] (스킬트리)[v:Skills:스킬] 알려줘")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571836679700)
+}
+train (t-calnl8n4bpenq8u8qs1lwn6a3) {
+  utterance ("[g:RunesOutStructure] (쉬바나)[v:Name:쉬바나] (룬)[v:Runes:룬]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571822633916)
+}
+train (t-culb08ap2zrc36pdpqlqyth3q) {
+  utterance ("[g:InfoOutStructure] (나르)[v:Name:나르] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760258573)
+}

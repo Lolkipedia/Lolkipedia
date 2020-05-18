@@ -1,0 +1,30 @@
+train (t-i7gbcc421yg7gmfq4xpfu0ke3) {
+  utterance ("[g:InfoOutStructure] (룰루)[v:Name:룰루] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760665488)
+}
+train (t-ia0xjkxhgm8psgxh8s63jear9) {
+  utterance ("[g:ItemsOutStructure] (아이템)[v:Items:아이템] (피즈)[v:Name:피즈] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571892491802)
+}
+train (t-iqp1pgydevw70i4apilx2zl8x) {
+  utterance ("[g:InfoOutStructure] (레넥톤)[v:Name:레넥톤] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760571481)
+}
+train (t-ik14dv7thj71cj4jhxmpjk95h) {
+  utterance ("[g:ItemsOutStructure] (트리스타나)[v:Name:트리스타나] (아이템)[v:Items:아이템] 추천")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571869844326)
+}
+train (t-ign6bbyd3kdj3nwknq4usf29o) {
+  utterance ("[g:InfoOutStructure] (다이애나)[v:Name:다이애나] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760414291)
+}
+train (t-i0m7p3pcg2b2amsbjti1p2pnp) {
+  utterance ("[g:SkillsOutStructure] 아니 (세주)[v:Name:세주아니] 무슨 (스킬)[v:Skills:스킬]을 찍어야 하는거야")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571882439154)
+}

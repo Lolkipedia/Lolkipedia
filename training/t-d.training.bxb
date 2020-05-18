@@ -1,0 +1,10 @@
+train (t-dnyvof2vnj0gmefclsnbdc44d) {
+  utterance ("[g:RunesOutStructure] (애니)[v:Name:애니] (룬특)[v:Runes:룬] 뭐듬")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571869780638)
+}
+train (t-dsr346uoeoxrioxmaq0lg1djz) {
+  utterance ("[g:RunesOutStructure] (다리우스)[v:Name:다리우스]한테 추천할 (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826565961)
+}

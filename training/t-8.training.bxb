@@ -1,0 +1,15 @@
+train (t-8y98873fko6zpz0k1tu942ddz) {
+  utterance ("[g:RunesOutStructure] (나미)[v:Name:나미] (룬)[v:Runes:룬] 뭐가")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824758734)
+}
+train (t-8rsrfpbzkqjek6ibpoirqgw3k) {
+  utterance ("[g:InfoOutStructure] (람머스)[v:Name:람머스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760505744)
+}
+train (t-82k1jpxze6ojlq0uq4rsey1rg) {
+  utterance ("[g:InfoOutStructure] (노틸러스)[v:Name:노틸러스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760279235)
+}

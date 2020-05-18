@@ -1,0 +1,20 @@
+train (t-47yxjkq1mgj2cwbda42kwheav) {
+  utterance ("[g:SkillsOutStructure] (카직스)[v:Name:카직스] (선마)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571871276451)
+}
+train (t-4ehr2jr2xvpku4gbke80iz8s3) {
+  utterance ("[g:InfoOutStructure] (블라디미르)[v:Name:블라디미르] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1584317655838)
+}
+train (t-4l1vh8r9wp6my6qb5qlw4d57d) {
+  utterance ("[g:InfoOutStructure] 나 (소나)[v:Name:소나] 할껀데 어떻게 할까")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571878722017)
+}
+train (t-41t57dxlho4m85dooa2issn5y) {
+  utterance ("[g:SkillsOutStructure] (애니)[v:Name:애니] (스킬트리)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571870153989)
+}
