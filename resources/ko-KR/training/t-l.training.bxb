@@ -4,7 +4,7 @@ train (t-l92poiw7h90n4gz9v8vlstqeg) {
   last-modified (1570785544474)
 }
 train (t-llvujib21kzg9tehe0371os0i) {
-  utterance ("[g:SkillsOutStructure] (가렌)[v:Name:가렌] (스킬트리)[v:Skills:스킬] 알려줘")
+  utterance ("[g:SkillsOutStructure] (가렌)[v:Name:가렌] (스킬 트리)[v:Skills:스킬] 알려줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1571294127100)
+  last-modified (1589878184380)
 }

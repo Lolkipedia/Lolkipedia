@@ -4,9 +4,8 @@ train (t-1clkef7bbrg55x9cdbmvasmwd) {
   last-modified (1574204824666)
 }
 train (t-1i2j1bwqsec8xckzqa33txdio) {
-  utterance ("[g:SkillsOutStructure] (세트)[v:Name:세트] (스킬트리)[v:Skills:스킬] 좀 보여줘")
-  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1580624049724)
+  utterance ("[g:SkillsOutStructure] (세트)[v:Name:세트] (스킬 트리)[v:Skills:스킬] 좀 보여줘")
+  last-modified (1589878164955)
 }
 train (t-1kgzw3f1842ck27e7awufvxc4) {
   utterance ("[g:CountersOutStructure] (자르반)[v:Name:'자르반 4세'] (카운터)[v:Counters:카운터] 뭐야?")

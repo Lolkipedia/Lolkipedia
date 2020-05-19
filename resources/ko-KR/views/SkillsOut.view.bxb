@@ -3,7 +3,7 @@ result-view {
   }
 
   message {
-    template("#{value(this.name)}의 추천 스킬트리 입니다.")
+    template("#{value(this.name)}의 추천 스킬 트리 입니다.")
   }
 
   render {
@@ -39,7 +39,7 @@ result-view {
       template ("#{value(this.name)} 룬")
     }
     conversation-driver {
-      template ("#{value(this.name)} 카운터픽")
+      template ("#{value(this.name)} 카운터 픽")
     }
   }
 }

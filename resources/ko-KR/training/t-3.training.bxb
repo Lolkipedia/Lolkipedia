@@ -1,10 +1,10 @@
 train (t-31hpfj2l57n914stymbbn5jl8) {
-  utterance ("[g:CountersOutStructure] 롤 에서 (가렌)[v:Name:가렌] (카운터픽)[v:Counters:카운터] 뭐임")
+  utterance ("[g:CountersOutStructure] 롤 에서 (가렌)[v:Name:가렌] (카운터 픽)[v:Counters:카운터] 뭐임")
   plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
-  last-modified (1571823364864)
+  last-modified (1589877939541)
 }
 train (t-3flfsylkela7502fi4rnomu9q) {
-  utterance ("[g:CountersOutStructure] (니코)[v:Name:니코] (카운터)[v:Counters:카운터] 칠라면 뭐 ")
+  utterance ("[g:CountersOutStructure] (니코)[v:Name:니코] (카운터)[v:Counters:카운터] 칠라면 뭐")
   plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
   last-modified (1571871541162)
 }

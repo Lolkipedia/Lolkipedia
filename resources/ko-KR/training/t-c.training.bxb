@@ -1,7 +1,7 @@
 train (t-c4jrijext9mt6lmb7umndch4j) {
-  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] (스킬트리)[v:Skills:스킬] 알려줘")
+  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] (스킬 트리)[v:Skills:스킬] 알려줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1571836679700)
+  last-modified (1589878181312)
 }
 train (t-ck3j09nyo0r48yyuxxdu6jf7v) {
   utterance ("[g:RunesOutStructure] (쉬바나)[v:Name:쉬바나] (룬)[v:Runes:룬]")

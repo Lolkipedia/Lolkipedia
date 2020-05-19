@@ -9,9 +9,9 @@ train (t-mctx0vi5a6trjjsozsy5ux76c) {
   last-modified (1571824657149)
 }
 train (t-mrm91eq0fknuhbj0wq2tashvp) {
-  utterance ("[g:SkillsOutStructure] (키아나)[v:Name:키아나] (스킬트리)[v:Skills:스킬] 알려줘")
+  utterance ("[g:SkillsOutStructure] (키아나)[v:Name:키아나] (스킬 트리)[v:Skills:스킬] 알려줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1571901098653)
+  last-modified (1589878168485)
 }
 train (t-mx7hztufhcgxiypivvxwl9b7e) {
   utterance ("[g:CountersOutStructure] (세나)[v:Name:세나]가 상대하기 (편한)[v:Counters:카운터] 챔피언 보여줘")

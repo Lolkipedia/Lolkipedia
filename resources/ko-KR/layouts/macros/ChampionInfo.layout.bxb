@@ -214,7 +214,7 @@ layout-macro-def (champ-Info) {
             halign (Start)
             slot1{
               text{
-                value("스킬트리")
+                value("스킬 트리")
                 style(Title_XS)
               }
             }

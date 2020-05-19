@@ -9,9 +9,9 @@ train (t-ufdk13nwfkz2alpphpyoetjxb) {
   last-modified (1570760212176)
 }
 train (t-uj4ql45x2q604ugjfmvicctzv) {
-  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] 추천 (스킬트리)[v:Skills:스킬] 보여줘")
+  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] 추천 (스킬 트리)[v:Skills:스킬] 보여줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1571868958197)
+  last-modified (1589878178298)
 }
 train (t-ur4xkxx2dko52dd6cfkujvtlo) {
   utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] (정보)[v:Inform] 찾아줘")

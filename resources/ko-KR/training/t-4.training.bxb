@@ -14,7 +14,7 @@ train (t-4ensmoeurooell57s7v1htp7d) {
   last-modified (1571878722017)
 }
 train (t-4yxmli2toh35cupzid5qrytr4) {
-  utterance ("[g:SkillsOutStructure] (애니)[v:Name:애니] (스킬트리)[v:Skills:스킬]")
+  utterance ("[g:SkillsOutStructure] (애니)[v:Name:애니] (스킬 트리)[v:Skills:스킬]")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1571870153989)
+  last-modified (1589878171389)
 }

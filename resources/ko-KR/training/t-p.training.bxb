@@ -24,7 +24,7 @@ train (t-ppospji5msdrs059th7p6bwfo) {
   last-modified (1571884506271)
 }
 train (t-pq60dvm790p0c6f3psaxhn6sq) {
-  utterance ("[g:SkillsOutStructure] (딩거)[v:Name:하이머딩거] (스킬트리)[v:Skills:스킬] 뭐임")
+  utterance ("[g:SkillsOutStructure] (딩거)[v:Name:하이머딩거] (스킬 트리)[v:Skills:스킬] 뭐임")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1571869191070)
+  last-modified (1589878175168)
 }
