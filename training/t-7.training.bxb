@@ -1,0 +1,35 @@
+train (t-7z3smkew9ygxgz60pew909rnj) {
+  utterance ("[g:ItemsOutStructure] (세트)[v:Name:세트]가 가야할 (아이템)[v:Items:아이템] 보여줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1580624198748)
+}
+train (t-7v96a7yyg1ajz35grqfrqpdut) {
+  utterance ("[g:InfoOutStructure] (사이온)[v:Name:사이온] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761432100)
+}
+train (t-7a3lkf5xrzr7sdgu9og6k2hx3) {
+  utterance ("[g:InfoOutStructure] (루시안)[v:Name:루시안] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760643357)
+}
+train (t-75xvhnz0n4tyxoldexqxa3bqo) {
+  utterance ("[g:ItemsOutStructure] (블크)[v:Name:블리츠크랭크] (아이템)[v:Items:아이템] 추천좀")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571882005084)
+}
+train (t-7lyf0f3za287mmddr0g4fl9xt) {
+  utterance ("[g:InfoOutStructure] (누누)[v:Name:'누누와 윌럼프'] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571888369377)
+}
+train (t-7ji9y6av1rx6uq2qm1l6tgpxz) {
+  utterance ("[g:ItemsOutStructure] (다리)[v:Name:다리우스] (추천템)[v:Items:아이템] 보여줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571887287930)
+}
+train (t-7a9792mtn2knygy38phh05voz) {
+  utterance ("[g:RunesOutStructure] (나서스)[v:Name:나서스] (룬)[v:Runes:룬] 어떤게 좋아")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824824269)
+}

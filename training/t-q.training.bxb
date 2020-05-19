@@ -1,0 +1,30 @@
+train (t-qe66v5hhds2ieqrpcmgvx0p59) {
+  utterance ("[g:RunesOutStructure] (럭스)[v:Name:럭스]  (룬)[v:Runes:룬] 추천좀")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571827135760)
+}
+train (t-qcqihuvqyqhcqwe4a0s14ird1) {
+  utterance ("[g:RunesOutStructure] (람머스)[v:Name:람머스] (룬특)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571827043616)
+}
+train (t-q0dk16m2dzd6u4yv18ygja8ag) {
+  utterance ("[g:InfoOutStructure] (소나)[v:Name:소나]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571888273443)
+}
+train (t-q9ak98ev3yxpseb845r42e8sd) {
+  utterance ("[g:CountersOutStructure] (세트)[v:Name:세트]가 (편한)[v:Counters:카운터] 챔피언은 뭐야")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1580624236038)
+}
+train (t-q48vq8ele2mnamvrlyxu8qq9d) {
+  utterance ("[g:SkillsOutStructure] (다리우스)[v:Name:다리우스] (스킬)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1584325023930)
+}
+train (t-qpiwfaudoxsb13ce5iy6x2fo4) {
+  utterance ("[g:InfoOutStructure] (스카너)[v:Name:스카너] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785364468)
+}

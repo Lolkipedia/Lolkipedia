@@ -1,0 +1,10 @@
+train (t-tndjhfmcaekl7ull2tb1nzt0h) {
+  utterance ("[g:InfoOutStructure] (사이온)[v:Name:사이온]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870977318)
+}
+train (t-t9q8pp4706x07v1isak7rrgdx) {
+  utterance ("[g:RunesOutStructure] (갱플랭크)[v:Name:갱플랭크]가 가기 좋은 (룬)[v:Runes:룬] 추천좀 해주셈")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571876112176)
+}

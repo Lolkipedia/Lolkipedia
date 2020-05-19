@@ -1,29 +1,29 @@
-train (t-ubiunwuy5js0kxakpzrs1v4fc) {
+train (t-u880546cihe5pacd4o571551x) {
   utterance ("[g:InfoOutStructure] (아지르)[v:Name:아지르] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785634063)
 }
-train (t-ufdk13nwfkz2alpphpyoetjxb) {
+train (t-urivnt47ijrx12lg4srdk9lkf) {
   utterance ("[g:InfoOutStructure] (가렌)[v:Name:가렌] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760212176)
 }
-train (t-uj4ql45x2q604ugjfmvicctzv) {
-  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] 추천 (스킬 트리)[v:Skills:스킬] 보여줘")
+train (t-utri0rwzvi6n9qspksp31tb7m) {
+  utterance ("[g:SkillsOutStructure] (케이틀린)[v:Name:케이틀린] 추천 (스킬트리)[v:Skills:스킬] 보여줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1589878178298)
+  last-modified (1571868958197)
 }
-train (t-ur4xkxx2dko52dd6cfkujvtlo) {
+train (t-uc2zl23wsewf5vq0ga594jybs) {
   utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] (정보)[v:Inform] 찾아줘")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1571823355337)
 }
-train (t-uv3jn48vflnnaz7gs624lqnua) {
+train (t-upjiuk5ygre2ul94ga855601n) {
   utterance ("[g:InfoOutStructure] (그라가스)[v:Name:그라가스] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760243742)
 }
-train (t-uxq6weetab50142ahkj79k67h) {
+train (t-uqsix1xjyvwqcyr6r2itdhf6l) {
   utterance ("[g:InfoOutStructure] (라이즈)[v:Name:라이즈] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570760470202)

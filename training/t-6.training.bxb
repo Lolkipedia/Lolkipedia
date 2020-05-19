@@ -1,0 +1,25 @@
+train (t-62615vtq5gjxlbm2myesisp62) {
+  utterance ("[g:InfoOutStructure] (쓰레쉬)[v:Name:쓰레쉬] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785456342)
+}
+train (t-6damy89imi1ymjncp3fuhltng) {
+  utterance ("[g:InfoOutStructure] (녹턴)[v:Name:녹턴] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761115357)
+}
+train (t-6pyv9z7anvfwlxlbdvg17sngd) {
+  utterance ("[g:RunesOutStructure] (그레이브즈)[v:Name:그레이브즈] (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824544374)
+}
+train (t-6itvbc4dh06kyxgrn9byjvasu) {
+  utterance ("[g:SkillsOutStructure] (탈론)[v:Name:탈론]은 (스킬)[v:Skills:스킬] 뭐 찍음")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571903070633)
+}
+train (t-6vzx3xrjgqjhfdu4dokjsga0x) {
+  utterance ("[g:InfoOutStructure] (렉사이)[v:Name:렉사이] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760605238)
+}

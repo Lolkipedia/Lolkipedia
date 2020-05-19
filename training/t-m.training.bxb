@@ -1,19 +1,19 @@
-train (t-m4wemqhjnsz323ytey6834muw) {
+train (t-msiy42di6tg40ocmnpqse4250) {
   utterance ("[g:SkillsOutStructure] (에니비아)[v:Name:애니비아] 추천 (스킬)[v:Skills:스킬] 보여줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
   last-modified (1571881881162)
 }
-train (t-mctx0vi5a6trjjsozsy5ux76c) {
+train (t-ms7k8ui4rb83002411mb92jqf) {
   utterance ("[g:RunesOutStructure] (케이틀린)[v:Name:케이틀린] (룬)[v:Runes:룬] 뭐갈까")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
   last-modified (1571824657149)
 }
-train (t-mrm91eq0fknuhbj0wq2tashvp) {
-  utterance ("[g:SkillsOutStructure] (키아나)[v:Name:키아나] (스킬 트리)[v:Skills:스킬] 알려줘")
+train (t-m60k777qcrqhcth3m0yc0vurp) {
+  utterance ("[g:SkillsOutStructure] (키아나)[v:Name:키아나] (스킬트리)[v:Skills:스킬] 알려줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1589878168485)
+  last-modified (1571901098653)
 }
-train (t-mx7hztufhcgxiypivvxwl9b7e) {
+train (t-m5ptc6in0w04igjosv4euxrnq) {
   utterance ("[g:CountersOutStructure] (세나)[v:Name:세나]가 상대하기 (편한)[v:Counters:카운터] 챔피언 보여줘")
   plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
   last-modified (1580624470391)

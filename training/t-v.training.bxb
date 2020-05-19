@@ -1,0 +1,45 @@
+train (t-vmhf15gl6kyassjzoyhs1yavo) {
+  utterance ("[g:InfoOutStructure] (신짜오)[v:Name:'신 짜오'] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571803204033)
+}
+train (t-v0z0cvve28mq1aogqvuqom9eb) {
+  utterance ("[g:InfoOutStructure] (뽀삐)[v:Name:뽀삐] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761316056)
+}
+train (t-vfuok879ozqllyrk99g6qqgey) {
+  utterance ("[g:ItemsOutStructure] (쉬바나)[v:Name:쉬바나] (아이템)[v:Items:아이템]")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571739549866)
+}
+train (t-vdcd132emfzgtcudujuw7uhrf) {
+  utterance ("[g:RunesOutStructure] (라이즈)[v:Name:라이즈]한테 좋은 (룬)[v:Runes:룬] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571826895097)
+}
+train (t-v92qmhny2j3danj87x1niyzw8) {
+  utterance ("[g:ItemsOutStructure] 아니 (아이템)[v:Items:아이템] 뭐 가냐고 (칼리스타)[v:Name:칼리스타] 일때")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571884426465)
+}
+train (t-v4n1ugbdoiwzi8ne7rdw9w1fb) {
+  utterance ("[g:InfoOutStructure] (벨코즈)[v:Name:벨코즈] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760914673)
+}
+train (t-v1maqwcieaydk02foc6o8edu8) {
+  utterance ("[g:InfoOutStructure] (헤카림)[v:Name:헤카림] (정보)[v:Inform] 알려줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571869252012)
+}
+train (t-v2hi832gfzqskn6sw8ug8oxi5) {
+  utterance ("[g:ItemsOutStructure] (세트)[v:Name:세트] 추천 (템)[v:Items:아이템] 셋팅")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1580624093212)
+}
+train (t-vt73svzm6z7vjd63pa6zfbz6g) {
+  utterance ("[g:InfoOutStructure] (나서스)[v:Name:나서스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760272047)
+}

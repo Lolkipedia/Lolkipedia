@@ -1,0 +1,35 @@
+train (t-guq1dmw2hdhcwgb82ehodpk4u) {
+  utterance ("[g:InfoOutStructure] (애니)[v:Name:애니] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785729104)
+}
+train (t-g1w4lhbqunctwwwyb030x3tuq) {
+  utterance ("[g:InfoOutStructure] (샤코)[v:Name:샤코] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761464108)
+}
+train (t-g54bv7kwydaesgwrw5c9hd61n) {
+  utterance ("[g:InfoOutStructure] (아칼리)[v:Name:아칼리] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785654410)
+}
+train (t-gs8qfwysof5mqco51vmgj2jii) {
+  utterance ("[g:ItemsOutStructure] 아니 (알리스타)[v:Name:알리스타] (아템)[v:Items:아이템] 뭐가냐고")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881644493)
+}
+train (t-g0yb7w8nn9be98g2g5nv1xnx6) {
+  utterance ("[g:RunesOutStructure] (트리스타나)[v:Name:트리스타나]는 (룬)[v:Runes:룬] 뭐들지")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571869812170)
+}
+train (t-g5uovibf9t5ywh5ozlrwm3o2s) {
+  utterance ("[g:InfoOutStructure] (갱플랭크)[v:Name:갱플랭크] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760234684)
+}
+train (t-g4q6zp70jv1icvzcsp0q8ldvb) {
+  utterance ("[g:InfoOutStructure] (키아나)[v:Name:키아나] (정보)[v:Inform] 보여줘")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1584317689787)
+}

@@ -1,6 +1,6 @@
 capsule {
   id (jisby.lolkipedia)
-  version (1.1.2)
+  version (1.1.4)
   format (3)
   targets {
     target (bixby-mobile-en-US){enabled (false)}
@@ -12,7 +12,7 @@ capsule {
   store-sections{
     section (GamesAndFun)
   }
-  runtime-version (4) {
+  runtime-version (6) {
   }
 }
 

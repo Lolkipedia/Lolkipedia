@@ -1,0 +1,25 @@
+train (t-51p4eizgomb2lgau5rcnccf27) {
+  utterance ("[g:ItemsOutStructure] (칼리스타)[v:Name:칼리스타] (아이템)[v:Items:아이템] 뭐가")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1571881578685)
+}
+train (t-50lirrup9qgysg4cxuntvxhsn) {
+  utterance ("[g:InfoOutStructure] (니코)[v:Name:니코] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571888407073)
+}
+train (t-5at48deid1rx8mwqxupanb1ac) {
+  utterance ("[g:InfoOutStructure] (아무무)[v:Name:아무무] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570785501901)
+}
+train (t-5y9901fqai7rflvty012hkbrd) {
+  utterance ("[g:InfoOutStructure] (세주아니)[v:Name:세주아니] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761484064)
+}
+train (t-5wpuke9vt0g24yi1qimx2wlrg) {
+  utterance ("[g:InfoOutStructure] (코르키)[v:Name:코르키]")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1571870813418)
+}

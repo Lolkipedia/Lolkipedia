@@ -1,10 +1,10 @@
-train (t-l92poiw7h90n4gz9v8vlstqeg) {
+train (t-l33p9rix2zn2ck7xihj67pjyr) {
   utterance ("[g:InfoOutStructure] (아이번)[v:Name:아이번] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785544474)
 }
-train (t-llvujib21kzg9tehe0371os0i) {
-  utterance ("[g:SkillsOutStructure] (가렌)[v:Name:가렌] (스킬 트리)[v:Skills:스킬] 알려줘")
+train (t-lhxsrdj6fu7gt7y2koxess638) {
+  utterance ("[g:SkillsOutStructure] (가렌)[v:Name:가렌] (스킬트리)[v:Skills:스킬] 알려줘")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
-  last-modified (1589878184380)
+  last-modified (1571294127100)
 }

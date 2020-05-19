@@ -1,0 +1,45 @@
+train (t-sgu665vf75ksu7p1dpd9hq8jd) {
+  utterance ("[g:SkillsOutStructure] (유미)[v:Name:유미] (스킬)[v:Skills:스킬]")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571803260211)
+}
+train (t-sxg79ac6dn6u74ny1mmheep35) {
+  utterance ("[g:RunesOutStructure] (트린)[v:Name:트린다미어] (룬특)[v:Runes:룬] 좀")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571888442648)
+}
+train (t-svwk0ggi4bqz3ea7jixsk1jwf) {
+  utterance ("[g:InfoOutStructure] (미스포츈)[v:Name:'미스 포츈'] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1571836919873)
+}
+train (t-s3adlunysv7795yufdhtf6s77) {
+  utterance ("[g:SkillsOutStructure] (아펠리오스)[v:Name:아펠리오스] (스킬)[v:Skills:스킬] 뭐찍지")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1580623612450)
+}
+train (t-sd36l3evzaewfyujwysyba18m) {
+  utterance ("[g:RunesOutStructure] (키아나)[v:Name:키아나] (룬)[v:Runes:룬] 정보 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1584317463452)
+}
+train (t-sp0yyjz8oz9twf0llpsdhkkna) {
+  utterance ("[g:InfoOutStructure] (사일러스)[v:Name:사일러스] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570761447620)
+}
+train (t-sxcfk7nawb2b9g9dptq9cpies) {
+  utterance ("[g:SkillsOutStructure] (유미)[v:Name:유미]의 (스킬)[v:Skills:스킬] 순서")
+  plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
+  last-modified (1571870904849)
+}
+train (t-s4gfa5oz03e03pr3o69jdku5r) {
+  utterance ("[g:RunesOutStructure] (노틸러스)[v:Name:노틸러스] (룬)[v:Runes:룬] 뭐갈까")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)
+  last-modified (1571824880157)
+}
+train (t-s5o3k2sfzkmtg1qey0ofnx1w8) {
+  utterance ("[g:InfoOutStructure] (모데카이저)[v:Name:모데카이저] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1570760705753)
+}
