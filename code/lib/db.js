@@ -305,7 +305,7 @@ module.exports.items = {
 	"Oblivion Orb": "3916",
 }
 
-module.exports.infos = {
+module.exports.infos ={
 	"Garen": {
 		"Lane": "Top",
 		"Spell": [
@@ -371,13 +371,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Quinn",
-			"Kayle",
-			"Hecarim"
+			"Vayne",
+			"Kayle"
 		],
 		"Easy": [
-			"Irelia",
-			"Akali",
-			"Sylas"
+			"Riven",
+			"Ryze",
+			"Irelia"
 		]
 	},
 	"Galio": {
@@ -445,14 +445,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Kled",
-			"Garen",
-			"Nocturne"
+			"Zilean",
+			"Camille",
+			"Neeko"
 		],
 		"Easy": [
 			"Akali",
-			"Ryze",
-			"Irelia"
+			"Azir",
+			"Malphite"
 		]
 	},
 	"Gangplank": {
@@ -518,14 +518,14 @@ module.exports.infos = {
 			"Infinity Edge"
 		],
 		"Counters": [
+			"Zac",
 			"Sion",
-			"Cho'Gath",
-			"Rengar"
+			"Fiddlesticks"
 		],
 		"Easy": [
-			"Warwick",
-			"Akali",
-			"Poppy"
+			"Pantheon",
+			"Heimerdinger",
+			"Lucian"
 		]
 	},
 	"Gragas": {
@@ -592,14 +592,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Dr. Mundo",
-			"Poppy",
-			"Amumu"
+			"Rengar",
+			"Kha'Zix",
+			"Shyvana"
 		],
 		"Easy": [
-			"Kha'Zix",
-			"Rengar",
-			"Sett"
+			"Taliyah",
+			"Udyr",
+			"Evelynn"
 		]
 	},
 	"Graves": {
@@ -666,14 +666,14 @@ module.exports.infos = {
 			"Youmuu's Ghostblade"
 		],
 		"Counters": [
-			"Fiddlesticks",
 			"Rammus",
-			"Shyvana"
+			"Nunu & Willump",
+			"Volibear"
 		],
 		"Easy": [
+			"Nocturne",
 			"Sylas",
-			"Sett",
-			"Gragas"
+			"Jax"
 		]
 	},
 	"Gnar": {
@@ -684,8 +684,8 @@ module.exports.infos = {
 		],
 		"SkillTree": [
 			"Q",
-			"W",
 			"E",
+			"W",
 			"Q",
 			"Q",
 			"R",
@@ -740,14 +740,14 @@ module.exports.infos = {
 			"Gargoyle Stoneplate"
 		],
 		"Counters": [
-			"Shen",
-			"Kayn",
-			"Quinn"
+			"Cassiopeia",
+			"Fiddlesticks",
+			"Teemo"
 		],
 		"Easy": [
-			"Kalista",
-			"Renekton",
-			"Illaoi"
+			"Cho'Gath",
+			"Sylas",
+			"Akali"
 		]
 	},
 	"Nami": {
@@ -815,14 +815,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Sona",
-			"Bard",
-			"Zyra"
+			"Braum",
+			"Janna",
+			"Taric"
 		],
 		"Easy": [
-			"Shen",
-			"Pantheon",
-			"Galio"
+			"Poppy",
+			"Tahm Kench",
+			"Malphite"
 		]
 	},
 	"Nasus": {
@@ -833,9 +833,9 @@ module.exports.infos = {
 		],
 		"SkillTree": [
 			"Q",
-			"E",
 			"W",
 			"Q",
+			"E",
 			"Q",
 			"R",
 			"Q",
@@ -889,14 +889,14 @@ module.exports.infos = {
 			"Spirit Visage"
 		],
 		"Counters": [
-			"Yorick",
-			"Wukong",
+			"Pantheon",
+			"Sion",
 			"Shyvana"
 		],
 		"Easy": [
-			"Rumble",
-			"Cassiopeia",
-			"Vladimir"
+			"Ryze",
+			"Kalista",
+			"Kayle"
 		]
 	},
 	"Nautilus": {
@@ -964,14 +964,14 @@ module.exports.infos = {
 			"Gargoyle Stoneplate"
 		],
 		"Counters": [
-			"Bard",
-			"Maokai",
-			"Brand"
+			"Zac",
+			"Shaco",
+			"Bard"
 		],
 		"Easy": [
-			"Poppy",
-			"Malphite",
-			"Volibear"
+			"Shen",
+			"Pyke",
+			"Malphite"
 		]
 	},
 	"Nocturne": {
@@ -1038,13 +1038,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Zilean",
-			"Aurelion Sol",
-			"Annie"
+			"Pyke",
+			"Garen"
 		],
 		"Easy": [
 			"Irelia",
 			"Malzahar",
-			"Aatrox"
+			"Xerath"
 		]
 	},
 	"Nunu": {
@@ -1111,14 +1111,14 @@ module.exports.infos = {
 			"Dead Man's Plate"
 		],
 		"Counters": [
-			"Rammus",
-			"Olaf",
-			"Udyr"
+			"Udyr",
+			"Dr. Mundo",
+			"Rengar"
 		],
 		"Easy": [
-			"Gragas",
-			"Sylas",
-			"Kha'Zix"
+			"Sejuani",
+			"Jax",
+			"Karthus"
 		]
 	},
 	"Nidalee": {
@@ -1185,14 +1185,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Volibear",
-			"Dr. Mundo",
-			"Rammus"
+			"Sett",
+			"Warwick",
+			"Fiddlesticks"
 		],
 		"Easy": [
-			"Sett",
-			"Gragas",
-			"Sylas"
+			"Taliyah",
+			"Sylas",
+			"Gragas"
 		]
 	},
 	"Neeko": {
@@ -1260,21 +1260,21 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Ziggs",
-			"Garen",
-			"Zilean"
+			"Xerath",
+			"Lissandra",
+			"Veigar"
 		],
 		"Easy": [
-			"Renekton",
-			"Irelia",
-			"Akali"
+			"Azir",
+			"Akali",
+			"Malphite"
 		]
 	},
 	"Darius": {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerHaste"
+			"SummonerGhost"
 		],
 		"SkillTree": [
 			"Q",
@@ -1335,13 +1335,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Quinn",
-			"Yorick",
-			"Wukong"
+			"Teemo",
+			"Vayne"
 		],
 		"Easy": [
-			"Ryze",
-			"Sylas",
-			"Rumble"
+			"Dr. Mundo",
+			"Rumble",
+			"Fiddlesticks"
 		]
 	},
 	"Diana": {
@@ -1409,14 +1409,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Kled",
-			"Neeko",
-			"Cassiopeia"
+			"Aurelion Sol",
+			"Galio",
+			"Kled"
 		],
 		"Easy": [
 			"Azir",
-			"Aurelion Sol",
-			"Akali"
+			"Qiyana",
+			"Corki"
 		]
 	},
 	"Draven": {
@@ -1483,14 +1483,14 @@ module.exports.infos = {
 			"Edge of Night"
 		],
 		"Counters": [
-			"Cassiopeia",
 			"Yasuo",
-			"Kog'Maw"
+			"Jinx",
+			"Xayah"
 		],
 		"Easy": [
-			"Kai'Sa",
+			"Tristana",
 			"Lucian",
-			"Ziggs"
+			"Kalista"
 		]
 	},
 	"Ryze": {
@@ -1557,14 +1557,14 @@ module.exports.infos = {
 			"Rod of Ages"
 		],
 		"Counters": [
-			"Vel'Koz",
-			"Pyke",
-			"Annie"
+			"Annie",
+			"Cassiopeia",
+			"Ziggs"
 		],
 		"Easy": [
-			"Ornn",
-			"Rumble",
-			"Akali"
+			"Sett",
+			"Vel'Koz",
+			"Malphite"
 		]
 	},
 	"Rakan": {
@@ -1628,18 +1628,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Zeke's Convergence",
-			"Knight's Vow",
+			"Shurelya's Reverie",
 			"Redemption"
 		],
 		"Counters": [
-			"Zyra",
-			"Sona",
-			"Janna"
+			"Maokai",
+			"Zilean",
+			"Sona"
 		],
 		"Easy": [
-			"Brand",
+			"Poppy",
 			"Sett",
-			"Pantheon"
+			"Malphite"
 		]
 	},
 	"Rammus": {
@@ -1706,13 +1706,13 @@ module.exports.infos = {
 			"Dead Man's Plate"
 		],
 		"Counters": [
-			"Dr. Mundo",
-			"Trundle",
-			"Ivern"
+			"Fiddlesticks",
+			"Ivern",
+			"Taliyah"
 		],
 		"Easy": [
+			"Udyr",
 			"Rengar",
-			"Volibear",
 			"Nocturne"
 		]
 	},
@@ -1781,14 +1781,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Sona",
-			"Fiddlesticks",
-			"Zac"
+			"Janna",
+			"Bard",
+			"Maokai"
 		],
 		"Easy": [
-			"Shen",
-			"Volibear",
-			"Poppy"
+			"Sett",
+			"Rakan",
+			"Pantheon"
 		]
 	},
 	"Rumble": {
@@ -1798,8 +1798,8 @@ module.exports.infos = {
 			"SummonerDot"
 		],
 		"SkillTree": [
-			"Q",
 			"E",
+			"Q",
 			"W",
 			"Q",
 			"Q",
@@ -1855,14 +1855,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Lulu",
-			"Viktor",
-			"Pyke"
+			"Aurelion Sol",
+			"Sett",
+			"Ornn"
 		],
 		"Easy": [
-			"Ziggs",
-			"Pantheon",
-			"Xerath"
+			"Aatrox",
+			"Lucian",
+			"Nocturne"
 		]
 	},
 	"Renekton": {
@@ -1925,18 +1925,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Sterak's Gage",
-			"Tiamat",
+			"Blade of the Ruined King",
 			"Black Cleaver"
 		],
 		"Counters": [
-			"Teemo",
-			"Illaoi",
-			"Quinn"
+			"Quinn",
+			"Sion",
+			"Teemo"
 		],
 		"Easy": [
-			"Yasuo",
 			"Riven",
-			"Akali"
+			"Cassiopeia",
+			"Viktor"
 		]
 	},
 	"Leona": {
@@ -2004,13 +2004,13 @@ module.exports.infos = {
 			"Gargoyle Stoneplate"
 		],
 		"Counters": [
-			"Sona",
 			"Zilean",
-			"Bard"
+			"Zac",
+			"Sona"
 		],
 		"Easy": [
-			"Poppy",
-			"Volibear",
+			"Malphite",
+			"Sett",
 			"Nautilus"
 		]
 	},
@@ -2079,12 +2079,12 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Taliyah",
-			"Dr. Mundo",
-			"Warwick"
+			"Volibear",
+			"Zac"
 		],
 		"Easy": [
+			"Dr. Mundo",
 			"Sylas",
-			"Vi",
 			"Sett"
 		]
 	},
@@ -2152,14 +2152,14 @@ module.exports.infos = {
 			"Blade of the Ruined King"
 		],
 		"Counters": [
-			"Shyvana",
 			"Maokai",
-			"Volibear"
+			"Cho'Gath",
+			"Hecarim"
 		],
 		"Easy": [
-			"Rumble",
-			"Kassadin",
-			"Akali"
+			"Olaf",
+			"Kayle",
+			"Lucian"
 		]
 	},
 	"Lucian": {
@@ -2227,13 +2227,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Cassiopeia",
-			"Ziggs",
-			"Jinx"
+			"Jinx",
+			"Ashe"
 		],
 		"Easy": [
+			"Syndra",
 			"Kai'Sa",
-			"Twitch",
-			"Tristana"
+			"Yasuo"
 		]
 	},
 	"Lulu": {
@@ -2301,14 +2301,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Maokai",
-			"Sona",
-			"Bard"
+			"Bard",
+			"Zyra",
+			"Pantheon"
 		],
 		"Easy": [
-			"Sett",
 			"Poppy",
-			"Volibear"
+			"Shen",
+			"Zac"
 		]
 	},
 	"Leblanc": {
@@ -2375,13 +2375,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Malzahar",
-			"Kled",
-			"Lulu"
+			"Lux",
+			"Galio"
 		],
 		"Easy": [
+			"Ornn",
 			"Irelia",
-			"Neeko",
-			"Akali"
+			"Azir"
 		]
 	},
 	"LeeSin": {
@@ -2449,12 +2449,12 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Shyvana",
-			"Warwick",
+			"Volibear",
 			"Poppy"
 		],
 		"Easy": [
-			"Sylas",
-			"Nidalee",
+			"Rengar",
+			"Jax",
 			"Gragas"
 		]
 	},
@@ -2522,14 +2522,14 @@ module.exports.infos = {
 			"Youmuu's Ghostblade"
 		],
 		"Counters": [
-			"Quinn",
-			"Illaoi",
-			"Volibear"
+			"Ryze",
+			"Hecarim",
+			"Shyvana"
 		],
 		"Easy": [
-			"Rumble",
-			"Kassadin",
-			"Irelia"
+			"Fiddlesticks",
+			"Yasuo",
+			"Gangplank"
 		]
 	},
 	"Lissandra": {
@@ -2557,20 +2557,20 @@ module.exports.infos = {
 		],
 		"Runes": [
 			[
-				"Resolve",
-				"Aftershock"
+				"Domination",
+				"Electrocute"
 			],
 			[
-				"Resolve",
-				"FontOfLife"
+				"Domination",
+				"CheapShot"
 			],
 			[
-				"Resolve",
-				"BonePlating"
+				"Domination",
+				"EyeballCollection"
 			],
 			[
-				"Resolve",
-				"Overgrowth"
+				"Domination",
+				"UltimateHunter"
 			],
 			[
 				"Sorcery",
@@ -2597,14 +2597,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Lulu",
-			"Ornn",
-			"Zilean"
+			"Annie",
+			"Ziggs",
+			"Aurelion Sol"
 		],
 		"Easy": [
-			"Azir",
-			"Akali",
-			"Lucian"
+			"Renekton",
+			"Neeko",
+			"Lux"
 		]
 	},
 	"MasterYi": {
@@ -2671,14 +2671,14 @@ module.exports.infos = {
 			"Wit's End"
 		],
 		"Counters": [
-			"Udyr",
-			"Rammus",
-			"Shaco"
+			"Ivern",
+			"Wukong",
+			"Rammus"
 		],
 		"Easy": [
-			"Taliyah",
-			"Nidalee",
-			"Karthus"
+			"Sylas",
+			"Rengar",
+			"Poppy"
 		]
 	},
 	"Maokai": {
@@ -2745,14 +2745,14 @@ module.exports.infos = {
 			"Sunfire Cape"
 		],
 		"Counters": [
+			"Cassiopeia",
 			"Mordekaiser",
-			"Singed",
-			"Sion"
+			"Nasus"
 		],
 		"Easy": [
+			"Kalista",
 			"Akali",
-			"Lucian",
-			"Jayce"
+			"Malphite"
 		]
 	},
 	"Malzahar": {
@@ -2821,13 +2821,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Nocturne",
-			"Renekton",
-			"Talon"
+			"Pyke",
+			"Aurelion Sol"
 		],
 		"Easy": [
-			"Malphite",
-			"Zoe",
-			"Ryze"
+			"Sett",
+			"Qiyana",
+			"Irelia"
 		]
 	},
 	"Malphite": {
@@ -2890,17 +2890,17 @@ module.exports.infos = {
 		"Items": [
 			"Bramble Vest",
 			"Sunfire Cape",
-			"Thornmail"
+			"Iceborn Gauntlet"
 		],
 		"Counters": [
-			"Zac",
+			"Fiddlesticks",
 			"Sylas",
-			"Singed"
+			"Shyvana"
 		],
 		"Easy": [
 			"Kalista",
-			"Lucian",
-			"Pantheon"
+			"Viktor",
+			"Jax"
 		]
 	},
 	"Mordekaiser": {
@@ -2963,18 +2963,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Hextech Protobelt-01",
-			"Rylai's Crystal Scepter",
-			"Liandry's Torment"
+			"Nashor's Tooth",
+			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Kayle",
+			"Singed",
 			"Rengar",
-			"Warwick"
+			"Vayne"
 		],
 		"Easy": [
 			"Illaoi",
-			"Cho'Gath",
-			"Hecarim"
+			"Fiddlesticks",
+			"Kalista"
 		]
 	},
 	"Morgana": {
@@ -3042,13 +3042,13 @@ module.exports.infos = {
 			"Locket of the Iron Solari"
 		],
 		"Counters": [
+			"Zac",
 			"Sona",
-			"Janna",
-			"Zilean"
+			"Pantheon"
 		],
 		"Easy": [
-			"Zac",
 			"Tahm Kench",
+			"Poppy",
 			"Malphite"
 		]
 	},
@@ -3061,8 +3061,8 @@ module.exports.infos = {
 		"SkillTree": [
 			"Q",
 			"E",
-			"Q",
 			"W",
+			"Q",
 			"Q",
 			"R",
 			"Q",
@@ -3111,19 +3111,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Sunfire Cape",
 			"Spirit Visage",
-			"Thornmail"
+			"Thornmail",
+			"Spirit Visage"
 		],
 		"Counters": [
-			"Warwick",
-			"Hecarim",
-			"Sion"
+			"Yorick",
+			"Darius",
+			"Kayle"
 		],
 		"Easy": [
-			"Cassiopeia",
-			"Kalista",
-			"Sylas"
+			"Rumble",
+			"Pantheon",
+			"Teemo"
 		]
 	},
 	"MissFortune": {
@@ -3190,14 +3190,14 @@ module.exports.infos = {
 			"Rapid Firecannon"
 		],
 		"Counters": [
-			"Ziggs",
-			"Twitch",
-			"Kog'Maw"
+			"Xayah",
+			"Ezreal",
+			"Jhin"
 		],
 		"Easy": [
-			"Kai'Sa",
-			"Xayah",
-			"Tristana"
+			"Lucian",
+			"Aphelios",
+			"Kalista"
 		]
 	},
 	"Bard": {
@@ -3265,14 +3265,14 @@ module.exports.infos = {
 			"Locket of the Iron Solari"
 		],
 		"Counters": [
-			"Janna",
-			"Zyra",
-			"Zilean"
+			"Sona",
+			"Nami",
+			"Tahm Kench"
 		],
 		"Easy": [
-			"Sett",
 			"Shen",
-			"Nautilus"
+			"Fiddlesticks",
+			"Sett"
 		]
 	},
 	"Varus": {
@@ -3338,14 +3338,14 @@ module.exports.infos = {
 			"Edge of Night"
 		],
 		"Counters": [
-			"Ziggs",
-			"Cassiopeia",
-			"Yasuo"
+			"Kog'Maw",
+			"Twitch",
+			"Cassiopeia"
 		],
 		"Easy": [
-			"Xayah",
 			"Aphelios",
-			"Caitlyn"
+			"Lucian",
+			"Kai'Sa"
 		]
 	},
 	"Vi": {
@@ -3409,17 +3409,17 @@ module.exports.infos = {
 		"Items": [
 			"Enchantment: Warrior",
 			"Trinity Force",
-			"Guardian Angel"
+			"Sterak's Gage"
 		],
 		"Counters": [
+			"Fiddlesticks",
 			"Wukong",
-			"Volibear",
-			"Rek'Sai"
+			"Taliyah"
 		],
 		"Easy": [
-			"Ivern",
-			"Hecarim",
-			"Gragas"
+			"Gragas",
+			"Sylas",
+			"Udyr"
 		]
 	},
 	"Veigar": {
@@ -3487,14 +3487,14 @@ module.exports.infos = {
 			"Rabadon's Deathcap"
 		],
 		"Counters": [
-			"Camille",
-			"Mordekaiser",
-			"Vel'Koz"
+			"Ekko",
+			"Lux",
+			"Malzahar"
 		],
 		"Easy": [
-			"Akali",
-			"Irelia",
-			"Garen"
+			"Garen",
+			"Renekton",
+			"Pantheon"
 		]
 	},
 	"Vayne": {
@@ -3561,14 +3561,14 @@ module.exports.infos = {
 			"Phantom Dancer"
 		],
 		"Counters": [
-			"Syndra",
-			"Cassiopeia",
+			"Jinx",
+			"Draven",
 			"Ashe"
 		],
 		"Easy": [
-			"Ziggs",
+			"Syndra",
 			"Kalista",
-			"Lucian"
+			"Varus"
 		]
 	},
 	"Velkoz": {
@@ -3636,26 +3636,26 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Zac",
-			"Yuumi",
-			"Bard"
+			"Shen",
+			"Fiddlesticks",
+			"Zilean"
 		],
 		"Easy": [
-			"Tahm Kench",
-			"Poppy",
-			"Neeko"
+			"Braum",
+			"Galio",
+			"Brand"
 		]
 	},
 	"Volibear": {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerDot"
+			"SummonerTeleport"
 		],
 		"SkillTree": [
-			"E",
-			"Q",
 			"W",
+			"Q",
+			"E",
 			"W",
 			"W",
 			"R",
@@ -3687,17 +3687,17 @@ module.exports.infos = {
 				"LastStand"
 			],
 			[
-				"Resolve",
-				"Demolish"
+				"Sorcery",
+				"NimbusCloak"
 			],
 			[
-				"Resolve",
-				"SecondWind"
+				"Sorcery",
+				"Transcendence"
 			]
 		],
 		"StatMods": [
 			"AttackSpeed",
-			"Armor",
+			"AdaptiveForce",
 			"Armor"
 		],
 		"StartItems": [
@@ -3705,19 +3705,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Titanic Hydra",
+			"Hextech Gunblade",
 			"Dead Man's Plate",
-			"Wit's End"
+			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Garen",
-			"Urgot",
-			"Ornn"
+			"Singed",
+			"Sion",
+			"Quinn"
 		],
 		"Easy": [
-			"Kalista",
-			"Yasuo",
-			"Lucian"
+			"Pantheon",
+			"Irelia",
+			"Gnar"
 		]
 	},
 	"Braum": {
@@ -3785,14 +3785,14 @@ module.exports.infos = {
 			"Locket of the Iron Solari"
 		],
 		"Counters": [
-			"Zilean",
+			"Vel'Koz",
 			"Shaco",
-			"Vel'Koz"
+			"Sona"
 		],
 		"Easy": [
-			"Sett",
-			"Shen",
-			"Fiddlesticks"
+			"Zac",
+			"Poppy",
+			"Sett"
 		]
 	},
 	"Brand": {
@@ -3862,12 +3862,12 @@ module.exports.infos = {
 		"Counters": [
 			"Maokai",
 			"Yuumi",
-			"Xerath"
+			"Vel'Koz"
 		],
 		"Easy": [
-			"Malphite",
 			"Tahm Kench",
-			"Sett"
+			"Zac",
+			"Malphite"
 		]
 	},
 	"Vladimir": {
@@ -3936,13 +3936,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Zilean",
-			"Malzahar",
-			"Aurelion Sol"
+			"Aurelion Sol",
+			"Anivia"
 		],
 		"Easy": [
-			"Ziggs",
-			"Akali",
-			"Azir"
+			"Lucian",
+			"Azir",
+			"Ornn"
 		]
 	},
 	"Blitzcrank": {
@@ -4012,12 +4012,12 @@ module.exports.infos = {
 		"Counters": [
 			"Taric",
 			"Zilean",
-			"Shaco"
+			"Bard"
 		],
 		"Easy": [
-			"Malphite",
 			"Fiddlesticks",
-			"Neeko"
+			"Lux",
+			"Xerath"
 		]
 	},
 	"Viktor": {
@@ -4082,17 +4082,17 @@ module.exports.infos = {
 		"Items": [
 			"Perfect Hex Core",
 			"Luden's Echo",
-			"Morellonomicon"
+			"Lich Bane"
 		],
 		"Counters": [
-			"Pyke",
 			"Kled",
-			"Lulu"
+			"Pyke",
+			"Vel'Koz"
 		],
 		"Easy": [
-			"Rumble",
-			"Malphite",
-			"Renekton"
+			"Sett",
+			"Ziggs",
+			"Azir"
 		]
 	},
 	"Poppy": {
@@ -4153,19 +4153,19 @@ module.exports.infos = {
 			"Corrupting Potion"
 		],
 		"Items": [
-			"Adaptive Helm",
 			"Gargoyle Stoneplate",
-			"Adaptive Helm"
+			"Adaptive Helm",
+			"Sunfire Cape"
 		],
 		"Counters": [
-			"Singed",
-			"Cassiopeia",
-			"Cho'Gath"
+			"Cho'Gath",
+			"Maokai",
+			"Shyvana"
 		],
 		"Easy": [
-			"Shyvana",
-			"Jax",
-			"Akali"
+			"Kalista",
+			"Sylas",
+			"Sion"
 		]
 	},
 	"Sion": {
@@ -4227,18 +4227,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Adaptive Helm",
-			"Bramble Vest",
+			"Thornmail",
 			"Sunfire Cape"
 		],
 		"Counters": [
-			"Kayn",
-			"Sett",
-			"Yorick"
+			"Camille",
+			"Wukong",
+			"Fiddlesticks"
 		],
 		"Easy": [
-			"Ryze",
 			"Urgot",
-			"Kayle"
+			"Gangplank",
+			"Teemo"
 		]
 	},
 	"Sylas": {
@@ -4305,13 +4305,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Cassiopeia",
-			"Aurelion Sol",
-			"Vel'Koz"
+			"Garen",
+			"Veigar"
 		],
 		"Easy": [
-			"Malphite",
+			"Ziggs",
 			"Irelia",
-			"Lissandra"
+			"Cho'Gath"
 		]
 	},
 	"Shaco": {
@@ -4378,14 +4378,14 @@ module.exports.infos = {
 			"Duskblade of Draktharr"
 		],
 		"Counters": [
-			"Volibear",
+			"Dr. Mundo",
 			"Ivern",
-			"Karthus"
+			"Volibear"
 		],
 		"Easy": [
-			"Gragas",
-			"Nidalee",
-			"Master Yi"
+			"Udyr",
+			"Jax",
+			"Taliyah"
 		]
 	},
 	"Senna": {
@@ -4413,20 +4413,20 @@ module.exports.infos = {
 		],
 		"Runes": [
 			[
-				"Inspiration",
-				"GlacialAugment"
+				"Resolve",
+				"GraspOfTheUndying"
 			],
 			[
-				"Inspiration",
-				"MagicalFootwear"
+				"Resolve",
+				"FontOfLife"
 			],
 			[
-				"Inspiration",
-				"BiscuitDelivery"
+				"Resolve",
+				"BonePlating"
 			],
 			[
-				"Inspiration",
-				"ApproachVelocity"
+				"Resolve",
+				"Revitalize"
 			],
 			[
 				"Precision",
@@ -4448,19 +4448,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Umbral Glaive",
-			"Athene's Unholy Grail",
-			"Ardent Censer"
+			"Frozen Mallet",
+			"Black Cleaver",
+			"Mortal Reminder"
 		],
 		"Counters": [
+			"Bard",
 			"Sona",
-			"Zyra",
-			"Blitzcrank"
+			"Leona"
 		],
 		"Easy": [
-			"Zac",
+			"Malphite",
 			"Poppy",
-			"Tahm Kench"
+			"Zac"
 		]
 	},
 	"Sejuani": {
@@ -4527,14 +4527,14 @@ module.exports.infos = {
 			"Gargoyle Stoneplate"
 		],
 		"Counters": [
-			"Zac",
-			"Dr. Mundo",
-			"Xin Zhao"
+			"Nunu & Willump",
+			"Kayn",
+			"Olaf"
 		],
 		"Easy": [
+			"Jax",
 			"Gragas",
-			"Kha'Zix",
-			"Rengar"
+			"Evelynn"
 		]
 	},
 	"Sett": {
@@ -4598,17 +4598,17 @@ module.exports.infos = {
 		"Items": [
 			"Blade of the Ruined King",
 			"Black Cleaver",
-			"Sterak's Gage"
+			"Death's Dance"
 		],
 		"Counters": [
-			"Cassiopeia",
+			"Singed",
 			"Shyvana",
-			"Quinn"
+			"Urgot"
 		],
 		"Easy": [
-			"Kalista",
-			"Sion",
-			"Warwick"
+			"Irelia",
+			"Dr. Mundo",
+			"Lucian"
 		]
 	},
 	"Sona": {
@@ -4676,14 +4676,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Bard",
-			"Soraka",
-			"Volibear"
+			"Shen",
+			"Blitzcrank",
+			"Nami"
 		],
 		"Easy": [
+			"Tahm Kench",
 			"Fiddlesticks",
-			"Poppy",
-			"Neeko"
+			"Pantheon"
 		]
 	},
 	"Soraka": {
@@ -4751,14 +4751,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Nami",
-			"Janna",
-			"Bard"
+			"Pantheon",
+			"Fiddlesticks",
+			"Maokai"
 		],
 		"Easy": [
-			"Fiddlesticks",
-			"Malphite",
-			"Shen"
+			"Sett",
+			"Braum",
+			"Pyke"
 		]
 	},
 	"Shen": {
@@ -4795,19 +4795,19 @@ module.exports.infos = {
 			],
 			[
 				"Resolve",
-				"BonePlating"
+				"SecondWind"
 			],
 			[
 				"Resolve",
 				"Overgrowth"
 			],
 			[
-				"Precision",
-				"Triumph"
+				"Domination",
+				"CheapShot"
 			],
 			[
-				"Precision",
-				"LegendAlacrity"
+				"Domination",
+				"UltimateHunter"
 			]
 		],
 		"StatMods": [
@@ -4820,19 +4820,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Titanic Hydra",
 			"Sunfire Cape",
-			"Adaptive Helm"
+			"Adaptive Helm",
+			"Sunfire Cape"
 		],
 		"Counters": [
+			"Cho'Gath",
 			"Cassiopeia",
-			"Olaf",
 			"Heimerdinger"
 		],
 		"Easy": [
-			"Cho'Gath",
 			"Gnar",
-			"Irelia"
+			"Rumble",
+			"Lucian"
 		]
 	},
 	"Shyvana": {
@@ -4899,14 +4899,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Udyr",
-			"Rammus",
-			"Dr. Mundo"
+			"Nunu & Willump",
+			"Volibear",
+			"Master Yi"
 		],
 		"Easy": [
 			"Gragas",
 			"Sylas",
-			"Taliyah"
+			"Nocturne"
 		]
 	},
 	"Swain": {
@@ -4974,14 +4974,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Shen",
-			"Nami",
-			"Bard"
+			"Shaco",
+			"Fiddlesticks",
+			"Janna"
 		],
 		"Easy": [
-			"Malphite",
-			"Nautilus",
-			"Pyke"
+			"Poppy",
+			"Zac",
+			"Pantheon"
 		]
 	},
 	"Skarner": {
@@ -4994,43 +4994,43 @@ module.exports.infos = {
 			"Q",
 			"E",
 			"W",
-			"Q",
-			"Q",
+			"E",
+			"E",
 			"R",
-			"Q",
-			"W",
-			"Q",
-			"W",
-			"R",
-			"W",
+			"E",
 			"W",
 			"E",
-			"E"
+			"W",
+			"R",
+			"W",
+			"W",
+			"Q",
+			"Q"
 		],
 		"Runes": [
 			[
-				"Precision",
-				"Conqueror"
+				"Domination",
+				"Predator"
 			],
 			[
-				"Precision",
-				"Triumph"
+				"Domination",
+				"CheapShot"
 			],
 			[
-				"Precision",
-				"LegendAlacrity"
+				"Domination",
+				"ZombieWard"
 			],
 			[
-				"Precision",
-				"CoupDeGrace"
+				"Domination",
+				"IngeniousHunter"
 			],
 			[
-				"Inspiration",
-				"MagicalFootwear"
+				"Sorcery",
+				"NimbusCloak"
 			],
 			[
-				"Inspiration",
-				"CosmicInsight"
+				"Sorcery",
+				"Waterwalking"
 			]
 		],
 		"StatMods": [
@@ -5048,14 +5048,14 @@ module.exports.infos = {
 			"Sterak's Gage"
 		],
 		"Counters": [
-			"Trundle",
-			"Xin Zhao",
-			"Shyvana"
+			"Fiddlesticks",
+			"Shyvana",
+			"Kayn"
 		],
 		"Easy": [
-			"Nocturne",
+			"Sylas",
 			"Evelynn",
-			"Vi"
+			"Master Yi"
 		]
 	},
 	"Sivir": {
@@ -5122,14 +5122,14 @@ module.exports.infos = {
 			"Phantom Dancer"
 		],
 		"Counters": [
-			"Syndra",
-			"Twitch",
-			"Kog'Maw"
+			"Kog'Maw",
+			"Draven",
+			"Xayah"
 		],
 		"Easy": [
-			"Xayah",
-			"Kai'Sa",
-			"Caitlyn"
+			"Cassiopeia",
+			"Tristana",
+			"Lucian"
 		]
 	},
 	"XinZhao": {
@@ -5196,14 +5196,14 @@ module.exports.infos = {
 			"Sterak's Gage"
 		],
 		"Counters": [
-			"Ivern",
-			"Vi",
-			"Zac"
+			"Dr. Mundo",
+			"Warwick",
+			"Rammus"
 		],
 		"Easy": [
+			"Ivern",
 			"Taliyah",
-			"Rengar",
-			"Sejuani"
+			"Rengar"
 		]
 	},
 	"Syndra": {
@@ -5231,20 +5231,8 @@ module.exports.infos = {
 		],
 		"Runes": [
 			[
-				"Domination",
-				"Electrocute"
-			],
-			[
-				"Domination",
-				"TasteOfBlood"
-			],
-			[
-				"Domination",
-				"EyeballCollection"
-			],
-			[
-				"Domination",
-				"RavenousHunter"
+				"Sorcery",
+				"ArcaneComet"
 			],
 			[
 				"Sorcery",
@@ -5252,11 +5240,23 @@ module.exports.infos = {
 			],
 			[
 				"Sorcery",
-				"Transcendence"
+				"AbsoluteFocus"
+			],
+			[
+				"Sorcery",
+				"Scorch"
+			],
+			[
+				"Inspiration",
+				"BiscuitDelivery"
+			],
+			[
+				"Inspiration",
+				"TimeWarpTonic"
 			]
 		],
 		"StatMods": [
-			"AdaptiveForce",
+			"AttackSpeed",
 			"AdaptiveForce",
 			"MagicRes"
 		],
@@ -5271,14 +5271,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Zilean",
-			"Katarina",
-			"Pyke"
+			"Aurelion Sol",
+			"Fizz",
+			"Ekko"
 		],
 		"Easy": [
-			"Akali",
 			"Lucian",
-			"Pantheon"
+			"Neeko",
+			"Akali"
 		]
 	},
 	"Singed": {
@@ -5340,19 +5340,19 @@ module.exports.infos = {
 			"Refillable Potion"
 		],
 		"Items": [
-			"Liandry's Torment",
 			"Rylai's Crystal Scepter",
+			"Liandry's Torment",
 			"Righteous Glory"
 		],
 		"Counters": [
-			"Yorick",
-			"Cassiopeia",
-			"Heimerdinger"
+			"Shyvana",
+			"Heimerdinger",
+			"Urgot"
 		],
 		"Easy": [
-			"Warwick",
-			"Rumble",
-			"Wukong"
+			"Yasuo",
+			"Pantheon",
+			"Kled"
 		]
 	},
 	"Thresh": {
@@ -5415,19 +5415,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Zeke's Convergence",
+			"Gargoyle Stoneplate",
 			"Knight's Vow",
 			"Redemption"
 		],
 		"Counters": [
 			"Sona",
-			"Shaco",
-			"Zyra"
+			"Zilean",
+			"Rakan"
 		],
 		"Easy": [
 			"Tahm Kench",
 			"Pyke",
-			"Yuumi"
+			"Malphite"
 		]
 	},
 	"Ahri": {
@@ -5495,14 +5495,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Kled",
+			"Aurelion Sol",
 			"Zilean",
-			"Aurelion Sol"
+			"Pyke"
 		],
 		"Easy": [
+			"Irelia",
 			"Akali",
-			"Lucian",
-			"Neeko"
+			"Garen"
 		]
 	},
 	"Amumu": {
@@ -5570,13 +5570,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Dr. Mundo",
-			"Fiddlesticks",
-			"Poppy"
+			"Volibear",
+			"Vi"
 		],
 		"Easy": [
 			"Gragas",
-			"Kha'Zix",
-			"Nidalee"
+			"Rengar",
+			"Udyr"
 		]
 	},
 	"AurelionSol": {
@@ -5638,18 +5638,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Rod of Ages",
-			"Morellonomicon",
+			"Rylai's Crystal Scepter",
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Renekton",
-			"Aatrox",
-			"Diana"
+			"Pyke",
+			"Veigar",
+			"Kassadin"
 		],
 		"Easy": [
-			"Malphite",
-			"Akali",
-			"Anivia"
+			"Rumble",
+			"Corki",
+			"Xerath"
 		]
 	},
 	"Ivern": {
@@ -5716,14 +5716,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Vi",
-			"Sett",
-			"Poppy"
+			"Evelynn",
+			"Wukong",
+			"Xin Zhao"
 		],
 		"Easy": [
-			"Rengar",
 			"Sylas",
-			"Kha'Zix"
+			"Jax",
+			"Volibear"
 		]
 	},
 	"Azir": {
@@ -5791,14 +5791,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Lulu",
-			"Pyke",
-			"Cho'Gath"
+			"Neeko",
+			"Kassadin",
+			"Vel'Koz"
 		],
 		"Easy": [
-			"Mordekaiser",
-			"Lucian",
-			"Vel'Koz"
+			"Aatrox",
+			"Lissandra",
+			"Akali"
 		]
 	},
 	"Akali": {
@@ -5865,14 +5865,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Aurelion Sol",
-			"Kled",
-			"Veigar"
+			"Zilean",
+			"Galio",
+			"Neeko"
 		],
 		"Easy": [
 			"Irelia",
-			"Rumble",
-			"Camille"
+			"Camille",
+			"Sett"
 		]
 	},
 	"Aatrox": {
@@ -5940,13 +5940,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Heimerdinger",
-			"Cassiopeia",
+			"Sion",
 			"Singed"
 		],
 		"Easy": [
+			"Rumble",
 			"Akali",
-			"Sylas",
-			"Cho'Gath"
+			"Ryze"
 		]
 	},
 	"Aphelios": {
@@ -6013,14 +6013,14 @@ module.exports.infos = {
 			"Phantom Dancer"
 		],
 		"Counters": [
-			"Syndra",
+			"Ashe",
 			"Cassiopeia",
-			"Varus"
+			"Jhin"
 		],
 		"Easy": [
 			"Kai'Sa",
-			"Xayah",
-			"Lucian"
+			"Lucian",
+			"Tristana"
 		]
 	},
 	"Alistar": {
@@ -6088,14 +6088,14 @@ module.exports.infos = {
 			"Gargoyle Stoneplate"
 		],
 		"Counters": [
+			"Sona",
 			"Janna",
-			"Neeko",
-			"Sona"
+			"Vel'Koz"
 		],
 		"Easy": [
-			"Poppy",
-			"Volibear",
-			"Shen"
+			"Shen",
+			"Fiddlesticks",
+			"Taric"
 		]
 	},
 	"Annie": {
@@ -6163,14 +6163,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Neeko",
-			"Malzahar",
-			"Jayce"
+			"Garen",
+			"Pyke",
+			"Kassadin"
 		],
 		"Easy": [
-			"Renekton",
-			"Lucian",
-			"Corki"
+			"Lissandra",
+			"Ryze",
+			"Jayce"
 		]
 	},
 	"Anivia": {
@@ -6238,14 +6238,14 @@ module.exports.infos = {
 			"Rod of Ages"
 		],
 		"Counters": [
-			"Zilean",
-			"Camille",
-			"Aurelion Sol"
+			"Kassadin",
+			"Annie",
+			"Zilean"
 		],
 		"Easy": [
-			"Garen",
-			"Cho'Gath",
-			"Akali"
+			"Jayce",
+			"Irelia",
+			"Lucian"
 		]
 	},
 	"Ashe": {
@@ -6278,7 +6278,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"Triumph"
+				"PresenceOfMind"
 			],
 			[
 				"Precision",
@@ -6312,14 +6312,14 @@ module.exports.infos = {
 			"Infinity Edge"
 		],
 		"Counters": [
+			"Cassiopeia",
 			"Yasuo",
-			"Ziggs",
-			"Cassiopeia"
+			"Draven"
 		],
 		"Easy": [
-			"Kalista",
+			"Lucian",
 			"Kai'Sa",
-			"Lucian"
+			"Aphelios"
 		]
 	},
 	"Yasuo": {
@@ -6387,13 +6387,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Annie",
-			"Cho'Gath",
-			"Mordekaiser"
+			"Nocturne",
+			"Sett"
 		],
 		"Easy": [
-			"Lux",
 			"Irelia",
-			"Lucian"
+			"Lucian",
+			"Ryze"
 		]
 	},
 	"Ekko": {
@@ -6442,7 +6442,7 @@ module.exports.infos = {
 			],
 			[
 				"Inspiration",
-				"CosmicInsight"
+				"Future'sMarket"
 			]
 		],
 		"StatMods": [
@@ -6460,9 +6460,9 @@ module.exports.infos = {
 			"Lich Bane"
 		],
 		"Counters": [
-			"Dr. Mundo",
+			"Ivern",
 			"Shyvana",
-			"Rengar"
+			"Udyr"
 		],
 		"Easy": [
 			"Taliyah",
@@ -6535,12 +6535,12 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Dr. Mundo",
-			"Shyvana",
-			"Ivern"
+			"Poppy",
+			"Karthus"
 		],
 		"Easy": [
 			"Taliyah",
-			"Gragas",
+			"Kha'Zix",
 			"Kindred"
 		]
 	},
@@ -6602,19 +6602,19 @@ module.exports.infos = {
 			"Corrupting Potion"
 		],
 		"Items": [
-			"Blade of the Ruined King",
 			"Black Cleaver",
-			"Death's Dance"
+			"Death's Dance",
+			"Trinity Force"
 		],
 		"Counters": [
 			"Singed",
-			"Kassadin",
-			"Garen"
+			"Garen",
+			"Dr. Mundo"
 		],
 		"Easy": [
-			"Kalista",
-			"Warwick",
-			"Lucian"
+			"Ryze",
+			"Lucian",
+			"Sion"
 		]
 	},
 	"Ornn": {
@@ -6678,17 +6678,17 @@ module.exports.infos = {
 		"Items": [
 			"Abyssal Mask",
 			"Gargoyle Stoneplate",
-			"Abyssal Mask"
+			"Bramble Vest"
 		],
 		"Counters": [
 			"Singed",
-			"Cassiopeia",
-			"Mordekaiser"
+			"Shyvana",
+			"Hecarim"
 		],
 		"Easy": [
-			"Kalista",
 			"Lucian",
-			"Jayce"
+			"Sion",
+			"Heimerdinger"
 		]
 	},
 	"Orianna": {
@@ -6756,14 +6756,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Zilean",
-			"Ziggs",
-			"Ekko"
+			"Annie",
+			"Pyke",
+			"Diana"
 		],
 		"Easy": [
-			"Renekton",
-			"Akali",
-			"Lissandra"
+			"Jayce",
+			"Garen",
+			"Renekton"
 		]
 	},
 	"Olaf": {
@@ -6830,14 +6830,14 @@ module.exports.infos = {
 			"Sterak's Gage"
 		],
 		"Counters": [
-			"Trundle",
-			"Master Yi",
-			"Ekko"
+			"Ivern",
+			"Vi",
+			"Trundle"
 		],
 		"Easy": [
-			"Volibear",
-			"Gragas",
-			"Poppy"
+			"Udyr",
+			"Sett",
+			"Sejuani"
 		]
 	},
 	"Yorick": {
@@ -6903,14 +6903,14 @@ module.exports.infos = {
 			"Death's Dance"
 		],
 		"Counters": [
-			"Kassadin",
-			"Volibear",
-			"Shyvana"
+			"Olaf",
+			"Wukong",
+			"Shen"
 		],
 		"Easy": [
-			"Ryze",
-			"Jayce",
-			"Illaoi"
+			"Cho'Gath",
+			"Lucian",
+			"Ryze"
 		]
 	},
 	"Udyr": {
@@ -6972,19 +6972,19 @@ module.exports.infos = {
 			"Refillable Potion"
 		],
 		"Items": [
+			"Enchantment: Bloodrazor",
 			"Wit's End",
-			"Sterak's Gage",
-			"Enchantment: Warrior"
+			"Sterak's Gage"
 		],
 		"Counters": [
-			"Taliyah",
+			"Shaco",
 			"Rammus",
-			"Trundle"
+			"Olaf"
 		],
 		"Easy": [
-			"Wukong",
-			"Master Yi",
-			"Nocturne"
+			"Nunu & Willump",
+			"Sylas",
+			"Kha'Zix"
 		]
 	},
 	"Urgot": {
@@ -7052,13 +7052,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Sion",
-			"Cassiopeia",
-			"Maokai"
+			"Shyvana",
+			"Tryndamere"
 		],
 		"Easy": [
-			"Yasuo",
-			"Heimerdinger",
-			"Pantheon"
+			"Pantheon",
+			"Sylas",
+			"Akali"
 		]
 	},
 	"Warwick": {
@@ -7102,12 +7102,12 @@ module.exports.infos = {
 				"LastStand"
 			],
 			[
-				"Sorcery",
-				"Celerity"
+				"Domination",
+				"EyeballCollection"
 			],
 			[
-				"Sorcery",
-				"Waterwalking"
+				"Domination",
+				"RelentlessHunter"
 			]
 		],
 		"StatMods": [
@@ -7125,13 +7125,13 @@ module.exports.infos = {
 			"Thornmail"
 		],
 		"Counters": [
-			"Dr. Mundo",
-			"Karthus",
-			"Shyvana"
+			"Volibear",
+			"Olaf",
+			"Trundle"
 		],
 		"Easy": [
-			"Rengar",
-			"Sett",
+			"Sylas",
+			"Taliyah",
 			"Gragas"
 		]
 	},
@@ -7144,17 +7144,17 @@ module.exports.infos = {
 		"SkillTree": [
 			"Q",
 			"E",
+			"E",
+			"Q",
+			"E",
+			"R",
+			"E",
 			"Q",
 			"E",
 			"Q",
 			"R",
 			"Q",
-			"E",
 			"Q",
-			"E",
-			"R",
-			"Q",
-			"E",
 			"W",
 			"W"
 		],
@@ -7197,17 +7197,17 @@ module.exports.infos = {
 		"Items": [
 			"Athene's Unholy Grail",
 			"Ardent Censer",
-			"Redemption"
+			"Mejai's Soulstealer"
 		],
 		"Counters": [
-			"Sona",
 			"Leona",
-			"Janna"
+			"Bard",
+			"Zac"
 		],
 		"Easy": [
-			"Tahm Kench",
 			"Brand",
-			"Vel'Koz"
+			"Xerath",
+			"Tahm Kench"
 		]
 	},
 	"Irelia": {
@@ -7273,14 +7273,14 @@ module.exports.infos = {
 			"Black Cleaver"
 		],
 		"Counters": [
-			"Volibear",
-			"Sion",
-			"Jax"
+			"Jax",
+			"Tryndamere",
+			"Zac"
 		],
 		"Easy": [
 			"Ryze",
-			"Kalista",
-			"Cho'Gath"
+			"Gnar",
+			"Rumble"
 		]
 	},
 	"Evelynn": {
@@ -7347,14 +7347,14 @@ module.exports.infos = {
 			"Lich Bane"
 		],
 		"Counters": [
-			"Dr. Mundo",
-			"Volibear",
-			"Rammus"
+			"Sejuani",
+			"Rengar",
+			"Zac"
 		],
 		"Easy": [
-			"Nidalee",
-			"Taliyah",
-			"Gragas"
+			"Ivern",
+			"Kha'Zix",
+			"Jax"
 		]
 	},
 	"Ezreal": {
@@ -7398,12 +7398,12 @@ module.exports.infos = {
 				"CoupDeGrace"
 			],
 			[
-				"Sorcery",
-				"ManaflowBand"
+				"Inspiration",
+				"BiscuitDelivery"
 			],
 			[
-				"Sorcery",
-				"Transcendence"
+				"Inspiration",
+				"CosmicInsight"
 			]
 		],
 		"StatMods": [
@@ -7416,19 +7416,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Manamune",
 			"Iceborn Gauntlet",
-			"Death's Dance"
+			"Death's Dance",
+			"Manamune"
 		],
 		"Counters": [
+			"Sivir",
 			"Yasuo",
-			"Cassiopeia",
-			"Sivir"
+			"Kog'Maw"
 		],
 		"Easy": [
-			"Xayah",
 			"Lucian",
-			"Tristana"
+			"Varus",
+			"Kai'Sa"
 		]
 	},
 	"Illaoi": {
@@ -7494,14 +7494,14 @@ module.exports.infos = {
 			"Death's Dance"
 		],
 		"Counters": [
-			"Kalista",
-			"Yorick",
-			"Heimerdinger"
+			"Shyvana",
+			"Cassiopeia",
+			"Kalista"
 		],
 		"Easy": [
-			"Warwick",
-			"Cho'Gath",
-			"Riven"
+			"Pantheon",
+			"Heimerdinger",
+			"Viktor"
 		]
 	},
 	"JarvanIV": {
@@ -7569,13 +7569,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Shyvana",
-			"Master Yi",
-			"Rammus"
+			"Ivern",
+			"Udyr"
 		],
 		"Easy": [
 			"Gragas",
-			"Nocturne",
-			"Sett"
+			"Kha'Zix",
+			"Sejuani"
 		]
 	},
 	"Xayah": {
@@ -7642,14 +7642,14 @@ module.exports.infos = {
 			"Rapid Firecannon"
 		],
 		"Counters": [
-			"Ziggs",
-			"Twitch",
-			"Syndra"
+			"Cassiopeia",
+			"Jinx",
+			"Caitlyn"
 		],
 		"Easy": [
+			"Syndra",
 			"Kai'Sa",
-			"Tristana",
-			"Yasuo"
+			"Varus"
 		]
 	},
 	"Zyra": {
@@ -7717,14 +7717,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Shaco",
-			"Sona",
-			"Soraka"
+			"Taric",
+			"Pantheon",
+			"Rakan"
 		],
 		"Easy": [
-			"Rakan",
-			"Neeko",
-			"Tahm Kench"
+			"Tahm Kench",
+			"Zac",
+			"Pyke"
 		]
 	},
 	"Zac": {
@@ -7791,14 +7791,14 @@ module.exports.infos = {
 			"Spirit Visage"
 		],
 		"Counters": [
+			"Udyr",
 			"Kayn",
-			"Dr. Mundo",
-			"Shyvana"
+			"Fiddlesticks"
 		],
 		"Easy": [
-			"Gragas",
-			"Sejuani",
-			"Sylas"
+			"Sylas",
+			"Taliyah",
+			"Karthus"
 		]
 	},
 	"Janna": {
@@ -7867,13 +7867,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Sona",
-			"Fiddlesticks",
-			"Swain"
+			"Bard",
+			"Fiddlesticks"
 		],
 		"Easy": [
-			"Malphite",
 			"Tahm Kench",
-			"Alistar"
+			"Poppy",
+			"Pantheon"
 		]
 	},
 	"Jax": {
@@ -7914,7 +7914,7 @@ module.exports.infos = {
 			],
 			[
 				"Precision",
-				"CoupDeGrace"
+				"LastStand"
 			],
 			[
 				"Inspiration",
@@ -7936,17 +7936,17 @@ module.exports.infos = {
 		"Items": [
 			"Blade of the Ruined King",
 			"Trinity Force",
-			"Sterak's Gage"
+			"Death's Dance"
 		],
 		"Counters": [
+			"Malphite",
 			"Zac",
-			"Poppy",
 			"Garen"
 		],
 		"Easy": [
-			"Yasuo",
+			"Kalista",
 			"Irelia",
-			"Kalista"
+			"Yasuo"
 		]
 	},
 	"Zed": {
@@ -7974,8 +7974,20 @@ module.exports.infos = {
 		],
 		"Runes": [
 			[
-				"Domination",
-				"Electrocute"
+				"Precision",
+				"Conqueror"
+			],
+			[
+				"Precision",
+				"PresenceOfMind"
+			],
+			[
+				"Precision",
+				"LegendTenacity"
+			],
+			[
+				"Precision",
+				"CoupDeGrace"
 			],
 			[
 				"Domination",
@@ -7983,19 +7995,7 @@ module.exports.infos = {
 			],
 			[
 				"Domination",
-				"ZombieWard"
-			],
-			[
-				"Domination",
 				"UltimateHunter"
-			],
-			[
-				"Sorcery",
-				"Transcendence"
-			],
-			[
-				"Sorcery",
-				"Scorch"
 			]
 		],
 		"StatMods": [
@@ -8013,14 +8013,14 @@ module.exports.infos = {
 			"Edge of Night"
 		],
 		"Counters": [
-			"Garen",
-			"Kled",
-			"Camille"
+			"Camille",
+			"Malphite",
+			"Ekko"
 		],
 		"Easy": [
-			"Corki",
 			"Lucian",
-			"Irelia"
+			"Veigar",
+			"Ryze"
 		]
 	},
 	"Xerath": {
@@ -8084,18 +8084,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Luden's Echo",
-			"Morellonomicon",
-			"Zhonya's Hourglass"
+			"Mejai's Soulstealer",
+			"Morellonomicon"
 		],
 		"Counters": [
-			"Janna",
+			"Sona",
 			"Yuumi",
-			"Soraka"
+			"Shaco"
 		],
 		"Easy": [
-			"Tahm Kench",
-			"Brand",
-			"Malphite"
+			"Malphite",
+			"Sett",
+			"Morgana"
 		]
 	},
 	"Jayce": {
@@ -8163,13 +8163,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Maokai",
-			"Yorick",
-			"Cho'Gath"
+			"Rengar",
+			"Hecarim"
 		],
 		"Easy": [
-			"Vayne",
-			"Kassadin",
-			"Riven"
+			"Heimerdinger",
+			"Olaf",
+			"Akali"
 		]
 	},
 	"Zoe": {
@@ -8235,18 +8235,18 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Malzahar",
-			"Lulu",
-			"Annie"
+			"Kled",
+			"Aurelion Sol",
+			"Malzahar"
 		],
 		"Easy": [
+			"Ziggs",
 			"Akali",
-			"Mordekaiser",
-			"Renekton"
+			"Ryze"
 		]
 	},
 	"Ziggs": {
-		"Lane": "Bottom",
+		"Lane": "Middle",
 		"Spell": [
 			"SummonerFlash",
 			"SummonerTeleport"
@@ -8297,7 +8297,7 @@ module.exports.infos = {
 		"StatMods": [
 			"AdaptiveForce",
 			"AdaptiveForce",
-			"Armor"
+			"MagicRes"
 		],
 		"StartItems": [
 			"Doran's Ring",
@@ -8310,14 +8310,14 @@ module.exports.infos = {
 			"Rabadon's Deathcap"
 		],
 		"Counters": [
-			"Yasuo",
-			"Jhin",
-			"Kalista"
+			"Zoe",
+			"Lucian",
+			"Fizz"
 		],
 		"Easy": [
-			"Syndra",
-			"Tristana",
-			"Xayah"
+			"Lissandra",
+			"Qiyana",
+			"Ryze"
 		]
 	},
 	"Jhin": {
@@ -8380,18 +8380,18 @@ module.exports.infos = {
 		],
 		"Items": [
 			"Stormrazor",
-			"Infinity Edge",
-			"Rapid Firecannon"
+			"Rapid Firecannon",
+			"Infinity Edge"
 		],
 		"Counters": [
-			"Yasuo",
-			"Twitch",
-			"Cassiopeia"
+			"Cassiopeia",
+			"Kog'Maw",
+			"Twitch"
 		],
 		"Easy": [
-			"Ziggs",
-			"Xayah",
-			"Kai'Sa"
+			"Syndra",
+			"Kalista",
+			"Varus"
 		]
 	},
 	"Zilean": {
@@ -8459,14 +8459,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Shaco",
-			"Janna",
-			"Maokai"
+			"Sona",
+			"Pantheon",
+			"Bard"
 		],
 		"Easy": [
 			"Tahm Kench",
-			"Braum",
-			"Shen"
+			"Shen",
+			"Vel'Koz"
 		]
 	},
 	"Jinx": {
@@ -8533,13 +8533,13 @@ module.exports.infos = {
 			"Rapid Firecannon"
 		],
 		"Counters": [
-			"Ziggs",
-			"Syndra",
-			"Twitch"
+			"Kog'Maw",
+			"Ezreal",
+			"Miss Fortune"
 		],
 		"Easy": [
 			"Lucian",
-			"Tristana",
+			"Xayah",
 			"Kai'Sa"
 		]
 	},
@@ -8608,14 +8608,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Kled",
-			"Tryndamere",
-			"Shen"
+			"Zac",
+			"Yorick",
+			"Quinn"
 		],
 		"Easy": [
-			"Pantheon",
-			"Akali",
-			"Kassadin"
+			"Poppy",
+			"Kayle",
+			"Lucian"
 		]
 	},
 	"Karma": {
@@ -8683,14 +8683,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Shaco",
-			"Bard",
-			"Janna"
+			"Pantheon",
+			"Yuumi",
+			"Bard"
 		],
 		"Easy": [
 			"Tahm Kench",
-			"Malphite",
-			"Shen"
+			"Xerath",
+			"Poppy"
 		]
 	},
 	"Camille": {
@@ -8700,9 +8700,9 @@ module.exports.infos = {
 			"SummonerTeleport"
 		],
 		"SkillTree": [
-			"Q",
-			"E",
 			"W",
+			"E",
+			"Q",
 			"Q",
 			"Q",
 			"R",
@@ -8752,19 +8752,19 @@ module.exports.infos = {
 			"Health Potion"
 		],
 		"Items": [
-			"Sterak's Gage",
-			"Trinity Force",
-			"Ravenous Hydra"
+			"Death's Dance",
+			"Tiamat",
+			"Trinity Force"
 		],
 		"Counters": [
-			"Maokai",
-			"Rengar",
-			"Volibear"
+			"Singed",
+			"Urgot",
+			"Malphite"
 		],
 		"Easy": [
-			"Shyvana",
-			"Yasuo",
-			"Tryndamere"
+			"Sion",
+			"Viktor",
+			"Pantheon"
 		]
 	},
 	"Kassadin": {
@@ -8830,14 +8830,14 @@ module.exports.infos = {
 			"Tear of the Goddess"
 		],
 		"Counters": [
-			"Garen",
-			"Kled",
-			"Camille"
+			"Camille",
+			"Talon",
+			"Renekton"
 		],
 		"Easy": [
 			"Azir",
-			"Akali",
-			"Xerath"
+			"Anivia",
+			"Annie"
 		]
 	},
 	"Karthus": {
@@ -8904,14 +8904,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Rengar",
-			"Dr. Mundo",
-			"Shyvana"
+			"Volibear",
+			"Nunu & Willump",
+			"Udyr"
 		],
 		"Easy": [
-			"Hecarim",
-			"Taliyah",
-			"Gragas"
+			"Poppy",
+			"Jax",
+			"Sylas"
 		]
 	},
 	"Cassiopeia": {
@@ -8979,14 +8979,14 @@ module.exports.infos = {
 			"Refillable Potion"
 		],
 		"Counters": [
-			"Garen",
-			"Malzahar",
-			"Zilean"
+			"Kled",
+			"Pyke",
+			"Neeko"
 		],
 		"Easy": [
-			"Camille",
-			"Sylas",
-			"Akali"
+			"Garen",
+			"Ryze",
+			"Cho'Gath"
 		]
 	},
 	"Kaisa": {
@@ -9053,14 +9053,14 @@ module.exports.infos = {
 			"Nashor's Tooth"
 		],
 		"Counters": [
-			"Cassiopeia",
-			"Twitch",
-			"Yasuo"
+			"Kog'Maw",
+			"Jinx",
+			"Twitch"
 		],
 		"Easy": [
-			"Ziggs",
+			"Lucian",
 			"Tristana",
-			"Lucian"
+			"Varus"
 		]
 	},
 	"Khazix": {
@@ -9129,14 +9129,14 @@ module.exports.infos = {
 			"Youmuu's Ghostblade"
 		],
 		"Counters": [
-			"Fiddlesticks",
-			"Poppy",
-			"Ivern"
+			"Wukong",
+			"Rammus",
+			"Shaco"
 		],
 		"Easy": [
-			"Taliyah",
-			"Jax",
-			"Dr. Mundo"
+			"Gragas",
+			"Sett",
+			"Jax"
 		]
 	},
 	"Katarina": {
@@ -9205,14 +9205,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
-			"Garen",
-			"Camille",
-			"Cho'Gath"
+			"Renekton",
+			"Cho'Gath",
+			"Zilean"
 		],
 		"Easy": [
-			"Veigar",
-			"Syndra",
-			"Xerath"
+			"Xerath",
+			"Pyke",
+			"Aatrox"
 		]
 	},
 	"Kalista": {
@@ -9224,17 +9224,17 @@ module.exports.infos = {
 		"SkillTree": [
 			"E",
 			"Q",
-			"E",
-			"Q",
-			"E",
-			"R",
-			"E",
-			"Q",
-			"E",
-			"Q",
-			"R",
-			"Q",
 			"W",
+			"E",
+			"E",
+			"R",
+			"E",
+			"Q",
+			"E",
+			"Q",
+			"R",
+			"Q",
+			"Q",
 			"W",
 			"W"
 		],
@@ -9276,17 +9276,17 @@ module.exports.infos = {
 		"Items": [
 			"Blade of the Ruined King",
 			"Runaan's Hurricane",
-			"Bloodthirster"
+			"Death's Dance"
 		],
 		"Counters": [
-			"Cassiopeia",
-			"Kog'Maw",
-			"Ashe"
+			"Yasuo",
+			"Jhin",
+			"Jinx"
 		],
 		"Easy": [
-			"Ziggs",
+			"Varus",
 			"Tristana",
-			"Kai'Sa"
+			"Lucian"
 		]
 	},
 	"Kennen": {
@@ -9353,14 +9353,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Cassiopeia",
-			"Singed",
-			"Zac"
+			"Tryndamere",
+			"Viktor",
+			"Dr. Mundo"
 		],
 		"Easy": [
-			"Gnar",
-			"Riven",
-			"Akali"
+			"Pantheon",
+			"Akali",
+			"Cassiopeia"
 		]
 	},
 	"Caitlyn": {
@@ -9427,14 +9427,14 @@ module.exports.infos = {
 			"Rapid Firecannon"
 		],
 		"Counters": [
-			"Syndra",
-			"Ziggs",
-			"Cassiopeia"
+			"Yasuo",
+			"Cassiopeia",
+			"Jhin"
 		],
 		"Easy": [
-			"Kog'Maw",
-			"Kai'Sa",
-			"Lucian"
+			"Lucian",
+			"Xayah",
+			"Kai'Sa"
 		]
 	},
 	"Kayn": {
@@ -9501,14 +9501,14 @@ module.exports.infos = {
 			"Death's Dance"
 		],
 		"Counters": [
-			"Poppy",
-			"Fiddlesticks",
-			"Ivern"
+			"Ivern",
+			"Rengar",
+			"Shyvana"
 		],
 		"Easy": [
-			"Gragas",
 			"Sejuani",
-			"Sett"
+			"Kha'Zix",
+			"Sylas"
 		]
 	},
 	"Kayle": {
@@ -9574,14 +9574,14 @@ module.exports.infos = {
 			"Guinsoo's Rageblade"
 		],
 		"Counters": [
-			"Sion",
-			"Cassiopeia",
-			"Shyvana"
+			"Rengar",
+			"Nasus",
+			"Zac"
 		],
 		"Easy": [
-			"Warwick",
-			"Vayne",
-			"Akali"
+			"Dr. Mundo",
+			"Poppy",
+			"Gangplank"
 		]
 	},
 	"KogMaw": {
@@ -9648,14 +9648,14 @@ module.exports.infos = {
 			"Runaan's Hurricane"
 		],
 		"Counters": [
-			"Ziggs",
-			"Caitlyn",
-			"Ashe"
+			"Twitch",
+			"Ashe",
+			"Draven"
 		],
 		"Easy": [
-			"Xayah",
-			"Kalista",
-			"Cassiopeia"
+			"Varus",
+			"Sivir",
+			"Kai'Sa"
 		]
 	},
 	"Corki": {
@@ -9722,14 +9722,14 @@ module.exports.infos = {
 			"Manamune"
 		],
 		"Counters": [
-			"Annie",
-			"Cho'Gath",
+			"Pyke",
+			"Aurelion Sol",
 			"Cassiopeia"
 		],
 		"Easy": [
-			"Akali",
-			"Azir",
-			"Renekton"
+			"Malphite",
+			"Irelia",
+			"Anivia"
 		]
 	},
 	"Quinn": {
@@ -9796,14 +9796,14 @@ module.exports.infos = {
 			"Infinity Edge"
 		],
 		"Counters": [
-			"Sion",
-			"Malphite",
-			"Maokai"
+			"Rumble",
+			"Zac",
+			"Malphite"
 		],
 		"Easy": [
-			"Kassadin",
-			"Riven",
-			"Akali"
+			"Cassiopeia",
+			"Pantheon",
+			"Vayne"
 		]
 	},
 	"Kled": {
@@ -9870,14 +9870,14 @@ module.exports.infos = {
 			"Black Cleaver"
 		],
 		"Counters": [
-			"Fiora",
 			"Singed",
-			"Shen"
+			"Fiddlesticks",
+			"Fiora"
 		],
 		"Easy": [
-			"Cho'Gath",
 			"Rumble",
-			"Pantheon"
+			"Illaoi",
+			"Akali"
 		]
 	},
 	"Qiyana": {
@@ -9940,17 +9940,17 @@ module.exports.infos = {
 		"Items": [
 			"Umbral Glaive",
 			"Duskblade of Draktharr",
-			"Youmuu's Ghostblade"
+			"Edge of Night"
 		],
 		"Counters": [
-			"Garen",
-			"Renekton",
-			"Malphite"
+			"Malzahar",
+			"Kled",
+			"Diana"
 		],
 		"Easy": [
-			"Lucian",
-			"Akali",
-			"Lissandra"
+			"Zilean",
+			"Vel'Koz",
+			"Ryze"
 		]
 	},
 	"Kindred": {
@@ -10017,14 +10017,14 @@ module.exports.infos = {
 			"Runaan's Hurricane"
 		],
 		"Counters": [
-			"Shyvana",
-			"Elise",
-			"Shaco"
+			"Sett",
+			"Ivern",
+			"Shyvana"
 		],
 		"Easy": [
+			"Taliyah",
 			"Sylas",
-			"Nocturne",
-			"Amumu"
+			"Dr. Mundo"
 		]
 	},
 	"Taric": {
@@ -10092,14 +10092,14 @@ module.exports.infos = {
 			"Redemption"
 		],
 		"Counters": [
-			"Sona",
 			"Janna",
-			"Bard"
+			"Galio",
+			"Alistar"
 		],
 		"Easy": [
-			"Zac",
-			"Shen",
-			"Poppy"
+			"Tahm Kench",
+			"Fiddlesticks",
+			"Sett"
 		]
 	},
 	"Talon": {
@@ -10166,14 +10166,14 @@ module.exports.infos = {
 			"Edge of Night"
 		],
 		"Counters": [
-			"Aatrox",
-			"Cassiopeia",
-			"Cho'Gath"
+			"Zilean",
+			"Aurelion Sol",
+			"Garen"
 		],
 		"Easy": [
 			"Ziggs",
-			"Azir",
-			"Kassadin"
+			"Kassadin",
+			"Cho'Gath"
 		]
 	},
 	"Taliyah": {
@@ -10241,13 +10241,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Xin Zhao",
-			"Ekko",
-			"Sett"
+			"Warwick",
+			"Kindred"
 		],
 		"Easy": [
-			"Udyr",
-			"Sylas",
-			"Rek'Sai"
+			"Nocturne",
+			"Rek'Sai",
+			"Fiddlesticks"
 		]
 	},
 	"TahmKench": {
@@ -10315,14 +10315,14 @@ module.exports.infos = {
 			"Gargoyle Stoneplate"
 		],
 		"Counters": [
-			"Vel'Koz",
-			"Shaco",
-			"Galio"
+			"Taric",
+			"Sona",
+			"Janna"
 		],
 		"Easy": [
-			"Pyke",
-			"Shen",
-			"Lux"
+			"Malphite",
+			"Nautilus",
+			"Xerath"
 		]
 	},
 	"Trundle": {
@@ -10389,14 +10389,14 @@ module.exports.infos = {
 			"Spirit Visage"
 		],
 		"Counters": [
-			"Fiddlesticks",
-			"Ivern",
-			"Ekko"
+			"Dr. Mundo",
+			"Volibear",
+			"Shyvana"
 		],
 		"Easy": [
-			"Rammus",
-			"Taliyah",
-			"Udyr"
+			"Rengar",
+			"Poppy",
+			"Nocturne"
 		]
 	},
 	"Tristana": {
@@ -10463,13 +10463,13 @@ module.exports.infos = {
 			"Rapid Firecannon"
 		],
 		"Counters": [
-			"Ziggs",
-			"Syndra",
-			"Jinx"
+			"Draven",
+			"Twitch",
+			"Kog'Maw"
 		],
 		"Easy": [
-			"Cassiopeia",
-			"Kai'Sa",
+			"Yasuo",
+			"Varus",
 			"Lucian"
 		]
 	},
@@ -10477,7 +10477,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerDot"
+			"SummonerGhost"
 		],
 		"SkillTree": [
 			"E",
@@ -10514,12 +10514,12 @@ module.exports.infos = {
 				"LastStand"
 			],
 			[
-				"Sorcery",
-				"NimbusCloak"
+				"Resolve",
+				"SecondWind"
 			],
 			[
-				"Sorcery",
-				"Transcendence"
+				"Resolve",
+				"Revitalize"
 			]
 		],
 		"StatMods": [
@@ -10537,14 +10537,14 @@ module.exports.infos = {
 			"Essence Reaver"
 		],
 		"Counters": [
-			"Quinn",
-			"Shyvana",
-			"Camille"
+			"Heimerdinger",
+			"Vayne",
+			"Yasuo"
 		],
 		"Easy": [
-			"Cho'Gath",
-			"Kassadin",
-			"Ryze"
+			"Kennen",
+			"Irelia",
+			"Vladimir"
 		]
 	},
 	"TwistedFate": {
@@ -10610,14 +10610,14 @@ module.exports.infos = {
 			"Zhonya's Hourglass"
 		],
 		"Counters": [
+			"Sett",
 			"Kled",
-			"Aurelion Sol",
-			"Annie"
+			"Nocturne"
 		],
 		"Easy": [
 			"Akali",
 			"Lucian",
-			"LeBlanc"
+			"Azir"
 		]
 	},
 	"Twitch": {
@@ -10684,14 +10684,14 @@ module.exports.infos = {
 			"Infinity Edge"
 		],
 		"Counters": [
-			"Syndra",
-			"Cassiopeia",
-			"Ziggs"
+			"Yasuo",
+			"Jinx",
+			"Draven"
 		],
 		"Easy": [
-			"Xayah",
-			"Kai'Sa",
-			"Yasuo"
+			"Tristana",
+			"Varus",
+			"Kog'Maw"
 		]
 	},
 	"Teemo": {
@@ -10756,17 +10756,17 @@ module.exports.infos = {
 		"Items": [
 			"Liandry's Torment",
 			"Nashor's Tooth",
-			"Luden's Echo"
+			"Morellonomicon"
 		],
 		"Counters": [
-			"Volibear",
 			"Sion",
-			"Cho'Gath"
+			"Dr. Mundo",
+			"Fiddlesticks"
 		],
 		"Easy": [
 			"Vayne",
-			"Renekton",
-			"Illaoi"
+			"Gnar",
+			"Lucian"
 		]
 	},
 	"Pyke": {
@@ -10821,7 +10821,7 @@ module.exports.infos = {
 		"StatMods": [
 			"AdaptiveForce",
 			"AdaptiveForce",
-			"HealthScaling"
+			"Armor"
 		],
 		"StartItems": [
 			"Steel Shoulderguards",
@@ -10831,17 +10831,17 @@ module.exports.infos = {
 		"Items": [
 			"Umbral Glaive",
 			"Youmuu's Ghostblade",
-			"Duskblade of Draktharr"
+			"Edge of Night"
 		],
 		"Counters": [
 			"Shaco",
-			"Maokai",
-			"Zac"
+			"Zyra",
+			"Braum"
 		],
 		"Easy": [
-			"Vel'Koz",
-			"Neeko",
-			"Lux"
+			"Pantheon",
+			"Shen",
+			"Vel'Koz"
 		]
 	},
 	"Pantheon": {
@@ -10904,17 +10904,17 @@ module.exports.infos = {
 		"Items": [
 			"Youmuu's Ghostblade",
 			"Black Cleaver",
-			"Guardian Angel"
+			"Death's Dance"
 		],
 		"Counters": [
 			"Zilean",
-			"Pyke",
-			"Malzahar"
+			"Veigar",
+			"Anivia"
 		],
 		"Easy": [
-			"Lucian",
-			"Irelia",
-			"Azir"
+			"Kled",
+			"Aatrox",
+			"Kassadin"
 		]
 	},
 	"Fiddlesticks": {
@@ -10981,14 +10981,14 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Dr. Mundo",
-			"Udyr",
-			"Volibear"
+			"Taliyah",
+			"Rengar",
+			"Shyvana"
 		],
 		"Easy": [
-			"Gragas",
-			"Kha'Zix",
-			"Rengar"
+			"Sett",
+			"Rammus",
+			"Nidalee"
 		]
 	},
 	"Fiora": {
@@ -11056,13 +11056,13 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Hecarim",
-			"Malphite",
-			"Heimerdinger"
+			"Ryze",
+			"Viktor"
 		],
 		"Easy": [
+			"Akali",
 			"Sylas",
-			"Irelia",
-			"Illaoi"
+			"Irelia"
 		]
 	},
 	"Fizz": {
@@ -11075,11 +11075,11 @@ module.exports.infos = {
 			"E",
 			"W",
 			"Q",
-			"W",
+			"E",
 			"E",
 			"R",
 			"E",
-			"E",
+			"W",
 			"E",
 			"W",
 			"R",
@@ -11129,12 +11129,12 @@ module.exports.infos = {
 		],
 		"Counters": [
 			"Garen",
-			"Vladimir",
-			"Camille"
+			"Ornn",
+			"Kled"
 		],
 		"Easy": [
+			"Xerath",
 			"Ziggs",
-			"Irelia",
 			"Vel'Koz"
 		]
 	},
@@ -11203,20 +11203,20 @@ module.exports.infos = {
 			"Morellonomicon"
 		],
 		"Counters": [
-			"Shyvana",
-			"Kassadin",
-			"Urgot"
+			"Illaoi",
+			"Dr. Mundo",
+			"Jayce"
 		],
 		"Easy": [
-			"Illaoi",
-			"Sylas",
-			"Vayne"
+			"Olaf",
+			"Fiddlesticks",
+			"Sylas"
 		]
 	},
 	"Hecarim": {
 		"Lane": "Jungle",
 		"Spell": [
-			"SummonerHaste",
+			"SummonerGhost",
 			"SummonerSmite"
 		],
 		"SkillTree": [
@@ -11254,12 +11254,12 @@ module.exports.infos = {
 				"CoupDeGrace"
 			],
 			[
-				"Sorcery",
-				"NimbusCloak"
+				"Domination",
+				"SuddenImpact"
 			],
 			[
-				"Sorcery",
-				"Celerity"
+				"Domination",
+				"RavenousHunter"
 			]
 		],
 		"StatMods": [
@@ -11272,19 +11272,19 @@ module.exports.infos = {
 			"Refillable Potion"
 		],
 		"Items": [
-			"Enchantment: Cinderhulk",
 			"Trinity Force",
+			"Death's Dance",
 			"Sterak's Gage"
 		],
 		"Counters": [
-			"Jax",
-			"Vi",
-			"Udyr"
+			"Volibear",
+			"Rammus",
+			"Warwick"
 		],
 		"Easy": [
+			"Nocturne",
 			"Gragas",
-			"Sejuani",
-			"Kha'Zix"
+			"Lee Sin"
 		]
 	}
 }
