@@ -20,7 +20,7 @@ train (t-1mwold96idbnptfnkkypvlq09) {
 train (t-1rqvpuurize86dqcqvg2ensc4) {
   utterance ("[g:InfoOutStructure] (쉬바나)[v:Name:쉬바나] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
-  last-modified (1571892371953)
+  last-modified (1597575164691)
 }
 train (t-1vpk6whl3feaek5vzrpsoik85) {
   utterance ("[g:InfoOutStructure] 롤 에서 (가렌)[v:Name:가렌] (정보)[v:Inform] 알려줘")
