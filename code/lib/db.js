@@ -1275,7 +1275,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerGhost"
+			"SummonerHaste"
 		],
 		"SkillTree": [
 			"Q",
@@ -10627,7 +10627,7 @@ module.exports.infos = {
 		"Lane": "Top",
 		"Spell": [
 			"SummonerFlash",
-			"SummonerGhost"
+			"SummonerHaste"
 		],
 		"SkillTree": [
 			"E",
@@ -11368,7 +11368,7 @@ module.exports.infos = {
 	"Hecarim": {
 		"Lane": "Jungle",
 		"Spell": [
-			"SummonerGhost",
+			"SummonerHaste",
 			"SummonerSmite"
 		],
 		"SkillTree": [
