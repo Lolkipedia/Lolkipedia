@@ -13,6 +13,11 @@ train (t-giudqiqq7d7y93svxx2al6yhq) {
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
   last-modified (1570785654410)
 }
+train (t-gk418110c5hwlyrsfpka15ewv) {
+  utterance ("[g:InfoOutStructure] (요네)[v:Name:요네] (정보)[v:Inform]")
+  plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
+  last-modified (1597575033290)
+}
 train (t-gl9porlfatrl4awwqio75a727) {
   utterance ("[g:ItemsOutStructure] 아니 (알리스타)[v:Name:알리스타] (아템)[v:Items:아이템] 뭐가냐고")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
