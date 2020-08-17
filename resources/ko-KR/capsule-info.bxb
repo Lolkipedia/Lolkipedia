@@ -12,7 +12,7 @@ capsule-info {
     keyword (롤)
     keyword (롤정보)
   }
-  description ("인터넷 창을 왔다갔다 하지 않고 정보를 얻어보세요. \n현재 롤 버전은 10.11.1입니다.\n업데이트가 늦을 시 댓글로 알려주시면 빠르게 반영하겠습니다.")
+  description ("인터넷 창을 왔다갔다 하지 않고 정보를 얻어보세요. \n현재 롤 버전은 10.16.1입니다.\n업데이트가 늦을 시 댓글로 알려주시면 빠르게 반영하겠습니다.")
   website-url (https://github.com/young31/Bixby_jisby)
   privacy-policy-url(https://github.com/young31/Bixby_jisby/blob/master/privacy-policy.html)
   // terms-url (https://example.com/terms-of-use/)
