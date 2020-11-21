@@ -10426,13 +10426,13 @@ module.exports.infos = {
       "Armor"
     ],
     "StartItems": [
-      "Hunter's Talisman",
+      "Hailblade",
       "Refillable Potion"
     ],
     "Items": [
-      "Enchantment: Runic Echoes",
-      "Morellonomicon",
-      "Zhonya's Hourglass"
+      "Night Harvester",
+      "Zhonya's Hourglass",
+      "Morellonomicon"
     ],
     "Counters": [
       "Xin Zhao",
