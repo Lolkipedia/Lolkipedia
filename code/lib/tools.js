@@ -1,7 +1,7 @@
 var http = require('http')
 const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
 // const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
-const ver = "10.11.1"
+const ver = "10.23.1"
 // const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
 let url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
@@ -28,7 +28,7 @@ module.exports.naming = function (name, target) {
           }
       } 
   }
-  
+  console.log(outname)
   return outname
 }
 
@@ -36,13 +36,13 @@ module.exports.naming = function (name, target) {
 module.exports.counterrename = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
   var search = http.getUrl(url, {format:"json", cacheTime: 0}).data
-
+  console.log(search)
   for (idx in search){
     if (search[idx]["name"] == name){
       var outname = search[idx]["id"]
     }
   }
-  
+  console.log(outname)
   return outname
 }
 
@@ -120,6 +120,6 @@ module.exports.title = function (name) {
 module.exports.rune = function () {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/summoner.json")
   var rune = http.getUrl(url, {format:"json", cacheTime: 0}).data
-
+  console.log(rune)
   return rune
 }

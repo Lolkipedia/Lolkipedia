@@ -13,6 +13,11 @@ train (t-4ensmoeurooell57s7v1htp7d) {
   plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
   last-modified (1571878722017)
 }
+train (t-4pn0gtqo6oqk9qcy4kxfo6cog) {
+  utterance ("[g:CountersOutStructure] (가붕이)[v:Name:가렌] (카운터)[v:Counters:카운터] 좀 쳐야겠어")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1605852217181)
+}
 train (t-4yxmli2toh35cupzid5qrytr4) {
   utterance ("[g:SkillsOutStructure] (애니)[v:Name:애니] (스킬 트리)[v:Skills:스킬]")
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
