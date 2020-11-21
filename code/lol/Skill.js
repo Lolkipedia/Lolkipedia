@@ -51,7 +51,14 @@ module.exports.function = function skill (name, skill) {
   }
 
   const version = tools.version()
-​
+​  console.log({
+    name: name,
+    engname: engname,
+    skills: cases,
+    skillset: skillset,
+    spells: spells,
+    version: version,
+  })
   return {
     name: name,
     engname: engname,

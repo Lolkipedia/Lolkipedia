@@ -1,3 +1,8 @@
+train (t-y790basgav5tfxm7dk05j2wf0) {
+  utterance ("[g:InfoOutStructure] (사미라)[v:Name:사미라] 정보 보여줄래")
+  plan (Y2BmUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVSCRdgvMTeVgYmBEYgZgCQjAwgwQTAA)
+  last-modified (1605927509167)
+}
 train (t-y7su2jgcin9a6ne4no643s1kk) {
   utterance ("[g:InfoOutStructure] (알리스타)[v:Name:알리스타] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

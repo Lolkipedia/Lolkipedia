@@ -3,6 +3,11 @@ train (t-m4wemqhjnsz323ytey6834muw) {
   plan (Y2BhUM7KLE6q1MvJz8nOLEhNyUzUC87OzMkp9i8tCS4pKk0uKS1KZRDHUFQMVsQgiiHhl5iLTT3EUAZmBkYGJiDJAKRBEAJAfLAoAA==)
   last-modified (1571881881162)
 }
+train (t-mbtm3z5xs5gpf395yptbjjopa) {
+  utterance ("[g:ItemsOutStructure] (탈론)[v:Name:탈론] (아이템)[v:Items:아이템]  트리 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1605927348583)
+}
 train (t-mctx0vi5a6trjjsozsy5ux76c) {
   utterance ("[g:RunesOutStructure] (케이틀린)[v:Name:케이틀린] (룬)[v:Runes:룬] 뭐갈까")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

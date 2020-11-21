@@ -1,3 +1,8 @@
+train (t-14lrgm19znna1yxlb8s3ewv5f) {
+  utterance ("[g:ItemsOutStructure] (사미라)[v:Name:사미라] 추천 (아이템)[v:Items:아이템] 보여줄래")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1605852144845)
+}
 train (t-1clkef7bbrg55x9cdbmvasmwd) {
   utterance ("[g:RunesOutStructure] (가렌)[v:Name:가렌] (룬)[v:Runes:룬] 알려줘")
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzUCyrNSy32Ly0JLikqTS4pLUplEMNQUwRSwyCKIe6XmItNOdhIBmYGRgYmIMkApEEQAkB8sCgA)

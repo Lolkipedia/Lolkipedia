@@ -3,6 +3,11 @@ train (t-55csgnlolzgdh10vlewbgp1v8) {
   plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
   last-modified (1571881578685)
 }
+train (t-5be1ocv6s1wbvojnpkh564pyb) {
+  utterance ("[g:ItemsOutStructure] (사미라)[v:Name:사미라] 추천 (아이템)[v:Items:아이템] 알려줘")
+  plan (Y2BhUMrKLE6q1MvJz8nOLEhNyUzU8yxJzS32Ly0JLikqTS4pLUplEMNQkwlSg0UcrJdBFEPcLzE3lYGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1605929554714)
+}
 train (t-5cp6687d6pgzvmhvr4af22sda) {
   utterance ("[g:InfoOutStructure] (니코)[v:Name:니코] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)

@@ -13,6 +13,11 @@ train (t-99rjf7ks5m735o9cbx8yx7cd8) {
   plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
   last-modified (1571887716369)
 }
+train (t-9usob32nacvibvkf0rsg4fa0v) {
+  utterance ("[g:CountersOutStructure] (세라핀)[v:Name:세라핀] (카운터)[v:Counters:카운터] 픽 알려줘")
+  plan (Y2BhUM3KLE6q1MvJz8nOLEhNyUzUc84vzStJLSr2Ly0JLikqTS4pLUplkMRQlgxVhkUKZgKDKIaUX2JuKgMzAyMDE5BkANIgCAEgPlgUAA==)
+  last-modified (1605852180042)
+}
 train (t-9x8ilbyjhy6uf286zbd4y2e19) {
   utterance ("[g:InfoOutStructure] (레오나)[v:Name:레오나] (정보)[v:Inform]")
   plan (Y2BhUMzKLE6q1MvJz8nOLEhNyUzU88xLy/cvLQkuKSpNLiktSmUQxVCSCVTCII5VZ1EuFvV+ibmpDMwMjAxMQJIBSIMgBID4YFEA)
