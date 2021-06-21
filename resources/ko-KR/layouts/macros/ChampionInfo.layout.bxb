@@ -48,9 +48,17 @@ layout-macro-def (champ-Info) {
   content {
     section {
       content {
+        if(engname == 'Fiddlesticks'){
         image {
           // aspect-ratio (4:3)
+          url("images/FiddleSticks_splash.jpg")
+        }
+        }
+        else{
+                  image {
+          // aspect-ratio (4:3)
           url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/#{value(engname)}_0.jpg")
+        }
         }
         cell-area {
           slot1 {
@@ -73,7 +81,50 @@ layout-macro-def (champ-Info) {
             }
           }
         }
-        image-card{
+        if(counters.engcounter[0] == 'Fiddlesticks'){
+          image-card{
+          aspect-ratio (3:4)
+          column-size (2)
+          image-url("/images/FiddleSticks.jpg")
+          on-click{
+						intent{
+							goal: counters
+							value: counterstructure{
+                name: $expr(name)
+                counter: Counters("카운터")
+              }
+						}
+					}
+          title-area{
+            halign (Start)
+            slot1{
+              text{
+                value("카운터 픽")
+                style(Title_XS)
+              }
+            }
+            slot2{
+              single-line{
+                text{
+                  value ("#{value(counters.counter)}")
+                  style (Detail_M)
+                }
+                spacer
+              }
+            }
+            slot3{
+              single-line{
+                text{
+                  value ("눌러서 자세히 보기")
+                  style (Detail_M_Soft)
+                }
+              }
+            }
+          }
+        }
+      }
+      else{
+          image-card{
           aspect-ratio (3:4)
           column-size (2)
           image-url("http://ddragon.leagueoflegends.com/cdn/img/champion/tiles/#{value(counters.engcounter[0])}_0.jpg")
@@ -113,6 +164,7 @@ layout-macro-def (champ-Info) {
             }
           }
         }
+      } 
         image-card{
           aspect-ratio (3:4)
           column-size (2)

@@ -37,6 +37,7 @@ module.exports.counterrename = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
   var search = http.getUrl(url, {format:"json", cacheTime: 0}).data
   console.log(search)
+
   for (idx in search){
     if (search[idx]["name"] == name){
       var outname = search[idx]["id"]
