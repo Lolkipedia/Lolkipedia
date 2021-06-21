@@ -22,6 +22,34 @@ layout-macro-def(counter-Info){
       content{
         for-each (counterset) {
           as (champ) {
+            if(champ.engcounter == 'Fiddlesticks'){
+                          image-card {
+              title-area {
+                halign (Start)
+                slot1 {
+                  text {
+                    value ("#{value(champ.counter)}")
+                  }
+                }
+              }
+              column-size (1)
+              image-url {
+                // template ("http://ddragon.leagueoflegends.com/cdn/#{value(CountersOutStructure.version)}/img/champion/#{value(counter)}.png")
+                template ("/images/FiddleSticks_splash.jpg")
+              }
+              image-object-fit (Cover)
+              on-click{
+                intent{
+                  goal: info
+                  value: $expr(champ.counter)
+                    // infostructure{
+                    // name = $expr(champ.counter)
+                    // inform = Inform("정보")
+                }
+              }
+            }
+            }
+            else{
             image-card {
               title-area {
                 halign (Start)
@@ -46,6 +74,7 @@ layout-macro-def(counter-Info){
                     // inform = Inform("정보")
                 }
               }
+            }
             }
           }
         }

@@ -1,7 +1,7 @@
 var http = require('http')
 const na ="https://ddragon.leagueoflegends.com/realms/na.json" 
 // const ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["champion"]
-const ver = "10.23.1"
+const ver = "11.12.1"
 // const item_ver = http.getUrl(na, {format:"json", cacheTime: 0})["n"]["item"]
 
 let url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/ko_KR/item.json")
@@ -37,6 +37,7 @@ module.exports.counterrename = function (name) {
   const url = "http://ddragon.leagueoflegends.com/cdn/".concat(ver,"/data/en_US/champion.json")
   var search = http.getUrl(url, {format:"json", cacheTime: 0}).data
   console.log(search)
+
   for (idx in search){
     if (search[idx]["name"] == name){
       var outname = search[idx]["id"]
